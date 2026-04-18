@@ -41,10 +41,24 @@ function buildOLQWheel() {
   setTimeout(positionOLQNodes, 0);
 }
 
+function isMobileOLQLayout() {
+  return window.matchMedia('(max-width: 900px)').matches;
+}
+
 function positionOLQNodes() {
   const container = document.getElementById('olq-nodes-container');
   const wheelContainer = document.querySelector('.olq-wheel-container');
   if (!container || !wheelContainer) return;
+
+  const nodes = container.querySelectorAll('.olq-node');
+
+  if (isMobileOLQLayout()) {
+    nodes.forEach((node) => {
+      node.style.left = '';
+      node.style.top = '';
+    });
+    return;
+  }
 
   const containerWidth = wheelContainer.offsetWidth;
   const containerHeight = wheelContainer.offsetHeight;
@@ -53,7 +67,6 @@ function positionOLQNodes() {
   const radius = Math.min(containerWidth, containerHeight) * 0.32;
   const totalItems = olqData.length;
 
-  const nodes = container.querySelectorAll('.olq-node');
   nodes.forEach((node, index) => {
     const angle = (index / totalItems) * Math.PI * 2 - Math.PI / 2;
     const x = centerX + Math.cos(angle) * radius;

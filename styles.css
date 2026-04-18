@@ -1795,8 +1795,10 @@ body.homepage .verbal-bottom-line {
 /* ── OLQ WHEEL MOBILE ── */
 @media (max-width: 900px) {
   .olq-wheel-container {
-    width: min(95vw, 500px);
-    height: min(95vw, 500px);
+    width: min(96vw, 560px);
+    height: auto;
+    max-height: none;
+    aspect-ratio: auto;
   }
 
   .olq-wheel-svg {
@@ -1816,9 +1818,31 @@ body.homepage .verbal-bottom-line {
   .olq-node {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 110px;
     margin: 0;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: auto;
+  }
+
+  .olq-node-inner {
+    border-radius: 14px;
+    border-width: 1px;
+    gap: 8px;
+    padding: 12px 10px;
+  }
+
+  .olq-node-icon {
+    font-size: 26px;
+  }
+
+  .olq-node-label {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    line-height: 1.3;
+  }
+
+  .olq-node:hover .olq-node-inner,
+  .olq-node.active .olq-node-inner {
+    transform: scale(1.03);
   }
 
   .olq-wheel-svg { display: none; }
@@ -1829,7 +1853,11 @@ body.homepage .verbal-bottom-line {
   #olq-nodes-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 16px;
+    padding: 14px;
+  }
+
+  .olq-node {
+    height: 98px;
   }
 
   .olq-wheel-wrapper {
