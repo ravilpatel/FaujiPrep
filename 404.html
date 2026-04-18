@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-69W0M71YPP');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FaujiPrep | 404 - Mission Route Not Found</title>
+    <meta
+      name="description"
+      content="The page you are looking for is unavailable. Return to FaujiPrep and continue your SSB Stage 1 preparation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .error-main {
+        min-height: calc(100vh - 160px);
+        display: grid;
+        place-items: center;
+        padding: 40px 0 56px;
+      }
+
+      .error-panel {
+        width: min(920px, 100%);
+        border: 1px solid var(--dk-border-strong);
+        border-radius: 20px;
+        padding: clamp(24px, 4vw, 56px);
+        background: linear-gradient(145deg, rgba(20, 24, 32, 0.94), rgba(10, 13, 18, 0.9));
+        box-shadow: 0 28px 64px rgba(0, 0, 0, 0.45);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .error-panel::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle at 85% 10%, rgba(201, 168, 76, 0.12), transparent 45%);
+        pointer-events: none;
+      }
+
+      .error-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        position: relative;
+        z-index: 1;
+      }
+
+      .error-code {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(3.1rem, 14vw, 7.5rem);
+        line-height: 0.9;
+        font-weight: 700;
+        color: rgba(201, 168, 76, 0.95);
+        text-shadow: 0 8px 24px rgba(201, 168, 76, 0.24);
+      }
+
+      .error-title {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(1.85rem, 5.8vw, 3.25rem);
+        line-height: 1.08;
+        color: var(--dk-text);
+      }
+
+      .error-title span {
+        color: var(--dk-gold-soft);
+      }
+
+      .error-copy {
+        color: var(--dk-muted);
+        font-size: 1rem;
+        line-height: 1.75;
+        max-width: 64ch;
+      }
+
+      .error-cta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 4px;
+      }
+
+      .error-links {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-top: 8px;
+      }
+
+      .quick-link {
+        border: 1px solid var(--dk-border);
+        border-radius: 12px;
+        padding: 11px 13px;
+        background: rgba(255, 255, 255, 0.02);
+        color: var(--dk-text);
+        font-size: 0.93rem;
+        transition: border-color 0.2s, background 0.2s;
+      }
+
+      .quick-link:hover {
+        border-color: var(--dk-gold);
+        background: rgba(201, 168, 76, 0.08);
+      }
+
+      @media (min-width: 880px) {
+        .error-grid {
+          grid-template-columns: 1.25fr 0.9fr;
+          align-items: start;
+          gap: 28px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .error-main {
+          padding: 24px 0 42px;
+        }
+
+        .error-panel {
+          border-radius: 16px;
+        }
+
+        .error-cta .btn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body class="homepage">
+    <div id="site-header"></div>
+
+    <main class="container error-main">
+      <section class="error-panel" aria-labelledby="error-title">
+        <div class="error-grid">
+          <div>
+            <p class="section-label">Navigation Alert</p>
+            <div class="error-code">404</div>
+            <h1 class="error-title" id="error-title">Mission Route <span>Not Found</span></h1>
+            <p class="error-copy">
+              The page you requested is unavailable or has moved. Do not break momentum -
+              return to your preparation route and continue building your Stage 1 edge.
+            </p>
+            <div class="error-cta">
+              <a class="btn btn-gold" href="index.html">Return to Home Base</a>
+              <a class="btn btn-ghost" href="practice/cognitive-tests.html">Open Practice Zone</a>
+            </div>
+          </div>
+
+          <aside>
+            <p class="section-label">Quick Navigation</p>
+            <div class="error-links">
+              <a class="quick-link" href="cognitive/linguistic-abilities.html">Linguistic Cognitive Ability Guide</a>
+              <a class="quick-link" href="cognitive/sustained-attention.html">Sustained Attention Guide</a>
+              <a class="quick-link" href="opam/olqs.html">Officer Like Qualities (OLQ)</a>
+              <a class="quick-link" href="tests/full-mock-test.html">Full Mock Test</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          Disclaimer: FaujiPrep is an independent preparation platform and is not
+          affiliated with UPSC, Indian Army, or any government recruitment authority.
+        </p>
+        <div class="footer-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="nav.js"></script>
+  </body>
+</html>
