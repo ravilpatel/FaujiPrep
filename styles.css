@@ -1795,7 +1795,8 @@ body.homepage .verbal-bottom-line {
   }
 
   .lca-table {
-    min-width: 560px;
+    min-width: 100%;
+    table-layout: fixed;
   }
 
   .lca-table th,
@@ -1803,6 +1804,8 @@ body.homepage .verbal-bottom-line {
     padding: 9px 10px;
     font-size: 0.88rem;
     line-height: 1.45;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   .lca-q {
@@ -1833,6 +1836,28 @@ body.homepage .verbal-bottom-line {
 
   .visualisation-card .btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .lca-hero {
+    padding: 18px 12px;
+  }
+
+  .lca-block {
+    padding: 14px 12px;
+  }
+
+  .lca-label {
+    letter-spacing: 0.08em;
+    font-size: 0.72rem;
+  }
+
+  .lca-table th,
+  .lca-table td {
+    padding: 8px;
+    font-size: 0.81rem;
+    line-height: 1.35;
   }
 }
 

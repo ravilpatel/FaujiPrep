@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <style>
       .sat-guide {
         display: grid;
@@ -319,13 +319,16 @@
           font-size: clamp(1.3rem, 6.8vw, 1.8rem);
         }
         .sat-table {
-          min-width: 560px;
+          min-width: 100%;
+          table-layout: fixed;
         }
         .sat-table th,
         .sat-table td {
           padding: 0.62rem 0.32rem;
           font-size: 0.86rem;
           line-height: 1.45;
+          white-space: normal;
+          overflow-wrap: anywhere;
         }
         .sat-week-head {
           align-items: flex-start;
@@ -394,6 +397,11 @@
         .practice-link {
           width: 100%;
           justify-content: center;
+        }
+        .sat-table th,
+        .sat-table td {
+          font-size: 0.8rem;
+          line-height: 1.35;
         }
       }
     </style>
@@ -870,7 +878,7 @@
       </div>
     </footer>
 
-    <script src="/nav.js"></script>
+    <script src="../nav.js"></script>
     <script>
       function tog(head) {
         const body = head.nextElementSibling;
