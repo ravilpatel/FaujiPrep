@@ -29,13 +29,10 @@ if (navHost) {
             <li class="nav-item">
               <a href="${navPath("opam/olqs.html")}" class="nav-link">OPAM</a>
             </li>
-            <li class="nav-item">
-              <a href="${navPath("practice/cognitive-tests.html")}" class="nav-link">Practice Test</a>
-            </li>
           </ul>
         </nav>
 
-        <a href="${navPath("tests/full-mock-test.html")}" class="nav-cta">Start Test</a>
+        <a href="${navPath("practice/cognitive-tests.html")}" class="nav-cta">Practice Test</a>
       </div>
     </header>
   `;
