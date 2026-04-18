@@ -1,11 +1,20 @@
 const navHost = document.getElementById("site-header");
 
+const navScript = document.currentScript;
+const navBaseUrl = navScript && navScript.src
+  ? new URL(".", navScript.src)
+  : new URL("./", window.location.href);
+
+function navPath(relativePath) {
+  return new URL(relativePath, navBaseUrl).pathname;
+}
+
 if (navHost) {
   navHost.innerHTML = `
     <header class="site-header">
       <div class="container nav-wrap">
-        <a href="/index.html" class="brand" aria-label="FaujiPrep home">
-          <img src="img/Logo.png" alt="FaujiPrep logo" class="brand-logo" />
+        <a href="${navPath("index.html")}" class="brand" aria-label="FaujiPrep home">
+          <img src="${navPath("https://faujiprep.app/img/Logo.png")}" alt="FaujiPrep logo" class="brand-logo" />
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
@@ -15,21 +24,21 @@ if (navHost) {
         <nav id="site-nav" class="site-nav" aria-label="Main navigation">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="/cognitive/linguistic-abilities.html" class="nav-link">CSSS</a>
+              <a href="${navPath("cognitive/linguistic-abilities.html")}" class="nav-link">CSSS</a>
             </li>
             <li class="nav-item">
-              <a href="/opam/olqs.html" class="nav-link">OPAM</a>
+              <a href="${navPath("opam/olqs.html")}" class="nav-link">OPAM</a>
             </li>
             <li class="nav-item">
-              <a href="/tests/full-mock-test.html" class="nav-link">Practice Test</a>
+              <a href="${navPath("tests/full-mock-test.html")}" class="nav-link">Practice Test</a>
             </li>
             <li class="nav-item">
-              <a href="/resources/index.html" class="nav-link">Resources</a>
+              <a href="${navPath("resources/index.html")}" class="nav-link">Resources</a>
             </li>
           </ul>
         </nav>
 
-        <a href="/tests/full-mock-test.html" class="nav-cta">Start Test</a>
+        <a href="${navPath("tests/full-mock-test.html")}" class="nav-cta">Start Test</a>
       </div>
     </header>
   `;
