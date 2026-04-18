@@ -1732,9 +1732,107 @@ body.homepage .verbal-bottom-line {
   color: var(--dk-text);
 }
 
+.visualisation-shell {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.visualisation-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.1rem, 5.4vw, 3.2rem);
+  line-height: 1.1;
+  color: var(--dk-text);
+  margin-bottom: 12px;
+}
+
+.visualisation-card {
+  display: grid;
+  gap: 18px;
+}
+
+.visualisation-card p {
+  color: var(--dk-muted);
+}
+
 @media (min-width: 760px) {
   .lca-cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .lca-guide {
+    gap: 14px;
+    margin-bottom: 12px;
+  }
+
+  .lca-hero {
+    padding: 22px 16px;
+    text-align: left;
+  }
+
+  .lca-sub {
+    margin: 0 0 14px;
+    max-width: none;
+  }
+
+  .lca-tags {
+    justify-content: flex-start;
+    gap: 6px;
+  }
+
+  .lca-tags span {
+    font-size: 0.78rem;
+    padding: 5px 9px;
+  }
+
+  .lca-block {
+    padding: 16px 14px;
+  }
+
+  .lca-block h2 {
+    font-size: clamp(1.35rem, 7vw, 1.9rem);
+  }
+
+  .lca-table {
+    min-width: 560px;
+  }
+
+  .lca-table th,
+  .lca-table td {
+    padding: 9px 10px;
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+
+  .lca-q {
+    padding: 12px;
+  }
+
+  .lca-memory {
+    padding: 12px;
+  }
+
+  .lca-bars li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .lca-final .btn {
+    width: 100%;
+  }
+
+  .visualisation-title {
+    font-size: clamp(1.9rem, 9vw, 2.6rem);
+  }
+
+  .visualisation-card {
+    padding: 24px 18px;
+  }
+
+  .visualisation-card .btn {
+    width: 100%;
   }
 }
 
