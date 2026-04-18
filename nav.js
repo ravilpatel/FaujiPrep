@@ -13,7 +13,7 @@ if (navHost) {
   navHost.innerHTML = `
     <header class="site-header">
       <div class="container nav-wrap">
-        <a href="${navPath("index.html")}" class="brand" aria-label="FaujiPrep home">
+        <a href="${navPath("/")}" class="brand" aria-label="FaujiPrep home">
           <img src="${navPath("https://faujiprep.app/img/Logo.png")}" alt="FaujiPrep logo" class="brand-logo" />
         </a>
 
