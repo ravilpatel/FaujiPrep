@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FaujiPrep | Passage Comprehension - 1</title>
+    <meta name="description" content="Passage comprehension practice with a general narrative and fact-based questions." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .drill-page{display:grid;gap:1.2rem;max-width:900px;margin:0 auto}
+      .drill-head{background:linear-gradient(145deg,rgba(20,24,32,.96),rgba(10,13,18,.9));border:1px solid var(--dk-border);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:1.25rem 1.4rem}
+      .drill-head h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.4vw,2.8rem);line-height:1.05;color:var(--dk-text);margin:.5rem 0 .75rem}
+      .drill-head p{color:var(--dk-muted);line-height:1.7;font-size:1.04rem}
+      .badge-line{display:flex;flex-wrap:wrap;gap:8px;margin-top:1rem}
+      .badge-line span{display:inline-flex;align-items:center;justify-content:center;padding:4px 10px;border-radius:999px;border:1px solid var(--dk-border);color:var(--dk-muted);font-size:.80rem;letter-spacing:.05em;text-transform:uppercase}
+      .passage-box{background:linear-gradient(145deg,rgba(20,24,32,.96),rgba(10,13,18,.9));border:1px solid rgba(201,168,76,.25);border-left:4px solid var(--dk-gold);border-radius:var(--radius);padding:1.2rem;line-height:1.85;color:var(--dk-text);font-size:1.04rem;margin-bottom:1.5rem}
+      .passage-box.hidden{display:none}
+      .passage-box.done{border-left-color:#7B8800;border-color:rgba(123,136,0,.25)}
+      .passage-note{font-size:.95rem;color:var(--dk-muted);margin-bottom:1rem;font-style:italic}
+      .timer-strip{margin-bottom:1rem;padding:.7rem .9rem;border-radius:10px;border:1px solid rgba(201,168,76,.25);background:rgba(201,168,76,.08);color:var(--dk-text);display:flex;justify-content:space-between;gap:.8rem;flex-wrap:wrap}
+      .timer-strip strong{color:var(--dk-gold)}
+      .passage-content.blurred{filter:blur(8px);user-select:none;pointer-events:none}
+      .questions-box{display:grid;gap:1rem}
+      .question-card.hidden{display:none}
+      .question-meta{display:flex;justify-content:space-between;align-items:center;gap:.8rem;flex-wrap:wrap}
+      .question-timer{font-size:.94rem;color:var(--dk-gold);font-weight:700}
+      .question-card{background:linear-gradient(145deg,rgba(20,24,32,.96),rgba(10,13,18,.9));border:1px solid var(--dk-border);border-radius:var(--radius);padding:1.1rem}
+      .question-num{font-size:.90rem;color:var(--dk-gold-dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.35rem}
+      .question-text{font-size:1.04rem;color:var(--dk-text);margin-bottom:.75rem;font-weight:500}
+      .options{display:grid;gap:.5rem}
+      .option{display:flex;align-items:center;gap:.75rem;padding:.65rem .9rem;border-radius:10px;border:1px solid var(--dk-border);background:rgba(255,255,255,.02);cursor:pointer;transition:all .16s}
+      .option input[type="radio"]{cursor:pointer}
+      .option:hover{background:rgba(255,255,255,.05);border-color:rgba(201,168,76,.2)}
+      .option.correct-option{border-color:rgba(29,158,117,.55);background:rgba(29,158,117,.16)}
+      .option label{cursor:pointer;flex:1;color:var(--dk-text);font-size:.98rem}
+      .btn-submit{display:inline-flex;margin-top:1.5rem;padding:10px 24px;border-radius:999px;border:none;background:linear-gradient(135deg,var(--dk-gold),var(--dk-gold-soft));color:#080909;font-size:14px;font-weight:600;cursor:pointer;box-shadow:0 8px 18px rgba(201,168,76,.18)}
+      .btn-submit:hover{transform:translateY(-1px);box-shadow:0 12px 22px rgba(201,168,76,.24)}
+      .result-box{background:linear-gradient(145deg,rgba(29,158,117,.12),rgba(17,100,73,.08));border:1px solid rgba(29,158,117,.2);border-radius:var(--radius);padding:1.2rem;margin-top:1.5rem;display:none}
+      .result-box.show{display:block}
+      .result-score{font-size:1.4rem;font-weight:700;color:var(--dk-gold);margin-bottom:.5rem}
+      .result-text{color:var(--dk-text);font-size:1.04rem;line-height:1.7}
+      .drill-footer{text-align:center;margin-top:2rem}
+      .drill-footer a{display:inline-flex;padding:10px 16px;border-radius:10px;background:var(--dk-gold);color:#080909;font-weight:600;letter-spacing:.04em;text-decoration:none}
+      .btn-passage-toggle{display:block;margin-top:1.2rem;padding:10px 20px;border-radius:999px;border:none;background:linear-gradient(135deg,var(--dk-gold),var(--dk-gold-soft));color:#080909;font-size:14px;font-weight:600;cursor:pointer;box-shadow:0 8px 18px rgba(201,168,76,.18)}
+      .btn-passage-toggle:hover{transform:translateY(-1px);box-shadow:0 12px 22px rgba(201,168,76,.24)}
+      @media (max-width:720px){.drill-head{padding:1rem}.question-card{padding:.9rem}}
+    </style>
+  </head>
+  <body class="homepage">
+    <div id="site-header"></div>
+    <main>
+      <section class="container section drill-page">
+        <header class="drill-head">
+          <span class="badge">Sustained Attention</span>
+          <h1>Passage Comprehension - 1</h1>
+          <p>Read the passage carefully once. Then answer all questions from memory without referring back to the text.</p>
+          <div class="badge-line"><span>Verbal Attention</span><span>Memory Retention</span><span>Fact-Based</span><span>110s Timer</span></div>
+        </header>
+
+        <div class="passage-box" id="passageBox">
+          <div class="timer-strip" id="timerStrip">
+            <span id="timerHint">Click SHOW PASSAGE to begin the 110-second reading window.</span>
+            <strong id="timerText">Timer: Not started</strong>
+          </div>
+          <div class="badge-line">
+            <button class="btn-passage-toggle" id="showPassageBtn" onclick="showPassageAndStart()">SHOW PASSAGE</button>
+            <button class="btn-passage-toggle" id="showQuestionsBtn" onclick="requestShowQuestions()">SHOW QUESTIONS</button>
+          </div>
+          <div class="passage-content blurred" id="passageContent">
+            <p class="passage-note">Keep reading until the timer ends.</p>
+            <p>
+              On Sunday morning, the Mehta family left their home at 8:15 a.m. for a picnic at Lakeview Park. They travelled in two cars carrying 11 family members in total: 4 adults, 5 children, and 2 grandparents. Before leaving, they packed 3 lunch boxes, 2 water coolers, 1 first-aid kit, and a basket of fruit. They reached the park at 9:05 a.m. and spent the first hour near the boating area before moving to the shaded lawn for lunch. At 11:20 a.m., the youngest child counted 18 ducks near the pond, and by noon the family had taken 27 photographs. Later, while reading a newspaper report, they noticed that India’s Census exercise had recorded data across 28 states and 8 union territories. The article also mentioned that a city survey team visited 240 households in one ward and completed the count in 6 days. The family returned home at 4:10 p.m. after a long but pleasant outing.
+            </p>
+          </div>
+        </div>
+
+        <section class="questions-box" id="questionsBox" style="display:none">
+          <div class="question-meta">
+            <span id="questionProgress">Question 1 of 7</span>
+            <span class="question-timer" id="questionTimerText">Time left: 00:25</span>
+          </div>
+          <div class="question-card">
+            <div class="question-num">Question 1</div>
+            <div class="question-text">At what time did the Mehta family leave home for the picnic?</div>
+            <div class="options">
+              <label class="option"><input type="radio" name="q1" value="a"> <span>7:45 a.m.</span></label>
+              <label class="option"><input type="radio" name="q1" value="b"> <span>8:15 a.m.</span></label>
+              <label class="option"><input type="radio" name="q1" value="c"> <span>9:05 a.m.</span></label>
+              <label class="option"><input type="radio" name="q1" value="d"> <span>11:20 a.m.</span></label>
+            </div>
+          </div>
+
+          <div class="question-card">
+            <div class="question-num">Question 2</div>
+            <div class="question-text">How many family members went on the picnic in total?</div>
+            <div class="options">
+              <label class="option"><input type="radio" name="q2" value="a"> <span>9 people</span></label>
+              <label class="option"><input type="radio" name="q2" value="b"> <span>10 people</span></label>
+              <label class="option"><input type="radio" name="q2" value="c"> <span>11 people</span></label>
+              <label class="option"><input type="radio" name="q2" value="d"> <span>12 people</span></label>
+            </div>
+          </div>
+
+          <div class="question-card">
+            <div class="question-num">Question 3</div>
+            <div class="question-text">How many lunch boxes were packed for the picnic?</div>
+            <div class="options">
+              <label class="option"><input type="radio" name="q3" value="a"> <span>1 lunch box</span></label>
+              <label class="option"><input type="radio" name="q3" value="b"> <span>2 lunch boxes</span></label>
+              <label class="option"><input type="radio" name="q3" value="c"> <span>3 lunch boxes</span></label>
+              <label class="option"><input type="radio" name="q3" value="d"> <span>4 lunch boxes</span></label>
+            </div>
+          </div>
+
+          <div class="question-card">
+            <div class="question-num">Question 4</div>
+            <div class="question-text">How many photographs had the family taken by noon?</div>
+            <div class="options">
+              <label class="option"><input type="radio" name="q4" value="a"> <span>18 photographs</span></label>
+              <label class="option"><input type="radio" name="q4" value="b"> <span>21 photographs</span></label>
+              <label class="option"><input type="radio" name="q4" value="c"> <span>27 photographs</span></label>
+              <label class="option"><input type="radio" name="q4" value="d"> <span>30 photographs</span></label>
+            </div>
+          </div>
+
+          <div class="question-card">
+            <div class="question-num">Question 5</div>
+            <div class="question-text">How many states and union territories were mentioned in the census report?</div>
+            <div class="options">
+              <label class="option"><input type="radio" name="q5" value="a"> <span>24</span></label>
+              <label class="option"><input type="radio" name="q5" value="b"> <span>26</span></label>
+              <label class="option"><input type="radio" name="q5" value="c"> <span>28</span></label>
+              <label class="option"><input type="radio" name="q5" value="d"> <span>30</span></label>
+            </div>
+          </div>
+
+          <div class="question-card">
+            <div class="question-num">Question 6</div>
+            <div class="question-text">How many households did the city survey team visit in one ward?</div>
+            <div class="options">
+              <label class="option"><input type="radio" name="q6" value="a"> <span>180 households</span></label>
+              <label class="option"><input type="radio" name="q6" value="b"> <span>220 households</span></label>
+              <label class="option"><input type="radio" name="q6" value="c"> <span>240 households</span></label>
+              <label class="option"><input type="radio" name="q6" value="d"> <span>260 households</span></label>
+            </div>
+          </div>
+
+          <div class="question-card">
+            <div class="question-num">Question 7</div>
+            <div class="question-text">What time did the family return home after the picnic?</div>
+            <div class="options">
+              <label class="option"><input type="radio" name="q7" value="a"> <span>3:10 p.m.</span></label>
+              <label class="option"><input type="radio" name="q7" value="b"> <span>4:10 p.m.</span></label>
+              <label class="option"><input type="radio" name="q7" value="c"> <span>4:45 p.m.</span></label>
+              <label class="option"><input type="radio" name="q7" value="d"> <span>5:20 p.m.</span></label>
+            </div>
+          </div>
+
+          <button class="btn-submit" id="questionActionBtn" onclick="handleQuestionAction()">Next Question</button>
+        </section>
+
+        <div class="result-box" id="resultBox">
+          <div class="result-score" id="resultScore">Score: 0/7</div>
+          <div class="result-text" id="resultText"></div>
+        </div>
+
+        <div class="drill-footer" style="display:none" id="footerLink">
+          <a href="../cognitive-tests.html">Back to Practice Hub</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-wrap"><p>Disclaimer: FaujiPrep is an independent preparation platform and is not affiliated with UPSC, Indian Army, or any government recruitment authority.</p><div class="footer-links" aria-label="Social links"><a href="#">Instagram</a><a href="#">YouTube</a><a href="#">Telegram</a></div></div></footer>
+    <script src="../../nav.js"></script>
+    <script>
+      const correctAnswers = {q1: 'b', q2: 'c', q3: 'c', q4: 'c', q5: 'c', q6: 'c', q7: 'b'};
+      const READING_SECONDS = 110;
+      const QUESTION_SECONDS = 25;
+      let remainingSeconds = READING_SECONDS;
+      let timerId = null;
+      let questionTimerId = null;
+      let answersSubmitted = false;
+      let questionsUnlocked = false;
+      let timerStarted = false;
+      let currentQuestionIndex = 0;
+      let currentQuestionSeconds = QUESTION_SECONDS;
+      let passageLocked = false;
+
+      function formatSeconds(totalSeconds) {
+        const minutes = Math.floor(totalSeconds / 60);
+        const seconds = totalSeconds % 60;
+        return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      }
+
+      function getQuestionCards() {
+        return Array.from(document.querySelectorAll('#questionsBox .question-card'));
+      }
+
+      function updateQuestionMeta() {
+        const cards = getQuestionCards();
+        const actionBtn = document.getElementById('questionActionBtn');
+        document.getElementById('questionProgress').textContent = `Question ${currentQuestionIndex + 1} of ${cards.length}`;
+        actionBtn.textContent = currentQuestionIndex === cards.length - 1 ? 'Submit Answers' : 'Next Question';
+      }
+
+      function disableQuestionInputs(questionIndex) {
+        const cards = getQuestionCards();
+        if (!cards[questionIndex]) return;
+        cards[questionIndex].querySelectorAll('input[type="radio"]').forEach((input) => {
+          input.disabled = true;
+        });
+      }
+
+      function startQuestionTimer() {
+        clearInterval(questionTimerId);
+        const timerEl = document.getElementById('questionTimerText');
+        timerEl.textContent = `Time left: ${formatSeconds(currentQuestionSeconds)}`;
+
+        questionTimerId = setInterval(() => {
+          currentQuestionSeconds -= 1;
+          timerEl.textContent = `Time left: ${formatSeconds(currentQuestionSeconds)}`;
+          if (currentQuestionSeconds <= 0) {
+            clearInterval(questionTimerId);
+            moveToNextQuestionOrSubmit();
+          }
+        }, 1000);
+      }
+
+      function showCurrentQuestion() {
+        const cards = getQuestionCards();
+        cards.forEach((card, idx) => {
+          card.classList.toggle('hidden', idx !== currentQuestionIndex);
+        });
+        currentQuestionSeconds = QUESTION_SECONDS;
+        updateQuestionMeta();
+        startQuestionTimer();
+      }
+
+      function startQuestionFlow() {
+        const cards = getQuestionCards();
+        currentQuestionIndex = 0;
+        cards.forEach((card) => card.classList.add('hidden'));
+        showCurrentQuestion();
+      }
+
+      function moveToNextQuestionOrSubmit() {
+        const cards = getQuestionCards();
+        disableQuestionInputs(currentQuestionIndex);
+        if (currentQuestionIndex >= cards.length - 1) {
+          submitAnswers();
+          return;
+        }
+        currentQuestionIndex += 1;
+        showCurrentQuestion();
+      }
+
+      function handleQuestionAction() {
+        if (!questionsUnlocked || answersSubmitted) return;
+        clearInterval(questionTimerId);
+        moveToNextQuestionOrSubmit();
+      }
+
+      function unlockQuestions() {
+        if (questionsUnlocked) return;
+        questionsUnlocked = true;
+        clearInterval(timerId);
+        document.getElementById('showPassageBtn').style.display = 'none';
+        document.getElementById('showQuestionsBtn').style.display = 'none';
+        if (!passageLocked) {
+          document.getElementById('timerText').textContent = 'Time up. Questions unlocked.';
+        }
+        document.getElementById('questionsBox').style.display = 'grid';
+        startQuestionFlow();
+      }
+
+      function showPassageAndStart() {
+        if (passageLocked || timerStarted) return;
+        timerStarted = true;
+        document.getElementById('passageContent').classList.remove('blurred');
+        document.getElementById('showPassageBtn').style.display = 'none';
+        document.getElementById('timerHint').textContent = 'Read the passage carefully. Questions unlock automatically after 110 seconds.';
+        startPassageTimer();
+      }
+
+      function lockPassagePermanently() {
+        passageLocked = true;
+        document.getElementById('passageContent').style.display = 'none';
+        document.getElementById('showPassageBtn').style.display = 'none';
+      }
+
+      function requestShowQuestions() {
+        if (questionsUnlocked) return;
+        const confirmEarly = window.confirm('If you open questions now, you will not be able to see the passage again. Continue?');
+        if (!confirmEarly) return;
+        clearInterval(timerId);
+        remainingSeconds = 0;
+        lockPassagePermanently();
+        document.getElementById('timerHint').textContent = 'Passage closed permanently. Questions opened early.';
+        document.getElementById('timerText').textContent = 'Ended early by choice.';
+        unlockQuestions();
+      }
+
+      function startPassageTimer() {
+        const timerText = document.getElementById('timerText');
+        timerText.textContent = `Time left: ${formatSeconds(remainingSeconds)}`;
+
+        timerId = setInterval(() => {
+          remainingSeconds -= 1;
+          if (remainingSeconds <= 0) {
+            remainingSeconds = 0;
+            unlockQuestions();
+            return;
+          }
+          timerText.textContent = `Time left: ${formatSeconds(remainingSeconds)}`;
+        }, 1000);
+      }
+
+      function showFullReview() {
+        const passageContent = document.getElementById('passageContent');
+        passageContent.style.display = 'block';
+        passageContent.classList.remove('blurred');
+
+        const cards = getQuestionCards();
+        cards.forEach((card) => card.classList.remove('hidden'));
+
+        const timerMeta = document.getElementById('questionTimerText');
+        const progressMeta = document.getElementById('questionProgress');
+        const actionBtn = document.getElementById('questionActionBtn');
+        timerMeta.textContent = 'Review mode';
+        progressMeta.textContent = `All ${cards.length} questions`; 
+        actionBtn.style.display = 'none';
+      }
+
+      function highlightCorrectOptions() {
+        for (const q in correctAnswers) {
+          const selector = `input[name="${q}"][value="${correctAnswers[q]}"]`;
+          const correctInput = document.querySelector(selector);
+          if (!correctInput) continue;
+          const option = correctInput.closest('.option');
+          if (option) option.classList.add('correct-option');
+        }
+      }
+
+      function submitAnswers() {
+        if (answersSubmitted || !questionsUnlocked) return;
+        clearInterval(questionTimerId);
+        let correct = 0;
+        for (let q in correctAnswers) {
+          const selected = document.querySelector(`input[name="${q}"]:checked`);
+          if (selected && selected.value === correctAnswers[q]) {
+            correct++;
+          }
+        }
+
+        const resultBox = document.getElementById('resultBox');
+        const resultScore = document.getElementById('resultScore');
+        const resultText = document.getElementById('resultText');
+
+        resultScore.textContent = `Score: ${correct}/7`;
+
+        let feedback = '';
+        if (correct === 7) {
+          feedback = 'Perfect! You retained all facts from the passage.';
+        } else if (correct >= 5) {
+          feedback = 'Great job! You captured most of the key details.';
+        } else if (correct >= 3) {
+          feedback = 'Good effort. Review the missed questions to improve fact retention.';
+        } else {
+          feedback = 'Keep practicing. Focus on reading for specific data points.';
+        }
+
+        resultText.textContent = feedback;
+        resultBox.classList.add('show');
+        highlightCorrectOptions();
+        showFullReview();
+        document.getElementById('footerLink').style.display = 'block';
+        answersSubmitted = true;
+      }
+
+    </script>
+  </body>
+</html>

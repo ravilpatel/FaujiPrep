@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FaujiPrep | Serial Subtraction - 1</title>
+    <meta name="description" content="Serial subtraction mental arithmetic practice drills." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .drill-page{display:grid;gap:1.2rem;max-width:900px;margin:0 auto}
+      .drill-head{background:linear-gradient(145deg,rgba(20,24,32,.96),rgba(10,13,18,.9));border:1px solid var(--dk-border);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:1.25rem 1.4rem}
+      .drill-head h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.4vw,2.8rem);line-height:1.05;color:var(--dk-text);margin:.5rem 0 .75rem}
+      .drill-head p{color:var(--dk-muted);line-height:1.7;font-size:1.04rem}
+      .badge-line{display:flex;flex-wrap:wrap;gap:8px;margin-top:1rem}
+      .badge-line span{display:inline-flex;align-items:center;justify-content:center;padding:4px 10px;border-radius:999px;border:1px solid var(--dk-border);color:var(--dk-muted);font-size:.80rem;letter-spacing:.05em;text-transform:uppercase}
+      .drills-grid{display:grid;gap:1rem}
+      .drill-card{background:linear-gradient(145deg,rgba(20,24,32,.96),rgba(10,13,18,.9));border:1px solid var(--dk-border);border-radius:var(--radius);padding:1.1rem}
+      .drill-header{display:flex;align-items:center;gap:.75rem;margin-bottom:.9rem}
+      .drill-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:rgba(201,168,76,.2);color:var(--dk-gold);font-size:.98rem;font-weight:700;flex-shrink:0}
+      .drill-title{font-size:1rem;font-weight:600;color:var(--dk-text);letter-spacing:.02em}
+      .drill-rule{font-size:.95rem;color:var(--dk-muted);margin-bottom:.75rem;line-height:1.6}
+      .drill-rule strong{color:var(--dk-gold-soft)}
+      .input-row{display:flex;gap:.6rem;align-items:flex-end;flex-wrap:wrap}
+      .input-label{font-size:.90rem;color:var(--dk-muted);letter-spacing:.05em;text-transform:uppercase}
+      .drill-input{flex:1;min-width:180px;padding:.65rem .9rem;border-radius:10px;border:1px solid var(--dk-border);background:rgba(255,255,255,.03);color:var(--dk-text);font-size:.98rem;font-family:'Outfit',monospace}
+      .drill-input:focus{outline:none;border-color:rgba(201,168,76,.4);background:rgba(201,168,76,.05)}
+      .drill-input::placeholder{color:var(--dk-muted);opacity:.6}
+      .btn-check{padding:7px 16px;border-radius:999px;border:none;background:linear-gradient(135deg,var(--dk-gold),var(--dk-gold-soft));color:#080909;font-size:13px;font-weight:600;cursor:pointer;box-shadow:0 8px 18px rgba(201,168,76,.18)}
+      .btn-check:hover{transform:translateY(-1px);box-shadow:0 12px 22px rgba(201,168,76,.24)}
+      .result-msg{font-size:.95rem;margin-top:.6rem;padding:.5rem .75rem;border-radius:8px;display:none}
+      .result-msg.show{display:block}
+      .result-msg.correct{background:rgba(59,109,17,.15);border:1px solid rgba(59,109,17,.25);color:#7B8800}
+      .result-msg.wrong{background:rgba(163,45,45,.15);border:1px solid rgba(163,45,45,.25);color:#D97070}
+      .drill-footer{text-align:center;margin-top:2rem}
+      .drill-footer a{display:inline-flex;padding:10px 16px;border-radius:10px;background:var(--dk-gold);color:#080909;font-weight:600;letter-spacing:.04em;text-decoration:none}
+      @media (max-width:720px){.drill-head{padding:1rem}.input-row{flex-direction:column}.input-row .btn-check{width:100%}}
+    </style>
+  </head>
+  <body class="homepage">
+    <div id="site-header"></div>
+    <main>
+      <section class="container section drill-page">
+        <header class="drill-head">
+          <span class="badge">Sustained Attention</span>
+          <h1>Serial Subtraction - 1</h1>
+          <p>Perform mental arithmetic under working memory load. Solve each drill by computing the sequence mentally and entering comma-separated results.</p>
+          <div class="badge-line"><span>Mental Math</span><span>Working Memory</span><span>3 Drills</span><span>Sequence Accuracy</span></div>
+        </header>
+
+        <section class="drills-grid">
+          <div class="drill-card">
+            <div class="drill-header">
+              <div class="drill-num">①</div>
+              <div class="drill-title">Drill 1: Start 400, Subtract 6</div>
+            </div>
+            <div class="drill-rule"><strong>Rule:</strong> Start with 400 and subtract 6 ten times. Write all numbers separated by commas.</div>
+            <div class="input-row">
+              <label class="input-label" for="drill1">Expected: 10 numbers</label>
+              <input type="text" id="drill1" class="drill-input" placeholder="e.g., 400,394,388,382,...">
+              <button class="btn-check" onclick="checkDrill(1)">Check</button>
+            </div>
+            <div class="result-msg" id="result1"></div>
+          </div>
+
+          <div class="drill-card">
+            <div class="drill-header">
+              <div class="drill-num">②</div>
+              <div class="drill-title">Drill 2: Start 500, Subtract 8</div>
+            </div>
+            <div class="drill-rule"><strong>Rule:</strong> Start with 500 and subtract 8 ten times. Write all numbers separated by commas.</div>
+            <div class="input-row">
+              <label class="input-label" for="drill2">Expected: 10 numbers</label>
+              <input type="text" id="drill2" class="drill-input" placeholder="e.g., 500,492,484,476,...">
+              <button class="btn-check" onclick="checkDrill(2)">Check</button>
+            </div>
+            <div class="result-msg" id="result2"></div>
+          </div>
+
+          <div class="drill-card">
+            <div class="drill-header">
+              <div class="drill-num">③</div>
+              <div class="drill-title">Drill 3: Start 300, Subtract 7</div>
+            </div>
+            <div class="drill-rule"><strong>Rule:</strong> Start with 300 and subtract 7 ten times. Write all numbers separated by commas.</div>
+            <div class="input-row">
+              <label class="input-label" for="drill3">Expected: 10 numbers</label>
+              <input type="text" id="drill3" class="drill-input" placeholder="e.g., 300,293,286,279,...">
+              <button class="btn-check" onclick="checkDrill(3)">Check</button>
+            </div>
+            <div class="result-msg" id="result3"></div>
+          </div>
+        </section>
+
+        <div class="drill-footer">
+          <a href="../cognitive-tests.html">Back to Practice Hub</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-wrap"><p>Disclaimer: FaujiPrep is an independent preparation platform and is not affiliated with UPSC, Indian Army, or any government recruitment authority.</p><div class="footer-links" aria-label="Social links"><a href="#">Instagram</a><a href="#">YouTube</a><a href="#">Telegram</a></div></div></footer>
+    <script src="../../nav.js"></script>
+    <script>
+      const drillSequences = {
+        1: '400,394,388,382,376,370,364,358,352,346',
+        2: '500,492,484,476,468,460,452,444,436,428',
+        3: '300,293,286,279,272,265,258,251,244,237'
+      };
+
+      function checkDrill(drillNum) {
+        const input = document.getElementById('drill' + drillNum).value.trim();
+        const expected = drillSequences[drillNum];
+        const resultMsg = document.getElementById('result' + drillNum);
+
+        resultMsg.classList.remove('show', 'correct', 'wrong');
+
+        if (input === expected) {
+          resultMsg.textContent = '✓ Correct! Your sequence matches perfectly.';
+          resultMsg.classList.add('show', 'correct');
+        } else {
+          resultMsg.innerHTML = `✗ Incorrect. Expected: <strong>${expected}</strong>`;
+          resultMsg.classList.add('show', 'wrong');
+        }
+      }
+    </script>
+  </body>
+</html>

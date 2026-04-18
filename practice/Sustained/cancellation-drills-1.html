@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FaujiPrep | Cancellation Drills - 1</title>
+    <meta name="description" content="Cancellation drills practice with dual number and alphabet grids." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .drill-page{display:grid;gap:1.2rem}
+      .drill-head{background:linear-gradient(145deg,rgba(20,24,32,.96),rgba(10,13,18,.9));border:1px solid var(--dk-border);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:1.25rem 1.4rem}
+      .drill-head h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.4vw,2.8rem);line-height:1.05;color:var(--dk-text);margin:.5rem 0 .75rem}
+      .drill-head p{color:var(--dk-muted);line-height:1.7;font-size:1.04rem;max-width:75ch}
+      .badge-line{display:flex;flex-wrap:wrap;gap:8px;margin-top:1rem}
+      .badge-line span{display:inline-flex;align-items:center;justify-content:center;padding:4px 10px;border-radius:999px;border:1px solid var(--dk-border);color:var(--dk-muted);font-size:.80rem;letter-spacing:.05em;text-transform:uppercase}
+      .drill-grids{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.2rem}
+      .grid-panel{padding:1rem;border-radius:var(--radius);border:1px solid var(--dk-border);background:linear-gradient(160deg,rgba(9,12,17,.88),rgba(17,20,28,.92));box-shadow:0 18px 36px rgba(0,0,0,.28)}
+      .grid-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:.8rem}
+      .grid-title{font-size:1.04rem;font-weight:600;color:var(--dk-text);letter-spacing:.02em}
+      .grid-hint{font-size:.90rem;color:var(--dk-muted);max-width:56ch;line-height:1.6;margin-top:.25rem}
+      .grid-legend{display:flex;flex-wrap:wrap;gap:8px}
+      .grid-legend span{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;border:1px solid var(--dk-border);background:rgba(255,255,255,.03);color:var(--dk-muted);font-size:.80rem;letter-spacing:.05em;text-transform:uppercase}
+      .grid-legend i{width:10px;height:10px;border-radius:50%;display:inline-block}
+      .grid-legend .p1{background:#185FA5}.grid-legend .p2{background:#3B6D11}.grid-legend .p3{background:#A32D2D}
+      .timer-display{font-size:1.8rem;font-weight:700;font-family:'Outfit',monospace;color:var(--dk-gold);text-align:center;padding:.75rem 1rem;background:rgba(201,168,76,.08);border-radius:var(--radius-sm);border:1px solid rgba(201,168,76,.2);margin-bottom:.8rem}
+      .grid-wrap{overflow-x:auto;padding:.25rem 0 .4rem}
+      .cg{border-collapse:separate;border-spacing:6px;font-family:'Outfit',sans-serif;font-size:14px;margin:0 auto}
+      .cg td{width:clamp(34px,4.1vw,42px);height:clamp(34px,4.1vw,42px);text-align:center;border:1px solid rgba(201,168,76,.18);border-radius:12px;cursor:pointer;transition:transform .16s,background .16s,border-color .16s,box-shadow .16s;color:var(--dk-text);background:rgba(255,255,255,.03);box-shadow:inset 0 1px 0 rgba(255,255,255,.04);user-select:none;font-weight:500}
+      .cg td:hover{background:rgba(201,168,76,.09);border-color:rgba(201,168,76,.35);transform:translateY(-1px)}
+      .cg td.marked{background:linear-gradient(145deg,rgba(230,241,251,.98),rgba(214,230,245,.98));color:#185FA5;font-weight:700;text-decoration:line-through;border-color:rgba(24,95,165,.35);box-shadow:0 8px 18px rgba(24,95,165,.12)}
+      .cg td.correct{background:linear-gradient(145deg,rgba(234,243,222,.98),rgba(221,235,204,.98));color:#3B6D11;font-weight:700;border-color:rgba(59,109,17,.35);box-shadow:0 8px 18px rgba(59,109,17,.12)}
+      .cg td.wrong{background:linear-gradient(145deg,rgba(252,235,235,.98),rgba(245,218,218,.98));color:#A32D2D;border-color:rgba(163,45,45,.35);box-shadow:0 8px 18px rgba(163,45,45,.12)}
+      .btn-row{display:flex;gap:.5rem;flex-wrap:wrap;margin:.6rem 0 0}
+      .btn-primary{padding:7px 16px;border-radius:999px;border:none;background:linear-gradient(135deg,var(--dk-gold),var(--dk-gold-soft));color:#080909;font-size:13px;font-weight:600;cursor:pointer;box-shadow:0 8px 18px rgba(201,168,76,.18)}
+      .btn-secondary{padding:7px 16px;border-radius:999px;border:1px solid var(--dk-border);background:rgba(255,255,255,.03);color:var(--dk-text);font-size:13px;cursor:pointer}
+      .btn-primary:hover{transform:translateY(-1px);box-shadow:0 12px 22px rgba(201,168,76,.24)}
+      .btn-secondary:hover{background:rgba(255,255,255,.06);border-color:var(--dk-border-strong)}
+      .score-bar{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin:.8rem 0 0;font-size:13px;color:var(--dk-muted);padding-top:.75rem;border-top:1px solid rgba(201,168,76,.12)}
+      .score-bar > div{min-width:92px;padding:.4rem .55rem;border-radius:10px;background:rgba(255,255,255,.03);border:1px solid rgba(201,168,76,.1)}
+      .score-val{font-size:16px;font-weight:700;color:var(--dk-text)}
+      .drill-footer{text-align:center;margin-top:1.5rem}
+      .drill-footer a{display:inline-flex;padding:10px 16px;border-radius:10px;background:var(--dk-gold);color:#080909;font-weight:600;letter-spacing:.04em;text-decoration:none}
+      @media (max-width:720px){.drill-head{padding:1rem}.grid-head{flex-direction:column}}
+    </style>
+  </head>
+  <body class="homepage">
+    <div id="site-header"></div>
+    <main>
+      <section class="container section drill-page">
+        <header class="drill-head">
+          <span class="badge">Sustained Attention</span>
+          <h1>Cancellation Drills - 1</h1>
+          <p>Master visual scanning and target detection with dual-grid practice. Mark targets in dense grids under time pressure.</p>
+          <div class="badge-line"><span>Number Cancellation</span><span>Alphabet Cancellation</span><span>Dual Grid</span><span>Timed</span></div>
+        </header>
+
+        <section class="drill-grids">
+          <!-- GRID 1: PRIME NUMBERS -->
+          <div class="grid-panel">
+            <div class="grid-head">
+              <div>
+                <div class="grid-title">Grid 1: Prime Numbers</div>
+                <div class="grid-hint">Mark only: 2, 3, 5, 7</div>
+              </div>
+              <div class="grid-legend" aria-label="Grid legend">
+                <span><i class="p1"></i>Marked</span>
+                <span><i class="p2"></i>Correct</span>
+                <span><i class="p3"></i>Wrong</span>
+              </div>
+            </div>
+            <div class="timer-display" id="timerDisplay">00:00</div>
+            <div class="grid-wrap">
+              <table class="cg" id="primeGrid" aria-label="Prime number selection grid"></table>
+            </div>
+            <div class="btn-row">
+              <button class="btn-primary" type="button" onclick="checkPrimeGrid()">Check Primes</button>
+              <button class="btn-secondary" type="button" onclick="resetPrimeGrid()">Reset</button>
+              <button class="btn-secondary" type="button" onclick="newPrimeGrid()">New Grid</button>
+            </div>
+            <div class="score-bar" id="primeScore" style="display:none">
+              <div><div style="font-size:11px;color:var(--dk-muted)">Correct</div><div class="score-val" id="prime-correct">0</div></div>
+              <div><div style="font-size:11px;color:var(--dk-muted)">Missed</div><div class="score-val" id="prime-missed" style="color:#A32D2D">0</div></div>
+              <div><div style="font-size:11px;color:var(--dk-muted)">False</div><div class="score-val" id="prime-false" style="color:#BA7517">0</div></div>
+            </div>
+          </div>
+
+          <!-- GRID 2: VOWELS -->
+          <div class="grid-panel">
+            <div class="grid-head">
+              <div>
+                <div class="grid-title">Grid 2: Vowels</div>
+                <div class="grid-hint">Mark only: A, E, I, O, U</div>
+              </div>
+              <div class="grid-legend" aria-label="Grid legend">
+                <span><i class="p1"></i>Marked</span>
+                <span><i class="p2"></i>Correct</span>
+                <span><i class="p3"></i>Wrong</span>
+              </div>
+            </div>
+            <div class="timer-display" id="timerDisplay2">00:00</div>
+            <div class="grid-wrap">
+              <table class="cg" id="vowelGrid" aria-label="Vowel selection grid"></table>
+            </div>
+            <div class="btn-row">
+              <button class="btn-primary" type="button" onclick="checkVowelGrid()">Check Vowels</button>
+              <button class="btn-secondary" type="button" onclick="resetVowelGrid()">Reset</button>
+              <button class="btn-secondary" type="button" onclick="newVowelGrid()">New Grid</button>
+            </div>
+            <div class="score-bar" id="vowelScore" style="display:none">
+              <div><div style="font-size:11px;color:var(--dk-muted)">Correct</div><div class="score-val" id="vowel-correct">0</div></div>
+              <div><div style="font-size:11px;color:var(--dk-muted)">Missed</div><div class="score-val" id="vowel-missed" style="color:#A32D2D">0</div></div>
+              <div><div style="font-size:11px;color:var(--dk-muted)">False</div><div class="score-val" id="vowel-false" style="color:#BA7517">0</div></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="drill-footer">
+          <a href="../cognitive-tests.html">Back to Practice Hub</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-wrap"><p>Disclaimer: FaujiPrep is an independent preparation platform and is not affiliated with UPSC, Indian Army, or any government recruitment authority.</p><div class="footer-links" aria-label="Social links"><a href="#">Instagram</a><a href="#">YouTube</a><a href="#">Telegram</a></div></div></footer>
+    <script src="../../nav.js"></script>
+    <script>
+      const primes = [2, 3, 5, 7];
+      const vowels = ['A', 'E', 'I', 'O', 'U'];
+      let primeGridData = [];
+      let vowelGridData = [];
+      let timerInterval = null;
+      let startTime = null;
+      let timerActive = false;
+
+      // Timer Functions
+      function startTimer() {
+        if (timerActive) return;
+        timerActive = true;
+        startTime = Date.now();
+        timerInterval = setInterval(updateTimer, 100);
+      }
+
+      function updateTimer() {
+        const elapsed = Date.now() - startTime;
+        const seconds = Math.floor(elapsed / 1000);
+        const milliseconds = Math.floor((elapsed % 1000) / 10);
+        document.getElementById('timerDisplay').textContent = String(seconds).padStart(2, '0') + ':' + String(milliseconds).padStart(2, '0');
+        document.getElementById('timerDisplay2').textContent = String(seconds).padStart(2, '0') + ':' + String(milliseconds).padStart(2, '0');
+      }
+
+      function stopTimer() {
+        if (timerInterval) clearInterval(timerInterval);
+        timerActive = false;
+      }
+
+      function getElapsedTime() {
+        const elapsed = Date.now() - startTime;
+        const seconds = Math.floor(elapsed / 1000);
+        const milliseconds = Math.floor((elapsed % 1000) / 10);
+        return String(seconds).padStart(2, '0') + ':' + String(milliseconds).padStart(2, '0');
+      }
+
+      // Prime Grid Functions
+      function buildPrimeGrid() {
+        const grid = document.getElementById('primeGrid');
+        grid.innerHTML = '';
+        primeGridData = [];
+        for (let row = 0; row < 10; row++) {
+          const tableRow = document.createElement('tr');
+          const rowData = [];
+          for (let column = 0; column < 10; column++) {
+            const value = Math.floor(Math.random() * 9) + 1;
+            rowData.push(value);
+            const cell = document.createElement('td');
+            cell.textContent = value;
+            cell.addEventListener('click', () => {
+              startTimer();
+              cell.classList.toggle('marked');
+            });
+            tableRow.appendChild(cell);
+          }
+          primeGridData.push(rowData);
+          grid.appendChild(tableRow);
+        }
+        document.getElementById('primeScore').style.display = 'none';
+      }
+
+      function checkPrimeGrid() {
+        stopTimer();
+        const rows = document.querySelectorAll('#primeGrid tr');
+        let correct = 0, missed = 0, falseAlarms = 0;
+        rows.forEach((row, rowIndex) => {
+          row.querySelectorAll('td').forEach((cell, columnIndex) => {
+            const isPrime = primes.includes(primeGridData[rowIndex][columnIndex]);
+            const marked = cell.classList.contains('marked');
+            cell.classList.remove('correct', 'wrong');
+            if (isPrime && marked) { cell.classList.add('correct'); correct++; }
+            else if (isPrime && !marked) { cell.classList.add('wrong'); missed++; }
+            else if (!isPrime && marked) { cell.classList.add('wrong'); falseAlarms++; }
+          });
+        });
+        document.getElementById('prime-correct').textContent = correct;
+        document.getElementById('prime-missed').textContent = missed;
+        document.getElementById('prime-false').textContent = falseAlarms;
+        document.getElementById('primeScore').style.display = 'flex';
+        alert('Prime Grid Result:\nTime: ' + getElapsedTime() + '\nCorrect: ' + correct + ' | Missed: ' + missed + ' | False: ' + falseAlarms);
+      }
+
+      function resetPrimeGrid() {
+        timerActive = false;
+        document.querySelectorAll('#primeGrid td').forEach(cell => cell.classList.remove('marked', 'correct', 'wrong'));
+        document.getElementById('primeScore').style.display = 'none';
+        document.getElementById('timerDisplay').textContent = '00:00';
+        document.getElementById('timerDisplay2').textContent = '00:00';
+        stopTimer();
+      }
+
+      function newPrimeGrid() {
+        resetPrimeGrid();
+        buildPrimeGrid();
+      }
+
+      // Vowel Grid Functions
+      function buildVowelGrid() {
+        const grid = document.getElementById('vowelGrid');
+        grid.innerHTML = '';
+        vowelGridData = [];
+        for (let row = 0; row < 10; row++) {
+          const tableRow = document.createElement('tr');
+          const rowData = [];
+          for (let column = 0; column < 10; column++) {
+            const charCode = Math.random() > 0.3 ? Math.floor(Math.random() * 26) + 65 : Math.floor(Math.random() * 5) + 65;
+            const value = String.fromCharCode(charCode);
+            rowData.push(value);
+            const cell = document.createElement('td');
+            cell.textContent = value;
+            cell.addEventListener('click', () => {
+              startTimer();
+              cell.classList.toggle('marked');
+            });
+            tableRow.appendChild(cell);
+          }
+          vowelGridData.push(rowData);
+          grid.appendChild(tableRow);
+        }
+        document.getElementById('vowelScore').style.display = 'none';
+      }
+
+      function checkVowelGrid() {
+        stopTimer();
+        const rows = document.querySelectorAll('#vowelGrid tr');
+        let correct = 0, missed = 0, falseAlarms = 0;
+        rows.forEach((row, rowIndex) => {
+          row.querySelectorAll('td').forEach((cell, columnIndex) => {
+            const isVowel = vowels.includes(vowelGridData[rowIndex][columnIndex]);
+            const marked = cell.classList.contains('marked');
+            cell.classList.remove('correct', 'wrong');
+            if (isVowel && marked) { cell.classList.add('correct'); correct++; }
+            else if (isVowel && !marked) { cell.classList.add('wrong'); missed++; }
+            else if (!isVowel && marked) { cell.classList.add('wrong'); falseAlarms++; }
+          });
+        });
+        document.getElementById('vowel-correct').textContent = correct;
+        document.getElementById('vowel-missed').textContent = missed;
+        document.getElementById('vowel-false').textContent = falseAlarms;
+        document.getElementById('vowelScore').style.display = 'flex';
+        alert('Vowel Grid Result:\nTime: ' + getElapsedTime() + '\nCorrect: ' + correct + ' | Missed: ' + missed + ' | False: ' + falseAlarms);
+      }
+
+      function resetVowelGrid() {
+        timerActive = false;
+        document.querySelectorAll('#vowelGrid td').forEach(cell => cell.classList.remove('marked', 'correct', 'wrong'));
+        document.getElementById('vowelScore').style.display = 'none';
+        document.getElementById('timerDisplay2').textContent = '00:00';
+        document.getElementById('timerDisplay').textContent = '00:00';
+        stopTimer();
+      }
+
+      function newVowelGrid() {
+        resetVowelGrid();
+        buildVowelGrid();
+      }
+
+      // Initialize
+      buildPrimeGrid();
+      buildVowelGrid();
+    </script>
+  </body>
+</html>
