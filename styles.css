@@ -886,9 +886,9 @@ body.nav-open::before {
 
 .olq-node {
   position: absolute;
-  width: 85px;
-  height: 85px;
-  margin: -42.5px 0 0 -42.5px;
+  width: 92px;
+  height: 92px;
+  margin: -46px 0 0 -46px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -920,7 +920,7 @@ body.nav-open::before {
 }
 
 .olq-node-icon {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1;
   color: var(--dk-gold);
   transition: color 0.25s;
@@ -934,7 +934,7 @@ body.nav-open::before {
 
 .olq-node-label {
   font-family: 'Outfit', sans-serif;
-  font-size: 6.5px;
+  font-size: 7.4px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--dk-muted);

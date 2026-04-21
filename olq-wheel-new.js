@@ -64,7 +64,7 @@ function positionOLQNodes() {
   const containerHeight = wheelContainer.offsetHeight;
   const centerX = containerWidth / 2;
   const centerY = containerHeight / 2;
-  const radius = Math.min(containerWidth, containerHeight) * 0.32;
+  const radius = Math.min(containerWidth, containerHeight) * 0.34;
   const totalItems = olqData.length;
 
   nodes.forEach((node, index) => {
