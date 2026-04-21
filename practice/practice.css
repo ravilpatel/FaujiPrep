@@ -1,4 +1,4 @@
-.synq-page {
+﻿.synq-page {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 260px;
   gap: 18px;
@@ -9,7 +9,7 @@
 .synq-nav {
   border: 1px solid var(--dk-border);
   border-radius: var(--radius);
-  background: linear-gradient(145deg, rgba(20, 24, 32, 0.92), rgba(10, 13, 18, 0.88));
+  background: linear-gradient(145deg, rgba(28, 36, 24, 0.92), rgba(16, 22, 14, 0.88));
   box-shadow: 0 20px 48px rgba(0, 0, 0, 0.35);
 }
 
@@ -40,7 +40,7 @@
   border: 1px solid var(--dk-border);
   border-radius: 12px;
   padding: 16px;
-  background: rgba(8, 10, 14, 0.45);
+  background: rgba(14, 19, 12, 0.45);
   display: grid;
   gap: 12px;
   justify-items: start;
@@ -59,11 +59,11 @@
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  border: 1px solid rgba(138, 168, 197, 0.55);
+  border: 1px solid rgba(141, 159, 95, 0.55);
   border-radius: 999px;
   padding: 8px 14px;
-  background: linear-gradient(145deg, rgba(138, 168, 197, 0.22), rgba(128, 95, 25, 0.18));
-  box-shadow: 0 8px 20px rgba(138, 168, 197, 0.2);
+  background: linear-gradient(145deg, rgba(141, 159, 95, 0.22), rgba(128, 95, 25, 0.18));
+  box-shadow: 0 8px 20px rgba(141, 159, 95, 0.2);
 }
 
 .synq-timer.warn {
@@ -85,7 +85,7 @@
   border: 1px solid var(--dk-border);
   border-radius: 10px;
   padding: 10px 12px;
-  background: rgba(138, 168, 197, 0.08);
+  background: rgba(141, 159, 95, 0.08);
 }
 
 .synq-report {
@@ -93,7 +93,7 @@
   border: 1px solid var(--dk-border);
   border-radius: 12px;
   padding: 14px;
-  background: rgba(8, 10, 14, 0.45);
+  background: rgba(14, 19, 12, 0.45);
 }
 
 .synq-report h3 {
@@ -130,7 +130,7 @@
 }
 
 .synq-report-table thead th {
-  background: rgba(138, 168, 197, 0.1);
+  background: rgba(141, 159, 95, 0.1);
   color: var(--dk-gold-soft);
 }
 
@@ -139,7 +139,7 @@
   border: 1px solid var(--dk-border);
   border-radius: 12px;
   padding: 16px;
-  background: rgba(8, 10, 14, 0.45);
+  background: rgba(14, 19, 12, 0.45);
 }
 
 .synq-question h2 {
@@ -160,7 +160,7 @@
   text-transform: uppercase;
   margin-bottom: 12px;
   color: var(--dk-gold-soft);
-  background: rgba(138, 168, 197, 0.08);
+  background: rgba(141, 159, 95, 0.08);
 }
 
 .synq-difficulty.easy {
@@ -201,7 +201,7 @@
 
 .synq-option:hover:not([disabled]) {
   border-color: var(--dk-border-strong);
-  background: rgba(138, 168, 197, 0.08);
+  background: rgba(141, 159, 95, 0.08);
 }
 
 .synq-option[disabled] {
@@ -262,7 +262,7 @@
 
 .synq-filter-btn.active {
   border-color: var(--dk-border-strong);
-  background: rgba(138, 168, 197, 0.16);
+  background: rgba(141, 159, 95, 0.16);
   color: var(--dk-gold-soft);
 }
 
@@ -349,4 +349,6 @@
     position: static;
   }
 }
+
+
 
