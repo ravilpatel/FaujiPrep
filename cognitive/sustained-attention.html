@@ -16,6 +16,17 @@
     />
     <link rel="stylesheet" href="../styles.css" />
     <style>
+      :root {
+        --color-background-info: rgba(98, 131, 162, 0.28);
+        --color-text-info: #d3e0ed;
+        --color-background-success: rgba(44, 150, 112, 0.24);
+        --color-text-success: #8edbbf;
+        --color-background-warning: rgba(190, 146, 84, 0.24);
+        --color-text-warning: #f2d3a2;
+        --color-background-danger: rgba(192, 89, 96, 0.24);
+        --color-text-danger: #f6c0c5;
+      }
+
       .sat-guide {
         display: grid;
         gap: 1rem;
@@ -116,7 +127,7 @@
         margin-top: 0.85rem;
         padding: 0.95rem 1rem;
         border-left: 3px solid var(--dk-gold);
-        background: rgba(201, 168, 76, 0.07);
+        background: rgba(138, 168, 197, 0.07);
         border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
         color: var(--dk-text);
         line-height: 1.7;
@@ -134,7 +145,7 @@
         text-align: left;
         vertical-align: top;
         padding: 0.8rem 0.35rem;
-        border-bottom: 1px solid rgba(201, 168, 76, 0.12);
+        border-bottom: 1px solid rgba(138, 168, 197, 0.12);
       }
       .sat-q {
         background: rgba(255, 255, 255, 0.03);
@@ -234,7 +245,7 @@
         gap: 0.8rem;
         align-items: flex-start;
         padding: 0.68rem 0;
-        border-bottom: 1px solid rgba(201, 168, 76, 0.12);
+        border-bottom: 1px solid rgba(138, 168, 197, 0.12);
       }
       .kp-item:last-child {
         border-bottom: none;
@@ -262,7 +273,7 @@
       }
       .divider {
         height: 1px;
-        background: rgba(201, 168, 76, 0.12);
+        background: rgba(138, 168, 197, 0.12);
         margin: 0.9rem 0;
       }
       .tag {
@@ -295,7 +306,7 @@
         transition: background 0.2s, border-color 0.2s;
       }
       .practice-link:hover {
-        background: rgba(201, 168, 76, 0.12);
+        background: rgba(138, 168, 197, 0.12);
         border-color: var(--dk-gold);
       }
       @media (max-width: 720px) {
@@ -611,7 +622,7 @@
             </div>
           </article>
 
-          <div class="sat-info" style="border-left-color:#534AB7">
+          <div class="sat-info" style="border-left-color:#6B89AD">
             <strong>Scoring Dimensions:</strong> Hit rate, false alarm rate, d-prime, average response time, response-time variability, and vigilance decrement are the kinds of measures that reveal sustained attention quality.
           </div>
         </section>
@@ -867,3 +878,4 @@
     </script>
   </body>
 </html>
+
