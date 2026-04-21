@@ -32,7 +32,7 @@ if (navHost) {
           </ul>
         </nav>
 
-        <a href="${navPath("practice/cognitive-tests.html")}" class="nav-cta">Practice Test</a>
+        <a href="${navPath("practice/cognitive-tests.html")}" class="nav-cta">Free Practice</a>
       </div>
     </header>
   `;
