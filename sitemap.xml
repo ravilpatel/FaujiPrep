@@ -1,25 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://faujiprep.app/404.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/cognitive/auditory-discrimination.html</loc>
-  </url>
-  <url>
     <loc>https://faujiprep.app/cognitive/form-perception.html</loc>
   </url>
   <url>
     <loc>https://faujiprep.app/cognitive/linguistic-abilities.html</loc>
   </url>
   <url>
-    <loc>https://faujiprep.app/cognitive/map-memory.html</loc>
-  </url>
-  <url>
     <loc>https://faujiprep.app/cognitive/perceptual-speed.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/cognitive/selection-attention.html</loc>
   </url>
   <url>
     <loc>https://faujiprep.app/cognitive/space-perception.html</loc>
@@ -31,10 +19,7 @@
     <loc>https://faujiprep.app/cognitive/visualisation.html</loc>
   </url>
   <url>
-    <loc>https://faujiprep.app/cognitive/working-memory.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/index.html</loc>
+    <loc>https://faujiprep.app/</loc>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-ability-to-influence-group.html</loc>

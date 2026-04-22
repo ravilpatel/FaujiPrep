@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Keep internal scaffold out of index
+Disallow: /template.html
+
+Sitemap: https://faujiprep.app/sitemap.xml
