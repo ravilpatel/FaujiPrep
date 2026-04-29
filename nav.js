@@ -9,6 +9,18 @@ function navPath(relativePath) {
   return new URL(relativePath, navBaseUrl).pathname;
 }
 
+// Load next-practice navigator on practice pages
+(function(){
+  try {
+    const script = document.createElement('script');
+    script.src = navPath("practice/next.js");
+    script.defer = true;
+    document.body.appendChild(script);
+  } catch (e) {
+    console.error('Failed to load practice/next.js', e);
+  }
+})();
+
 if (navHost) {
   navHost.innerHTML = `
     <header class="site-header">
@@ -28,6 +40,9 @@ if (navHost) {
             </li>
             <li class="nav-item">
               <a href="${navPath("opam/olqs.html")}" class="nav-link">OPAM</a>
+            </li>
+            <li class="nav-item">
+              <a href="${navPath("blueprint.pdf")}" class="nav-link nav-link-pdf" target="_blank" rel="noopener" download="CSSS-OPAM-blueprint.pdf">Free Blueprint PDF</a>
             </li>
           </ul>
         </nav>
