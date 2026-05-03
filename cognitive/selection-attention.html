@@ -1,21 +1,278 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FaujiPrep | Selection Attention</title>
-    <meta name="description" content="Practice page for Selection Attention." />
-    <meta name="robots" content="noindex,follow" />
-    <link rel="canonical" href="https://faujiprep.app/cognitive/selection-attention.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FaujiPrep | Selection Attention Guide - CSSS SSB Stage 1</title>
+  <meta
+    name="description"
+    content="Complete Selection Attention guide for CSSS SSB Stage 1 with definitions, examples, training plan, and practice strategies."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    :root {
+      --color-background-info: rgba(98, 131, 162, 0.28);
+      --color-text-info: #d3e0ed;
+      --color-background-success: rgba(44, 150, 112, 0.24);
+      --color-text-success: #8edbbf;
+      --color-background-warning: rgba(190, 146, 84, 0.24);
+      --color-text-warning: #f2d3a2;
+      --color-background-danger: rgba(192, 89, 96, 0.24);
+      --color-text-danger: #f6c0c5;
+    }
 
+    .sat-guide {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .sat-hero {
+      background: linear-gradient(145deg, rgba(20, 24, 32, 0.98), rgba(10, 13, 18, 0.92));
+      border: 1px solid var(--dk-border);
+      border-radius: var(--radius);
+      padding: 2rem 2rem;
+      box-shadow: var(--shadow);
+    }
+    .sat-hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      line-height: 1.06;
+      font-weight: 600;
+      color: var(--dk-text);
+      margin: 0 0 0.75rem;
+    }
+    .sat-hero h1 span {
+      color: var(--dk-gold);
+    }
+    .sat-subtitle {
+      font-size: 1.1rem;
+      color: var(--dk-gold);
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    .sat-sub {
+      font-size: 0.96rem;
+      color: var(--dk-muted);
+      line-height: 1.8;
+      max-width: 82ch;
+    }
+    .sat-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 1.25rem;
+    }
+    .sat-tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--dk-border);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--dk-text);
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .sat-block {
+      background: linear-gradient(145deg, rgba(20, 24, 32, 0.96), rgba(10, 13, 18, 0.9));
+      border: 1px solid var(--dk-border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      box-shadow: var(--shadow);
+    }
+    .sat-block h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--dk-gold);
+      margin-top: 0;
+      margin-bottom: 1.25rem;
+      border-bottom: 2px solid rgba(223, 189, 95, 0.3);
+      padding-bottom: 0.75rem;
+    }
+    .sat-block h3 {
+      font-size: 1.2rem;
+      color: var(--dk-text);
+      font-weight: 600;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .sat-block p {
+      font-size: 0.95rem;
+      color: var(--dk-text);
+      line-height: 1.85;
+      margin-bottom: 1rem;
+    }
+    .sat-block ul, .sat-block ol {
+      font-size: 0.95rem;
+      color: var(--dk-text);
+      line-height: 1.8;
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .sat-block li {
+      margin-bottom: 0.6rem;
+    }
+    .sat-highlight {
+      background: var(--color-background-warning);
+      border-left: 4px solid var(--dk-gold);
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1rem 0;
+      color: var(--dk-text);
+    }
+    .sat-example {
+      background: rgba(44, 150, 112, 0.12);
+      border-left: 4px solid #2c9670;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1rem 0;
+      font-size: 0.93rem;
+      color: var(--dk-text);
+    }
+    .sat-example strong {
+      color: #8edbbf;
+    }
+    .sat-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      overflow-x: auto;
+      font-size: 0.9rem;
+    }
+    .sat-table thead {
+      background: rgba(223, 189, 95, 0.15);
+    }
+    .sat-table th {
+      padding: 0.85rem;
+      text-align: left;
+      color: var(--dk-gold);
+      font-weight: 600;
+      border-bottom: 2px solid rgba(223, 189, 95, 0.3);
+    }
+    .sat-table td {
+      padding: 0.85rem;
+      border-bottom: 1px solid var(--dk-border);
+      color: var(--dk-text);
+    }
+    .sat-table tr:hover {
+      background: rgba(223, 189, 95, 0.08);
+    }
+    .comparison-table {
+      font-size: 0.9rem;
+    }
+    .comparison-table td {
+      vertical-align: top;
+    }
+    .construct-name {
+      font-weight: 600;
+      color: var(--dk-gold);
+    }
+    .timeline {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background: rgba(98, 131, 162, 0.12);
+      border-left: 4px solid rgba(98, 131, 162, 0.6);
+      border-radius: 4px;
+    }
+    .week {
+      margin-bottom: 1.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--dk-border);
+    }
+    .week:last-child {
+      border-bottom: none;
+    }
+    .week strong {
+      color: var(--dk-gold);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .sat-key-points {
+      background: rgba(44, 150, 112, 0.12);
+      border-left: 4px solid #2c9670;
+      padding: 1.25rem;
+      border-radius: 4px;
+      margin: 1.5rem 0;
+    }
+    .sat-key-points ul {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+    .sat-key-points li {
+      margin-bottom: 0.8rem;
+      color: var(--dk-text);
+    }
+    .practice-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: var(--dk-gold);
+      color: #0a0d12;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    .practice-link:hover {
+      background: #f5d674;
+      transform: translateX(4px);
+    }
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+    .nav-btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: linear-gradient(145deg, rgba(223, 189, 95, 0.2), rgba(223, 189, 95, 0.1));
+      color: var(--dk-gold);
+      text-decoration: none;
+      border: 1px solid rgba(223, 189, 95, 0.4);
+      border-radius: 4px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    .nav-btn:hover {
+      background: rgba(223, 189, 95, 0.15);
+      border-color: var(--dk-gold);
+    }
+    .toc {
+      background: rgba(98, 131, 162, 0.15);
+      border: 1px solid rgba(98, 131, 162, 0.3);
+      border-radius: 4px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .toc h3 {
+      color: var(--dk-gold);
+      margin-top: 0;
+    }
+    .toc ul {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+    .toc li {
+      margin-bottom: 0.5rem;
+    }
+    .toc a {
+      color: rgba(223, 189, 95, 0.8);
+      text-decoration: none;
+    }
+    .toc a:hover {
+      color: var(--dk-gold);
+      text-decoration: underline;
+    }
+  </style>
+</head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
@@ -27,39 +284,702 @@
   gtag('config', 'G-69W0M71YPP');
 </script>
   <body class="homepage">
-    <div id="site-header"></div>
+  <div id="site-header"></div>
 
-    <main>
-      <section class="container section">
-        <h1>Selection Attention</h1>
-        <div class="explainer-card">
-          <article>
-            <span class="badge">Coming Soon</span>
-            <p>
-              This section will include topic-wise lessons, examples, and timed practice sets.
-            </p>
-          </article>
-          <article>
-            <a class="btn" href="/index.html">Back to Homepage</a>
-          </article>
+  <main>
+    <section class="container section sat-guide">
+      <div class="sat-guide">
+        <!-- Hero Section -->
+        <div class="sat-hero">
+          <h1><span>Selection Attention</span> in CSSS Cognitive Test</h1>
+          <p class="sat-subtitle">SSB Stage 1: Filter Distractions, Focus on Relevant Cues</p>
+          <p class="sat-sub">
+            Selection attention is your ability to quickly focus on task-relevant items while ignoring distractors. 
+            In the Computerized Stage‑1 Selection System (CSSS), this means spotting the correct symbol, word, or number 
+            amid many alternatives—under strict time pressure. This comprehensive guide defines selection attention, 
+            explains its military relevance, provides example questions with solutions, outlines a proven 30-day training plan, 
+            and highlights common verbal-test pitfalls.
+          </p>
+          <div class="sat-tags">
+            <span class="sat-tag">CSSS SSB</span>
+            <span class="sat-tag">Cognitive Test</span>
+            <span class="sat-tag">Defense Prep</span>
+            <span class="sat-tag">Attention Skills</span>
+          </div>
         </div>
-      </section>
-    </main>
 
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>
-          Disclaimer: FaujiPrep is an independent preparation platform and is not
-          affiliated with UPSC, Indian Army, or any government recruitment authority.
-        </p>
-        <div class="footer-links" aria-label="Social links">
-          <a href="#" aria-label="Instagram">Instagram</a>
-          <a href="#" aria-label="YouTube">YouTube</a>
-          <a href="#" aria-label="Telegram">Telegram</a>
+        <!-- Table of Contents -->
+        <div class="toc">
+          <h3>📌 Quick Navigation</h3>
+          <ul>
+            <li><a href="#definition">Definition & Distinctions</a></li>
+            <li><a href="#relevance">Military Relevance</a></li>
+            <li><a href="#scope">Test Scope & Format</a></li>
+            <li><a href="#examples">Example Items (20+ Types)</a></li>
+            <li><a href="#training">30-Day Training Plan</a></li>
+            <li><a href="#mistakes">Common Verbal Mistakes</a></li>
+            <li><a href="#takeaways">Key Takeaways</a></li>
+          </ul>
+        </div>
+
+        <!-- Section 1: Definition -->
+        <div class="sat-block" id="definition">
+          <h2>1. Definition: Selection Attention vs. Related Constructs</h2>
+                    
+          <p>
+            <strong>Selection Attention</strong> (as used in CSSS) refers to <strong>quickly focusing on task-relevant 
+            items while ignoring distractors</strong>. It is essentially a <em>selective</em> focus process: "filter 
+            distractions and focus on relevant cues." In CSSS, this means spotting the correct symbol, word, or number 
+            among many alternatives.
+          </p>
+
+          <h3>Key Distinctions</h3>
+          <ul>
+            <li>
+              <strong>Selective Attention (General):</strong> The capacity to concentrate on one element while 
+              excluding others. CSSS selection tasks operationalize this concept.
+            </li>
+            <li>
+              <strong>Sustained Attention / Vigilance:</strong> Maintaining continuous focus on a stimulus over time 
+              (e.g., monitoring radar for rare signals). Unlike selection tasks, vigilance is prolonged and low-stimulation.
+            </li>
+            <li>
+              <strong>Divided Attention:</strong> Handling two or more tasks simultaneously (multitasking). CSSS 
+              selection tasks do <em>one task at a time</em>, not divided.
+            </li>
+            <li>
+              <strong>Working Memory:</strong> The system that holds and manipulates information for a short period. 
+              It underlies some selection tasks but is itself about temporary storage, not filtering.
+            </li>
+          </ul>
+
+          <h3>Comparison Table</h3>
+          <table class="sat-table comparison-table">
+            <thead>
+              <tr>
+                <th>Construct</th>
+                <th>Definition & Characteristics</th>
+                <th>CSSS Example Tasks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="construct-name">Selection Attention</span></td>
+                <td>Focusing on relevant stimuli while filtering distractors. Rapid target detection under time pressure.</td>
+                <td>Symbol/letter cancellation, target-shape search, flanker-arrow tasks, Stroop color-word focus.</td>
+              </tr>
+              <tr>
+                <td><span class="construct-name">Selective Attention</span></td>
+                <td>Concentrate on one element and ignore irrelevant ones. Similar to selection attention in general contexts.</td>
+                <td>Classic Stroop test, dichotic listening (attend one ear), analogous filter tasks.</td>
+              </tr>
+              <tr>
+                <td><span class="construct-name">Sustained Attention / Vigilance</span></td>
+                <td>Continuous focus on a task/stimulus over an extended time against infrequent signals.</td>
+                <td>Long-duration signal-detection tasks; extended visual monitoring drills.</td>
+              </tr>
+              <tr>
+                <td><span class="construct-name">Divided Attention</span></td>
+                <td>Allocating attention to multiple tasks or stimuli simultaneously.</td>
+                <td>Dual-task paradigms (tracking two streams); CSSS likely does not use true multi-tasking items.</td>
+              </tr>
+              <tr>
+                <td><span class="construct-name">Working Memory</span></td>
+                <td>Limited-capacity system for holding/manipulating information short-term.</td>
+                <td>Map-memory tasks, n-back tests; may include distractors requiring selective focus.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            <em>In practice, CSSS Selection Attention tasks are like classic visual search or target detection drills: 
+            e.g., finding a specified letter or shape amid distractors, or focusing on one of several moving items. 
+            Unlike sustained/vigilance tasks, selection tasks are brief and item-focused.</em>
+          </p>
+        </div>
+
+        <!-- Section 2: Relevance -->
+        <div class="sat-block" id="relevance">
+          <h2>2. Relevance for Defence Aspirants</h2>
+                    
+          <p>
+            Military tasks demand sharp attentional control. Soldiers must maintain <strong>situational awareness</strong>—
+            continuously observing complex scenes for threats or cues—and quickly pick out vital signals from background 
+            noise. In combat, lapses in attention could jeopardize mission objectives and result in unnecessary loss of life.
+          </p>
+
+          <div class="sat-highlight">
+            <strong>The Critical Task:</strong> Soldiers must "maintain critical information in mind, identify targets 
+            accurately, manage distractions, and focus on task-relevant aspects of the environment."
+          </div>
+
+          <h3>Why Selection Attention Matters</h3>
+          <ul>
+            <li>
+              <strong>Reconnaissance & Surveillance:</strong> Spotting a hidden enemy or warning sign in chaotic terrain 
+              requires filtering irrelevant visual information rapidly.
+            </li>
+            <li>
+              <strong>Decision-Making Under Stress:</strong> Combat decisions happen fast. Strong selection attention 
+              enables quick extraction of critical data (e.g., vital cockpit instruments, radar blips).
+            </li>
+            <li>
+              <strong>Intelligence Analysis:</strong> Patterns in large datasets must be identified amid noise—a pure 
+              selection-attention task.
+            </li>
+            <li>
+              <strong>Proven Correlation:</strong> Research shows "performance on sustained attention and working memory 
+              tasks was positively correlated with performance on operationally relevant drills."
+            </li>
+          </ul>
+
+          <h3>CSSS & SSB Intent</h3>
+          <p>
+            The CSSS was introduced to "select 'cognitively superior' leaders" for fast-paced modern battlefields. 
+            By testing selection attention, the SSB aims to gauge if an aspirant can <em>filter distractions under stress</em> 
+            — a prerequisite for defense roles. Official commentary emphasizes split-second decision-making: candidates report 
+            that some CSSS problems "appear only for a few seconds."
+          </p>
+
+          <div class="sat-highlight">
+            <strong>Bottom Line:</strong> Strong selection-attention abilities are linked to successful performance in 
+            high-stakes military roles. The CSSS tests this directly through rapid, filtered target detection.
+          </div>
+        </div>
+
+        <!-- Section 3: Scope -->
+        <div class="sat-block" id="scope">
+          <h2>3. Scope of CSSS Selection Attention Test</h2>
+                    
+          <p>
+            Official detail is limited, but we can infer from CSSS guidelines and analogous tests. The cognitive battery 
+            has approximately <strong>70 questions in ≈1.5 hours</strong>, split across ~10–11 modules. The <em>Selective 
+            Attention</em> module likely includes several timed subtests where stimuli flash briefly.
+          </p>
+
+          <h3>Key Timing Insights</h3>
+          <ul>
+            <li>Candidates report "split-second decision-making," with some problems appearing only for a few seconds.</li>
+            <li>Modules run in one sitting with strict timing.</li>
+            <li>Two time-management modes likely exist: (A) fixed time per item with auto-advance, or (B) fixed time per 
+              section with optional skipping.</li>
+            <li><strong>Speed is critical</strong> in all cases.</li>
+          </ul>
+
+          <h3>Likely Subtest Types</h3>
+          <ul>
+            <li>
+              <strong>Visual Search / Symbol Cancellation:</strong> Find all instances of a target letter/shape in a matrix 
+              of similar symbols. (Stimulus: rows of letters/symbols, time limit per page.)
+            </li>
+            <li>
+              <strong>Flanker Arrow Task:</strong> Identify the direction of a central arrow amid distracting flankers. 
+              (E.g., "&lt;&lt; &lt; &lt;&lt;" → answer: &lt;.)
+            </li>
+            <li>
+              <strong>Color-Word Stroop:</strong> Name the <em>ink color</em> of a color-word, ignoring its textual meaning 
+              (or vice versa). This taps selective focus amid conflicting cues.
+            </li>
+            <li>
+              <strong>Odd-One-Out / Spot Difference:</strong> Pick the item that is different or the missing piece among patterns. 
+              (E.g., choose which object doesn't belong.)
+            </li>
+            <li>
+              <strong>Rapid Auditory Filtering:</strong> (if any auditory component) Listen for a target word among a stream.
+            </li>
+            <li>
+              <strong>Letter or Number Series Search:</strong> Scan a random sequence and count items meeting a criterion 
+              (all vowels, all primes, etc.).
+            </li>
+            <li>
+              <strong>Small Verbal Tasks:</strong> Possibly find synonyms or analogies under time (though these overlap language 
+              skills, they also test quick filtering of meaning).
+            </li>
+          </ul>
+
+          <div class="sat-example">
+            <strong>Key Demand:</strong> Speed and accuracy. Candidates must respond quickly (often within seconds) to dynamic 
+            stimuli. Scoring likely combines correctness and reaction time.
+          </div>
+        </div>
+
+        <!-- Section 4: Examples -->
+        <div class="sat-block" id="examples">
+          <h2>4. Example Item Types (20+ with Solutions)</h2>
+                    
+          <h3>Visual/Non-Verbal Items</h3>
+
+          <div class="sat-example">
+            <strong>1. Flanker Arrow (Non-verbal)</strong><br>
+            <strong>Example:</strong> &lt;&lt; &lt; &lt;&lt; (five arrows)<br>
+            <strong>Task:</strong> Identify the direction of the center arrow (ignore the others).<br>
+            <strong>Solution:</strong> The center arrow is &lt;, so answer "&lt;".<br>
+            <strong>Time:</strong> ~10–15s<br>
+            <strong>Common Error:</strong> Being distracted by flankers and answering &gt;. <strong>Fix:</strong> Focus only 
+            on the middle symbol.
+          </div>
+
+          <div class="sat-example">
+            <strong>2. Stroop Color-Word (Non-verbal)</strong><br>
+            <strong>Example:</strong> The word "BLUE" printed in red ink.<br>
+            <strong>Task:</strong> Name the ink color (ignore the word).<br>
+            <strong>Solution:</strong> Ink is red, so answer "Red".<br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Common Error:</strong> Reading the word "BLUE" instead. <strong>Fix:</strong> Override automatic 
+            word-reading by training on Stroop practice.
+          </div>
+
+          <div class="sat-example">
+            <strong>3. Odd Number Out (Numeric)</strong><br>
+            <strong>Example:</strong> 2, 4, 6, 7, 8<br>
+            <strong>Task:</strong> Which number does not fit?<br>
+            <strong>Solution:</strong> All except 7 are even; 7 is odd, so answer <strong>7</strong>.<br>
+            <strong>Time:</strong> ~15s<br>
+            <strong>Common Mistake:</strong> Scanning too quickly and picking 6 or 8 by error. <strong>Fix:</strong> 
+            Double-check parity.
+          </div>
+
+          <div class="sat-example">
+            <strong>4. Largest Number (Numeric)</strong><br>
+            <strong>Example:</strong> 5, 12, 9, 3<br>
+            <strong>Task:</strong> Which is largest?<br>
+            <strong>Solution:</strong> 12 is the largest.<br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Common Error:</strong> Misreading 12 as 2 or skipping a digit. <strong>Fix:</strong> Carefully 
+            compare values.
+          </div>
+
+          <div class="sat-example">
+            <strong>5. Sequence Next (Numeric)</strong><br>
+            <strong>Example:</strong> 2, 4, 8, 16, ?<br>
+            <strong>Task:</strong> Next number.<br>
+            <strong>Solution:</strong> Pattern ×2, so <strong>32</strong>.<br>
+            <strong>Time:</strong> ~15s
+          </div>
+
+          <div class="sat-example">
+            <strong>6. Find "A"s (Verbal)</strong><br>
+            <strong>Example:</strong> "BANANA"<br>
+            <strong>Task:</strong> Count occurrences of letter "A".<br>
+            <strong>Solution:</strong> 3<br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Common Error:</strong> One is hidden between Ns. <strong>Fix:</strong> Mark off as you count.
+          </div>
+
+          <div class="sat-example">
+            <strong>7. Divisible by 3 (Numeric)</strong><br>
+            <strong>Example:</strong> 4, 9, 12, 15, 17, 22<br>
+            <strong>Task:</strong> Which numbers are divisible by 3?<br>
+            <strong>Solution:</strong> 9, 12, 15<br>
+            <strong>Time:</strong> ~15s<br>
+            <strong>Strategy:</strong> Quickly divide by 3 or recall multiplication table.
+          </div>
+
+          <div class="sat-example">
+            <strong>8. Flanker (Visual)</strong><br>
+            <strong>Example:</strong> &gt;&gt; &lt; &gt;&gt;<br>
+            <strong>Solution:</strong> Center is &lt;.<br>
+            <strong>Time:</strong> ~10s
+          </div>
+
+          <div class="sat-example">
+            <strong>9. Stroop (Verbal)</strong><br>
+            <strong>Example:</strong> Word "GREEN" in blue ink.<br>
+            <strong>Task:</strong> Name ink color.<br>
+            <strong>Solution:</strong> Blue<br>
+            <strong>Time:</strong> ~10s
+          </div>
+
+          <div class="sat-example">
+            <strong>10. Memory Recall (Numeric)</strong><br>
+            <strong>Example:</strong> Sequence shown "3 1 4 1 5"; question: what was the 3rd number?<br>
+            <strong>Solution:</strong> 4<br>
+            <strong>Time:</strong> ~5s after viewing<br>
+            <strong>Strategy:</strong> Practice holding number lists in mind.
+          </div>
+
+          <h3>Verbal Items</h3>
+
+          <div class="sat-example">
+            <strong>11. Vowel Finder (Verbal)</strong><br>
+            <strong>Example:</strong> Word: CRYPTO<br>
+            <strong>Task:</strong> Identify all vowels in the word.<br>
+            <strong>Solution:</strong> Only "O" is a vowel here.<br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Common Error:</strong> Overlooking 'O' or misclassifying Y. <strong>Fix:</strong> Memorize A, E, I, O, U.
+          </div>
+
+          <div class="sat-example">
+            <strong>12. Vowel Finder (Verbal)</strong><br>
+            <strong>Example:</strong> Word: LEAGUE<br>
+            <strong>Task:</strong> Identify vowels.<br>
+            <strong>Solution:</strong> E, A, U, E<br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Common Error:</strong> Missing repeated E. <strong>Fix:</strong> Read all letters carefully.
+          </div>
+
+          <div class="sat-example">
+            <strong>13. Synonym Selection (Verbal)</strong><br>
+            <strong>Example:</strong> For "Abundant", options: [Rare, Bountiful, Sparse, Tiny]<br>
+            <strong>Task:</strong> Pick closest meaning.<br>
+            <strong>Solution:</strong> <strong>Bountiful</strong> (meaning plentiful)<br>
+            <strong>Time:</strong> ~15s<br>
+            <strong>Common Error:</strong> Choosing Sparse (opposite) due to misreading prefix "ab-". 
+            <strong>Fix:</strong> Recall root meaning.
+          </div>
+
+          <div class="sat-example">
+            <strong>14. Antonym Selection (Verbal)</strong><br>
+            <strong>Example:</strong> For "Scarce", options: [Plentiful, Empty, Rare, Dark]<br>
+            <strong>Task:</strong> Pick opposite.<br>
+            <strong>Solution:</strong> <strong>Plentiful</strong><br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Common Error:</strong> Choosing Rare (synonym). Note: "scarce"=rare.
+          </div>
+
+          <div class="sat-example">
+            <strong>15. Odd One Out (Words)</strong><br>
+            <strong>Example:</strong> [Apple, Banana, Carrot, Mango]<br>
+            <strong>Task:</strong> Which doesn't belong?<br>
+            <strong>Solution:</strong> <strong>Carrot</strong> (vegetable; others are fruits)<br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Common Error:</strong> Hurrying and ignoring category.
+          </div>
+
+          <div class="sat-example">
+            <strong>16. Analogy (Verbal)</strong><br>
+            <strong>Example:</strong> Cat : Kitten :: Cow : ?<br>
+            <strong>Options:</strong> (Tiger, Calf, Puppy, Lamb)<br>
+            <strong>Solution:</strong> <strong>Calf</strong> (baby cow)<br>
+            <strong>Time:</strong> ~20s<br>
+            <strong>Common Error:</strong> Misreading format. <strong>Fix:</strong> Process analogies systematically A→B = C→?.
+          </div>
+
+          <div class="sat-example">
+            <strong>17. Analogy (Verbal)</strong><br>
+            <strong>Example:</strong> Fish : Swim :: Bird : ?<br>
+            <strong>Solution:</strong> <strong>Fly</strong><br>
+            <strong>Time:</strong> ~10s
+          </div>
+
+          <div class="sat-example">
+            <strong>18. Jumbled Sentence (Verbal)</strong><br>
+            <strong>Example:</strong> "dog the cat chased"<br>
+            <strong>Task:</strong> Rearrange into a correct sentence.<br>
+            <strong>Solution:</strong> "The dog chased the cat."<br>
+            <strong>Time:</strong> ~20s<br>
+            <strong>Common Error:</strong> Leaving out "the" or word-order mistakes. <strong>Fix:</strong> Read slowly.
+          </div>
+
+          <div class="sat-example">
+            <strong>19. Find Vowels (Verbal)</strong><br>
+            <strong>Example:</strong> "HYMN"<br>
+            <strong>Solution:</strong> None (no standard vowel letters)<br>
+            <strong>Time:</strong> ~5s<br>
+            <strong>Trick:</strong> Y is sometimes a vowel, but standard vowels (A, E, I, O, U) are absent here.
+          </div>
+
+          <div class="sat-example">
+            <strong>20. Category (Verbal)</strong><br>
+            <strong>Example:</strong> [Mercury, Venus, Earth, Mars, Jupiter, Atlantic]<br>
+            <strong>Task:</strong> Which is not a planet?<br>
+            <strong>Solution:</strong> Atlantic (an ocean)<br>
+            <strong>Time:</strong> ~15s
+          </div>
+
+          <div class="sat-example">
+            <strong>21. Vocabulary (Verbal)</strong><br>
+            <strong>Example:</strong> The word "cryptic" most nearly means: [Mysterious, Open, Simple, Loud]<br>
+            <strong>Solution:</strong> <strong>Mysterious</strong><br>
+            <strong>Time:</strong> ~15s<br>
+            <strong>Common Error:</strong> Mix up "cryptic" with "crypt" word.
+          </div>
+
+          <div class="sat-example">
+            <strong>22. Sentence Correction (Verbal)</strong><br>
+            <strong>Example:</strong> "She don't like apples."<br>
+            <strong>Task:</strong> Identify error.<br>
+            <strong>Solution:</strong> "don't" should be "doesn't."<br>
+            <strong>Time:</strong> ~10s<br>
+            <strong>Fix:</strong> Focus on grammar rule.
+          </div>
+
+          <div class="sat-example">
+            <strong>23. Analogy (Verbal)</strong><br>
+            <strong>Example:</strong> Hot : Cold :: Day : ?<br>
+            <strong>Solution:</strong> <strong>Night</strong><br>
+            <strong>Time:</strong> ~10s
+          </div>
+
+          <p>
+            <em>Each item requires focusing on the relevant cue (the target letter, correct answer choice, etc.) 
+            and ignoring distracting or irrelevant information. These examples illustrate the blend of verbal (words/logic) 
+            and non-verbal (symbols, numbers) tasks you may encounter.</em>
+          </p>
+        </div>
+
+        <!-- Section 5: Training Plan -->
+        <div class="sat-block" id="training">
+          <h2>5. 30-Day Improvement Plan</h2>
+                    
+          <p>
+            To systematically build selection-attention skills, follow this structured 4-week program balancing daily 
+            practice and progression. The key principle: <strong>accuracy first, then speed</strong>.
+          </p>
+
+          <h3>Program Structure</h3>
+          <ul>
+            <li><strong>Baseline & Goals (Week 1):</strong> Assess current speed/accuracy with sample attention tasks. 
+              Set measurable goals (e.g., "find all X's with >90% accuracy in 30s").
+            </li>
+            <li><strong>Daily Focus Exercises:</strong> Incorporate short drills each day: timed reading, Stroop/color-naming 
+              practice, and classic puzzle games to train selective focus.
+            </li>
+            <li><strong>Progressive Speed Drills:</strong> Gradually decrease time allowed. Practice letter-cancellation 
+              puzzles, giving yourself 60s then 45s, etc. Track number correct per time.
+            </li>
+            <li><strong>Introduce Complexity (Weeks 2–3):</strong> Combine tasks or add distractions (e.g., do memory 
+              recall while a timer ticks or background noise plays).
+            </li>
+            <li><strong>Mock Tests (Week 4):</strong> Take full timed mock sessions of 50–70 items to simulate CSSS conditions. 
+              Practice managing the intended test duration (~1.5h total cognitive time).
+            </li>
+          </ul>
+
+          <h3>Weekly Breakdown</h3>
+
+          <div class="timeline">
+            <div class="week">
+              <strong>Week 1: Basics & Familiarization</strong>
+              <ul>
+                <li>Day 1–3: Baseline Assessment & Goals (identify weak areas, set targets)</li>
+                <li>Day 4–6: Visualization Training (mental drills, relaxation exercises)</li>
+                <li>Day 7: Focus Exercises (timed reading/Stroop), Task Familiarization (learn item types)</li>
+              </ul>
+            </div>
+
+            <div class="week">
+              <strong>Week 2: Speed & Filtering</strong>
+              <ul>
+                <li>Daily: Symbol/Letter Search Drills (30 minutes)</li>
+                <li>Daily: Selective Attention Games (puzzles, Spot-the-Difference) (20 minutes)</li>
+                <li>Daily: Practice Under Distraction (background noise, interruptions) (15 minutes)</li>
+              </ul>
+            </div>
+
+            <div class="week">
+              <strong>Week 3: Building Endurance</strong>
+              <ul>
+                <li>Daily: Combined Tasks (two-step drills, memory + search) (30 minutes)</li>
+                <li>Daily: Variety Tasks (flanker, memory, verbal) (25 minutes)</li>
+                <li>Daily: Extended Focus Sessions (sustained practice tests) (30 minutes)</li>
+              </ul>
+            </div>
+
+            <div class="week">
+              <strong>Week 4: Refinement & Mock Tests</strong>
+              <ul>
+                <li>Day 1–3: Full Timed Mock Tests (70 items in ~1.5h) with review</li>
+                <li>Day 4–5: Error Review & Strategy Refinement (analyze mistakes)</li>
+                <li>Day 6–7: Final Assessment (progress evaluation, identify remaining gaps)</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>Progress Tracking</h3>
+          <p>Measure and track progress using a log. For each session, note:</p>
+
+          <table class="sat-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Exercise</th>
+                <th>Items Attempted</th>
+                <th>Correct %</th>
+                <th>Time (s)</th>
+                <th>Comments</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2026-05-03</td>
+                <td>Letter Cancellation (X/Y)</td>
+                <td>50</td>
+                <td>80%</td>
+                <td>60</td>
+                <td>Rushed, need focus</td>
+              </tr>
+              <tr>
+                <td>2026-05-04</td>
+                <td>Flanker Arrows (20 items)</td>
+                <td>20</td>
+                <td>90%</td>
+                <td>40</td>
+                <td>Improved speed</td>
+              </tr>
+              <tr>
+                <td>2026-05-05</td>
+                <td>Stroop Drill (10 items)</td>
+                <td>10</td>
+                <td>100%</td>
+                <td>30</td>
+                <td>Accuracy good</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Key Principles</h3>
+          <div class="sat-key-points">
+            <strong>Training Mantra: Accuracy First, Then Speed</strong>
+            <ul>
+              <li>Avoid careless mistakes by double-checking each answer.</li>
+              <li>Gradually reduce time once accuracy is stable (e.g., move from 60s to 45s for same task).</li>
+              <li>Incorporate mindfulness breaks (5–10 minutes daily) to sharpen focus.</li>
+              <li>Research supports: progressively training the brain on sustained focus tasks can boost overall attention.</li>
+              <li>By the end of 30 days, aim to sustain quick scanning for the full test duration with minimal errors.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Section 6: Common Mistakes -->
+        <div class="sat-block" id="mistakes">
+          <h2>6. Common Mistakes in CSSS Verbal Tasks</h2>
+                    
+          <p>
+            Verbal items (synonyms, analogies, grammar, etc.) often trip candidates. Here are the key pitfalls and fixes:
+          </p>
+
+          <h3>The Seven Main Errors</h3>
+
+          <div class="sat-example">
+            <strong>1. Rushing / Not Reading Carefully</strong><br>
+            <strong>Pitfall:</strong> Skipping words or instructions (e.g., missing "not" in the question) leads to errors.<br>
+            <strong>Fix:</strong> Always scan the question fully before answering. Take an extra 2–3 seconds to confirm 
+            you understand what's being asked.
+          </div>
+
+          <div class="sat-example">
+            <strong>2. Overthinking Simple Words</strong><br>
+            <strong>Pitfall:</strong> Choosing an obscure meaning rather than the common one (e.g., picking a rare synonym).<br>
+            <strong>Fix:</strong> Look for the most direct meaning first. If unsure, test the common definition before 
+            exotic alternatives.
+          </div>
+
+          <div class="sat-example">
+            <strong>3. Grammar & Spelling Slips</strong><br>
+            <strong>Pitfall:</strong> In sentence rearrangements or usage questions, wrong word order or verb form is common.<br>
+            <strong>Fix:</strong> Rewrite slowly and check subject-verb agreement. Mentally "speak" the sentence to ensure 
+            it sounds right.
+          </div>
+
+          <div class="sat-example">
+            <strong>4. Ignoring Alternate Meanings</strong><br>
+            <strong>Pitfall:</strong> Words with multiple senses (e.g., "bat" as animal vs. sports equipment) can mislead.<br>
+            <strong>Fix:</strong> Consider context carefully. In synonym/antonym questions, stick to the most common usage 
+            unless context suggests otherwise.
+          </div>
+
+          <div class="sat-example">
+            <strong>5. Time Mismanagement</strong><br>
+            <strong>Pitfall:</strong> Spending too long on a hard verbal item means rushing others.<br>
+            <strong>Fix:</strong> If stuck after ~20s, make the best choice and move on. You can't afford to lose time 
+            on one question.
+          </div>
+
+          <div class="sat-example">
+            <strong>6. Lack of Focus on Keywords (Analogies)</strong><br>
+            <strong>Pitfall:</strong> In analogies, pick surface similarity rather than the relation. For example, 
+            King–Queen is a royalty relationship, not "both are male."<br>
+            <strong>Fix:</strong> Identify the core relationship or rule. Work stepwise: A→B = C→?
+          </div>
+
+          <div class="sat-example">
+            <strong>7. Confusion Between Synonyms & Antonyms</strong><br>
+            <strong>Pitfall:</strong> In synonym questions, novices may choose the opposite by accident. For example, 
+            "abundant" vs. "sparse."<br>
+            <strong>Fix:</strong> Double-check whether the given word fits the context. Read the task label carefully 
+            (synonym vs. antonym).
+          </div>
+
+          <h3>Real-World Examples</h3>
+
+          <div class="sat-highlight">
+            <strong>Example 1 (Synonym Confusion):</strong> For "Abundant", a trap might offer "Sparse" (the opposite). 
+            By misreading or rushing, a candidate might pick it. <strong>Always verify: does this word mean the same as 
+            the target?</strong>
+          </div>
+
+          <div class="sat-highlight">
+            <strong>Example 2 (Analogy Error):</strong> In "King : Queen :: Prince : ?", a novice might say "King" 
+            (surface similarity: royalty). The correct answer is "Princess" (the female equivalent). <strong>Focus on the 
+            relationship, not just categories.</strong>
+          </div>
+
+          <h3>Prevention Strategy</h3>
+          <ul>
+            <li>Before answering, <strong>restate the question in your own words</strong> to ensure understanding.</li>
+            <li>For analogies, explicitly name the relationship (e.g., "X is the female of Y").</li>
+            <li>For synonyms/antonyms, confirm the definition before selecting an answer.</li>
+            <li>Practice these task types repeatedly so you recognize patterns and errors quickly.</li>
+          </ul>
+        </div>
+
+        <!-- Section 7: Key Takeaways -->
+        <div class="sat-block" id="takeaways">
+          <h2>7. Key Points at a Glance</h2>
+                    
+          <div class="sat-key-points">
+            <ul>
+              <li>
+                <strong>Understand Selection Attention:</strong> It's about <em>filtering distractions and focusing 
+                on relevant stimuli</em>. In CSSS, this means spotting the correct symbol, word, or number amid many.
+              </li>
+              <li>
+                <strong>Differentiate Attention Types:</strong> Selection (filtering) ≠ sustained (long focus) ≠ 
+                divided (multi-task) ≠ working memory (short-term storage). Know the distinctions for context.
+              </li>
+              <li>
+                <strong>Practice Both Verbal & Non-Verbal:</strong> CSSS may use letters, numbers, shapes, and words. 
+                Train with a mix of puzzles, Stroop, symbol searches, and word tasks.
+              </li>
+              <li>
+                <strong>Speed + Accuracy:</strong> Under time limits, but never sacrifice correctness. Aim for high 
+                accuracy first, then work on speed. Consistent timed practice improves attention over weeks.
+              </li>
+              <li>
+                <strong>Monitor Your Progress:</strong> Use a log/table to track scores (accuracy & time) each session. 
+                Adjust training focus based on weaknesses.
+              </li>
+              <li>
+                <strong>Avoid Common Verbal Pitfalls:</strong> Read instructions carefully, beware opposites/false friends, 
+                and don't over-interpret tricky words. Review errors regularly.
+              </li>
+              <li>
+                <strong>Stay Healthy:</strong> Good sleep, nutrition, and stress management improve concentration. Physical 
+                factors strongly affect attentional control.
+              </li>
+              <li>
+                <strong>Military Relevance:</strong> Strong selection-attention abilities correlate with success in 
+                high-stakes defense roles. The CSSS tests this directly.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Navigation Footer -->
+        <div class="nav-links">
+          <a class="nav-btn" href="/cognitive-tests.html">← Back to Cognitive Tests</a>
+          <a class="nav-btn" href="space-perception.html">Next Read: Space Perception →</a>
+          <a class="nav-btn" href="/index.html">Home →</a>
         </div>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <script src="/nav.js"></script>
-  </body>
+  <footer class="site-footer">
+    <div class="container footer-wrap"></div>
+  </footer>
+
+  <script src="../nav.js"></script>
+</body>
 </html>

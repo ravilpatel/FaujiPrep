@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Defence Aspirant — Self Reflection Tool</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+:root {
+  --bg:         #10160f;
+  --card:       #1b2417;
+  --olive:      #7f9356;
+  --olive-dk:   #141c12;
+  --olive-md:   #8d9f5f;
+  --olive-lt:   #c3cfaa;
+  --olive-pale: rgba(141, 159, 95, 0.12);
+  --brass:      #8d9f5f;
+  --brass-lt:   #c3cfaa;
+  --red:        #b46c6c;
+  --text:       #edf2e5;
+  --text-mid:   #b7c1a8;
+  --text-dim:   #93a36e;
+  --border:     rgba(163, 178, 119, 0.22);
+  --border-dk:  rgba(186, 201, 141, 0.42);
+  --shadow:     0 6px 16px rgba(0,0,0,0.28);
+  --shadow-lg:  0 18px 38px rgba(0,0,0,0.34);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: linear-gradient(180deg, #1a2418 0%, #10160f 100%);
+  color: var(--text);
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.9;
+  min-height: 100vh;
+}
+
+/* ── HEADER ── */
+.hdr {
+  background: var(--olive-dk);
+  color: #E6EDD4;
+  text-align: center;
+  padding: 26px 20px 20px;
+  border-bottom: 4px solid var(--brass-lt);
+}
+.hdr h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.55rem;
+  letter-spacing: 2px;
+  color: #E6EDD4;
+}
+.hdr p {
+  font-size: 0.75rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--olive-lt);
+  margin-top: 6px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ── STEP BAR ── */
+.step-bar {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 12px;
+}
+.step-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+  margin-bottom: -1px;
+}
+.step-btn:hover { color: var(--olive); }
+.step-btn.active { color: var(--olive-lt); border-bottom-color: var(--olive); font-weight: 600; }
+.step-btn.done   { color: var(--olive-lt); }
+.step-num {
+  width: 22px; height: 22px; border-radius: 50%;
+  background: var(--border); color: var(--text-dim);
+  font-size: 0.65rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; transition: background 0.2s, color 0.2s;
+}
+.step-btn.active .step-num { background: var(--olive);    color: #10160f; }
+.step-btn.done   .step-num { background: var(--olive-lt); color: #10160f; }
+
+/* ── MAIN ── */
+.main { max-width: 980px; margin: 0 auto; padding: 48px 22px 88px; }
+
+/* ── PANELS ── */
+.panel { display: none; animation: fadeUp 0.3s ease; }
+.panel.active { display: block; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── SECTION HEADER ── */
+.sec-hdr {
+  display: flex; align-items: flex-start;
+  justify-content: space-between; gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--olive-pale);
+}
+.sec-hdr h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.45rem; color: var(--olive-lt); letter-spacing: 0.5px;
+}
+.sec-hdr p { font-size: 0.82rem; color: var(--text-dim); margin-top: 5px; line-height: 1.55; }
+.how-btn {
+  background: var(--olive-pale);
+  border: 1px solid var(--olive-lt);
+  color: var(--olive-dk);
+  padding: 7px 15px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.68rem; letter-spacing: 1.5px; text-transform: uppercase;
+  cursor: pointer; white-space: nowrap; border-radius: 3px; flex-shrink: 0;
+  transition: all 0.2s;
+}
+.how-btn:hover { background: var(--olive); color: #fff; border-color: var(--olive); }
+
+/* ── QUIZ ── */
+.quiz-list { display: flex; flex-direction: column; gap: 12px; }
+.quiz-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 22px 22px;
+  box-shadow: var(--shadow);
+}
+  .quiz-q {
+  font-size: 1.08rem; font-weight: 700; color: var(--text);
+  margin-bottom: 16px; line-height: 1.6;
+}
+.quiz-q .qhint { color: var(--text-dim); font-weight: 400; font-size: 0.78rem; margin-left: 5px; }
+.quiz-opts { display: flex; gap: 8px; flex-wrap: wrap; }
+.qopt {
+  flex: 1; min-width: 120px; text-align: center;
+  padding: 14px 16px;
+  border: 1.25px solid var(--border); border-radius: 12px;
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif; font-size: 1rem;
+  letter-spacing: 0.02em; text-transform: uppercase;
+  color: var(--text-mid); background: rgba(255,255,255,0.01);
+  transition: all 0.14s ease; user-select: none;
+}
+.qopt:hover { border-color: var(--olive-md); background: rgba(127,147,86,0.06); color: var(--text); transform: translateY(-2px); }
+.qopt.s-yes  { background: rgba(127,147,86,0.14); border-color: var(--olive); color: var(--text); font-weight: 700; }
+.qopt.s-some { background: rgba(139,105,20,0.12); border-color: var(--brass); color: var(--text); font-weight: 700; }
+.qopt.s-no   { background: rgba(180,108,108,0.10); border-color: var(--red);  color: var(--text); font-weight: 700; }
+
+/* Quiz result box */
+.quiz-result {
+  display: none; margin-top: 28px;
+  background: var(--card); border: 1px solid var(--border);
+  border-top: 3px solid var(--olive);
+  border-radius: 4px; padding: 22px; box-shadow: var(--shadow);
+}
+.quiz-result.show { display: block; }
+.qr-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem; color: var(--text);
+  margin-bottom: 16px; padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.qr-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.qr-col-hd {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase;
+  margin-bottom: 8px; padding-bottom: 6px; border-bottom: 2px solid;
+}
+.qr-col-hd.g { color: var(--olive); border-color: var(--olive-lt); }
+.qr-col-hd.r { color: var(--red);   border-color: #D4A0A0; }
+.qr-item { font-size: 0.92rem; color: var(--text-mid); padding: 6px 0; border-bottom: 1px dotted var(--border); line-height: 1.55; }
+.qr-note { margin-top: 12px; font-size: 0.75rem; color: var(--text-dim); font-style: italic; line-height: 1.5; }
+
+/* ── SWOT ── */
+.swot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.sbox {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 4px; padding: 18px 16px; box-shadow: var(--shadow);
+}
+.sbox-top { display: flex; align-items: center; gap: 10px; margin-bottom: 11px; }
+.sbox-letter { font-family: 'Cormorant Garamond', serif; font-size: 2rem; line-height: 1; flex-shrink: 0; }
+.ss .sbox-letter { color: var(--olive); }
+.sw .sbox-letter { color: var(--red); }
+.so .sbox-letter { color: var(--brass); }
+.st .sbox-letter { color: #8B4513; }
+.sbox-name {
+  font-family: 'Outfit', sans-serif; font-size: 0.85rem;
+  letter-spacing: 1px; text-transform: uppercase; font-weight: 600;
+}
+.ss .sbox-name { color: var(--olive); }
+.sw .sbox-name { color: var(--red); }
+.so .sbox-name { color: var(--brass); }
+.st .sbox-name { color: #8B4513; }
+.sbox-sub { font-size: 0.7rem; color: var(--text-dim); margin-top: 1px; }
+.sbox textarea {
+  width: 100%; min-height: 120px;
+  border: 1px solid var(--border); border-radius: 8px;
+  background: rgba(255,255,255,0.02); color: var(--text);
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.02rem; line-height: 1.9;
+  padding: 14px 16px; resize: vertical; outline: none;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+.main { max-width: 880px; margin: 0 auto; padding: 44px 20px 80px; }
+.sbox textarea:focus { border-color: var(--olive); }
+.sbox textarea::placeholder { color: var(--text-dim); font-style: italic; font-size: 0.78rem; }
+.ftip { font-size: 0.7rem; color: var(--olive-md); margin-top: 7px; line-height: 1.5; }
+
+/* ── PEOPLE ── */
+.people-list { display: flex; flex-direction: column; gap: 16px; }
+.pcard {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 4px; padding: 20px 18px; box-shadow: var(--shadow);
+}
+.pcard-top { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.pcard-icon {
+  width: 40px; height: 40px;
+  background: var(--olive-pale); border: 1px solid var(--olive-lt);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.15rem; flex-shrink: 0;
+}
+.pcard-name {
+  font-family: 'Outfit', sans-serif; font-size: 0.9rem;
+  letter-spacing: 1px; text-transform: uppercase;
+  color: var(--text); font-weight: 600;
+}
+.pcard-sub { font-size: 0.71rem; color: var(--text-dim); margin-top: 2px; }
+.pcard-fields { display: flex; flex-direction: column; gap: 10px; }
+.pcard-fields label {
+  display: block;
+  font-family: 'Outfit', sans-serif; font-size: 0.68rem;
+  letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-mid);
+  margin-bottom: 5px;
+}
+.pcard-fields textarea {
+  width: 100%; min-height: 110px;
+  border: 1px solid var(--border); border-radius: 8px;
+  background: var(--bg); color: var(--text);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.98rem; line-height: 1.9;
+  padding: 12px 14px; resize: vertical; outline: none;
+  transition: border-color 0.2s, box-shadow 0.16s;
+}
+.pcard-fields textarea:focus { border-color: var(--olive); }
+.pcard-fields textarea::placeholder { color: var(--text-dim); font-style: italic; font-size: 0.78rem; }
+
+/* ── PORTER'S ── */
+.force-list { display: flex; flex-direction: column; gap: 14px; }
+.fcard {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 4px; padding: 18px 18px 16px; box-shadow: var(--shadow);
+}
+.fcard-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+.fcard-name {
+  font-family: 'Outfit', sans-serif; font-size: 0.92rem;
+  letter-spacing: 1px; text-transform: uppercase;
+  color: var(--text); font-weight: 700;
+}
+.fcard-val { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--brass); min-width: 50px; text-align: right; }
+.fcard-desc { font-size: 0.78rem; color: var(--text-dim); margin-bottom: 12px; line-height: 1.55; }
+input[type="range"] {
+  appearance: none;
+  -webkit-appearance: none; width: 100%; height: 5px;
+  background: var(--border); outline: none; cursor: pointer; border-radius: 3px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 20px; height: 20px;
+  background: var(--olive); border: 3px solid #fff;
+  border-radius: 50%; cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 20px; height: 20px; background: var(--olive);
+  border: 3px solid #fff; border-radius: 50%; cursor: pointer;
+}
+.range-labels {
+  display: flex; justify-content: space-between;
+  font-size: 0.63rem; color: var(--text-dim);
+  font-family: 'Outfit', sans-serif; margin-top: 5px; letter-spacing: 0.3px;
+}
+.f-dots { display: flex; gap: 4px; margin-top: 9px; }
+.f-dot {
+  flex: 1; height: 5px; border-radius: 2px;
+  background: var(--border); transition: background 0.2s;
+}
+
+/* ── NAV BUTTONS ── */
+.nav-row {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 34px; padding-top: 20px;
+  border-top: 1px solid var(--border); gap: 12px;
+}
+.btn {
+  font-family: 'Outfit', sans-serif; font-size: 0.96rem;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  border: none; cursor: pointer; padding: 14px 28px;
+  transition: all 0.18s; border-radius: 6px;
+}
+.btn-back { background: var(--bg); border: 1.5px solid var(--border-dk); color: var(--text-mid); }
+.btn-back:hover { background: var(--olive-pale); border-color: var(--olive-lt); }
+.btn-next { background: var(--olive); color: #fff; box-shadow: 0 2px 8px rgba(61,74,20,0.18); }
+.btn-next:hover { background: var(--olive-dk); }
+.btn-report { background: var(--brass); color: #fff; box-shadow: 0 2px 8px rgba(139,105,20,0.22); font-size: 0.95rem; padding: 14px 32px; border-radius: 6px; }
+.btn-report:hover { background: var(--brass-lt); transform: translateY(-2px); }
+
+/* ── OVERLAY / MODAL ── */
+.overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(20,25,8,0.72); z-index: 400;
+  overflow-y: auto; padding: 32px 16px;
+}
+.overlay.open {
+  display: flex; align-items: center; justify-content: center;
+}
+.modal {
+  background: var(--card);
+  border: 1px solid var(--olive-md);
+  border-top: 4px solid var(--olive);
+  max-width: 520px; width: 100%;
+  padding: 30px 26px; border-radius: 4px;
+  box-shadow: var(--shadow-lg);
+  animation: mIn 0.25s ease;
+  position: relative;
+}
+@keyframes mIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.modal h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; color: var(--text); }
+.modal .mtag {
+  display: block; font-family: 'Outfit', sans-serif;
+  font-size: 0.63rem; letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--olive-lt); margin: 4px 0 14px;
+}
+.modal hr { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+.msteps { display: flex; flex-direction: column; gap: 11px; }
+.mstep { display: flex; gap: 11px; align-items: flex-start; }
+.mstep-num {
+  width: 24px; height: 24px; border-radius: 50%;
+  background: var(--olive); color: #fff;
+  font-family: 'Outfit', sans-serif; font-size: 0.7rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;
+}
+.mstep p { font-size: 0.92rem; color: var(--text); line-height: 1.75; }
+.mstep strong { color: var(--olive-lt); }
+.mnote {
+  margin-top: 14px; padding: 10px 14px;
+  background: var(--olive-pale);
+  border-left: 3px solid var(--olive-lt);
+  font-size: 0.78rem; color: var(--text-mid); line-height: 1.55;
+}
+.mbtn {
+  width: 100%; margin-top: 18px; padding: 11px;
+  background: var(--olive); color: #fff; border: none;
+  font-family: 'Outfit', sans-serif; font-size: 0.8rem;
+  letter-spacing: 2px; text-transform: uppercase;
+  cursor: pointer; border-radius: 3px; transition: background 0.2s;
+}
+.mbtn:hover { background: var(--olive-dk); }
+.mbtn-sec {
+  width: 100%; margin-top: 8px; padding: 10px;
+  background: transparent; border: 1.5px solid var(--border-dk); color: var(--text-mid);
+  font-family: 'Outfit', sans-serif; font-size: 0.76rem;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  cursor: pointer; border-radius: 3px; transition: all 0.2s;
+}
+.mbtn-sec:hover { background: var(--olive-pale); border-color: var(--olive-lt); }
+.modal-close-x {
+  position: absolute; top: 12px; right: 12px;
+  width: 26px; height: 26px; background: none;
+  border: 1px solid var(--border-dk); color: var(--text-dim);
+  cursor: pointer; border-radius: 2px; font-size: 12px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+}
+.modal-close-x:hover { border-color: var(--red); color: var(--red); }
+
+/* ── WELCOME STEPS ── */
+.welcome-steps { display: flex; flex-direction: column; gap: 9px; margin: 14px 0; }
+.ws {
+  display: flex; align-items: center; gap: 13px;
+  padding: 11px 13px; background: var(--olive-pale); border-radius: 3px;
+}
+.ws-n {
+  width: 28px; height: 28px; background: var(--olive); color: #fff;
+  border-radius: 50%;
+  font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 0.8rem;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.ws-t strong {
+  display: block; font-family: 'Outfit', sans-serif; font-size: 0.8rem;
+  letter-spacing: 0.5px; color: var(--olive-dk); text-transform: uppercase;
+}
+.ws-t span { font-size: 0.75rem; color: var(--text-dim); }
+
+/* ── REPORT MODAL ── */
+#reportModal .modal { max-width: 680px; }
+.rpt-stamp {
+  display: inline-block; border: 3px solid var(--red); color: var(--red);
+  padding: 2px 14px; font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem; letter-spacing: 6px; transform: rotate(-2deg); opacity: 0.7; margin-bottom: 10px;
+}
+.rpt-title { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; color: var(--olive-dk); letter-spacing: 1.5px; }
+.rpt-date { font-size: 0.68rem; color: var(--text-dim); margin-top: 4px; letter-spacing: 1.5px; text-transform: uppercase; font-family: 'Outfit', sans-serif; }
+.rpt-sec { margin-top: 18px; border-top: 1px solid var(--border); padding-top: 12px; }
+.rpt-sec-hd {
+  font-family: 'Outfit', sans-serif; font-size: 0.7rem; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--olive);
+  border-left: 3px solid var(--olive-lt); padding-left: 9px; margin-bottom: 10px; font-weight: 600;
+}
+.r2col { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+.rcell {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 3px; padding: 10px 12px;
+}
+.rcell-lbl { font-family: 'Outfit', sans-serif; font-size: 0.6rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-dim); margin-bottom: 4px; }
+.rcell-val { font-size: 0.8rem; color: var(--text); line-height: 1.55; white-space: pre-wrap; word-break: break-word; }
+.r-forces { display: flex; gap: 7px; flex-wrap: wrap; }
+.rf {
+  flex: 1; min-width: 90px; background: var(--bg); border: 1px solid var(--border);
+  border-radius: 3px; padding: 9px 8px; text-align: center;
+}
+.rf-val { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--brass); }
+.rf-lbl { font-family: 'Outfit', sans-serif; font-size: 0.57rem; letter-spacing: 0.5px; text-transform: uppercase; color: var(--text-dim); margin-top: 2px; }
+
+/* ── FOOTER ── */
+footer {
+  text-align: center; padding: 16px;
+  font-size: 0.62rem; letter-spacing: 2px; color: var(--text-dim);
+  border-top: 1px solid var(--border);
+  text-transform: uppercase; font-family: 'Oswald', sans-serif;
+  background: var(--card);
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 580px) {
+  .swot-grid, .qr-cols, .r2col { grid-template-columns: 1fr; }
+  .main { padding: 24px 14px 50px; }
+  .step-btn { padding: 13px 10px; font-size: 0.7rem; }
+  .hdr h1 { font-size: 1.25rem; }
+  .r-forces { flex-wrap: wrap; }
+}
+@media print {
+  .hdr, .step-bar, .nav-row, .mbtn, .mbtn-sec, .modal-close-x { display: none !important; }
+  .overlay { position: static; background: white; padding: 0; display: block; }
+  .modal { border: none; box-shadow: none; }
+}
+</style>
+</head>
+<body class="homepage">
+
+<div id="site-header"></div>
+
+<!-- STEP BAR -->
+<nav class="step-bar">
+  <button class="step-btn active" id="stab-1" onclick="goTab(1)">
+    <span class="step-num">1</span> Know Yourself
+  </button>
+  <button class="step-btn" id="stab-2" onclick="goTab(2)">
+    <span class="step-num">2</span> SWOT Analysis
+  </button>
+  <button class="step-btn" id="stab-3" onclick="goTab(3)">
+    <span class="step-num">3</span> People Around You
+  </button>
+  <button class="step-btn" id="stab-4" onclick="goTab(4)">
+    <span class="step-num">4</span> Competitive Forces
+  </button>
+</nav>
+
+<main class="main">
+
+<!-- ═══════════════════════════
+     STEP 1 — KNOW YOURSELF
+════════════════════════════ -->
+<div class="panel active" id="panel-1">
+  <div class="sec-hdr">
+    <div>
+      <h2>Step 1 — Know Yourself</h2>
+      <p>Answer 12 honest questions. At the end, we will suggest your likely strengths and areas to work on. No right or wrong answers — just be truthful.</p>
+    </div>
+    <button class="how-btn" onclick="openModal('h1')">? How to fill</button>
+  </div>
+
+  <div class="quiz-list">
+
+    <div class="quiz-card">
+      <div class="quiz-q">I exercise or do physical training regularly. <span class="qhint">(Running, workout, sports, yoga)</span></div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q1','yes')">Yes, Daily</div>
+        <div class="qopt" onclick="pick(this,'q1','some')">Sometimes</div>
+        <div class="qopt" onclick="pick(this,'q1','no')">Not Really</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I read a newspaper or follow current affairs every day.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q2','yes')">Yes, Daily</div>
+        <div class="qopt" onclick="pick(this,'q2','some')">Sometimes</div>
+        <div class="qopt" onclick="pick(this,'q2','no')">Rarely</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I am comfortable speaking in front of a group or sharing my opinion aloud.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q3','yes')">Very Comfortable</div>
+        <div class="qopt" onclick="pick(this,'q3','some')">Somewhat</div>
+        <div class="qopt" onclick="pick(this,'q3','no')">I Avoid It</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I follow a fixed daily routine — I sleep and wake up at the same time every day.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q4','yes')">Yes, Always</div>
+        <div class="qopt" onclick="pick(this,'q4','some')">Most Days</div>
+        <div class="qopt" onclick="pick(this,'q4','no')">No Fixed Routine</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">When I am given a task or responsibility, I complete it without being reminded.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q5','yes')">Almost Always</div>
+        <div class="qopt" onclick="pick(this,'q5','some')">Sometimes</div>
+        <div class="qopt" onclick="pick(this,'q5','no')">I Need Reminders</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I stay calm and think clearly when I am under pressure or in a stressful situation.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q6','yes')">Yes, I Stay Calm</div>
+        <div class="qopt" onclick="pick(this,'q6','some')">Usually</div>
+        <div class="qopt" onclick="pick(this,'q6','no')">I Get Anxious</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I have held a position of responsibility. <span class="qhint">(Class leader, sports captain, NCC, NSS, event organiser)</span></div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q7','yes')">Yes</div>
+        <div class="qopt" onclick="pick(this,'q7','some')">Small Roles</div>
+        <div class="qopt" onclick="pick(this,'q7','no')">Not Yet</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I enjoy helping others and working in a team — making sure everyone moves together.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q8','yes')">That's Me</div>
+        <div class="qopt" onclick="pick(this,'q8','some')">At Times</div>
+        <div class="qopt" onclick="pick(this,'q8','no')">I Prefer Working Alone</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I have a clear study plan or preparation schedule that I actually follow.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q9','yes')">Yes, Clear Plan</div>
+        <div class="qopt" onclick="pick(this,'q9','some')">A Loose Plan</div>
+        <div class="qopt" onclick="pick(this,'q9','no')">No Plan Yet</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">When I make a mistake, I accept it, learn from it, and move on without dwelling too long.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q10','yes')">Yes, Mostly</div>
+        <div class="qopt" onclick="pick(this,'q10','some')">With Difficulty</div>
+        <div class="qopt" onclick="pick(this,'q10','no')">I Dwell On It</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">My English communication — both spoken and written — is confident and clear.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q11','yes')">Quite Good</div>
+        <div class="qopt" onclick="pick(this,'q11','some')">Average</div>
+        <div class="qopt" onclick="pick(this,'q11','no')">Needs Work</div>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div class="quiz-q">I am genuinely motivated to serve the nation — not just for the salary or social status.</div>
+      <div class="quiz-opts">
+        <div class="qopt" onclick="pick(this,'q12','yes')">Absolutely</div>
+        <div class="qopt" onclick="pick(this,'q12','some')">Mostly Yes</div>
+        <div class="qopt" onclick="pick(this,'q12','no')">Mainly Other Reasons</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RESULT BOX -->
+  <div class="quiz-result" id="quizResult">
+    <div class="qr-title">📋 Based on Your Answers — Suggested Profile</div>
+    <div class="qr-cols">
+      <div>
+        <div class="qr-col-hd g">✔ Likely Strengths</div>
+        <div id="qStrList"></div>
+      </div>
+      <div>
+        <div class="qr-col-hd r">⚠ Areas to Work On</div>
+        <div id="qWkList"></div>
+      </div>
+    </div>
+    <p class="qr-note">These are suggestions based on your answers. Use them as a starting point when filling in your SWOT in Step 2. You know yourself best — trust your own judgement.</p>
+  </div>
+
+  <div class="nav-row">
+    <div></div>
+    <button class="btn btn-next" onclick="buildResult(); goTab(2)">Next: SWOT Analysis →</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════
+     STEP 2 — SWOT
+════════════════════════════ -->
+<div class="panel" id="panel-2">
+  <div class="sec-hdr">
+    <div>
+      <h2>Step 2 — SWOT Analysis</h2>
+      <p>Write a few sentences in each box. Use what you discovered in Step 1 as a guide. Be honest — this is for your own benefit.</p>
+    </div>
+    <button class="how-btn" onclick="openModal('h2')">? How to fill</button>
+  </div>
+
+  <div class="swot-grid">
+
+    <div class="sbox ss">
+      <div class="sbox-top">
+        <div class="sbox-letter">S</div>
+        <div>
+          <div class="sbox-name">Strengths</div>
+          <div class="sbox-sub">What you already have going for you</div>
+        </div>
+      </div>
+      <textarea id="sw-s" placeholder="e.g. I exercise daily, I have NCC C certificate, I am good at English and GK, I have strong discipline..." oninput="markDone()"></textarea>
+      <p class="ftip">💡 What do I do better than most other aspirants?</p>
+    </div>
+
+    <div class="sbox sw">
+      <div class="sbox-top">
+        <div class="sbox-letter">W</div>
+        <div>
+          <div class="sbox-name">Weaknesses</div>
+          <div class="sbox-sub">Areas where you need to improve</div>
+        </div>
+      </div>
+      <textarea id="sw-w" placeholder="e.g. I get nervous in group discussions, I don't read news regularly, my Maths is weak, I have no fixed study routine..." oninput="markDone()"></textarea>
+      <p class="ftip">💡 What would hold me back if I appeared today?</p>
+    </div>
+
+    <div class="sbox so">
+      <div class="sbox-top">
+        <div class="sbox-letter">O</div>
+        <div>
+          <div class="sbox-name">Opportunities</div>
+          <div class="sbox-sub">External factors working in your favour</div>
+        </div>
+      </div>
+      <textarea id="sw-o" placeholder="e.g. New vacancies announced, I still have 2 attempts left, free online resources available, Agnipath scheme options open to me..." oninput="markDone()"></textarea>
+      <p class="ftip">💡 What around me can I use to my advantage right now?</p>
+    </div>
+
+    <div class="sbox st">
+      <div class="sbox-top">
+        <div class="sbox-letter">T</div>
+        <div>
+          <div class="sbox-name">Threats</div>
+          <div class="sbox-sub">External obstacles that could block you</div>
+        </div>
+      </div>
+      <textarea id="sw-t" placeholder="e.g. Only 1 attempt remaining, very high competition, no coaching centre nearby, age limit approaching soon..." oninput="markDone()"></textarea>
+      <p class="ftip">💡 What outside factors could disrupt my journey?</p>
+    </div>
+
+  </div>
+
+  <div class="nav-row">
+    <button class="btn btn-back" onclick="goTab(1)">← Back</button>
+    <button class="btn btn-next" onclick="goTab(3)">Next: People Around You →</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════
+     STEP 3 — PEOPLE & ENV
+════════════════════════════ -->
+<div class="panel" id="panel-3">
+  <div class="sec-hdr">
+    <div>
+      <h2>Step 3 — People Around You</h2>
+      <p>What do the people closest to you think about you? This is one of the most important self-reflection exercises before an SSB interview. Write honestly — what they have actually said or shown, not what you wish they thought.</p>
+    </div>
+    <button class="how-btn" onclick="openModal('h3')">? How to fill</button>
+  </div>
+
+  <div class="people-list">
+
+    <div class="pcard">
+      <div class="pcard-top">
+        <div class="pcard-icon">👨‍👩‍👦</div>
+        <div>
+          <div class="pcard-name">Family</div>
+          <div class="pcard-sub">Parents, siblings, or close relatives who know you at home</div>
+        </div>
+      </div>
+      <div class="pcard-fields">
+        <div>
+          <label>What does your family say are your good qualities?</label>
+          <textarea id="fam-p" placeholder="e.g. My mother says I am very sincere and never give up. My father feels I am responsible and can be trusted with tasks..." oninput="markDone()"></textarea>
+        </div>
+        <div>
+          <label>What does your family feel you still need to improve?</label>
+          <textarea id="fam-n" placeholder="e.g. My parents feel I waste too much time on my phone. My father says I should speak up more confidently in public..." oninput="markDone()"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <div class="pcard-top">
+        <div class="pcard-icon">👫</div>
+        <div>
+          <div class="pcard-name">Friends & Peers</div>
+          <div class="pcard-sub">Classmates, batch-mates, or close friends who interact with you regularly</div>
+        </div>
+      </div>
+      <div class="pcard-fields">
+        <div>
+          <label>What do your friends appreciate about you?</label>
+          <textarea id="fri-p" placeholder="e.g. My friends say I am a good listener and I always keep my word. They rely on me in group tasks..." oninput="markDone()"></textarea>
+        </div>
+        <div>
+          <label>What do your friends think you should work on?</label>
+          <textarea id="fri-n" placeholder="e.g. My friends say I am sometimes too quiet in a group and don't put forward my ideas freely..." oninput="markDone()"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <div class="pcard-top">
+        <div class="pcard-icon">🎓</div>
+        <div>
+          <div class="pcard-name">Teachers & Faculty</div>
+          <div class="pcard-sub">School or college teachers, coaching faculty, or subject experts</div>
+        </div>
+      </div>
+      <div class="pcard-fields">
+        <div>
+          <label>What have your teachers praised you for?</label>
+          <textarea id="tch-p" placeholder="e.g. My coaching teacher says I have good analytical ability. My college professor appreciated my essay writing and reasoning..." oninput="markDone()"></textarea>
+        </div>
+        <div>
+          <label>What areas have teachers pointed out for improvement?</label>
+          <textarea id="tch-n" placeholder="e.g. My teacher said I need to work on my speed in solving questions and should focus more on regular revision..." oninput="markDone()"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <div class="pcard-top">
+        <div class="pcard-icon">⭐</div>
+        <div>
+          <div class="pcard-name">Seniors & Mentors</div>
+          <div class="pcard-sub">Ex-servicemen, defence seniors, or anyone who has guided you on this path</div>
+        </div>
+      </div>
+      <div class="pcard-fields">
+        <div>
+          <label>What have your seniors or mentors said about your potential?</label>
+          <textarea id="sen-p" placeholder="e.g. My uncle who is a Colonel says I have the right attitude and temperament for the armed forces..." oninput="markDone()"></textarea>
+        </div>
+        <div>
+          <label>What have they advised you to specifically work on?</label>
+          <textarea id="sen-n" placeholder="e.g. My SSB mentor said my body language needs more confidence and I must improve my GTO performance..." oninput="markDone()"></textarea>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="nav-row">
+    <button class="btn btn-back" onclick="goTab(2)">← Back</button>
+    <button class="btn btn-next" onclick="goTab(4)">Next: Competitive Forces →</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════
+     STEP 4 — PORTER'S FORCES
+════════════════════════════ -->
+<div class="panel" id="panel-4">
+  <div class="sec-hdr">
+    <div>
+      <h2>Step 4 — Competitive Forces</h2>
+      <p>Drag each slider to rate how much pressure that force is putting on you — 1 means very low, 10 means very high. Use your gut feeling. There is no calculation needed.</p>
+    </div>
+    <button class="how-btn" onclick="openModal('h4')">? How to fill</button>
+  </div>
+
+  <div class="force-list">
+
+    <div class="fcard">
+      <div class="fcard-top">
+        <div class="fcard-name">⚔️ Competition from Other Aspirants</div>
+        <div class="fcard-val" id="sv-r">5 / 10</div>
+      </div>
+      <p class="fcard-desc">How intense is the competition you are facing? Think about the sheer number of candidates appearing for the same exam — NDA, CDS, AFCAT. How tough is the race from your point of view?</p>
+      <input type="range" min="1" max="10" value="5" oninput="setF('r', this.value)">
+      <div class="range-labels"><span>1 — Very Low</span><span>10 — Extremely High</span></div>
+      <div class="f-dots" id="fd-r"></div>
+    </div>
+
+    <div class="fcard">
+      <div class="fcard-top">
+        <div class="fcard-name">🆕 New Aspirants Entering Every Year</div>
+        <div class="fcard-val" id="sv-e">5 / 10</div>
+      </div>
+      <p class="fcard-desc">Every year a fresh batch of school and college students enters the pool. How much are these new, younger aspirants adding to the competition pressure on you personally?</p>
+      <input type="range" min="1" max="10" value="5" oninput="setF('e', this.value)">
+      <div class="range-labels"><span>1 — Very Low</span><span>10 — Extremely High</span></div>
+      <div class="f-dots" id="fd-e"></div>
+    </div>
+
+    <div class="fcard">
+      <div class="fcard-top">
+        <div class="fcard-name">🔀 Pull of Other Career Options</div>
+        <div class="fcard-val" id="sv-s">5 / 10</div>
+      </div>
+      <p class="fcard-desc">How strongly are other paths — civil services, corporate jobs, business — pulling your attention or energy away from your defence preparation?</p>
+      <input type="range" min="1" max="10" value="5" oninput="setF('s', this.value)">
+      <div class="range-labels"><span>1 — Not at All</span><span>10 — Very Strongly</span></div>
+      <div class="f-dots" id="fd-s"></div>
+    </div>
+
+    <div class="fcard">
+      <div class="fcard-top">
+        <div class="fcard-name">🏫 Dependence on Coaching &amp; Resources</div>
+        <div class="fcard-val" id="sv-c">5 / 10</div>
+      </div>
+      <p class="fcard-desc">How dependent are you on coaching institutes or paid resources? If you lost access to them tomorrow, would your preparation fall apart — or can you continue independently?</p>
+      <input type="range" min="1" max="10" value="5" oninput="setF('c', this.value)">
+      <div class="range-labels"><span>1 — Very Independent</span><span>10 — Fully Dependent</span></div>
+      <div class="f-dots" id="fd-c"></div>
+    </div>
+
+    <div class="fcard">
+      <div class="fcard-top">
+        <div class="fcard-name">📋 How Demanding is the Selection Process</div>
+        <div class="fcard-val" id="sv-b">5 / 10</div>
+      </div>
+      <p class="fcard-desc">Based on where you stand right now, how demanding do you find the standard set by UPSC, SSB, and the medical board? How high is the bar for you personally to clear?</p>
+      <input type="range" min="1" max="10" value="5" oninput="setF('b', this.value)">
+      <div class="range-labels"><span>1 — Manageable</span><span>10 — Very Demanding</span></div>
+      <div class="f-dots" id="fd-b"></div>
+    </div>
+
+  </div>
+
+  <div class="nav-row">
+    <button class="btn btn-back" onclick="goTab(3)">← Back</button>
+    <button class="btn btn-report" onclick="openReport()">🎖 Generate My Report</button>
+  </div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p>Defence Aspirant Self-Reflection Tool · Personal use only · Complete all 4 steps before generating your report.</p>
+    <div class="footer-links" aria-label="Site links">
+      <a href="/index.html">Home</a>
+      <a href="/practice/cognitive-tests.html">Practice</a>
+      <a href="/opam/olqs.html">OPAM</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js" defer></script>
+
+<!-- ════════════════════════════
+     MODALS
+════════════════════════════ -->
+
+<!-- WELCOME -->
+<div class="overlay open" id="welcomeModal">
+  <div class="modal">
+    <h3>🎖 Welcome, Aspirant</h3>
+    <span class="mtag">Read this once before you begin</span>
+    <p style="font-size:0.85rem;color:var(--text-mid);line-height:1.6;">This tool guides you through a structured self-reflection in 4 simple steps — the same kind of honest self-assessment an SSB board expects from every candidate.</p>
+    <div class="welcome-steps">
+      <div class="ws">
+        <div class="ws-n">1</div>
+        <div class="ws-t">
+          <strong>Know Yourself — Quiz</strong>
+          <span>Answer 12 simple questions. We suggest your likely strengths and weaknesses.</span>
+        </div>
+      </div>
+      <div class="ws">
+        <div class="ws-n">2</div>
+        <div class="ws-t">
+          <strong>SWOT Analysis</strong>
+          <span>Write your Strengths, Weaknesses, Opportunities and Threats in your own words.</span>
+        </div>
+      </div>
+      <div class="ws">
+        <div class="ws-n">3</div>
+        <div class="ws-t">
+          <strong>People Around You</strong>
+          <span>What your family, friends, teachers and mentors think of you — honestly.</span>
+        </div>
+      </div>
+      <div class="ws">
+        <div class="ws-n">4</div>
+        <div class="ws-t">
+          <strong>Competitive Forces</strong>
+          <span>Rate the pressures you face using simple sliders. Takes 2 minutes.</span>
+        </div>
+      </div>
+    </div>
+    <div class="mnote">At the end, click <strong>"Generate My Report"</strong> to see your complete self-reflection — ready to save or print.</div>
+    <button class="mbtn" onclick="closeModal('welcomeModal')">I Understand — Let's Begin →</button>
+  </div>
+</div>
+
+<!-- HOW-TO 1 -->
+<div class="overlay" id="h1">
+  <div class="modal">
+    <button class="modal-close-x" onclick="closeModal('h1')">✕</button>
+    <h3>How to fill — Step 1</h3>
+    <span class="mtag">Know Yourself · Quiz</span>
+    <hr>
+    <div class="msteps">
+      <div class="mstep">
+        <div class="mstep-num">1</div>
+        <p>Read each question and think of your <strong>real, everyday behaviour</strong> — not what you wish you did or what sounds impressive.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">2</div>
+        <p>Click the option that honestly describes you best. The buttons will change colour when you select them — <strong>green for yes, amber for sometimes, red for no</strong>.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">3</div>
+        <p>When you click <strong>"Next: SWOT Analysis"</strong>, a summary box will appear showing your suggested strengths and areas to work on — use it in Step 2.</p>
+      </div>
+    </div>
+    <div class="mnote">💡 These 12 questions are based on the Officer Like Qualities (OLQs) that the SSB looks for. Your honest answers build a true self-picture.</div>
+    <button class="mbtn" onclick="closeModal('h1')">Got it — Close</button>
+  </div>
+</div>
+
+<!-- HOW-TO 2 -->
+<div class="overlay" id="h2">
+  <div class="modal">
+    <button class="modal-close-x" onclick="closeModal('h2')">✕</button>
+    <h3>How to fill — Step 2</h3>
+    <span class="mtag">SWOT Analysis</span>
+    <hr>
+    <div class="msteps">
+      <div class="mstep">
+        <div class="mstep-num">S</div>
+        <p><strong>Strengths</strong> are things about <em>you</em> that help you — physical fitness, discipline, communication skills, NCC background, leadership experience.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">W</div>
+        <p><strong>Weaknesses</strong> are areas <em>within you</em> that need work — nervousness, poor routine, weak subjects, lack of exposure.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">O</div>
+        <p><strong>Opportunities</strong> are things <em>outside you</em> that you can use right now — new exam dates, coaching options, remaining attempts, free resources.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">T</div>
+        <p><strong>Threats</strong> are things <em>outside you</em> that work against you — high competition, age limit approaching, financial pressure.</p>
+      </div>
+    </div>
+    <div class="mnote">💡 Simple rule: <strong>S and W</strong> are about YOU. <strong>O and T</strong> are about the world around you.</div>
+    <button class="mbtn" onclick="closeModal('h2')">Got it — Close</button>
+  </div>
+</div>
+
+<!-- HOW-TO 3 -->
+<div class="overlay" id="h3">
+  <div class="modal">
+    <button class="modal-close-x" onclick="closeModal('h3')">✕</button>
+    <h3>How to fill — Step 3</h3>
+    <span class="mtag">People Around You</span>
+    <hr>
+    <div class="msteps">
+      <div class="mstep">
+        <div class="mstep-num">1</div>
+        <p>For each person, think about what they have <strong>actually told you</strong> — not what you guess or hope they think.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">2</div>
+        <p>If you are unsure, recall a specific moment when they <strong>praised you</strong> or gave you some feedback. That is enough to write about.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">3</div>
+        <p>Be <strong>honest in the criticism section too</strong>. The SSB values self-awareness far more than a perfect, untrue self-image.</p>
+      </div>
+    </div>
+    <div class="mnote">💡 In the SSB Personal Interview, you are often asked: <em>"What would your family say about you?"</em> — This step directly prepares you for that question.</div>
+    <button class="mbtn" onclick="closeModal('h3')">Got it — Close</button>
+  </div>
+</div>
+
+<!-- HOW-TO 4 -->
+<div class="overlay" id="h4">
+  <div class="modal">
+    <button class="modal-close-x" onclick="closeModal('h4')">✕</button>
+    <h3>How to fill — Step 4</h3>
+    <span class="mtag">Competitive Forces · Porter's Framework</span>
+    <hr>
+    <div class="msteps">
+      <div class="mstep">
+        <div class="mstep-num">1</div>
+        <p>Read each force and what it means for you specifically as a defence aspirant.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">2</div>
+        <p><strong>Drag the slider</strong> — move it left for low pressure, right for high pressure. Follow your instinct — there is no calculation.</p>
+      </div>
+      <div class="mstep">
+        <div class="mstep-num">3</div>
+        <p>The dots below each slider fill up to show your rating — <strong>green for low, amber for medium, red for high pressure</strong>.</p>
+      </div>
+    </div>
+    <div class="mnote">💡 This step helps you see where the biggest external pressure is coming from, so you can plan your preparation better.</div>
+    <button class="mbtn" onclick="closeModal('h4')">Got it — Close</button>
+  </div>
+</div>
+
+<!-- REPORT MODAL -->
+<div class="overlay" id="reportModal">
+  <div class="modal" style="max-width:680px;">
+    <button class="modal-close-x" onclick="closeModal('reportModal')">✕</button>
+    <div class="rpt-stamp">CONFIDENTIAL</div>
+    <div class="rpt-title">Self-Reflection Report</div>
+    <div class="rpt-date">Defence Aspirant &nbsp;·&nbsp; <span id="rptDate"></span></div>
+
+    <div class="rpt-sec">
+      <div class="rpt-sec-hd">Step 1 — Self-Discovery (Quiz)</div>
+      <div class="r2col">
+        <div class="rcell"><div class="rcell-lbl">✔ Suggested Strengths</div><div class="rcell-val" id="r-qs">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">⚠ Areas to Work On</div><div class="rcell-val" id="r-qw">—</div></div>
+      </div>
+    </div>
+
+    <div class="rpt-sec">
+      <div class="rpt-sec-hd">Step 2 — SWOT Analysis</div>
+      <div class="r2col">
+        <div class="rcell"><div class="rcell-lbl">S — Strengths</div><div class="rcell-val" id="r-s">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">W — Weaknesses</div><div class="rcell-val" id="r-w">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">O — Opportunities</div><div class="rcell-val" id="r-o">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">T — Threats</div><div class="rcell-val" id="r-t">—</div></div>
+      </div>
+    </div>
+
+    <div class="rpt-sec">
+      <div class="rpt-sec-hd">Step 3 — People Around You</div>
+      <div class="r2col">
+        <div class="rcell"><div class="rcell-lbl">Family — Positives</div><div class="rcell-val" id="r-fp">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">Family — To Improve</div><div class="rcell-val" id="r-fn">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">Friends — Positives</div><div class="rcell-val" id="r-frp">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">Friends — To Improve</div><div class="rcell-val" id="r-frn">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">Teachers — Positives</div><div class="rcell-val" id="r-tp">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">Teachers — To Improve</div><div class="rcell-val" id="r-tn">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">Mentors — Positives</div><div class="rcell-val" id="r-sp">—</div></div>
+        <div class="rcell"><div class="rcell-lbl">Mentors — To Improve</div><div class="rcell-val" id="r-sn">—</div></div>
+      </div>
+    </div>
+
+    <div class="rpt-sec">
+      <div class="rpt-sec-hd">Step 4 — Competitive Forces</div>
+      <div class="r-forces">
+        <div class="rf"><div class="rf-val" id="r-r">—</div><div class="rf-lbl">Competition</div></div>
+        <div class="rf"><div class="rf-val" id="r-e">—</div><div class="rf-lbl">New Entrants</div></div>
+        <div class="rf"><div class="rf-val" id="r-s2">—</div><div class="rf-lbl">Other Careers</div></div>
+        <div class="rf"><div class="rf-val" id="r-c">—</div><div class="rf-lbl">Coaching Dep.</div></div>
+        <div class="rf"><div class="rf-val" id="r-b">—</div><div class="rf-lbl">Board Demands</div></div>
+      </div>
+    </div>
+
+    <button class="mbtn" style="margin-top:16px;" id="downloadBtn" onclick="downloadPDF()">⬇ Download Report as PDF</button>
+    <button class="mbtn-sec" onclick="closeModal('reportModal')">Close</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════
+     JAVASCRIPT
+════════════════════════════ -->
+<script>
+/* ── TAB NAV ── */
+function goTab(n) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.step-btn').forEach(b => { b.classList.remove('active'); });
+  document.getElementById('panel-' + n).classList.add('active');
+  document.getElementById('stab-' + n).classList.add('active');
+  for (let i = 1; i < n; i++) document.getElementById('stab-' + i).classList.add('done');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* ── MODALS ── */
+function openModal(id) {
+  document.getElementById(id).classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal(id) {
+  document.getElementById(id).classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.querySelectorAll('.overlay').forEach(ov => {
+  ov.addEventListener('click', function(e) { if (e.target === ov) closeModal(ov.id); });
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') document.querySelectorAll('.overlay.open').forEach(o => closeModal(o.id));
+});
+
+/* ── QUIZ ── */
+const answers = {};
+const qMap = {
+  q1:  'Physical fitness & regular exercise',
+  q2:  'Awareness of current affairs',
+  q3:  'Public speaking & confidence',
+  q4:  'Discipline & daily routine',
+  q5:  'Sense of responsibility',
+  q6:  'Composure under pressure',
+  q7:  'Leadership experience',
+  q8:  'Team spirit & cooperation',
+  q9:  'Structured preparation plan',
+  q10: 'Resilience & ability to bounce back',
+  q11: 'English communication',
+  q12: 'Genuine motivation to serve',
+};
+
+function pick(el, qid, val) {
+  el.closest('.quiz-opts').querySelectorAll('.qopt').forEach(o => {
+    o.className = 'qopt';
+  });
+  el.classList.add('s-' + val);
+  answers[qid] = val;
+}
+
+function buildResult() {
+  const strengths = [], weak = [];
+  Object.keys(qMap).forEach(k => {
+    const a = answers[k];
+    if (a === 'yes')  strengths.push(qMap[k]);
+    if (a === 'no')   weak.push(qMap[k]);
+  });
+  const sl = document.getElementById('qStrList');
+  const wl = document.getElementById('qWkList');
+  sl.innerHTML = strengths.length
+    ? strengths.map(s => `<div class="qr-item">✔ ${s}</div>`).join('')
+    : `<div class="qr-item" style="font-style:italic;color:var(--text-dim)">Answer questions above to see strengths</div>`;
+  wl.innerHTML = weak.length
+    ? weak.map(w => `<div class="qr-item">⚠ ${w}</div>`).join('')
+    : `<div class="qr-item" style="font-style:italic;color:var(--text-dim)">No clear weaknesses identified</div>`;
+  document.getElementById('quizResult').classList.add('show');
+  window._qStr = strengths.join(', ') || '—';
+  window._qWk  = weak.join(', ') || '—';
+}
+
+/* ── FORCES ── */
+const fv = { r:5, e:5, s:5, c:5, b:5 };
+function setF(k, v) {
+  v = parseInt(v);
+  fv[k] = v;
+  document.getElementById('sv-' + k).textContent = v + ' / 10';
+  renderDots(k, v);
+}
+function renderDots(k, v) {
+  const bar = document.getElementById('fd-' + k);
+  bar.innerHTML = '';
+  for (let i = 1; i <= 10; i++) {
+    const d = document.createElement('div');
+    d.className = 'f-dot';
+    if (i <= v) d.style.background = v <= 3 ? 'var(--olive-lt)' : v <= 6 ? 'var(--brass-lt)' : 'var(--red)';
+    bar.appendChild(d);
+  }
+}
+['r','e','s','c','b'].forEach(k => renderDots(k, 5));
+
+/* ── REPORT ── */
+function openReport() {
+  buildResult();
+  const d = new Date();
+  document.getElementById('rptDate').textContent =
+    d.toLocaleDateString('en-IN', { day:'2-digit', month:'long', year:'numeric' }).toUpperCase();
+  const g = id => {
+    const el = document.getElementById(id);
+    return (el && el.value.trim()) ? el.value.trim() : '— Not filled —';
+  };
+  document.getElementById('r-qs').textContent  = window._qStr || '— Quiz not completed —';
+  document.getElementById('r-qw').textContent  = window._qWk  || '— Quiz not completed —';
+  document.getElementById('r-s').textContent   = g('sw-s');
+  document.getElementById('r-w').textContent   = g('sw-w');
+  document.getElementById('r-o').textContent   = g('sw-o');
+  document.getElementById('r-t').textContent   = g('sw-t');
+  document.getElementById('r-fp').textContent  = g('fam-p');
+  document.getElementById('r-fn').textContent  = g('fam-n');
+  document.getElementById('r-frp').textContent = g('fri-p');
+  document.getElementById('r-frn').textContent = g('fri-n');
+  document.getElementById('r-tp').textContent  = g('tch-p');
+  document.getElementById('r-tn').textContent  = g('tch-n');
+  document.getElementById('r-sp').textContent  = g('sen-p');
+  document.getElementById('r-sn').textContent  = g('sen-n');
+  document.getElementById('r-r').textContent  = fv.r + '/10';
+  document.getElementById('r-e').textContent  = fv.e + '/10';
+  document.getElementById('r-s2').textContent = fv.s + '/10';
+  document.getElementById('r-c').textContent  = fv.c + '/10';
+  document.getElementById('r-b').textContent  = fv.b + '/10';
+  openModal('reportModal');
+}
+
+function markDone() { /* extensibility hook */ }
+
+/* ── PDF DOWNLOAD ── */
+async function downloadPDF() {
+  const btn = document.getElementById('downloadBtn');
+  btn.textContent = '⏳ Generating PDF…';
+  btn.disabled = true;
+
+  // Dynamically load jsPDF if not already loaded
+  if (!window.jspdf) {
+    await new Promise((res, rej) => {
+      const s = document.createElement('script');
+      s.src = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
+      s.onload = res; s.onerror = rej;
+      document.head.appendChild(s);
+    });
+  }
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+  const PW = 210, PH = 297;
+  const ML = 16, MR = 16, MT = 0;
+  const CW = PW - ML - MR;
+  let y = MT;
+
+  // ── helpers ──
+  const olive   = [51, 64, 24];
+  const oliveMd = [74, 94, 36];
+  const oliveLt = [168, 188, 106];
+  const brass   = [139, 105, 20];
+  const brassLt = [196, 154, 37];
+  const red     = [122, 32, 32];
+  const bgPage  = [244, 241, 230];
+  const bgCard  = [253, 251, 245];
+  const bgOlive = [230, 237, 212];
+  const textDk  = [37, 32, 24];
+  const textMid = [90, 86, 64];
+  const textDim = [138, 135, 106];
+  const borderC = [204, 201, 174];
+
+  function newPage() {
+    doc.addPage();
+    // subtle page background
+    doc.setFillColor(...bgPage);
+    doc.rect(0, 0, PW, PH, 'F');
+    // left accent strip
+    doc.setFillColor(...olive);
+    doc.rect(0, 0, 4, PH, 'F');
+    y = 18;
+  }
+
+  function checkY(needed = 20) {
+    if (y + needed > PH - 18) newPage();
+  }
+
+  function sectionHeader(title) {
+    checkY(18);
+    doc.setFillColor(...oliveMd);
+    doc.rect(ML, y, CW, 7.5, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(8.5);
+    doc.text(title.toUpperCase(), ML + 5, y + 5);
+    y += 11;
+  }
+
+  function twoColCards(pairs) {
+    // pairs = [{label, value}, ...]
+    const cardW = (CW - 4) / 2;
+    for (let i = 0; i < pairs.length; i += 2) {
+      const left  = pairs[i];
+      const right = pairs[i + 1];
+      const lLines = doc.splitTextToSize(left.value, cardW - 8);
+      const rLines = right ? doc.splitTextToSize(right.value, cardW - 8) : [];
+      const cardH = Math.max(lLines.length, rLines.length) * 4.5 + 12;
+      checkY(cardH + 3);
+
+      // left card
+      doc.setFillColor(...bgCard);
+      doc.setDrawColor(...borderC);
+      doc.setLineWidth(0.3);
+      doc.rect(ML, y, cardW, cardH, 'FD');
+      doc.setTextColor(...brass);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(6.5);
+      doc.text(left.label.toUpperCase(), ML + 4, y + 5);
+      doc.setFont('helvetica', 'normal');
+      doc.setTextColor(...textDk);
+      doc.setFontSize(8);
+      doc.text(lLines, ML + 4, y + 10);
+
+      // right card
+      if (right) {
+        const rx = ML + cardW + 4;
+        doc.setFillColor(...bgCard);
+        doc.setDrawColor(...borderC);
+        doc.rect(rx, y, cardW, cardH, 'FD');
+        doc.setTextColor(...brass);
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(6.5);
+        doc.text(right.label.toUpperCase(), rx + 4, y + 5);
+        doc.setFont('helvetica', 'normal');
+        doc.setTextColor(...textDk);
+        doc.setFontSize(8);
+        doc.text(rLines, rx + 4, y + 10);
+      }
+      y += cardH + 4;
+    }
+  }
+
+  function forceBar(label, score, x, barY, bw) {
+    // label
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(7.5);
+    doc.setTextColor(...textDk);
+    doc.text(label, x, barY + 4);
+    // score badge
+    const scoreStr = score + '/10';
+    const scoreX = x + bw - 14;
+    const col = score <= 3 ? oliveLt : score <= 6 ? brassLt : red;
+    doc.setFillColor(...col);
+    doc.roundedRect(scoreX, barY - 0.5, 12, 6, 1, 1, 'F');
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(6.5);
+    doc.setTextColor(255, 255, 255);
+    doc.text(scoreStr, scoreX + 6, barY + 4, { align: 'center' });
+    // bar track
+    const barTop = barY + 7;
+    doc.setFillColor(...borderC);
+    doc.roundedRect(x, barTop, bw - 16, 3, 0.8, 0.8, 'F');
+    // bar fill
+    const fillW = ((score - 1) / 9) * (bw - 16);
+    doc.setFillColor(...col);
+    doc.roundedRect(x, barTop, fillW, 3, 0.8, 0.8, 'F');
+  }
+
+  // ════════════════════════════════
+  // PAGE 1 — COVER
+  // ════════════════════════════════
+  doc.setFillColor(...bgPage);
+  doc.rect(0, 0, PW, PH, 'F');
+
+  // top stripe (olive)
+  doc.setFillColor(...olive);
+  doc.rect(0, 0, PW, 52, 'F');
+
+  // decorative inner line
+  doc.setDrawColor(...brassLt);
+  doc.setLineWidth(0.6);
+  doc.line(ML, 56, PW - MR, 56);
+
+  // left accent strip running full page
+  doc.setFillColor(...oliveMd);
+  doc.rect(0, 0, 4, PH, 'F');
+
+  // badge / emblem circle
+  doc.setFillColor(255, 255, 255, 0.08);
+  doc.setDrawColor(...brassLt);
+  doc.setLineWidth(1);
+  doc.circle(PW / 2, 26, 14, 'D');
+  doc.setTextColor(...brassLt);
+  doc.setFontSize(18);
+  doc.text('✦', PW / 2, 30.5, { align: 'center' });
+
+  // title
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(22);
+  doc.setTextColor(230, 237, 212);
+  doc.text('SELF-REFLECTION REPORT', PW / 2, 48, { align: 'center' });
+
+  // subtitle
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.setTextColor(...oliveLt);
+  doc.text('DEFENCE ASPIRANT · STRATEGIC SELF-ASSESSMENT', PW / 2, 64, { align: 'center' });
+
+  // date
+  const dateStr = new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'long', year: 'numeric' }).toUpperCase();
+  doc.setFontSize(8);
+  doc.setTextColor(...textMid);
+  doc.text('PREPARED ON: ' + dateStr, PW / 2, 71, { align: 'center' });
+
+  // CONFIDENTIAL stamp box
+  doc.setDrawColor(...red);
+  doc.setLineWidth(1.2);
+  doc.rect(PW / 2 - 22, 78, 44, 11);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(10);
+  doc.setTextColor(...red);
+  doc.text('CONFIDENTIAL', PW / 2, 86, { align: 'center' });
+
+  // ── Cover: what's inside ──
+  const sections = [
+    ['01', 'Step 1 — Know Yourself', 'Self-discovery quiz results · Suggested strengths and areas to develop'],
+    ['02', 'Step 2 — SWOT Analysis', 'Strengths · Weaknesses · Opportunities · Threats'],
+    ['03', 'Step 3 — People Around You', 'Family · Friends · Teachers · Mentors — what they see in you'],
+    ['04', 'Step 4 — Competitive Forces', 'Five-force assessment · Pressure ratings'],
+  ];
+
+  let cy = 102;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(7);
+  doc.setTextColor(...textMid);
+  doc.text('CONTENTS', ML + 6, cy);
+  cy += 5;
+  doc.setDrawColor(...borderC);
+  doc.setLineWidth(0.3);
+  doc.line(ML, cy, PW - MR, cy);
+  cy += 5;
+
+  sections.forEach(([num, title, desc]) => {
+    doc.setFillColor(...bgCard);
+    doc.setDrawColor(...borderC);
+    doc.setLineWidth(0.3);
+    doc.rect(ML, cy, CW, 16, 'FD');
+    // number pill
+    doc.setFillColor(...olive);
+    doc.roundedRect(ML + 3, cy + 4, 8, 8, 1, 1, 'F');
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(7);
+    doc.setTextColor(255, 255, 255);
+    doc.text(num, ML + 7, cy + 9.5, { align: 'center' });
+    // title
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9);
+    doc.setTextColor(...olive);
+    doc.text(title, ML + 15, cy + 7);
+    // desc
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(7.5);
+    doc.setTextColor(...textMid);
+    doc.text(desc, ML + 15, cy + 13);
+    cy += 20;
+  });
+
+  // cover footer
+  doc.setFillColor(...olive);
+  doc.rect(0, PH - 14, PW, 14, 'F');
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(6.5);
+  doc.setTextColor(...oliveLt);
+  doc.text('Defence Aspirant Self-Reflection Tool  ·  For Personal Use Only', PW / 2, PH - 5, { align: 'center' });
+
+  // ════════════════════════════════
+  // PAGE 2 — QUIZ + SWOT
+  // ════════════════════════════════
+  newPage();
+
+  // ── SECTION 1: QUIZ ──
+  sectionHeader('Step 1 — Self-Discovery (Know Yourself Quiz)');
+
+  twoColCards([
+    { label: '✔ Suggested Strengths', value: window._qStr || '— Quiz not completed —' },
+    { label: '⚠ Areas to Work On',   value: window._qWk  || '— Quiz not completed —' },
+  ]);
+
+  y += 4;
+
+  // ── SECTION 2: SWOT ──
+  sectionHeader('Step 2 — SWOT Analysis');
+
+  const g = id => {
+    const el = document.getElementById(id);
+    return (el && el.value.trim()) ? el.value.trim() : '— Not filled —';
+  };
+
+  // S and W side-by-side
+  const swPairs = [
+    { label: 'S — Strengths',    value: g('sw-s') },
+    { label: 'W — Weaknesses',   value: g('sw-w') },
+    { label: 'O — Opportunities', value: g('sw-o') },
+    { label: 'T — Threats',      value: g('sw-t') },
+  ];
+  twoColCards(swPairs);
+
+  // ════════════════════════════════
+  // PAGE 3 — PEOPLE
+  // ════════════════════════════════
+  newPage();
+  sectionHeader('Step 3 — People Around You');
+
+  const peoplePairs = [
+    { label: '👨‍👩‍👦 Family — Good Qualities Noted', value: g('fam-p') },
+    { label: '👨‍👩‍👦 Family — Areas to Improve',      value: g('fam-n') },
+    { label: '👫 Friends — What They Appreciate',     value: g('fri-p') },
+    { label: '👫 Friends — What They Suggest',        value: g('fri-n') },
+    { label: '🎓 Teachers — Praise',                  value: g('tch-p') },
+    { label: '🎓 Teachers — Feedback',                value: g('tch-n') },
+    { label: '⭐ Mentors & Seniors — Potential',      value: g('sen-p') },
+    { label: '⭐ Mentors & Seniors — Advice',         value: g('sen-n') },
+  ];
+  twoColCards(peoplePairs);
+
+  // ════════════════════════════════
+  // PAGE 4 — FORCES + CLOSING
+  // ════════════════════════════════
+  newPage();
+  sectionHeader('Step 4 — Competitive Forces Assessment');
+  y += 2;
+
+  const forces2 = [
+    { label: '⚔  Competition from Other Aspirants', score: fv.r },
+    { label: '🆕 New Aspirants Entering Every Year', score: fv.e },
+    { label: '🔀 Pull of Other Career Options',      score: fv.s },
+    { label: '🏫 Dependence on Coaching & Resources', score: fv.c },
+    { label: '📋 How Demanding is the Selection Process', score: fv.b },
+  ];
+
+  forces2.forEach(f => {
+    checkY(20);
+    doc.setFillColor(...bgCard);
+    doc.setDrawColor(...borderC);
+    doc.setLineWidth(0.3);
+    doc.rect(ML, y, CW, 17, 'FD');
+    forceBar(f.label, f.score, ML + 4, y + 3, CW - 8);
+    y += 21;
+  });
+
+  y += 6;
+
+  // ── Closing quote box ──
+  checkY(32);
+  doc.setFillColor(...bgOlive);
+  doc.setDrawColor(...oliveLt);
+  doc.setLineWidth(0.5);
+  doc.rect(ML, y, CW, 28, 'FD');
+  // left accent bar inside
+  doc.setFillColor(...olive);
+  doc.rect(ML, y, 3, 28, 'F');
+
+  doc.setFont('helvetica', 'bolditalic');
+  doc.setFontSize(9.5);
+  doc.setTextColor(...olive);
+  const quote = '"The more you sweat in training, the less you bleed in battle."';
+  const qLines = doc.splitTextToSize(quote, CW - 18);
+  doc.text(qLines, ML + 10, y + 10);
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(7.5);
+  doc.setTextColor(...textMid);
+  doc.text('— Keep this report. Review it every month. Track your growth.', ML + 10, y + 22);
+  y += 34;
+
+  // ── page footer all pages ──
+  const totalPages = doc.getNumberOfPages();
+  for (let p = 1; p <= totalPages; p++) {
+    doc.setPage(p);
+    if (p > 1) { // cover already has footer
+      doc.setFillColor(...olive);
+      doc.rect(0, PH - 10, PW, 10, 'F');
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(6);
+      doc.setTextColor(...oliveLt);
+      doc.text('Defence Aspirant Self-Reflection Report  ·  Personal & Confidential', ML, PH - 3.5);
+      doc.text('Page ' + p + ' of ' + totalPages, PW - MR, PH - 3.5, { align: 'right' });
+    }
+  }
+
+  doc.save('Defence_Aspirant_Self_Reflection_Report.pdf');
+
+  btn.textContent = '✔ Downloaded!';
+  btn.style.background = '#4A5E24';
+  setTimeout(() => {
+    btn.textContent = '⬇ Download Report as PDF';
+    btn.style.background = '';
+    btn.disabled = false;
+  }, 3000);
+}
+</script>
+</body>
+</html>

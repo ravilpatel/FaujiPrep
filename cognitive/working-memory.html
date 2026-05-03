@@ -3,19 +3,446 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FaujiPrep | Working Memory</title>
-    <meta name="description" content="Practice page for Working Memory." />
-    <meta name="robots" content="noindex,follow" />
-    <link rel="canonical" href="https://faujiprep.app/cognitive/working-memory.html" />
+    <title>FaujiPrep | Working Memory Guide</title>
+    <meta
+      name="description"
+      content="Complete Working Memory guide for defence aspirants with CSSS-focused concepts, examples, and strategy."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      :root {
+        --color-background-info: rgba(98, 131, 162, 0.28);
+        --color-text-info: #d3e0ed;
+        --color-background-success: rgba(44, 150, 112, 0.24);
+        --color-text-success: #8edbbf;
+        --color-background-warning: rgba(190, 146, 84, 0.24);
+        --color-text-warning: #f2d3a2;
+        --color-background-danger: rgba(192, 89, 96, 0.24);
+        --color-text-danger: #f6c0c5;
+      }
 
+      /* Page-level base sizing for improved readability */
+      html {
+        font-size: 19px; /* increased from browser default to enlarge rem-based type */
+      }
+
+      .wm-guide {
+        display: grid;
+        gap: 1rem;
+      }
+      .wm-hero {
+        background: linear-gradient(145deg, rgba(20, 24, 32, 0.98), rgba(10, 13, 18, 0.92));
+        border: 1px solid var(--dk-border);
+        border-radius: var(--radius);
+        padding: 1.6rem 1.75rem;
+        box-shadow: var(--shadow);
+      }
+      .wm-hero h1 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(2rem, 4.8vw, 3.4rem);
+        line-height: 1.06;
+        font-weight: 600;
+        color: var(--dk-text);
+        margin: 0.45rem 0 0.5rem;
+      }
+      .wm-hero h1 span {
+        color: var(--dk-gold);
+      }
+      .wm-sub {
+        font-size: 1rem;
+        color: var(--dk-muted);
+        line-height: 1.95;
+        max-width: 72ch;
+      }
+      .wm-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 1rem;
+      }
+      .wm-tags span,
+      .wm-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px 11px;
+        border-radius: 999px;
+        border: 1px solid var(--dk-border);
+        background: rgba(255, 255, 255, 0.03);
+        color: var(--dk-text);
+        font-size: 0.80rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .wm-block {
+        background: linear-gradient(145deg, rgba(20, 24, 32, 0.96), rgba(10, 13, 18, 0.9));
+        border: 1px solid var(--dk-border);
+        border-radius: var(--radius);
+        padding: 1.4rem 1.4rem;
+        box-shadow: var(--shadow-sm);
+      }
+      .wm-label {
+        color: var(--dk-gold-dim);
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+        margin-bottom: 0.6rem;
+      }
+      .wm-block h2 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(1.55rem, 3.3vw, 2.35rem);
+        line-height: 1.1;
+        color: var(--dk-text);
+        margin-bottom: 0.8rem;
+      }
+      .wm-block h3 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(1.2rem, 2.5vw, 1.65rem);
+        line-height: 1.15;
+        color: var(--dk-text);
+        margin: 1rem 0 0.6rem;
+      }
+      .wm-block p,
+      .wm-block li,
+      .wm-block td,
+      .wm-block th,
+      .wm-block .wm-body {
+        font-size: 1rem;
+        color: var(--dk-muted);
+        line-height: 1.95;
+        overflow-wrap: anywhere;
+      }
+      .wm-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 0.75rem;
+      }
+      .wm-card {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--dk-border);
+        border-radius: calc(var(--radius-sm) + 4px);
+        padding: 1.2rem 1.1rem;
+      }
+      .wm-card h3 {
+        color: var(--dk-text);
+        font-size: 1.06rem;
+        margin-bottom: 0.6rem;
+      }
+      .wm-card h4 {
+        color: var(--dk-gold-soft);
+        font-size: 0.88rem;
+        margin: 0.8rem 0 0.35rem;
+      }
+      .wm-info {
+        margin-top: 0.9rem;
+        padding: 1.05rem 1.05rem;
+        border-left: 4px solid var(--dk-gold);
+        background: rgba(138, 168, 197, 0.06);
+        border-radius: 0 calc(var(--radius-sm) + 2px) calc(var(--radius-sm) + 2px) 0;
+        color: var(--dk-text);
+        line-height: 1.95;
+        font-size: 0.98rem;
+      }
+      .wm-table-wrap {
+        overflow-x: auto;
+      }
+      .wm-table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 640px;
+      }
+      .wm-table th,
+      .wm-table td {
+        text-align: left;
+        vertical-align: top;
+        padding: 0.8rem 0.35rem;
+        border-bottom: 1px solid rgba(138, 168, 197, 0.12);
+      }
+      .wm-q {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--dk-border);
+        border-radius: calc(var(--radius-sm) + 3px);
+        padding: 1.15rem 1.15rem;
+        margin-top: 0.9rem;
+      }
+      .wm-q h3 {
+        font-size: 1.06rem;
+        color: var(--dk-gold-soft);
+        margin-bottom: 0.6rem;
+      }
+      .wm-q p {
+        margin-bottom: 0.45rem;
+      }
+      .wm-explain {
+        color: var(--dk-text);
+      }
+      .wm-bars,
+      .wm-list,
+      .wm-bullets {
+        padding-left: 1.1rem;
+      }
+      .wm-bars li,
+      .wm-list li,
+      .wm-bullets li {
+        margin-bottom: 0.55rem;
+      }
+      .wm-bars span,
+      .wm-memory strong,
+      .wm-bullets strong,
+      .wm-list strong {
+        color: var(--dk-text);
+      }
+      .wm-memory {
+        display: grid;
+        gap: 0.45rem;
+        padding: 0.25rem 0;
+      }
+      .wm-week {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--dk-border);
+        border-radius: calc(var(--radius) + 4px);
+        overflow: hidden;
+      }
+      .wm-week-head {
+        display: flex;
+        align-items: center;
+        gap: 0.95rem;
+        padding: 1.05rem 1.05rem;
+        cursor: pointer;
+        user-select: none;
+      }
+      .wm-week-dot {
+        width: 36px;
+        height: 36px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        font-size: 0.9rem;
+        font-weight: 700;
+        flex-shrink: 0;
+        background: rgba(59, 139, 212, 0.18);
+        color: #7fb4e5;
+      }
+      .wm-week-body {
+        display: none;
+        padding: 0 1rem 0.95rem;
+      }
+      .wm-week-body.open {
+        display: block;
+      }
+      .tip-row {
+        display: flex;
+        gap: 0.65rem;
+        align-items: flex-start;
+        margin-bottom: 0.55rem;
+      }
+      .tip-icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: rgba(186, 117, 23, 0.16);
+        color: #d8a35b;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.78rem;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      .tip-icon.ok {
+        background: rgba(29, 158, 117, 0.18);
+        color: #71d2b4;
+      }
+      .kp-item {
+        display: flex;
+        gap: 0.95rem;
+        align-items: flex-start;
+        padding: 0.8rem 0;
+        border-bottom: 1px solid rgba(138, 168, 197, 0.12);
+      }
+      .kp-item:last-child {
+        border-bottom: none;
+      }
+      .kp-num {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        display: grid;
+        place-items: center;
+        background: rgba(59, 139, 212, 0.18);
+        color: #7fb4e5;
+        font-size: 0.86rem;
+        font-weight: 700;
+        margin-top: 1px;
+      }
+      .kp-text {
+        color: var(--dk-muted);
+        line-height: 1.95;
+        font-size: 1rem;
+      }
+      .wm-accent {
+        color: var(--dk-gold-soft);
+        font-weight: 600;
+      }
+      .divider {
+        height: 1px;
+        background: rgba(138, 168, 197, 0.12);
+        margin: 0.9rem 0;
+      }
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        padding: 0.32rem 0.7rem;
+        border-radius: 999px;
+        border: 1px solid var(--dk-border);
+        color: var(--dk-muted);
+        margin: 4px 4px 2px 0;
+      }
+      .wm-final {
+        border-left: 3px solid #1d9e75;
+      }
+      .practice-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        margin-top: 0.6rem;
+        padding: 0.6rem 1rem;
+        border-radius: 999px;
+        border: 1px solid var(--dk-border-strong);
+        color: var(--dk-gold-soft);
+        font-size: 0.95rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        transition: background 0.18s, border-color 0.18s, transform 0.12s;
+      }
+      .practice-link:hover {
+        background: rgba(138, 168, 197, 0.12);
+        border-color: var(--dk-gold);
+        transform: translateY(-2px);
+      }
+      @media (max-width: 720px) {
+        /* scale down base size on medium screens */
+        html { font-size: 17px; }
+        .wm-hero,
+        .wm-block {
+          padding: 1rem;
+        }
+        .wm-hero h1 {
+          font-size: clamp(1.65rem, 8vw, 2.25rem);
+          line-height: 1.14;
+        }
+        .wm-sub {
+          font-size: 0.9rem;
+          line-height: 1.65;
+        }
+        .wm-label {
+          letter-spacing: 0.22em;
+          font-size: 0.64rem;
+        }
+        .wm-block h2 {
+          font-size: clamp(1.3rem, 6.8vw, 1.8rem);
+        }
+        .wm-table {
+          min-width: 100%;
+          table-layout: fixed;
+        }
+        .wm-table th,
+        .wm-table td {
+          padding: 0.62rem 0.32rem;
+          font-size: 0.86rem;
+          line-height: 1.45;
+          white-space: normal;
+          overflow-wrap: anywhere;
+        }
+        .wm-week-head {
+          align-items: flex-start;
+        }
+        .wm-week-head > div:nth-child(2) {
+          min-width: 0;
+        }
+      }
+
+      @media (max-width: 520px) {
+        /* mobile: slightly smaller but still readable */
+        html { font-size: 16px; }
+        .wm-guide {
+          gap: 0.75rem;
+        }
+        .wm-hero,
+        .wm-block {
+          padding: 0.88rem 0.82rem;
+        }
+        .wm-tags {
+          gap: 6px;
+          margin-top: 0.7rem;
+        }
+        .wm-tags span,
+        .wm-pill,
+        .tag {
+          font-size: 0.72rem;
+          letter-spacing: 0.04em;
+          padding: 5px 8px;
+        }
+        .wm-grid {
+          grid-template-columns: 1fr;
+          gap: 0.62rem;
+        }
+        .wm-card,
+        .wm-q {
+          padding: 0.86rem;
+        }
+        .wm-week-head {
+          gap: 0.55rem;
+          padding: 0.8rem;
+        }
+        .wm-week-dot {
+          width: 26px;
+          height: 26px;
+          font-size: 0.72rem;
+        }
+        .wm-week-head > span:last-child {
+          font-size: 12px;
+        }
+        .wm-week-body {
+          padding: 0 0.8rem 0.8rem;
+        }
+        .wm-bars,
+        .wm-list,
+        .wm-bullets {
+          padding-left: 0.95rem;
+        }
+        .kp-item {
+          gap: 0.55rem;
+          padding: 0.58rem 0;
+        }
+        .kp-num {
+          width: 20px;
+          height: 20px;
+          font-size: 0.74rem;
+        }
+        .practice-link {
+          width: 100%;
+          justify-content: center;
+        }
+        .wm-table th,
+        .wm-table td {
+          font-size: 0.8rem;
+          line-height: 1.35;
+        }
+      }
+    </style>
+  </head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
@@ -30,19 +457,425 @@
     <div id="site-header"></div>
 
     <main>
-      <section class="container section">
-        <h1>Working Memory</h1>
-        <div class="explainer-card">
-          <article>
-            <span class="badge">Coming Soon</span>
+      <section class="container section wm-guide">
+        <header class="wm-hero">
+          <span class="badge">CSSS New Pattern</span>
+          <span class="badge success">Stage 1 Critical</span>
+          <span class="badge warn">Executive Function</span>
+          <h1>CSSS - Working <span>Memory</span>: Complete Guide for Defence Aspirants</h1>
+          <p class="wm-sub">
+            Stage 1 Selection · Cognitive Test (CSSS) · Indian Armed Forces · Temporary Information Processing Under Time Pressure
+          </p>
+          <div class="wm-tags">
+            <span>CSSS New Pattern</span>
+            <span>Stage 1 Critical</span>
+            <span>Executive Function</span>
+          </div>
+        </header>
+
+        <section class="wm-block">
+          <p class="wm-label">Section 1 - The Fundamentals</p>
+          <h2>What Is Working Memory and Why It Matters?</h2>
+          <p>
+            Working Memory refers to the brain's ability to <span class="wm-accent">temporarily store, process, and manipulate information in real time</span>. It is not just about remembering things for a few seconds, but about actively using that information while performing another task. This is the mental workspace where thinking happens.
+          </p>
+          <p>
+            Unlike long-term memory, which stores knowledge permanently, working memory operates as a dynamic system. Every time a candidate solves a problem, follows instructions, interprets patterns, or performs multi-step reasoning, working memory is actively involved. In defence scenarios, this becomes even more critical because officers are expected to process multiple streams of information simultaneously—such as coordinates, commands, environmental cues, and timing—without losing accuracy.
+          </p>
+
+          <div class="wm-grid">
+            <article class="wm-card">
+              <h3>Core Capacity</h3>
+              <p>Typically holds 5–9 items of information at once. This capacity can be expanded through strategy and training.</p>
+            </article>
+            <article class="wm-card">
+              <h3>Duration</h3>
+              <p>Information decays rapidly without active maintenance through rehearsal or visualization.</p>
+            </article>
+            <article class="wm-card">
+              <h3>Defence Benchmark</h3>
+              <p>Digit span of 7+ forward, 5+ backward signals strong operational cognitive capability.</p>
+            </article>
+          </div>
+
+          <div class="wm-info">
+            <strong>In Simple Words:</strong> Working Memory is the brain's ability to hold, manipulate, and use information while under pressure and time constraints—exactly what officers must do in real operations.
+          </div>
+
+          <h3>Baddeley's Model: The Three Components</h3>
+          <p>
+            Working memory is not a single storage unit but a dynamic system with specialized components:
+          </p>
+
+          <div class="wm-grid">
+            <article class="wm-card">
+              <h4>The Central Executive</h4>
+              <p>Acts as a controller. It decides what to focus on, allocates mental resources, and manages task switching. This is the highest-level cognitive function, governing attention and decision-making.</p>
+            </article>
+            <article class="wm-card">
+              <h4>Phonological Loop</h4>
+              <p>Handles verbal and auditory information. Uses subvocal rehearsal (internal repetition) to maintain information like digit sequences and instructions.</p>
+            </article>
+            <article class="wm-card">
+              <h4>Visuospatial Sketchpad</h4>
+              <p>Manages visual and spatial information. Allows mental visualization, mental rotation, and manipulation of spatial patterns—crucial for map memory and navigation tasks.</p>
+            </article>
+          </div>
+
+          <div class="wm-info" style="border-left-color:#1D9E75">
+            <strong>Defence Psychology Insight:</strong> Working Memory underpins officer effectiveness. Tactical planning, multi-step command execution, real-time decision-making, and navigation all depend on strong working memory. CSSS tests this because a weak working memory correlates with operational errors and delayed reactions.
+          </div>
+        </section>
+
+        <section class="wm-block">
+          <p class="wm-label">Section 2 - Working Memory Domains in CSSS</p>
+          <h2>The Six Key Task Domains</h2>
+          <p>
+            Working memory is assessed across multiple distinct domains in CSSS. Each tests a different capability under time pressure:
+          </p>
+
+          <article class="wm-q">
+            <h3>1. Verbal Working Memory — Digit Span Test</h3>
             <p>
-              This section will include topic-wise lessons, examples, and timed practice sets.
+              Candidates hear a sequence of digits and must recall them either in forward order (easier) or backward order (more challenging). Backward recall requires not only storage but active mental manipulation of information. Scoring is based on the longest sequence correctly recalled. Difficulty increases gradually, and performance reflects both attention and mental control.
+            </p>
+            <div>
+              <span class="tag">Forward span</span><span class="tag">Backward span</span><span class="tag">Auditory encoding</span><span class="tag">Phonological loop</span>
+            </div>
+          </article>
+
+          <article class="wm-q">
+            <h3>2. Visuospatial Working Memory — Spatial Span</h3>
+            <p>
+              A set of blocks or squares on screen light up in sequence. The candidate must reproduce the sequence in correct order. This task relies on visual encoding and mental imagery. Candidates who convert patterns into meaningful structures (like imagining movement paths) typically perform better. Performance is measured by maximum sequence length and error count.
+            </p>
+            <div>
+              <span class="tag">Visual encoding</span><span class="tag">Mental imagery</span><span class="tag">Pattern memory</span><span class="tag">Spatial visualization</span>
+            </div>
+          </article>
+
+          <article class="wm-q">
+            <h3>3. N-Back Tasks — Dynamic Working Memory</h3>
+            <p>
+              A continuous sequence of items (letters, numbers, positions) is presented one by one. The candidate must identify when the current item matches the one presented "n" steps earlier. For example, in a 2-back task, each new item is compared with the item two positions before. This requires constant updating of information and strong attention control. Heavy engagement of the central executive.
+            </p>
+            <div>
+              <span class="tag">1-back tasks</span><span class="tag">2-back tasks</span><span class="tag">3-back tasks</span><span class="tag">Continuous updating</span>
+            </div>
+          </article>
+
+          <article class="wm-q">
+            <h3>4. Complex Span Tasks — Memory with Processing</h3>
+            <p>
+              Candidates perform one task (such as solving equations) while simultaneously remembering unrelated information (such as words or objects). At the end, they must recall all remembered items in correct order. This reflects real-world scenarios where officers must maintain information while performing other cognitive tasks. Measures the ability to handle cognitive load.
+            </p>
+            <div>
+              <span class="tag">Processing + memory</span><span class="tag">Divided attention</span><span class="tag">Multi-tasking</span><span class="tag">Cognitive load</span>
+            </div>
+          </article>
+
+          <article class="wm-q">
+            <h3>5. Dual-Task Performance</h3>
+            <p>
+              Two independent tasks are performed simultaneously. For example, tracking a moving object while remembering a digit sequence. This tests the limits of attention and resource allocation. Performance is evaluated by comparing simultaneous performance versus individual task performance. A significant drop indicates difficulty managing multiple information streams.
+            </p>
+            <div>
+              <span class="tag">Parallel processing</span><span class="tag">Attention division</span><span class="tag">Cognitive coordination</span>
+            </div>
+          </article>
+
+          <article class="wm-q">
+            <h3>6. Processing Speed & Attention Supporting WM</h3>
+            <p>
+              Tasks involving target detection, pattern matching, and rapid responding. Working memory depends on attention—unattended information cannot be stored. Faster processing allows more information to be handled within time limits. These tasks ensure candidates are efficient, not just accurate.
+            </p>
+            <div>
+              <span class="tag">Target detection</span><span class="tag">Pattern recognition</span><span class="tag">Processing speed</span><span class="tag">Attention control</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="wm-block">
+          <p class="wm-label">Section 3 - Defence Operational Context</p>
+          <h2>Why Defence Forces Test Working Memory</h2>
+          <p>
+            Working memory is directly linked to <span class="wm-accent">operational effectiveness in real combat and command scenarios</span>. The CSSS tests it because failure in working memory under operational stress can cost lives.
+          </p>
+
+          <div class="wm-grid">
+            <article class="wm-card">
+              <h3>Army Context</h3>
+              <p>Remembering coordinates during navigation, executing multi-step tactical plans, managing multiple unit communications simultaneously, reading maps while tracking enemy movements.</p>
+            </article>
+            <article class="wm-card">
+              <h3>Navy Context</h3>
+              <p>Sonar operation (holding multiple acoustic signatures), long-haul watch duties, submarine navigation, signal decoding, simultaneous monitoring of multiple radar contacts.</p>
+            </article>
+            <article class="wm-card">
+              <h3>Air Force Context</h3>
+              <p>Rapid instrument scanning during flight, ATC communication monitoring, holding flight plans and altitude data simultaneously, real-time navigation calculations, cockpit multi-tasking.</p>
+            </article>
+            <article class="wm-card">
+              <h3>Leadership Context</h3>
+              <p>Monitoring multiple subordinates, processing tactical updates, making decisions while holding contextual information, adapting plans based on incoming intelligence.</p>
+            </article>
+          </div>
+
+          <div class="wm-table-wrap">
+            <table class="wm-table">
+              <thead>
+                <tr>
+                  <th>Working Memory Failure</th>
+                  <th>Operational Consequence</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Cannot hold coordinate sequence</td><td>Navigation errors, units lost in field</td></tr>
+                <tr><td>Forgets part of instructions mid-execution</td><td>Incomplete mission execution, coordination failures</td></tr>
+                <tr><td>Loses track of multiple radio commands</td><td>Delayed response, chaotic communication</td></tr>
+                <tr><td>Cannot update tactical situation in real-time</td><td>Decisions based on outdated information</td></tr>
+                <tr><td>Memory degradation under stress</td><td>Command failure under critical conditions</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="wm-info" style="border-left-color:#BA7517">
+            <strong>Why Stage 1 and Not Later?</strong> Cognitive screening must happen early because basic mental capability cannot be compensated for later. An officer without strong working memory will struggle regardless of physical fitness, personality, or leadership training. CSSS filters candidates before investing SSB resources—this is not a ranking tool, but a basic qualification threshold.
+          </div>
+        </section>
+
+        <section class="wm-block">
+          <p class="wm-label">Section 4 - Common Task Examples</p>
+          <h2>Understanding Through Examples</h2>
+
+          <h3>Example 1: Backward Digit Span</h3>
+          <p>
+            Sequence presented: <span class="wm-accent">3 – 8 – 1 – 6 – 5</span>
+          </p>
+          <p>
+            Required response (backward): <span class="wm-accent">5 – 6 – 1 – 8 – 3</span>
+          </p>
+          <p>
+            This requires encoding the sequence in order, then mentally reversing all five items while holding them in working memory. The backward operation is computationally expensive—it engages the central executive heavily.
+          </p>
+
+          <h3>Example 2: Spatial Span Pattern</h3>
+          <p>
+            Visual sequence: <span class="wm-accent">Top-left corner → Bottom-right corner → Center</span>
+          </p>
+          <p>
+            Strategy: Visualize a diagonal line from top-left to bottom-right, then a return to center. Converting abstract positions into a meaningful movement path significantly improves recall accuracy.
+          </p>
+
+          <h3>Example 3: 2-Back Task</h3>
+          <p>
+            Sequence: <span class="wm-accent">G – R – G – T – G – R</span>
+          </p>
+          <p>
+            Correct matches (current item matches item two positions back):
+          </p>
+          <ul class="wm-bullets">
+            <li>Position 3 (G) matches position 1 (G) ✓</li>
+            <li>Position 5 (G) matches position 3 (G) ✓</li>
+          </ul>
+          <p>
+            This requires updating information continuously while maintaining accuracy.
+          </p>
+
+          <h3>Example 4: Complex Span</h3>
+          <p>
+            Sequence:
+          </p>
+          <ul class="wm-bullets">
+            <li>Solve 3+4 (answer: 7) | Remember word: <span class="wm-accent">Blue</span></li>
+            <li>Solve 5+7 (answer: 12) | Remember word: <span class="wm-accent">Mat</span></li>
+            <li>Solve 6+6 (answer: 12) | Remember word: <span class="wm-accent">Sing</span></li>
+          </ul>
+          <p>
+            Final recall required: <span class="wm-accent">Blue, Mat, Sing</span> (in order)
+          </p>
+          <p>
+            This tests simultaneous processing and maintenance of independent information.
+          </p>
+        </section>
+
+        <section class="wm-block">
+          <p class="wm-label">Section 5 - Improvement Strategy</p>
+          <h2>30-Day Structured Training Plan</h2>
+          <p>
+            Improving working memory requires consistent, deliberate practice. Research shows that 2–3 digit span increase is achievable within one month with proper training.
+          </p>
+
+          <div class="wm-week">
+            <div class="wm-week-head" onclick="toggleWeek(this)">
+              <div class="wm-week-dot">1</div>
+              <div>
+                <strong>Week 1 – Foundation Building</strong>
+                <span>Digit span practice, basic spatial patterns, accuracy first</span>
+              </div>
+            </div>
+            <div class="wm-week-body">
+              <p><span class="wm-accent">Focus:</span> Establish baseline and learn fundamental strategies</p>
+              <ul class="wm-bullets">
+                <li><strong>Digit span:</strong> Forward sequences starting at 3 digits, gradually increasing to 7–8. No time pressure initially—prioritize accuracy.</li>
+                <li><strong>Spatial tasks:</strong> Simple 3-4 position sequences. Focus on converting patterns into meaningful mental images.</li>
+                <li><strong>Chunking strategy:</strong> Group digits into meaningful units (e.g., 7492 → 74 and 92). Learn to apply this consistently.</li>
+                <li><strong>Subvocal rehearsal:</strong> Practice internal repetition to maintain information.</li>
+              </ul>
+              <p style="margin-top: 0.7rem;"><span class="wm-accent">Target:</span> Establish baseline performance; achieve 80%+ accuracy on all tasks.</p>
+            </div>
+          </div>
+
+          <div class="wm-week">
+            <div class="wm-week-head" onclick="toggleWeek(this)">
+              <div class="wm-week-dot">2</div>
+              <div>
+                <strong>Week 2 – Strengthening and Progression</strong>
+                <span>Backward span, 1-back to 2-back, increase complexity moderately</span>
+              </div>
+            </div>
+            <div class="wm-week-body">
+              <p><span class="wm-accent">Focus:</span> Expand capacity and introduce mental manipulation</p>
+              <ul class="wm-bullets">
+                <li><strong>Backward digit span:</strong> Begin with 4-digit sequences. Work up to 5–6 digits backward. This heavily engages the central executive.</li>
+                <li><strong>N-back tasks:</strong> Start with 1-back (current matches previous). Progress to 2-back (current matches two positions back). Introduce time pressure gradually.</li>
+                <li><strong>Spatial complexity:</strong> Move to 5-6 position sequences. Introduce more complex spatial patterns.</li>
+                <li><strong>Attention drills:</strong> Practice target detection tasks to strengthen underlying attention.</li>
+              </ul>
+              <p style="margin-top: 0.7rem;"><span class="wm-accent">Target:</span> Increase digit span by 1–2 units from baseline. Achieve 75–85% accuracy on 2-back tasks.</p>
+            </div>
+          </div>
+
+          <div class="wm-week">
+            <div class="wm-week-head" onclick="toggleWeek(this)">
+              <div class="wm-week-dot">3</div>
+              <div>
+                <strong>Week 3 – Expansion and Integration</strong>
+                <span>Dual-tasks, complex span exercises, advanced patterns, time pressure</span>
+              </div>
+            </div>
+            <div class="wm-week-body">
+              <p><span class="wm-accent">Focus:</span> Build capacity under realistic pressure conditions</p>
+              <ul class="wm-bullets">
+                <li><strong>Dual-task training:</strong> Begin tracking object + remembering digits simultaneously. Practice divided attention without degradation.</li>
+                <li><strong>Complex span:</strong> Combine processing (math, logic) with memory (words, positions). Start with slower pace, then increase speed.</li>
+                <li><strong>Visuospatial advance:</strong> Medium to advanced difficulty map memory tasks. Spatial reasoning under time constraints.</li>
+                <li><strong>Time pressure introduction:</strong> Gradually reduce time allowances to simulate exam conditions. Maintain accuracy prioritization.</li>
+              </ul>
+              <p style="margin-top: 0.7rem;"><span class="wm-accent">Target:</span> Maintain accuracy on complex tasks. Improve n-back performance to reliable 2-back or emerging 3-back capability.</p>
+            </div>
+          </div>
+
+          <div class="wm-week">
+            <div class="wm-week-head" onclick="toggleWeek(this)">
+              <div class="wm-week-dot">4</div>
+              <div>
+                <strong>Week 4 – Simulation and Refinement</strong>
+                <span>Full mock tests, complete CSSS battery, weak area focus, confidence building</span>
+              </div>
+            </div>
+            <div class="wm-week-body">
+              <p><span class="wm-accent">Focus:</span> Real-world performance under actual exam conditions</p>
+              <ul class="wm-bullets">
+                <li><strong>Full-length mock tests:</strong> Complete working memory test battery under strict time conditions, without breaks.</li>
+                <li><strong>Weak area correction:</strong> Focus intensive practice on domains showing lower accuracy (e.g., if n-back weaker, practice more n-back).</li>
+                <li><strong>Speed-accuracy balance:</strong> Refine the balance between responding quickly and maintaining accuracy.</li>
+                <li><strong>Stress inoculation:</strong> Practice in high-pressure conditions to build psychological resilience.</li>
+              </ul>
+              <p style="margin-top: 0.7rem;"><span class="wm-accent">Target:</span> Achieve 80–100% accuracy across all domains. Increase total digit span by 2–3 units from baseline.</p>
+            </div>
+          </div>
+
+          <h3>Key Performance Metrics to Track</h3>
+          <div class="wm-grid">
+            <article class="wm-card">
+              <h4>Digit Span</h4>
+              <p>Both forward and backward. Forward typically reaches 7±2; backward is 1–2 items shorter. Track weekly improvement.</p>
+            </article>
+            <article class="wm-card">
+              <h4>Accuracy %</h4>
+              <p>Aim for 80–100% across all formats. Lower accuracy indicates encoding problems, not capacity issues.</p>
+            </article>
+            <article class="wm-card">
+              <h4>Reaction Time</h4>
+              <p>Faster responses on complex tasks indicate improved processing speed and strategy fluency.</p>
+            </article>
+            <article class="wm-card">
+              <h4>N-Back Performance</h4>
+              <p>Track progression from 1-back to 2-back to 3-back. Measure both accuracy and response latency.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="wm-block">
+          <p class="wm-label">Section 6 - Common Mistakes and Solutions</p>
+          <h2>Avoiding Pitfalls in Working Memory Development</h2>
+
+          <article class="wm-q">
+            <h3>Mistake 1: Mishearing or Misencoding Information</h3>
+            <p class="wm-explain">
+              <strong>Problem:</strong> Confusing digits or words during initial presentation. This fundamentally compromises all subsequent processing stages. If the wrong information is encoded, no amount of working memory capacity will retrieve the right answer.
+            </p>
+            <p class="wm-explain" style="margin-top: 0.6rem;">
+              <strong>Solution:</strong> Develop strong subvocal rehearsal immediately upon hearing information. Repeat internally during presentation. In practice, focus on encoding phase—do not rush. Gradually increase listening difficulty after establishing accuracy in quiet environments.
             </p>
           </article>
-          <article>
-            <a class="btn" href="/index.html">Back to Homepage</a>
+
+          <article class="wm-q">
+            <h3>Mistake 2: Ignoring Task Instructions</h3>
+            <p class="wm-explain">
+              <strong>Problem:</strong> Rushing into answering without understanding what is required. Common errors: recalling sequences forward instead of backward; missing the "n" parameter in n-back tasks; forgetting to maintain order in complex span tasks.
+            </p>
+            <p class="wm-explain" style="margin-top: 0.6rem;">
+              <strong>Solution:</strong> Always read or listen to instructions completely before responding. In practice, pause for 2 seconds after each instruction to confirm understanding. Verbalize what the task requires before answering. This adds minimal time but prevents major errors.
+            </p>
           </article>
-        </div>
+
+          <article class="wm-q">
+            <h3>Mistake 3: Lack of Effective Strategy</h3>
+            <p class="wm-explain">
+              <strong>Problem:</strong> Attempting to remember everything as separate units without using chunking, visualization, or association strategies. This quickly overwhelms working memory capacity. Most failures stem from poor strategy, not low capacity.
+            </p>
+            <p class="wm-explain" style="margin-top: 0.6rem;">
+              <strong>Solution:</strong> Actively learn and apply chunking (grouping digits), visualization (creating mental images), and association (linking to familiar concepts). Research shows strategy use can increase effective memory span by 30–40%. These techniques are learnable.
+            </p>
+          </article>
+
+          <article class="wm-q">
+            <h3>Mistake 4: Panic Under Time Pressure</h3>
+            <p class="wm-explain">
+              <strong>Problem:</strong> Anxiety during timed tasks leads to careless mistakes, poor encoding, and rushed responses. Stress degrades working memory performance significantly—exactly what you cannot afford.
+            </p>
+            <p class="wm-explain" style="margin-top: 0.6rem;">
+              <strong>Solution:</strong> Practice extensively under time pressure to build tolerance and confidence. Start with generous limits, gradually reduce. Use controlled breathing during tasks. Remember: speed without accuracy is counterproductive. Build accuracy first, then increase speed incrementally.
+            </p>
+          </article>
+
+          <article class="wm-q">
+            <h3>Mistake 5: Poor Focus and Attention Fatigue</h3>
+            <p class="wm-explain">
+              <strong>Problem:</strong> Loss of concentration mid-task due to distractions or fatigue causes information already encoded to be lost. Sustained attention is prerequisite for working memory performance.
+            </p>
+            <p class="wm-explain" style="margin-top: 0.6rem;">
+              <strong>Solution:</strong> Train sustained attention separately. Practice in gradually noisier environments. Ensure adequate sleep before practice sessions. Use "pre-task focus ritual"—spend 10 seconds mentally preparing before each task. Build attention capacity alongside working memory capacity.
+            </p>
+          </article>
+        </section>
+
+        <section class="wm-block wm-final">
+          <p class="wm-label">Key Takeaway</p>
+          <h2>Working Memory: Your Cognitive Backbone for CSSS Success</h2>
+          <p>
+            Working memory is one of the most important cognitive abilities tested in CSSS because it reflects how effectively a candidate can <span class="wm-accent">think, adapt, and perform under pressure</span>. It encompasses attention, processing speed, and decision-making capabilities—not merely memory.
+          </p>
+          <p>
+            A strong working memory provides a clear advantage not only in clearing Stage-1 screening but also in actual operational performance. Officers with strong working memory maintain situational awareness, make faster decisions, and execute instructions accurately even under extreme stress. Continuous practice, proper strategy application, and disciplined training are the pathways to mastery.
+          </p>
+          <p>
+            The investment you make in improving working memory now translates directly into enhanced operational capability and reliability in future defence roles. This is not just a test to pass—it is a skill that will serve you throughout your military career.
+          </p>
+          <a class="btn btn-gold" href="auditory-discrimination.html">Next Read: Auditory Discrimination</a>
+        </section>
       </section>
     </main>
 
@@ -60,6 +893,12 @@
       </div>
     </footer>
 
-    <script src="/nav.js"></script>
+    <script src="../nav.js"></script>
+    <script>
+      function toggleWeek(element) {
+        const body = element.nextElementSibling;
+        body.classList.toggle('open');
+      }
+    </script>
   </body>
 </html>
