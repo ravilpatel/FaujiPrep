@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+<title>Odd One Out Quiz 1 - Linguistic Abilities CSSS Practice | FaujiPrep</title>
+    <meta
+      name="description"
+      content="Odd One Out Quiz 1 for linguistic abilities practice with progress tracking and question navigation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../practice.css" />
+  </head>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-69W0M71YPP');
+</script>
+  <body class="homepage">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="container section synq-page">
+        <article class="synq-main">
+          <div class="synq-head">
+            <span class="badge">Linguistic Abilities &bull; Odd One Out</span>
+            <h1>Odd One Out Quiz - 1</h1>
+            <p>One question at a time. Select one option for each question.</p>
+          </div>
+
+          <section class="synq-start" id="synq-start-panel">
+            <p>The quiz starts only after you begin. Each question has its own timer.</p>
+            <button class="btn btn-gold" id="synq-start-btn" type="button">Start Practice</button>
+          </section>
+
+          <p class="synq-status" id="synq-status" hidden>Attempted: 0/10 | Correct: 0</p>
+          <p class="synq-timer" id="synq-timer" hidden>Time Left: 00:00</p>
+
+          <section class="synq-question" aria-live="polite" id="synq-question-block" hidden>
+            <h2 id="synq-question-text">Question text</h2>
+            <p class="synq-difficulty" id="synq-difficulty">Difficulty: Easy</p>
+            <div class="synq-options" id="synq-options"></div>
+          </section>
+
+          <div class="synq-controls" id="synq-controls" hidden>
+            <button class="btn btn-ghost btn-sm" id="synq-prev" type="button">Previous</button>
+            <button class="btn btn-gold btn-sm" id="synq-next" type="button">Next</button>
+            <a class="btn btn-gold btn-sm" href="odd-one-out-2.html" style="margin-left:8px">Next Practice</a>
+            <a class="btn btn-ghost btn-sm" href="../cognitive-tests.html">Back to Practice</a>
+          </div>
+
+          <section class="synq-report" id="synq-report" hidden>
+            <h3>Quiz Complete &mdash; Well Done!</h3>
+            <p class="synq-report-score" id="synq-report-score">Score: 0/0</p>
+            <div class="synq-report-table-wrap">
+              <table class="synq-report-table">
+                <thead>
+                  <tr>
+                    <th>Difficulty</th>
+                    <th>Attempted</th>
+                    <th>Right</th>
+                    <th>Wrong</th>
+                    <th>Not Attempted</th>
+                  </tr>
+                </thead>
+                <tbody id="synq-report-body"></tbody>
+              </table>
+            </div>
+          </section>
+        </article>
+
+        <aside class="synq-nav" aria-label="Question navigator" id="synq-nav" hidden>
+          <h3>Questions</h3>
+          <button class="btn btn-ghost btn-sm" id="synq-download-pdf" type="button">Download Questions PDF</button>
+          <div class="synq-filter" aria-label="Filter questions by difficulty">
+            <button class="synq-filter-btn active" type="button" data-filter="all">All</button>
+            <button class="synq-filter-btn" type="button" data-filter="easy">Easy</button>
+            <button class="synq-filter-btn" type="button" data-filter="medium">Medium</button>
+            <button class="synq-filter-btn" type="button" data-filter="hard">Hard</button>
+          </div>
+          <div class="synq-grid" id="synq-grid"></div>
+          <div class="synq-legend">
+            <span><i class="synq-dot synq-dot-unattempted"></i> Not Attempted</span>
+            <span><i class="synq-dot synq-dot-correct"></i> Correct</span>
+            <span><i class="synq-dot synq-dot-wrong"></i> Wrong</span>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          Disclaimer: FaujiPrep is an independent preparation platform and is not
+          affiliated with UPSC, Indian Army, or any government recruitment authority.
+        </p>
+        <div class="footer-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+    <script src="odd-one-out-1.js"></script>
+  </body>
+</html>
