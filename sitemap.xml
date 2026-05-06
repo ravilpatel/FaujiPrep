@@ -1,156 +1,350 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
   <url>
-    <loc>https://faujiprep.app/cognitive/form-perception.html</loc>
+    <loc>https://faujiprep.app/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
+
+  <!-- Practice Hub -->
+  <url>
+    <loc>https://faujiprep.app/practice/cognitive-tests.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- CSSS Cognitive Guides -->
   <url>
     <loc>https://faujiprep.app/cognitive/linguistic-abilities.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/cognitive/perceptual-speed.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/cognitive/space-perception.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/cognitive/sustained-attention.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/cognitive/space-perception.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/cognitive/visualisation.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://faujiprep.app/</loc>
+    <loc>https://faujiprep.app/cognitive/form-perception.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/cognitive/perceptual-speed.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/cognitive/map-memory.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/cognitive/working-memory.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/cognitive/selection-attention.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/cognitive/auditory-discrimination.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- OPAM / OLQ Pages -->
+  <url>
+    <loc>https://faujiprep.app/opam/olqs.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-ability-to-influence-group.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-cooperation.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-courage.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-determination.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-effective-intelligence.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-initiative.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-liveliness.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-organizing-ability.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-power-of-expression.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-reasoning-ability.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/opam/olqs.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-self-confidence.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-sense-of-responsibility.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-social-adaptability.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-speed-of-decision.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/opam/olq-stamina.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://faujiprep.app/practice/cognitive-tests.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/Sustained/cancellation-drills-1.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/Sustained/passage-comprehension-1.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/Sustained/passage-comprehension-2.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/Sustained/passage-comprehension-3.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/Sustained/serial-subtraction-1.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-1.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-10.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-2.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-3.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-4.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-5.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-6.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-7.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-8.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/antonyms-9.html</loc>
-  </url>
+
+  <!-- Synonyms Quizzes -->
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-1.html</loc>
-  </url>
-  <url>
-    <loc>https://faujiprep.app/practice/verbal/synonyms-10.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-2.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-3.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-4.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-5.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-6.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-7.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-8.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/practice/verbal/synonyms-9.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://faujiprep.app/practice/verbal/synonyms-10.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Antonyms Quizzes -->
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-1.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-2.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-3.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-4.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-5.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-6.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-7.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-8.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-9.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/verbal/antonyms-10.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sustained Attention Drills -->
+  <url>
+    <loc>https://faujiprep.app/practice/Sustained/cancellation-drills-1.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/Sustained/passage-comprehension-1.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/Sustained/passage-comprehension-2.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/Sustained/passage-comprehension-3.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://faujiprep.app/practice/Sustained/serial-subtraction-1.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Resources & Tests -->
+  <url>
     <loc>https://faujiprep.app/resources/index.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://faujiprep.app/tests/full-mock-test.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
+
 </urlset>

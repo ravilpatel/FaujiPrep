@@ -111,6 +111,9 @@ const synqReportScore = document.getElementById("synq-report-score");
 const synqReportBody = document.getElementById("synq-report-body");
 const synqFilterButtons = document.querySelectorAll(".synq-filter-btn");
 const synqDownloadPdfBtn = document.getElementById("synq-download-pdf");
+const synqProgressWrap = document.getElementById("synq-progress-wrap");
+const synqProgressFill = document.getElementById("synq-progress-fill");
+const synqProgressLabel = document.getElementById("synq-progress-label");
 
 function downloadSynqQuestionsPdf() {
   if (!window.jspdf || !window.jspdf.jsPDF) {
@@ -339,14 +342,33 @@ function startSynqTimer(index) {
 
 function finishSynqQuiz() {
   stopSynqTimer();
-  synqQuestionText.textContent = "Quiz Completed";
+  synqQuestionText.textContent = "Quiz Completed!";
   synqDifficulty.textContent = "All questions finished.";
   synqDifficulty.classList.remove("easy", "medium", "hard");
+  const data = getSynqReportData();
+  const pct = Math.round((data.totalRight / data.totalQuestions) * 100);
+  let msg = pct >= 80
+    ? "Excellent! You're well on track for SSB Stage 1."
+    : pct >= 50
+    ? "Good effort! Review the ones you missed and try again."
+    : "Keep practising — every attempt builds your speed and accuracy.";
   synqOptions.innerHTML =
-    '<p class="synq-complete">Time is up or all questions are attempted. Review your answers from the navigator.</p>';
+    `<div class="synq-completion-banner">
+      <span class="synq-completion-icon">${pct >= 80 ? '🏆' : pct >= 50 ? '✅' : '💪'}</span>
+      <div class="synq-completion-text">
+        <strong>Great job! You scored ${data.totalRight}/${data.totalQuestions} (${pct}%)</strong>
+        <p>${msg}</p>
+      </div>
+    </div>`;
   synqPrev.disabled = true;
   synqNext.disabled = true;
   synqTimer.textContent = "Time Left: 00:00";
+  if (synqProgressFill) {
+    synqProgressFill.style.width = '100%';
+    const progBar = synqProgressFill.parentElement;
+    if (progBar) progBar.setAttribute('aria-valuenow', synqQuestions.length);
+  }
+  if (synqProgressLabel) synqProgressLabel.textContent = `${synqQuestions.length} of ${synqQuestions.length}`;
   renderSynqReport();
 }
 
@@ -469,6 +491,15 @@ function renderSynqStatus() {
   ).length;
   synqStatus.textContent =
     "Attempted: " + attempted + "/" + synqQuestions.length + " | Correct: " + correct;
+
+  // Update progress bar
+  if (synqProgressFill && synqProgressLabel) {
+    const pct = (attempted / synqQuestions.length) * 100;
+    synqProgressFill.style.width = pct + '%';
+    const progBar = synqProgressFill.parentElement;
+    if (progBar) progBar.setAttribute('aria-valuenow', attempted);
+    synqProgressLabel.textContent = `${attempted} of ${synqQuestions.length}`;
+  }
 }
 
 synqPrev.addEventListener("click", () => {
@@ -525,6 +556,10 @@ synqStartBtn.addEventListener("click", () => {
   synqQuestionBlock.hidden = false;
   synqControls.hidden = false;
   synqNav.hidden = false;
+  if (synqProgressWrap) {
+    synqProgressWrap.hidden = false;
+    synqProgressWrap.removeAttribute('aria-hidden');
+  }
 
   renderSynqStatus();
   renderSynqQuestion();

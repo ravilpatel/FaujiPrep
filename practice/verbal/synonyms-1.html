@@ -3,12 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
-<title>FaujiPrep | Synonyms Quiz 1</title>
-    <meta
-      name="description"
-      content="Synonyms Quiz 1 for linguistic abilities practice with progress tracking and question navigation."
-    />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Synonyms Quiz 1 – Linguistic Abilities CSSS Practice | FaujiPrep</title>
+    <meta name="description" content="Practice Synonyms Quiz 1 for CSSS Linguistic Abilities. 10 timed questions with difficulty levels, score tracking and PDF download on FaujiPrep." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://faujiprep.app/practice/verbal/synonyms-1.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Synonyms Quiz 1 – CSSS Linguistic Abilities Practice | FaujiPrep" />
+    <meta property="og:description" content="Practice Synonyms Quiz 1 for CSSS Linguistic Abilities. 10 timed questions with score tracking on FaujiPrep." />
+    <meta property="og:url" content="https://faujiprep.app/practice/verbal/synonyms-1.html" />
+    <meta property="og:image" content="https://faujiprep.app/img/Logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Quiz",
+      "name": "Synonyms Quiz 1 – CSSS Linguistic Abilities",
+      "description": "10 timed synonym questions for SSB Stage 1 CSSS preparation.",
+      "url": "https://faujiprep.app/practice/verbal/synonyms-1.html",
+      "educationalLevel": "Undergraduate",
+      "isAccessibleForFree": true,
+      "provider": {
+        "@type": "Organization",
+        "name": "FaujiPrep",
+        "url": "https://faujiprep.app"
+      }
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,18 +57,24 @@
       <section class="container section synq-page">
         <article class="synq-main">
           <div class="synq-head">
-            <span class="badge">Linguistic Abilities</span>
+            <span class="badge">Linguistic Abilities • Synonyms</span>
             <h1>Synonyms Quiz - 1</h1>
-            <p>One question at a time. Select one option for each question.</p>
+            <p>One question at a time. Select one option for each question before the timer runs out.</p>
           </div>
 
           <section class="synq-start" id="synq-start-panel">
-            <p>The quiz starts only after you begin. Each question has its own timer.</p>
-            <button class="btn btn-gold" id="synq-start-btn" type="button">Start Practice</button>
+            <p>The quiz starts only after you begin. Each question has its own timer. You can navigate freely between questions.</p>
+            <button class="btn btn-gold" id="synq-start-btn" type="button" aria-label="Begin Synonyms Quiz 1">&#9658; Start Practice</button>
           </section>
 
-          <p class="synq-status" id="synq-status" hidden>Attempted: 0/10 | Correct: 0</p>
-          <p class="synq-timer" id="synq-timer" hidden>Time Left: 00:00</p>
+          <p class="synq-status" id="synq-status" hidden aria-live="polite" aria-atomic="true">Attempted: 0/10 | Correct: 0</p>
+          <div class="synq-progress-wrap" id="synq-progress-wrap" hidden aria-hidden="true">
+            <div class="synq-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" aria-label="Quiz progress">
+              <div class="synq-progress-fill" id="synq-progress-fill"></div>
+            </div>
+            <span class="synq-progress-label" id="synq-progress-label">0 of 10</span>
+          </div>
+          <p class="synq-timer" id="synq-timer" hidden aria-live="assertive">Time Left: 00:00</p>
 
           <section class="synq-question" aria-live="polite" id="synq-question-block" hidden>
             <h2 id="synq-question-text">Question text</h2>
@@ -56,14 +83,14 @@
           </section>
 
           <div class="synq-controls" id="synq-controls" hidden>
-            <button class="btn btn-ghost btn-sm" id="synq-prev" type="button">Previous</button>
-            <button class="btn btn-gold btn-sm" id="synq-next" type="button">Next</button>
-            <a class="btn btn-gold btn-sm" href="synonyms-2.html" style="margin-left:8px">Next Practice</a>
-            <a class="btn btn-ghost btn-sm" href="../cognitive-tests.html">Back to Practice</a>
+            <button class="btn btn-ghost btn-sm" id="synq-prev" type="button" aria-label="Previous question">&#8592; Previous</button>
+            <button class="btn btn-gold btn-sm" id="synq-next" type="button" aria-label="Next question">Next &#8594;</button>
+            <a class="btn btn-gold btn-sm" href="synonyms-2.html" aria-label="Go to Synonyms Quiz 2">Next Practice &#9658;</a>
+            <a class="btn btn-ghost btn-sm" href="../cognitive-tests.html" aria-label="Return to Practice Zone">&#8592; Practice Zone</a>
           </div>
 
-          <section class="synq-report" id="synq-report" hidden>
-            <h3>Quiz Report</h3>
+          <section class="synq-report" id="synq-report" hidden aria-live="polite">
+            <h3>Quiz Complete — Well Done!</h3>
             <p class="synq-report-score" id="synq-report-score">Score: 0/0</p>
             <div class="synq-report-table-wrap">
               <table class="synq-report-table">
@@ -102,15 +129,38 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>
-          Disclaimer: FaujiPrep is an independent preparation platform and is not
-          affiliated with UPSC, Indian Army, or any government recruitment authority.
-        </p>
-        <div class="footer-links" aria-label="Social links">
-          <a href="#" aria-label="Instagram">Instagram</a>
-          <a href="#" aria-label="YouTube">YouTube</a>
-          <a href="#" aria-label="Telegram">Telegram</a>
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-brand-col">
+            <a href="/" aria-label="FaujiPrep home">
+              <img src="../../img/Logo.png" alt="FaujiPrep – SSB Stage 1 Preparation" class="brand-logo" width="130" height="auto" />
+            </a>
+            <p class="footer-tagline">India's first completely free platform for the new SSB Stage 1 pattern — CSSS &amp; OPAM.</p>
+          </div>
+          <div>
+            <p class="footer-col-heading">Practice</p>
+            <ul class="footer-col-links">
+              <li><a href="/practice/cognitive-tests.html">Practice Zone</a></li>
+              <li><a href="/cognitive/linguistic-abilities.html">CSSS Guides</a></li>
+              <li><a href="/opam/olqs.html">OPAM &amp; OLQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-col-heading">More Quizzes</p>
+            <ul class="footer-col-links">
+              <li><a href="synonyms-2.html">Synonyms Quiz 2</a></li>
+              <li><a href="antonyms-1.html">Antonyms Quiz 1</a></li>
+              <li><a href="../Sustained/cancellation-drills-1.html">Cancellation Drills</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Disclaimer: FaujiPrep is an independent preparation platform and is not affiliated with UPSC, Indian Army, or any government recruitment authority.</p>
+          <nav class="footer-social" aria-label="Social links">
+            <a href="#" aria-label="Follow FaujiPrep on Instagram">Instagram</a>
+            <a href="#" aria-label="FaujiPrep YouTube channel">YouTube</a>
+            <a href="#" aria-label="Join FaujiPrep Telegram group">Telegram</a>
+          </nav>
         </div>
       </div>
     </footer>
