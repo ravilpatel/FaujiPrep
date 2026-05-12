@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Visual Pattern Recall Test | FaujiPrep</title>
+    <meta name="description" content="Visual pattern recall test for memory accuracy, observation retention, and recall speed." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://faujiprep.app/practice/Sustained/visual-pattern/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Visual Pattern Recall Test | FaujiPrep" />
+    <meta property="og:description" content="Visual pattern recall test for memory accuracy, observation retention, and recall speed." />
+    <meta property="og:url" content="https://faujiprep.app/practice/Sustained/visual-pattern/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Visual Pattern Recall Test | FaujiPrep" />
+    <meta name="twitter:description" content="Visual pattern recall test for memory accuracy, observation retention, and recall speed." />
+    <meta property="og:image" content="https://faujiprep.app/img/Logo.png" />
+    <meta name="twitter:image" content="https://faujiprep.app/img/Logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+    <link rel="stylesheet" href="../../practice.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-69W0M71YPP');
+  </script>
+  <body class="homepage">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="container section drill-page memory-page">
+        <header class="drill-head">
+          <span class="badge">Sustained Attention</span>
+          <h1>Visual Pattern Recall Test</h1>
+          <p>
+            Observe the highlighted pattern carefully and recreate it from memory after it disappears.
+          </p>
+          <div class="badge-line">
+            <span>Working Memory</span>
+            <span>Observation Retention</span>
+            <span>Recall Precision</span>
+            <span>Pattern Recognition</span>
+          </div>
+        </header>
+
+        <section class="test-shell">
+          <div class="test-left">
+            <section class="screen screen-landing is-active" id="screen-landing">
+              <div class="landing-card">
+                <div class="landing-title">
+                  <h2>Test Instructions</h2>
+                  <p class="landing-sub">Observe the highlighted pattern carefully and recreate it after it disappears.</p>
+                </div>
+                <div class="difficulty-row" role="group" aria-label="Difficulty progression">
+                  <span class="badge">Level 1: Easy</span>
+                  <span class="badge">Level 2: Medium</span>
+                  <span class="badge">Level 3: Hard</span>
+                </div>
+                <div class="landing-stats">
+                  <div>
+                    <span class="stat-label">Grid Size</span>
+                    <span class="stat-value" id="statGrid">3 x 3</span>
+                  </div>
+                  <div>
+                    <span class="stat-label">Highlight Count</span>
+                    <span class="stat-value" id="statCells">2-3</span>
+                  </div>
+                  <div>
+                    <span class="stat-label">Observe Time</span>
+                    <span class="stat-value" id="statObserve">2.4s</span>
+                  </div>
+                </div>
+                <div class="landing-actions">
+                  <button class="btn btn-gold" id="startBtn" type="button">Start Test</button>
+                  <button class="btn btn-ghost" id="practiceBtn" type="button">Run Practice</button>
+                </div>
+                <div class="landing-notes">
+                  <p>During observation, input is locked. Recreate the pattern during recall.</p>
+                  <p class="muted">Tap once to activate a cell, tap again to deactivate.</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen screen-countdown" id="screen-countdown" aria-live="polite">
+              <div class="countdown-card">
+                <div class="countdown-ring"></div>
+                <div class="countdown-text" id="countdownText">3</div>
+                <p>Prepare to observe the pattern.</p>
+              </div>
+            </section>
+
+            <section class="screen screen-test" id="screen-test">
+              <div class="hud">
+                <div class="hud-right">
+                  <button class="btn btn-ghost btn-sm" id="pauseBtn" type="button">Pause</button>
+                  <button class="btn btn-ghost btn-sm" id="fullscreenToggle" type="button">Fullscreen</button>
+                </div>
+              </div>
+              <div class="test-stage">
+                <p class="phase-label" id="phaseLabel">Observation</p>
+                <div class="grid-wrap" id="gridWrap"></div>
+                <div class="hint-line" id="phaseHint">Memorize the pattern.</div>
+                <div class="recall-actions" id="recallActions">
+                  <button class="btn btn-gold" id="submitBtn" type="button">Submit Pattern</button>
+                  <button class="btn btn-ghost" id="resetBtn" type="button">Reset</button>
+                </div>
+              </div>
+              <div class="pause-overlay" id="pauseOverlay" aria-hidden="true">
+                <div class="pause-card">
+                  <h3>Paused</h3>
+                  <p>Resume when you are ready. Focus interruptions are recorded.</p>
+                  <button class="btn btn-gold" id="resumeBtn" type="button">Resume</button>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen screen-results" id="screen-results">
+              <div class="result-card">
+                <div class="result-head">
+                  <h2>Recall Analysis</h2>
+                  <p id="resultSubtitle">Strong visual memory control.</p>
+                </div>
+                <div class="result-grid">
+                  <div class="result-item">
+                    <span>Final Score</span>
+                    <strong id="resultScore">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Accuracy</span>
+                    <strong id="resultAccuracy">0%</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Recall Speed</span>
+                    <strong id="resultSpeed">0.0s</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Correct</span>
+                    <strong id="resultCorrect">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Missed Cells</span>
+                    <strong id="resultMissed">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Extra Cells</span>
+                    <strong id="resultExtra">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Memory Rating</span>
+                    <strong id="resultMemory">-</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Observation Rating</span>
+                    <strong id="resultObservation">-</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Precision Index</span>
+                    <strong id="resultPrecision">0%</strong>
+                  </div>
+                </div>
+                <div class="result-notes">
+                  <p id="resultInsight">Maintain this recall accuracy for operational readiness.</p>
+                  <p id="resultAdvice">Suggestions appear here based on your performance.</p>
+                </div>
+                <div class="result-actions">
+                  <button class="btn btn-gold" id="restartBtn" type="button">Retake Test</button>
+                  <a class="btn btn-ghost" href="../cognitive-tests.html">Back to Practice Hub</a>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <aside class="test-right">
+            <div class="side-card">
+              <h3>Test Diagnostics</h3>
+              <p>Memory recall is scored on precision, speed, and consistency.</p>
+              <ul>
+                <li>Observation time is fixed by difficulty.</li>
+                <li>Recall speed measures decision efficiency.</li>
+                <li>Extra cells indicate guess-based responses.</li>
+                <li>Missed cells indicate retention loss.</li>
+              </ul>
+            </div>
+            <div class="side-card">
+              <h3>Focus Monitor</h3>
+              <div class="focus-alert" id="focusAlert" aria-live="polite">Focus intact.</div>
+            </div>
+          </aside>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          Disclaimer: FaujiPrep is an independent preparation platform and is not
+          affiliated with UPSC, Indian Army, or any government recruitment authority.
+        </p>
+        <div class="footer-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../../nav.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

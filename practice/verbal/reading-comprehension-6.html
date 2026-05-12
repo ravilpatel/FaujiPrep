@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reading Comprehension 6 | FaujiPrep</title>
+  <link rel="canonical" href="https://faujiprep.com/practice/verbal/reading-comprehension-6.html" />
+  <link rel="stylesheet" href="../../styles.css" />
+  <link rel="stylesheet" href="../practice.css" />
+  <meta property="og:title" content="Reading Comprehension 6 | FaujiPrep" />
+  <meta property="og:description" content="Practice reading comprehension with passage-based inference and tone questions at hard level for SSB Stage 1 CSSS." />
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-69W0M71YPP');
+  </script>
+  <style>
+    .rc-passage {
+      background-color: #f5f5f5;
+      border-left: 4px solid #d4a574;
+      padding: 16px;
+      margin-bottom: 24px;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #333;
+    }
+    .rc-passage p {
+      margin-bottom: 12px;
+    }
+    .rc-passage p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="synq-page">
+    <div class="synq-main">
+      <div class="synq-head">
+        <a href="../cognitive-tests.html" class="pz-back-link">← Back to Cognitive Tests</a>
+        <h1>Reading Comprehension 6</h1>
+        <span class="pz-badge">Hard</span>
+      </div>
+
+      <div id="synq-start-panel" class="synq-start">
+        <div class="synq-content">
+          <h2>Ready to test your reading comprehension?</h2>
+          <p>Read the passage carefully, then answer the questions based on inference and tone.</p>
+          <p class="synq-info">5 questions • Hard difficulty • Customizable time limit</p>
+          <button id="synq-start-btn" class="synq-start-button">Start Quiz</button>
+        </div>
+      </div>
+
+      <div id="synq-question-block" class="synq-question-block" hidden>
+        <div id="synq-timer" class="synq-timer">Time Left: 00:25</div>
+        <div id="synq-status" class="synq-status">Attempted: 0/5 | Correct: 0</div>
+
+        <div id="rc-passage-container" class="rc-passage"></div>
+
+        <div class="synq-question">
+          <p id="synq-question-text" class="synq-question-text">Loading question...</p>
+          <p id="synq-difficulty" class="synq-difficulty">Difficulty: Hard</p>
+
+          <div id="synq-options" class="synq-options">
+            <button class="synq-option">Loading options...</button>
+          </div>
+        </div>
+
+        <div id="synq-controls" class="synq-controls" hidden>
+          <button id="synq-prev" class="synq-nav-button">← Previous</button>
+          <button id="synq-next" class="synq-nav-button">Next →</button>
+        </div>
+
+        <div id="synq-nav" class="synq-nav" hidden>
+          <div class="synq-filters">
+            <button class="synq-filter-btn active" data-filter="all">All</button>
+            <button class="synq-filter-btn" data-filter="easy">Easy</button>
+            <button class="synq-filter-btn" data-filter="medium">Medium</button>
+            <button class="synq-filter-btn" data-filter="hard">Hard</button>
+          </div>
+          <div class="synq-grid" id="synq-grid"></div>
+          <button id="synq-download-pdf" class="synq-download-button">📥 Download as PDF</button>
+        </div>
+      </div>
+
+      <div id="synq-report" class="synq-report" hidden>
+        <h2>Quiz Complete!</h2>
+        <p id="synq-report-score" class="synq-report-score">Score: 0/5</p>
+        <table class="synq-report-table">
+          <thead>
+            <tr>
+              <th>Difficulty</th>
+              <th>Attempted</th>
+              <th>Correct</th>
+              <th>Wrong</th>
+              <th>Not Attempted</th>
+            </tr>
+          </thead>
+          <tbody id="synq-report-body"></tbody>
+        </table>
+        <div class="synq-report-actions">
+          <button class="synq-action-button" onclick="location.reload()">Retake Quiz</button>
+          <button class="synq-action-button" onclick="history.back()">Back to Tests</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../../nav.js"></script>
+  <script src="reading-comprehension-6.js"></script>
+</body>
+</html>

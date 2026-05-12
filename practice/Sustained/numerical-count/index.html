@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Numerical Count Reflex Test | FaujiPrep</title>
+    <meta name="description" content="Count the numericals shown and press 4, 5, or 6. Reflex accuracy and attention stability drill." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://faujiprep.app/practice/Sustained/numerical-count/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Numerical Count Reflex Test | FaujiPrep" />
+    <meta property="og:description" content="Count the numericals shown and press 4, 5, or 6." />
+    <meta property="og:url" content="https://faujiprep.app/practice/Sustained/numerical-count/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Numerical Count Reflex Test | FaujiPrep" />
+    <meta name="twitter:description" content="Count the numericals shown and press 4, 5, or 6." />
+    <meta property="og:image" content="https://faujiprep.app/img/Logo.png" />
+    <meta name="twitter:image" content="https://faujiprep.app/img/Logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+    <link rel="stylesheet" href="../../practice.css" />
+    <link rel="stylesheet" href="../shared.css" />
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-69W0M71YPP');
+  </script>
+  <body class="homepage test-count" data-test="count">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="container section drill-page count-page">
+        <header class="drill-head">
+          <span class="badge">Sustained Attention</span>
+          <h1>Numerical Count / Attention Test</h1>
+          <p>
+            Count how many numericals appear and press the matching key. Only the keys 4, 5, and 6 are valid.
+          </p>
+          <div class="badge-line">
+            <span>Rapid Counting</span>
+            <span>Focused Attention</span>
+            <span>Reflex Accuracy</span>
+            <span>Decision Speed</span>
+          </div>
+        </header>
+
+        <section class="test-shell">
+          <div class="test-left">
+            <section class="screen screen-landing is-active" id="screen-landing">
+              <div class="landing-card">
+                <div class="landing-title">
+                  <h2>Test Rules</h2>
+                  <p class="landing-sub">Count the digits shown. Press 4, 5, or 6 to answer.</p>
+                </div>
+                <div class="rule-grid">
+                  <article class="rule-card">
+                    <div class="rule-label">Example</div>
+                    <p class="rule-visual">6666</p>
+                    <div class="rule-action">Press <strong>4</strong></div>
+                  </article>
+                  <article class="rule-card">
+                    <div class="rule-label">Example</div>
+                    <p class="rule-visual">55555</p>
+                    <div class="rule-action">Press <strong>5</strong></div>
+                  </article>
+                  <article class="rule-card">
+                    <div class="rule-label">Example</div>
+                    <p class="rule-visual">444444</p>
+                    <div class="rule-action">Press <strong>6</strong></div>
+                  </article>
+                </div>
+                <div class="landing-stats">
+                  <div>
+                    <span class="stat-label">Total Rounds</span>
+                    <span class="stat-value" id="statRounds">24</span>
+                  </div>
+                  <div>
+                    <span class="stat-label">Estimated Duration</span>
+                    <span class="stat-value" id="statDuration">01:05</span>
+                  </div>
+                  <div>
+                    <span class="stat-label">Valid Inputs</span>
+                    <span class="stat-value">4 / 5 / 6</span>
+                  </div>
+                </div>
+                <div class="landing-actions">
+                  <button class="btn btn-gold" id="startBtn" type="button">Start Test</button>
+                  <button class="btn btn-ghost" id="practiceBtn" type="button">Run Practice</button>
+                </div>
+                <div class="landing-notes">
+                  <p>Keyboard only on desktop. On mobile, tap the 4/5/6 buttons.</p>
+                  <p class="muted">Only the first response per prompt is counted.</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen screen-countdown" id="screen-countdown" aria-live="polite">
+              <div class="countdown-card">
+                <div class="countdown-ring"></div>
+                <div class="countdown-text" id="countdownText">3</div>
+                <p>Ready. Count fast. Answer precisely.</p>
+              </div>
+            </section>
+
+            <section class="screen screen-test" id="screen-test">
+              <div class="hud">
+                <div class="hud-right">
+                  <button class="btn btn-ghost btn-sm" id="pauseBtn" type="button">Pause</button>
+                  <button class="btn btn-ghost btn-sm" id="soundToggle" type="button">Sound: Off</button>
+                  <button class="btn btn-ghost btn-sm" id="fullscreenToggle" type="button">Fullscreen</button>
+                </div>
+              </div>
+              <div class="test-stage" id="testStage">
+                <div class="stimulus-frame" aria-live="off">
+                  <div class="stimulus" id="stimulus">4444</div>
+                </div>
+                <div class="status-line" id="statusLine">Awaiting stimulus...</div>
+                <div class="hint-line">Count the digits and press 4, 5, or 6.</div>
+              </div>
+              <div class="mobile-controls" id="mobileControls">
+                <button class="tap-btn" data-key="4" type="button">4</button>
+                <button class="tap-btn" data-key="5" type="button">5</button>
+                <button class="tap-btn" data-key="6" type="button">6</button>
+              </div>
+              <div class="pause-overlay" id="pauseOverlay" aria-hidden="true">
+                <div class="pause-card">
+                  <h3>Paused</h3>
+                  <p>Resume when you are ready. Focus interruptions are recorded.</p>
+                  <button class="btn btn-gold" id="resumeBtn" type="button">Resume</button>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen screen-results" id="screen-results">
+              <div class="result-card">
+                <div class="result-head">
+                  <h2>Performance Summary</h2>
+                  <p id="resultSubtitle">Precise counting with stable responses.</p>
+                </div>
+                <div class="result-grid">
+                  <div class="result-item">
+                    <span>Final Score</span>
+                    <strong id="resultScore">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Accuracy</span>
+                    <strong id="resultAccuracy">0%</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Average Reaction</span>
+                    <strong id="resultAvg">0 ms</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Correct</span>
+                    <strong id="resultCorrect">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Wrong</span>
+                    <strong id="resultWrong">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Missed</span>
+                    <strong id="resultMissed">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Fastest</span>
+                    <strong id="resultFast">0 ms</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Slowest</span>
+                    <strong id="resultSlow">0 ms</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Attention Index</span>
+                    <strong id="resultIndex">0</strong>
+                  </div>
+                </div>
+                <div class="result-notes">
+                  <p id="resultInsight">Maintain this accuracy level under pressure to achieve operational readiness.</p>
+                  <p id="focusNote">Focus interruptions: 0</p>
+                </div>
+                <div class="result-actions">
+                  <button class="btn btn-gold" id="restartBtn" type="button">Retake Test</button>
+                  <a class="btn btn-ghost" href="../attention-detail/">Next Drill</a>
+                  <a class="btn btn-ghost" href="../cognitive-tests.html">Back to Practice Hub</a>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <aside class="test-right">
+            <div class="side-card">
+              <h3>Test Diagnostics</h3>
+              <p>Reaction times are measured from number appearance to first valid response.</p>
+              <ul>
+                <li>Correct responses increase score and accuracy.</li>
+                <li>Wrong responses reduce attention index and score.</li>
+                <li>Missed targets are counted when no response is made.</li>
+                <li>Tab switches or focus loss are logged.</li>
+              </ul>
+            </div>
+            <div class="side-card">
+              <h3>Focus Monitor</h3>
+              <div class="focus-alert" id="focusAlert" aria-live="polite">Focus intact.</div>
+            </div>
+          </aside>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          Disclaimer: FaujiPrep is an independent preparation platform and is not
+          affiliated with UPSC, Indian Army, or any government recruitment authority.
+        </p>
+        <div class="footer-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../../nav.js"></script>
+    <script src="../shared.js"></script>
+  </body>
+</html>

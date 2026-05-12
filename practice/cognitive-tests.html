@@ -91,6 +91,68 @@
         font-size: 0.86rem;
       }
 
+      .reflex-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 12px;
+        margin: 12px 0 4px;
+        padding: 0 12px;
+      }
+
+      .reflex-card {
+        border: 1px solid var(--dk-border-strong);
+        border-radius: 14px;
+        padding: 14px;
+        background: linear-gradient(145deg, rgba(42, 50, 32, 0.94), rgba(22, 27, 18, 0.96));
+        display: grid;
+        gap: 8px;
+        align-content: start;
+      }
+
+      .reflex-card h3 {
+        font-size: 1rem;
+        color: var(--dk-text);
+        margin: 0;
+      }
+
+      .reflex-card p {
+        font-size: 0.9rem;
+        color: var(--dk-muted);
+        line-height: 1.55;
+        margin: 0 0 6px;
+      }
+
+      .reflex-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 10px;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        border: 1px solid rgba(138, 168, 197, 0.25);
+        width: fit-content;
+      }
+
+      .reflex-hard {
+        color: #f2b6b6;
+        border-color: rgba(192, 89, 96, 0.5);
+        background: rgba(192, 89, 96, 0.2);
+      }
+
+      .reflex-moderate {
+        color: #f2d3a2;
+        border-color: rgba(190, 146, 84, 0.5);
+        background: rgba(190, 146, 84, 0.2);
+      }
+
+      .reflex-easy {
+        color: #8edbbf;
+        border-color: rgba(44, 150, 112, 0.5);
+        background: rgba(44, 150, 112, 0.2);
+      }
+
       @media (max-width: 620px) {
         .practice-page.compact-tests .practice-test-grid {
           grid-template-columns: 1fr;
@@ -123,7 +185,7 @@
           <h1>Free Practice for New Pattern in SSB Stage 1</h1>
           <p>Topic-wise CSSS drills and OPAM-linked preparation for the updated Stage&nbsp;1 format.</p>
           <div class="practice-stats-row" style="margin-top:14px">
-            <span class="practice-stat-pill"><span class="pill-dot"></span>25 Live Drills</span>
+            <span class="practice-stat-pill"><span class="pill-dot"></span>36 Live Drills</span>
             <span class="practice-stat-pill"><span class="pill-dot"></span>2 Topics Active</span>
             <span class="practice-stat-pill"><span class="pill-dot"></span>100% Free</span>
           </div>
@@ -142,6 +204,27 @@
                 <p>Maintain focus and accuracy under pressure — cancellation grids, passage recall, and mental arithmetic.</p>
               </div>
               <a class="pz-topic-guide-link" href="../cognitive/sustained-attention.html">Read Guide ›</a>
+            </div>
+
+            <div class="reflex-grid" aria-label="Reflex priority drills">
+              <article class="reflex-card">
+                <span class="reflex-pill reflex-hard">Hard</span>
+                <h3>Attention to Detail Reflex</h3>
+                <p>Respond only to correct border-fill color combinations. No live feedback during the test.</p>
+                <a class="btn btn-gold btn-sm" href="Sustained/attention-detail/" aria-label="Start Attention to Detail Reflex">Start ▶</a>
+              </article>
+              <article class="reflex-card">
+                <span class="reflex-pill reflex-moderate">Moderate</span>
+                <h3>Numerical Count Reflex</h3>
+                <p>Count digits shown and respond with only 4, 5, or 6.</p>
+                <a class="btn btn-gold btn-sm" href="Sustained/numerical-count/" aria-label="Start Numerical Count Reflex">Start ▶</a>
+              </article>
+              <article class="reflex-card">
+                <span class="reflex-pill reflex-easy">Easy</span>
+                <h3>Shape Reflex</h3>
+                <p>Press F for circle and J for square. Tests rapid shape discrimination.</p>
+                <a class="btn btn-gold btn-sm" href="Sustained/shape-reflex/" aria-label="Start Shape Reflex">Start ▶</a>
+              </article>
             </div>
 
             <div class="pz-drill-list" aria-label="Sustained Attention drills">
@@ -179,6 +262,20 @@
                   <p>Three mental arithmetic subtraction sequences under time pressure.</p>
                 </div>
                 <a class="btn btn-gold btn-sm" href="Sustained/serial-subtraction-1.html" aria-label="Start Serial Subtraction 1">Start ▶</a>
+              </div>
+              <div class="pz-drill-row">
+                <div class="pz-drill-info">
+                  <h3>Auditory N-Back (2-Back)</h3>
+                  <p>Listen to random sound clips and respond only to 2-back matches.</p>
+                </div>
+                <a class="btn btn-gold btn-sm" href="Sustained/audio-detail/" aria-label="Start Auditory N-Back">Start ▶</a>
+              </div>
+              <div class="pz-drill-row">
+                <div class="pz-drill-info">
+                  <h3>Visual Pattern Recall Test</h3>
+                  <p>Observe the pattern, then recreate it from memory across multi-round levels.</p>
+                </div>
+                <a class="btn btn-gold btn-sm" href="Sustained/visual-pattern/" aria-label="Start Visual Pattern Recall Test">Start ▶</a>
               </div>
             </div>
           </article>
@@ -251,6 +348,22 @@
                 <a class="pz-quiz-btn" href="verbal/odd-one-out-8.html" aria-label="Odd One Out Quiz 8"><span class="pz-quiz-num">8</span><span class="pz-quiz-label">Hard</span></a>
                 <a class="pz-quiz-btn" href="verbal/odd-one-out-9.html" aria-label="Odd One Out Quiz 9"><span class="pz-quiz-num">9</span><span class="pz-quiz-label">Hard</span></a>
                 <a class="pz-quiz-btn" href="verbal/odd-one-out-10.html" aria-label="Odd One Out Quiz 10"><span class="pz-quiz-num">10</span><span class="pz-quiz-label">Expert</span></a>
+              </div>
+            </div>
+
+            <!-- Reading Comprehension sub-group -->
+            <div class="pz-subgroup">
+              <div class="pz-subgroup-head">
+                <span class="pz-subgroup-title">Reading Comprehension</span>
+                <span class="pz-subgroup-count">6 quizzes · Easy → Hard</span>
+              </div>
+              <div class="pz-quiz-grid" aria-label="Reading Comprehension quizzes 1 to 6">
+                <a class="pz-quiz-btn" href="verbal/reading-comprehension-1.html" aria-label="Reading Comprehension Quiz 1"><span class="pz-quiz-num">1</span><span class="pz-quiz-label">Easy</span></a>
+                <a class="pz-quiz-btn" href="verbal/reading-comprehension-2.html" aria-label="Reading Comprehension Quiz 2"><span class="pz-quiz-num">2</span><span class="pz-quiz-label">Easy</span></a>
+                <a class="pz-quiz-btn" href="verbal/reading-comprehension-3.html" aria-label="Reading Comprehension Quiz 3"><span class="pz-quiz-num">3</span><span class="pz-quiz-label">Easy</span></a>
+                <a class="pz-quiz-btn" href="verbal/reading-comprehension-4.html" aria-label="Reading Comprehension Quiz 4"><span class="pz-quiz-num">4</span><span class="pz-quiz-label">Medium</span></a>
+                <a class="pz-quiz-btn" href="verbal/reading-comprehension-5.html" aria-label="Reading Comprehension Quiz 5"><span class="pz-quiz-num">5</span><span class="pz-quiz-label">Hard</span></a>
+                <a class="pz-quiz-btn" href="verbal/reading-comprehension-6.html" aria-label="Reading Comprehension Quiz 6"><span class="pz-quiz-num">6</span><span class="pz-quiz-label">Hard</span></a>
               </div>
             </div>
           </article>

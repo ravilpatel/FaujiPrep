@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>N-Back Memory Test | FaujiPrep</title>
+    <meta name="description" content="2-back memory test for working memory and focus retention. Respond when the current symbol matches two steps earlier." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://faujiprep.app/practice/Sustained/n-back/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="N-Back Memory Test | FaujiPrep" />
+    <meta property="og:description" content="2-back memory test for working memory and focus retention." />
+    <meta property="og:url" content="https://faujiprep.app/practice/Sustained/n-back/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="N-Back Memory Test | FaujiPrep" />
+    <meta name="twitter:description" content="2-back memory test for working memory and focus retention." />
+    <meta property="og:image" content="https://faujiprep.app/img/Logo.png" />
+    <meta name="twitter:image" content="https://faujiprep.app/img/Logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+    <link rel="stylesheet" href="../../practice.css" />
+    <link rel="stylesheet" href="../shared.css" />
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W0M71YPP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-69W0M71YPP');
+  </script>
+  <body class="homepage test-nback" data-test="nback">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="container section drill-page nback-page">
+        <header class="drill-head">
+          <span class="badge">Sustained Attention</span>
+          <h1>N-Back Memory Test (2-Back)</h1>
+          <p>
+            Monitor the sequence. Press the response key only when the current symbol matches the symbol shown 2 steps earlier.
+          </p>
+          <div class="badge-line">
+            <span>Working Memory</span>
+            <span>Focus Retention</span>
+            <span>Cognitive Load</span>
+            <span>2-Back</span>
+          </div>
+        </header>
+
+        <section class="test-shell">
+          <div class="test-left">
+            <section class="screen screen-landing is-active" id="screen-landing">
+              <div class="landing-card">
+                <div class="landing-title">
+                  <h2>Test Rules</h2>
+                  <p class="landing-sub">Respond only if the symbol matches the one from 2 steps earlier.</p>
+                </div>
+                <div class="rule-grid">
+                  <article class="rule-card">
+                    <div class="rule-label">Example</div>
+                    <p class="rule-visual">A → C → A → B → A</p>
+                    <div class="rule-action">Press when current matches 2-back</div>
+                  </article>
+                  <article class="rule-card">
+                    <div class="rule-label">Response Key</div>
+                    <p>Match detected</p>
+                    <div class="rule-action">Press <strong>F</strong></div>
+                  </article>
+                  <article class="rule-card">
+                    <div class="rule-label">Otherwise</div>
+                    <p>No match</p>
+                    <div class="rule-action">Do not respond</div>
+                  </article>
+                </div>
+                <div class="landing-stats">
+                  <div>
+                    <span class="stat-label">Total Rounds</span>
+                    <span class="stat-value" id="statRounds">32</span>
+                  </div>
+                  <div>
+                    <span class="stat-label">Estimated Duration</span>
+                    <span class="stat-value" id="statDuration">01:20</span>
+                  </div>
+                  <div>
+                    <span class="stat-label">Scoring Method</span>
+                    <span class="stat-value">Accuracy + Speed</span>
+                  </div>
+                </div>
+                <div class="landing-actions">
+                  <button class="btn btn-gold" id="startBtn" type="button">Start Test</button>
+                  <button class="btn btn-ghost" id="practiceBtn" type="button">Run Practice</button>
+                </div>
+                <div class="landing-notes">
+                  <p>Keyboard only on desktop. On mobile, tap the Match button.</p>
+                  <p class="muted">Only the first response per symbol is counted.</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen screen-countdown" id="screen-countdown" aria-live="polite">
+              <div class="countdown-card">
+                <div class="countdown-ring"></div>
+                <div class="countdown-text" id="countdownText">3</div>
+                <p>Hold the last two symbols in memory.</p>
+              </div>
+            </section>
+
+            <section class="screen screen-test" id="screen-test">
+              <div class="hud">
+                <div class="hud-right">
+                  <button class="btn btn-ghost btn-sm" id="pauseBtn" type="button">Pause</button>
+                  <button class="btn btn-ghost btn-sm" id="soundToggle" type="button">Sound: Off</button>
+                  <button class="btn btn-ghost btn-sm" id="fullscreenToggle" type="button">Fullscreen</button>
+                </div>
+              </div>
+              <div class="test-stage" id="testStage">
+                <div class="stimulus-frame" aria-live="off">
+                  <div class="stimulus" id="stimulus">A</div>
+                </div>
+                <div class="status-line" id="statusLine">Awaiting stimulus...</div>
+                <div class="hint-line">Press F only on a 2-back match.</div>
+              </div>
+              <div class="mobile-controls" id="mobileControls">
+                <button class="tap-btn" data-key="f" type="button">Match</button>
+              </div>
+              <div class="pause-overlay" id="pauseOverlay" aria-hidden="true">
+                <div class="pause-card">
+                  <h3>Paused</h3>
+                  <p>Resume when you are ready. Focus interruptions are recorded.</p>
+                  <button class="btn btn-gold" id="resumeBtn" type="button">Resume</button>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen screen-results" id="screen-results">
+              <div class="result-card">
+                <div class="result-head">
+                  <h2>Performance Summary</h2>
+                  <p id="resultSubtitle">Strong working memory under pressure.</p>
+                </div>
+                <div class="result-grid">
+                  <div class="result-item">
+                    <span>Final Score</span>
+                    <strong id="resultScore">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Accuracy</span>
+                    <strong id="resultAccuracy">0%</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Average Reaction</span>
+                    <strong id="resultAvg">0 ms</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Correct</span>
+                    <strong id="resultCorrect">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Wrong</span>
+                    <strong id="resultWrong">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Missed</span>
+                    <strong id="resultMissed">0</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Fastest</span>
+                    <strong id="resultFast">0 ms</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Slowest</span>
+                    <strong id="resultSlow">0 ms</strong>
+                  </div>
+                  <div class="result-item">
+                    <span>Attention Index</span>
+                    <strong id="resultIndex">0</strong>
+                  </div>
+                </div>
+                <div class="result-notes">
+                  <p id="resultInsight">Maintain this accuracy level under pressure to achieve operational readiness.</p>
+                  <p id="focusNote">Focus interruptions: 0</p>
+                </div>
+                <div class="result-actions">
+                  <button class="btn btn-gold" id="restartBtn" type="button">Retake Test</button>
+                  <a class="btn btn-ghost" href="../cognitive-tests.html">Back to Practice Hub</a>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <aside class="test-right">
+            <div class="side-card">
+              <h3>Test Diagnostics</h3>
+              <p>Reaction times are measured from symbol appearance to first valid response.</p>
+              <ul>
+                <li>Correct responses increase score and accuracy.</li>
+                <li>Wrong responses reduce attention index and score.</li>
+                <li>Missed targets are counted when no response is made.</li>
+                <li>Tab switches or focus loss are logged.</li>
+              </ul>
+            </div>
+            <div class="side-card">
+              <h3>Focus Monitor</h3>
+              <div class="focus-alert" id="focusAlert" aria-live="polite">Focus intact.</div>
+            </div>
+          </aside>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          Disclaimer: FaujiPrep is an independent preparation platform and is not
+          affiliated with UPSC, Indian Army, or any government recruitment authority.
+        </p>
+        <div class="footer-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../../nav.js"></script>
+    <script src="../shared.js"></script>
+  </body>
+</html>
