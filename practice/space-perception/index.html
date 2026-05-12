@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paper Folding Aptitude Test Generator</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">PF</div>
+      <div>
+        <div class="title">Paper Folding Aptitude Test</div>
+        <div class="subtitle">Visual Reasoning Generator</div>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="export-json" class="btn btn-ghost">Export JSON</button>
+      <label class="btn btn-ghost file-btn">
+        Import JSON
+        <input id="import-json" type="file" accept="application/json" />
+      </label>
+      <button id="export-pdf" class="btn btn-ghost">Print / Export PDF</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section id="home" class="panel active">
+      <div class="card">
+        <h1>Generate a full paper folding test</h1>
+        <p class="muted">
+          Create 10 unique questions with step-by-step folds, punched holes, and 4
+          multiple-choice unfolded outputs.
+        </p>
+        <div class="grid">
+          <div>
+            <label>Difficulty</label>
+            <select id="difficulty">
+              <option value="easy">Easy</option>
+              <option value="medium" selected>Medium</option>
+              <option value="hard">Hard</option>
+              <option value="expert">Expert</option>
+            </select>
+          </div>
+          <div>
+            <label>Number of questions</label>
+            <select id="question-count">
+              <option value="10" selected>10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+          </div>
+          <div>
+            <label>Random seed</label>
+            <input id="seed" placeholder="Leave blank for random" />
+          </div>
+          <div>
+            <label>Timer (minutes)</label>
+            <input id="timer-min" type="number" min="5" max="60" value="15" />
+          </div>
+        </div>
+        <div class="row">
+          <button id="generate" class="btn btn-primary">Generate Test</button>
+          <button id="random-seed" class="btn btn-ghost">Use Random Seed</button>
+        </div>
+      </div>
+
+      <div class="card info">
+        <h2>How it works</h2>
+        <ul>
+          <li>Folds and holes are generated procedurally using reflections.</li>
+          <li>SVG renders every fold, punch, and unfolded option dynamically.</li>
+          <li>Distractors use realistic symmetry mistakes, not random noise.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="test" class="panel">
+      <div class="test-header">
+        <div>
+          <div class="pill">Question <span id="q-index">1</span>/<span id="q-total">10</span></div>
+          <div class="muted" id="difficulty-label">Medium</div>
+        </div>
+        <div class="timer">
+          <span>Time</span>
+          <span id="timer">00:00</span>
+        </div>
+      </div>
+
+      <div class="question-card">
+        <div class="question-section">
+          <h3>Section A - Folding Sequence</h3>
+          <div id="fold-sequence" class="sequence"></div>
+        </div>
+        <div class="question-section">
+          <h3>Section B - Hole Punch</h3>
+          <div id="hole-punch" class="single"></div>
+        </div>
+        <div class="question-section">
+          <h3>Section C - Options</h3>
+          <div id="options" class="options"></div>
+        </div>
+      </div>
+
+      <div class="nav">
+        <button id="prev" class="btn btn-ghost">Previous</button>
+        <div class="progress">
+          <div id="progress-bar"></div>
+        </div>
+        <button id="next" class="btn btn-primary">Next</button>
+      </div>
+
+      <div class="question-nav" id="question-nav"></div>
+    </section>
+
+    <section id="result" class="panel">
+      <div class="card">
+        <h1>Results</h1>
+        <div class="results">
+          <div>
+            <div class="label">Score</div>
+            <div class="value" id="score">0/10</div>
+          </div>
+          <div>
+            <div class="label">Accuracy</div>
+            <div class="value" id="accuracy">0%</div>
+          </div>
+          <div>
+            <div class="label">Time Taken</div>
+            <div class="value" id="time-taken">00:00</div>
+          </div>
+        </div>
+        <div id="review" class="review"></div>
+        <div class="row">
+          <button id="restart" class="btn btn-primary">Generate New Test</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
