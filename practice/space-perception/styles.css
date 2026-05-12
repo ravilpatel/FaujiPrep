@@ -201,6 +201,17 @@ input, select {
   place-items: center;
 }
 
+.punch-wrap {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+}
+
+.caption {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
 .options {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -214,6 +225,11 @@ input, select {
   background: #fff;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.option svg,
+.punch-wrap svg {
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.12));
 }
 
 .option.selected {

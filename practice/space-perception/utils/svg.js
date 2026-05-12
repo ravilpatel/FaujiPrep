@@ -1,9 +1,20 @@
 import { formatPoint } from "../engine/geometry.js";
 
-export function svgWrapper(inner, size = 120) {
+let gridCounter = 0;
+
+export function svgWrapper(inner, size = 120, options = {}) {
+  const showGrid = options.showGrid === true;
+  const gridId = showGrid ? `grid-${gridCounter++}` : "";
   return `
     <svg viewBox="0 0 100 100" width="${size}" height="${size}" aria-hidden="true">
+      ${showGrid ? `
+      <defs>
+        <pattern id="${gridId}" width="10" height="10" patternUnits="userSpaceOnUse">
+          <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#e6e6e2" stroke-width="1" />
+        </pattern>
+      </defs>` : ""}
       <rect x="2" y="2" width="96" height="96" fill="#fff" stroke="#111" stroke-width="2" rx="6" />
+      ${showGrid ? `<rect x="2" y="2" width="96" height="96" fill="url(#${gridId})" rx="6" />` : ""}
       ${inner}
     </svg>
   `;
@@ -43,13 +54,14 @@ export function renderHoles(holes) {
       const cx = hole.x * 100;
       const cy = hole.y * 100;
       const size = hole.size * 100;
+      const displaySize = size * 1.25;
       if (hole.shape === "circle") {
-        return `<circle cx="${cx}" cy="${cy}" r="${size}" fill="#111" />`;
+        return `<circle cx="${cx}" cy="${cy}" r="${displaySize}" fill="#111" stroke="#fff" stroke-width="1.5" />`;
       }
       if (hole.shape === "square") {
-        return `<rect x="${cx - size}" y="${cy - size}" width="${size * 2}" height="${size * 2}" fill="#111" />`;
+        return `<rect x="${cx - displaySize}" y="${cy - displaySize}" width="${displaySize * 2}" height="${displaySize * 2}" fill="#111" stroke="#fff" stroke-width="1.5" />`;
       }
-      return `<polygon points="${cx},${cy - size} ${cx - size},${cy + size} ${cx + size},${cy + size}" fill="#111" />`;
+      return `<polygon points="${cx},${cy - displaySize} ${cx - displaySize},${cy + displaySize} ${cx + displaySize},${cy + displaySize}" fill="#111" stroke="#fff" stroke-width="1.5" />`;
     })
     .join("");
 }

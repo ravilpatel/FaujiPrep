@@ -81,9 +81,10 @@ function buildSequence(question) {
 function buildHolePunch(question) {
   const svg = svgWrapper(
     renderPolygon(question.foldedPolygon, "#f3f3ef") + renderHoles(question.foldedHoles),
-    140
+    180,
+    { showGrid: true }
   );
-  return svg;
+  return `<div class="punch-wrap">${svg}<div class="muted caption">Folded view with punches</div></div>`;
 }
 
 function optionLabel(index) {
@@ -93,7 +94,7 @@ function optionLabel(index) {
 function buildOptions(question) {
   const options = question.options
     .map((option, index) => {
-      const svg = svgWrapper(renderHoles(option.holes), 140);
+      const svg = svgWrapper(renderHoles(option.holes), 160, { showGrid: true });
       return `
         <div class="option" data-index="${index}">
           <div class="label">${optionLabel(index)}</div>
