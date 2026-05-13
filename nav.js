@@ -25,8 +25,8 @@ if (navHost) {
   navHost.innerHTML = `
     <header class="site-header">
       <div class="container nav-wrap">
-        <a href="${navPath("/")}" class="brand" aria-label="FaujiPrep home">
-          <img src="${navPath("https://faujiprep.app/img/Logo.png")}" alt="FaujiPrep logo" class="brand-logo" />
+        <a href="${navPath("/")}" class="brand" aria-label="FaujiPrep home - India's Largest SSB Free Material & Tests Library">
+          <img src="${navPath("https://faujiprep.app/img/Logo.png")}" alt="FaujiPrep logo - India's Largest SSB Free Material & Tests Library" class="brand-logo" />
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
@@ -81,6 +81,13 @@ if (navHost) {
   if (main && !main.id) main.id = 'main-content';
 
   // ── BREADCRUMBS ──
+  const brandSuffixRegex = /FaujiPrep\s*(\||\u2013|\u2014|-)?\s*India's Largest SSB Free Material & Tests Library\s*/i;
+  const brandRegex = /FaujiPrep\s*[\||\u2013\u2014-]?\s*/i;
+
+  function stripBrand(title) {
+    return title.replace(brandSuffixRegex, '').replace(brandRegex, '').trim();
+  }
+
   (function injectBreadcrumbs() {
     const path = window.location.pathname;
     const isHome = path === '/' || path.endsWith('/index.html');
@@ -90,15 +97,15 @@ if (navHost) {
 
     if (path.includes('/cognitive/')) {
       crumbs.push({ label: 'CSSS Guides', href: navPath('cognitive/linguistic-abilities.html') });
-      const pageName = document.title.replace(/FaujiPrep\s*[\||\u2013\u2014-]?\s*/i, '').trim();
+      const pageName = stripBrand(document.title);
       if (pageName) crumbs.push({ label: pageName, href: null });
     } else if (path.includes('/opam/')) {
       crumbs.push({ label: 'OPAM & OLQ', href: navPath('opam/olqs.html') });
-      const pageName = document.title.replace(/FaujiPrep\s*[\||\u2013\u2014-]?\s*/i, '').trim();
+      const pageName = stripBrand(document.title);
       if (pageName) crumbs.push({ label: pageName, href: null });
     } else if (path.includes('/practice/verbal/') || path.includes('/practice/Sustained/')) {
       crumbs.push({ label: 'Practice Zone', href: navPath('practice/cognitive-tests.html') });
-      const pageName = document.title.replace(/FaujiPrep\s*[\||\u2013\u2014-]?\s*/i, '').trim();
+      const pageName = stripBrand(document.title);
       if (pageName) crumbs.push({ label: pageName, href: null });
     } else if (path.includes('/practice/')) {
       crumbs.push({ label: 'Practice Zone', href: null });

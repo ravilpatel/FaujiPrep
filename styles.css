@@ -590,6 +590,79 @@ body.nav-open::before {
   height: 40px;
   background: linear-gradient(to bottom, var(--dk-gold-dim), transparent);
 }
+
+/* ── QUICK PRACTICE SECTION ── */
+.quick-tests {
+  padding-top: 10px;
+}
+
+.quick-tests-box {
+  background: rgba(18, 25, 16, 0.68);
+  border: 1px solid var(--dk-border);
+  border-radius: 18px;
+  padding: clamp(22px, 4vw, 36px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+.quick-tests-header {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.quick-tests-grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 760px) {
+  .quick-tests-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.quick-test-card {
+  display: block;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--dk-border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--dk-text);
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.quick-test-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(141, 159, 95, 0.5);
+  background: rgba(141, 159, 95, 0.12);
+}
+
+.quick-test-type {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dk-gold-dim);
+  margin-bottom: 8px;
+}
+
+.quick-test-card h3 {
+  font-size: 1.05rem;
+  margin: 0 0 6px;
+}
+
+.quick-test-card p {
+  margin: 0;
+  color: var(--dk-muted);
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.quick-tests-cta {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
 @keyframes scrollBob {
   0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.7; }
   50% { transform: translateX(-50%) translateY(8px); opacity: 1; }

@@ -1,15 +1,15 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="/favicon.png" />
-  <title>SSB Personality Assessment | FaujiPrep</title>
-  <meta name="description" content="Comprehensive SSB-style psychological and personality assessment." />
+  <link rel="icon" type="image/png" href="../favicon.png" />
+  <title>SSB Personality Assessment | FaujiPrep - India's Largest SSB Free Material & Tests Library</title>
+  <meta name="description" content="Comprehensive SSB-style psychological and personality assessment. Free SSB Preparation and SSB Guide material." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="../styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     /* ── CSS VARIABLE FALLBACKS (if styles.css absent) ── */
@@ -302,7 +302,7 @@
           <div class="print-header print-only">
             <div>
               <div class="print-header-brand">FaujiPrep</div>
-              <div style="font-size:8pt;color:#666;">India's Premier SSB Preparation Platform</div>
+              <div style="font-size:8pt;color:#666;">India's Largest SSB Free Material & Tests Library</div>
             </div>
             <div class="print-header-meta">
               <div><strong>SSB Psychological Assessment Report</strong></div>
@@ -415,7 +415,14 @@
             </div>
           </div>
 
-          <!-- 8. PSYCHOLOGIST NOTE -->
+          <!-- 8. PRACTICE TEST RECOMMENDATIONS -->
+          <div class="report-card" id="practice-section">
+            <h3>Recommended Practice Tests</h3>
+            <p style="font-size:.85rem;color:var(--dk-muted);margin-bottom:20px;margin-top:-10px;">Based on your lowest-scoring OLQs, start here from the practice library.</p>
+            <ul id="practice-recos" class="comp-list"></ul>
+          </div>
+
+          <!-- 9. PSYCHOLOGIST NOTE -->
           <div class="report-card">
             <h3>DIPR Psychologist's Observation Note</h3>
             <div class="psych-note" id="rep-observation"></div>
@@ -442,7 +449,7 @@
       <div class="footer-grid">
         <div class="footer-brand-col">
           <a href="/" aria-label="FaujiPrep home"><span style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--dk-gold);font-weight:600;">FaujiPrep</span></a>
-          <p class="footer-tagline">India's premier platform for the new SSB Stage 1 &amp; Stage 2 psychology pattern.</p>
+          <p class="footer-tagline">India's Largest SSB Free Material &amp; Tests Library.</p>
         </div>
         <div>
           <p class="footer-col-heading">Prepare</p>
@@ -1259,6 +1266,7 @@
     renderCompetencies(olqList);
     renderOLQTable(olqList);
     renderRoadmap(olqList);
+    renderPracticeRecommendations(olqList);
     renderRadarChart(olqList);
 
     // Print metadata
@@ -1441,6 +1449,75 @@
     document.getElementById('road-monthly').innerHTML = monthly.map(d => `<li>${d}</li>`).join('');
   }
 
+  /* ── PRACTICE TEST RECOMMENDATIONS ── */
+  function renderPracticeRecommendations(olqList) {
+    const lowest = [...olqList].slice(-4);
+    const focus = new Set();
+
+    lowest.forEach((o) => {
+      if (['Reasoning Ability', 'Effective Intelligence', 'Organizing Ability'].includes(o.name)) {
+        focus.add('cognitive');
+      }
+      if (['Social Adaptability', 'Cooperation', 'Ability to Influence', 'Liveliness', 'Communication'].includes(o.name)) {
+        focus.add('verbal');
+      }
+      if (['Speed of Decision', 'Emotional Stability', 'Determination', 'Initiative', 'Leadership', 'Sense of Responsibility', 'Courage', 'Self Confidence'].includes(o.name)) {
+        focus.add('sustained');
+      }
+    });
+
+    if (!focus.size) focus.add('cognitive');
+
+    const recs = [];
+    if (focus.has('cognitive')) {
+      recs.push({
+        title: 'Cognitive speed and reasoning',
+        reason: 'Build faster analysis, pattern spotting, and structured problem solving.',
+        links: [
+          { label: 'Cognitive Tests', href: '/practice/cognitive-tests.html' },
+          { label: 'Space Perception', href: '/practice/space-perception/index.html' },
+          { label: 'Odd One Out', href: '/practice/verbal/odd-one-out-1.html' }
+        ]
+      });
+    }
+
+    if (focus.has('sustained')) {
+      recs.push({
+        title: 'Sustained attention and execution under pressure',
+        reason: 'Train focus, speed, and decision stability when time is tight.',
+        links: [
+          { label: 'Cancellation Drills', href: '/practice/Sustained/cancellation-drills-1.html' },
+          { label: 'Serial Subtraction', href: '/practice/Sustained/serial-subtraction-1.html' },
+          { label: 'Passage Comprehension', href: '/practice/Sustained/passage-comprehension-1.html' }
+        ]
+      });
+    }
+
+    if (focus.has('verbal')) {
+      recs.push({
+        title: 'Verbal clarity and adaptive thinking',
+        reason: 'Sharpen word-based reasoning and articulation under time pressure.',
+        links: [
+          { label: 'Antonyms', href: '/practice/verbal/antonyms-1.html' },
+          { label: 'Synonyms', href: '/practice/verbal/synonyms-1.html' },
+          { label: 'Reading Comprehension', href: '/practice/verbal/reading-comprehension-1.html' }
+        ]
+      });
+    }
+
+    const html = recs.map(r => {
+      const links = r.links.map(l => `<a href="${l.href}">${l.label}</a>`).join(' · ');
+      return `
+        <li>
+          <strong style="color:var(--dk-gold-soft);">${r.title}</strong>
+          <span>${r.reason} <span style="color:var(--dk-muted);">Practice:</span> ${links}</span>
+        </li>`;
+    }).join('');
+
+    const el = document.getElementById('practice-recos');
+    if (el) el.innerHTML = html;
+  }
+
   /* ── RADAR CHART ── */
   function renderRadarChart(olqList) {
     const getScore = (name) => (olqList.find(o => o.name === name) || {}).pct || 0;
@@ -1496,5 +1573,10 @@
         plugins: { legend: { display: false } }
       }
     });   
+  }
+  </script>
 </body>
 </html>
+
+
+

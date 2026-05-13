@@ -51,10 +51,16 @@ export function renderFoldLine(line) {
 export function renderHoles(holes) {
   return holes
     .map((hole) => {
+      if (!hole || !Number.isFinite(hole.x) || !Number.isFinite(hole.y) || !Number.isFinite(hole.size)) {
+        return "";
+      }
       const cx = hole.x * 100;
       const cy = hole.y * 100;
       const size = hole.size * 100;
       const displaySize = size * 1.25;
+      if (!Number.isFinite(cx) || !Number.isFinite(cy) || !Number.isFinite(displaySize)) {
+        return "";
+      }
       if (hole.shape === "circle") {
         return `<circle cx="${cx}" cy="${cy}" r="${displaySize}" fill="#111" stroke="#fff" stroke-width="1.5" />`;
       }
