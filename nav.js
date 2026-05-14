@@ -36,21 +36,30 @@ if (navHost) {
         <nav id="site-nav" class="site-nav" aria-label="Main navigation">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="${navPath("cognitive/linguistic-abilities.html")}" class="nav-link">CSSS</a>
+              <a href="${navPath("/")}" class="nav-link">Library</a>
             </li>
             <li class="nav-item">
-              <a href="${navPath("opam/olqs.html")}" class="nav-link">OPAM</a>
+              <a href="${navPath("cognitive/linguistic-abilities.html")}" class="nav-link">CSSS Guides</a>
+            </li>
+            <li class="nav-item">
+              <a href="${navPath("opam/olqs.html")}" class="nav-link">OPAM & OLQ</a>
             </li>
             <li class="nav-item">
               <a href="${navPath("practice/cognitive-tests.html")}" class="nav-link">Practice</a>
             </li>
             <li class="nav-item">
-              <a href="${navPath("blueprint.pdf")}" class="nav-link nav-link-pdf" target="_blank" rel="noopener" download="CSSS-OPAM-blueprint.pdf" aria-label="Download free CSSS and OPAM Blueprint PDF">Free Blueprint PDF</a>
+              <a href="${navPath("tests/full-mock-test.html")}" class="nav-link">Tests</a>
+            </li>
+            <li class="nav-item">
+              <a href="${navPath("resources/index.html")}" class="nav-link">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="${navPath("blueprint.pdf")}" class="nav-link nav-link-pdf" target="_blank" rel="noopener" download="CSSS-OPAM-blueprint.pdf" aria-label="Download CSSS and OPAM Catalog Map PDF">Catalog Map PDF</a>
             </li>
           </ul>
         </nav>
 
-        <a href="${navPath("practice/cognitive-tests.html")}" class="nav-cta" aria-label="Start free SSB Stage 1 practice">Free Practice</a>
+        <a href="${navPath("practice/cognitive-tests.html")}" class="nav-cta" aria-label="Open the SSB material library">Open Practice</a>
       </div>
     </header>
   `;
@@ -63,8 +72,10 @@ if (navHost) {
   const currentPath = window.location.pathname;
   navLinks.forEach(link => {
     const linkHref = link.getAttribute('href') || '';
-    // Exact match or path-contains match (excluding root to avoid false positives)
-    if (linkHref && linkHref !== '/' && currentPath.includes(linkHref.split('?')[0])) {
+    const cleanHref = linkHref.split('?')[0];
+    const isHome = currentPath === '/' || currentPath.endsWith('/index.html');
+    // Exact match or path-contains match
+    if ((cleanHref === '/' && isHome) || (cleanHref && cleanHref !== '/' && currentPath.includes(cleanHref))) {
       link.classList.add('nav-link-active');
       link.setAttribute('aria-current', 'page');
     }
