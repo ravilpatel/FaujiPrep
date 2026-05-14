@@ -315,7 +315,7 @@ body.nav-open::before {
   border-radius: var(--radius-sm);
   padding: 12px 14px;
   font-family: 'Outfit', sans-serif;
-  font-size: 0.98rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--dk-text);
   text-decoration: none;
@@ -352,15 +352,15 @@ body.nav-open::before {
 
 .nav-cta {
   display: none;
-  padding: 10px 20px;
+  padding: 9px 18px;
   background: linear-gradient(180deg, var(--dk-gold-soft) 0%, var(--dk-gold) 100%);
   color: #0c1211;
   border-radius: 999px;
   font-family: 'Outfit', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
   text-decoration: none;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: all 0.2s;
   cursor: pointer;
@@ -2536,15 +2536,15 @@ body.homepage .verbal-bottom-line {
   .nav-link { 
     width: auto; 
     background: transparent; 
-    padding: 10px 14px; 
+    padding: 9px 12px; 
     color: var(--dk-text); 
-    font-size: 0.82rem;
+    font-size: 0.74rem;
     font-weight: 700;
     border: 1px solid transparent;
     border-radius: 999px;
     transition: all 0.2s;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.14em;
   }
   .nav-link:hover { 
     background: rgba(176, 139, 76, 0.18); 
@@ -2585,6 +2585,28 @@ body.homepage .verbal-bottom-line {
   .cta-inner { grid-template-columns: 1fr 240px; }
 
   .verbal-reasons { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 520px) {
+  .nav-wrap {
+    min-height: 64px;
+  }
+
+  .nav-toggle {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .site-nav {
+    top: 64px;
+    height: calc(100vh - 64px);
+  }
+
+  .nav-link {
+    font-size: 0.86rem;
+    padding: 11px 12px;
+  }
 }
 
 @media (min-width: 1024px) {
