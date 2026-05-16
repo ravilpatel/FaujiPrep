@@ -196,6 +196,18 @@
     .print-header { display: none; }
     .print-only { display: none; }
     @media print { .print-only { display: block !important; } }
+
+    /* ── SHAPE REFLEX TEST STYLES ── */
+    .stimulus-frame { position: relative; overflow: hidden; }
+    #reflex-stimulus { display: block; transition: opacity 0.15s; }
+    #reflex-stimulus.circle { border-radius: 50%; background: rgba(141,159,95,0.8); box-shadow: 0 0 30px rgba(141,159,95,0.6); }
+    #reflex-stimulus.square { border-radius: 0; background: rgba(141,159,95,0.8); box-shadow: 0 0 30px rgba(141,159,95,0.6); }
+    #reflex-stimulus.show { opacity: 1 !important; }
+    #reflex-mobile-controls { display: none; gap: 20px; justify-content: center; }
+    @media (max-width: 600px) { #reflex-mobile-controls { display: flex; } }
+    .reflex-metric { background: rgba(255,255,255,.02); border: 1px solid rgba(141,159,95,.2); border-radius: 10px; padding: 16px; text-align: center; }
+    .reflex-metric-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dk-muted); margin-bottom: 8px; }
+    .reflex-metric-value { font-size: 1.4rem; color: var(--dk-gold-soft); font-weight: 600; }
   </style>
 </head>
 
@@ -291,6 +303,94 @@
             <h2 class="scenario-text" id="scenario-text">Loading…</h2>
           </div>
           <div class="options-list" id="options-list"></div>
+
+          <!-- Shape Reflex Test Container -->
+          <div id="shape-reflex-container" style="display:none;margin-bottom:30px;">
+            <div class="scenario-card">
+              <div class="scenario-label">Speed of Decision & Attention</div>
+              <h2 class="scenario-text">Shape Reflex Test</h2>
+              <p id="reflex-instructions" style="font-size:1rem;color:var(--dk-text);margin:20px 0;line-height:1.6;"></p>
+            </div>
+            
+            <!-- Reflex Test Screen -->
+            <div id="reflex-landing" style="background:rgba(20,28,18,.4);border:1px solid var(--dk-border);border-radius:var(--radius);padding:40px;margin-bottom:30px;text-align:center;">
+              <h3 style="color:var(--dk-gold-soft);font-family:'Cormorant Garamond',serif;font-size:1.5rem;margin-bottom:20px;">Test Rules</h3>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:30px 0;">
+                <div style="background:rgba(255,255,255,.02);border:1px solid rgba(141,159,95,.2);border-radius:12px;padding:16px;">
+                  <div style="font-size:0.8rem;color:var(--dk-gold-dim);text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Rule 1</div>
+                  <p style="color:var(--dk-text);font-size:0.95rem;margin-bottom:12px;">Circle appears</p>
+                  <div style="color:var(--dk-text);font-weight:600;font-size:1.1rem;">Press <strong style="color:var(--dk-gold);">F</strong></div>
+                </div>
+                <div style="background:rgba(255,255,255,.02);border:1px solid rgba(141,159,95,.2);border-radius:12px;padding:16px;">
+                  <div style="font-size:0.8rem;color:var(--dk-gold-dim);text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Rule 2</div>
+                  <p style="color:var(--dk-text);font-size:0.95rem;margin-bottom:12px;">Square appears</p>
+                  <div style="color:var(--dk-text);font-weight:600;font-size:1.1rem;">Press <strong style="color:var(--dk-gold);">J</strong></div>
+                </div>
+              </div>
+              
+              <div style="background:rgba(141,159,95,.08);border:1px solid rgba(141,159,95,.2);border-radius:12px;padding:20px;margin:30px 0;text-align:left;">
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;">
+                  <div>
+                    <span style="font-size:0.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--dk-muted);">Total Rounds</span>
+                    <div style="font-size:1.2rem;color:var(--dk-text);margin-top:6px;font-weight:600;" id="reflex-total-rounds">20</div>
+                  </div>
+                  <div>
+                    <span style="font-size:0.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--dk-muted);">Est. Duration</span>
+                    <div style="font-size:1.2rem;color:var(--dk-text);margin-top:6px;font-weight:600;">~1 min</div>
+                  </div>
+                  <div>
+                    <span style="font-size:0.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--dk-muted);">Scoring</span>
+                    <div style="font-size:1.2rem;color:var(--dk-text);margin-top:6px;font-weight:600;">Accuracy + Speed</div>
+                  </div>
+                </div>
+              </div>
+
+              <p style="color:var(--dk-muted);font-size:0.9rem;margin:20px 0;line-height:1.6;">
+                <strong>On Desktop:</strong> Use your keyboard. F for circles, J for squares.<br>
+                <strong>On Mobile:</strong> Tap the F and J buttons below the test.
+              </p>
+
+              <button class="btn btn-gold" onclick="startShapeReflexTest()" style="font-size:1.1rem;padding:14px 40px;margin-top:20px;">Start Test</button>
+            </div>
+
+            <!-- Test Running Screen -->
+            <div id="reflex-testing" style="display:none;background:rgba(20,28,18,.4);border:1px solid var(--dk-border);border-radius:var(--radius);padding:30px;text-align:center;">
+              <div class="stimulus-frame" style="display:flex;align-items:center;justify-content:center;height:240px;margin-bottom:30px;background:rgba(0,0,0,.3);border:2px solid rgba(141,159,95,.2);border-radius:12px;position:relative;">
+                <div id="reflex-stimulus" style="width:100px;height:100px;border-radius:0;opacity:0;transition:opacity 0.1s;"></div>
+              </div>
+              <div id="reflex-status" style="font-size:1.1rem;color:var(--dk-muted);margin-bottom:20px;">Awaiting stimulus...</div>
+              <div id="reflex-mobile-controls" style="display:none;gap:20px;justify-content:center;margin-bottom:20px;">
+                <button class="btn btn-ghost" data-key="f" onclick="handleReflexResponse('f')" style="font-size:1.3rem;padding:14px 28px;min-width:70px;">F</button>
+                <button class="btn btn-ghost" data-key="j" onclick="handleReflexResponse('j')" style="font-size:1.3rem;padding:14px 28px;min-width:70px;">J</button>
+              </div>
+              <p style="color:var(--dk-muted);font-size:0.9rem;">Circle = F · Square = J</p>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="reflex-results" style="display:none;background:rgba(20,28,18,.4);border:1px solid var(--dk-border);border-radius:var(--radius);padding:30px;">
+              <h3 style="color:var(--dk-gold-soft);font-family:'Cormorant Garamond',serif;font-size:1.3rem;margin-bottom:24px;">Performance Summary</h3>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;margin-bottom:30px;">
+                <div style="background:rgba(255,255,255,.02);border:1px solid rgba(141,159,95,.2);border-radius:10px;padding:16px;text-align:center;">
+                  <div style="font-size:0.8rem;color:var(--dk-muted);text-transform:uppercase;margin-bottom:8px;">Accuracy</div>
+                  <div style="font-size:1.4rem;color:var(--dk-gold-soft);font-weight:600;" id="reflex-accuracy">0%</div>
+                </div>
+                <div style="background:rgba(255,255,255,.02);border:1px solid rgba(141,159,95,.2);border-radius:10px;padding:16px;text-align:center;">
+                  <div style="font-size:0.8rem;color:var(--dk-muted);text-transform:uppercase;margin-bottom:8px;">Avg Reaction</div>
+                  <div style="font-size:1.4rem;color:var(--dk-gold-soft);font-weight:600;" id="reflex-avg-time">0 ms</div>
+                </div>
+                <div style="background:rgba(255,255,255,.02);border:1px solid rgba(141,159,95,.2);border-radius:10px;padding:16px;text-align:center;">
+                  <div style="font-size:0.8rem;color:var(--dk-muted);text-transform:uppercase;margin-bottom:8px;">Correct</div>
+                  <div style="font-size:1.4rem;color:var(--dk-gold-soft);font-weight:600;" id="reflex-correct">0</div>
+                </div>
+                <div style="background:rgba(255,255,255,.02);border:1px solid rgba(141,159,95,.2);border-radius:10px;padding:16px;text-align:center;">
+                  <div style="font-size:0.8rem;color:var(--dk-muted);text-transform:uppercase;margin-bottom:8px;">Speed Index</div>
+                  <div style="font-size:1.4rem;color:var(--dk-gold-soft);font-weight:600;" id="reflex-speed-index">0</div>
+                </div>
+              </div>
+              <p id="reflex-insight" style="color:var(--dk-muted);font-size:0.95rem;margin-bottom:20px;line-height:1.6;"></p>
+              <button class="btn btn-gold" onclick="continueFromReflexTest()" style="font-size:1rem;padding:12px 32px;">Continue Assessment</button>
+            </div>
+          </div>
         </div>
 
         <!-- ═══════════════════════════════════════
@@ -811,6 +911,13 @@
         { text: "F. Seek advice from a trusted third party before responding.", traits: { Reasoning: 1, Confidence: -1 } },
         { text: "G. Comply with part of the request — the portion you find acceptable — and explain your limits on the rest.", traits: { Practicality: 2, Reasoning: 1 } }
       ]
+    },
+    {
+      category: "Speed of Decision & Attention",
+      type: "shapeReflex",
+      text: "Shape Reflex Test: Instant shape discrimination under time pressure. This test measures your reflexive decision speed and sustained attention. Press F for circles, J for squares. Focus and respond as quickly and accurately as possible.",
+      instructions: "You control when the test starts. Click 'Start Test' when ready. Respond to each shape by pressing F (circle) or J (square) on your keyboard, or tap the buttons on mobile.",
+      options: []
     }
   ];
 
@@ -1119,6 +1226,163 @@
   }
 
   /* ====================================================
+     SHAPE REFLEX TEST STATE & FUNCTIONS
+  ==================================================== */
+  let reflexState = {
+    running: false,
+    currentRound: 0,
+    totalRounds: 20,
+    correct: 0,
+    wrong: 0,
+    missed: 0,
+    reactionTimes: [],
+    currentRule: 'none',
+    stimulusStart: 0,
+    responded: false,
+    lastInputAt: 0,
+    stimulusActive: false
+  };
+
+  function initShapeReflexContainer() {
+    const q = assessmentData[currentQ];
+    document.getElementById('shape-reflex-container').style.display = 'block';
+    document.getElementById('options-list').innerHTML = '';
+    document.getElementById('scenario-category').innerText = q.category;
+    document.getElementById('scenario-text').innerText = q.text;
+    document.getElementById('reflex-instructions').innerText = q.instructions;
+    document.getElementById('reflex-landing').style.display = 'block';
+    document.getElementById('reflex-testing').style.display = 'none';
+    document.getElementById('reflex-results').style.display = 'none';
+  }
+
+  function startShapeReflexTest() {
+    document.getElementById('reflex-landing').style.display = 'none';
+    document.getElementById('reflex-testing').style.display = 'block';
+    reflexState = { running: true, currentRound: 0, totalRounds: 20, correct: 0, wrong: 0, missed: 0, reactionTimes: [], currentRule: 'none', stimulusStart: 0, responded: false, lastInputAt: 0, stimulusActive: false };
+    document.getElementById('reflex-status').textContent = 'Starting...';
+    setTimeout(() => runReflexRounds(), 500);
+  }
+
+  function handleReflexResponse(key) {
+    if (!reflexState.running) return;
+    const now = performance.now();
+    if (now - reflexState.lastInputAt < 100) return;
+    reflexState.lastInputAt = now;
+    
+    if (reflexState.stimulusActive) {
+      if (reflexState.responded) return;
+      reflexState.responded = true;
+      const reaction = now - reflexState.stimulusStart;
+      if (reflexState.currentRule === key) {
+        reflexState.correct++;
+        reflexState.reactionTimes.push(reaction);
+      } else {
+        reflexState.wrong++;
+      }
+    } else {
+      reflexState.wrong++;
+    }
+  }
+
+  function pickShape() {
+    return Math.random() < 0.5 ? 'circle' : 'square';
+  }
+
+  function randomBetween(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  async function waitMs(duration) {
+    return new Promise((resolve) => setTimeout(resolve, duration));
+  }
+
+  async function runReflexRounds() {
+    const shapeRules = { circle: 'f', square: 'j' };
+    
+    for (let i = 0; i < reflexState.totalRounds; i++) {
+      if (!reflexState.running) break;
+      
+      // Wait before showing stimulus
+      const delay = randomBetween(800, 2300);
+      document.getElementById('reflex-status').textContent = 'Stand by...';
+      await waitMs(delay);
+      
+      // Show stimulus
+      const shape = pickShape();
+      reflexState.currentRule = shapeRules[shape];
+      reflexState.responded = false;
+      reflexState.stimulusActive = true;
+      
+      const stimulus = document.getElementById('reflex-stimulus');
+      // Remove both shape classes first
+      stimulus.classList.remove('circle', 'square', 'show');
+      // Add the current shape and show classes
+      stimulus.classList.add(shape, 'show');
+      reflexState.stimulusStart = performance.now();
+      document.getElementById('reflex-status').textContent = shape === 'circle' ? 'Circle: Press F' : 'Square: Press J';
+      
+      // Keep stimulus visible
+      const visible = randomBetween(700, 1300);
+      await waitMs(visible);
+      
+      // Hide stimulus
+      stimulus.classList.remove('show');
+      reflexState.stimulusActive = false;
+      
+      if (!reflexState.responded) {
+        reflexState.missed++;
+      }
+    }
+    
+    // Show results
+    showReflexResults();
+  }
+
+  function showReflexResults() {
+    reflexState.running = false;
+    document.getElementById('reflex-testing').style.display = 'none';
+    document.getElementById('reflex-results').style.display = 'block';
+    
+    const accuracy = reflexState.totalRounds > 0 ? reflexState.correct / reflexState.totalRounds : 0;
+    const avgRt = reflexState.reactionTimes.length > 0 ? reflexState.reactionTimes.reduce((a, b) => a + b) / reflexState.reactionTimes.length : 0;
+    const speedIndex = Math.round(Math.max(0, Math.min(100, 150 - (avgRt / 10))));
+    
+    document.getElementById('reflex-accuracy').textContent = Math.round(accuracy * 100) + '%';
+    document.getElementById('reflex-avg-time').textContent = Math.round(avgRt) + ' ms';
+    document.getElementById('reflex-correct').textContent = reflexState.correct + '/' + reflexState.totalRounds;
+    document.getElementById('reflex-speed-index').textContent = speedIndex;
+    
+    let insight = 'Good reflex performance.';
+    if (accuracy >= 0.9) {
+      insight = 'Excellent! Sharp discrimination and rapid responses. You have strong decisiveness under pressure.';
+    } else if (accuracy >= 0.75) {
+      insight = 'Good accuracy. Reduce missed responses to reach peak performance.';
+    } else if (reflexState.wrong > reflexState.correct) {
+      insight = 'Focus on accuracy over speed. Slow slightly and confirm before responding.';
+    }
+    document.getElementById('reflex-insight').textContent = insight;
+    
+    // Score based on performance
+    const reflexScore = Math.round(accuracy * 30) + Math.round((speedIndex / 100) * 20);
+    if (accuracy >= 0.85 && speedIndex >= 60) {
+      scores['Initiative'] = (scores['Initiative'] || 0) + 3;
+      scores['Determination'] = (scores['Determination'] || 0) + 2;
+      scores['Reasoning'] = (scores['Reasoning'] || 0) + 1;
+    } else if (accuracy >= 0.70) {
+      scores['Initiative'] = (scores['Initiative'] || 0) + 2;
+      scores['Determination'] = (scores['Determination'] || 0) + 1;
+    } else {
+      scores['Initiative'] = (scores['Initiative'] || 0) + 1;
+    }
+  }
+
+  function continueFromReflexTest() {
+    document.getElementById('shape-reflex-container').style.display = 'none';
+    currentQ++;
+    loadQuestion();
+  }
+
+  /* ====================================================
      TEST CONTROL
   ==================================================== */
   function startAssessment() {
@@ -1134,6 +1398,17 @@
     document.getElementById('q-current').innerText = currentQ + 1;
     document.getElementById('q-total').innerText = assessmentData.length;
     document.getElementById('progress-fill').style.width = `${(currentQ / assessmentData.length) * 100}%`;
+
+    // Handle Shape Reflex Test specially
+    if (q.type === 'shapeReflex') {
+      document.getElementById('options-list').innerHTML = '';
+      initShapeReflexContainer();
+      clearInterval(timerHandle);
+      return;
+    }
+
+    // Regular scenario question
+    document.getElementById('shape-reflex-container').style.display = 'none';
     document.getElementById('scenario-category').innerText = q.category;
     document.getElementById('scenario-text').innerText = q.text;
 
@@ -1574,6 +1849,25 @@
       }
     });   
   }
+
+  // Shape Reflex keyboard event handler
+  document.addEventListener('keydown', (event) => {
+    if (reflexState.running) {
+      if (event.key.toLowerCase() === 'f' || event.key.toLowerCase() === 'j') {
+        event.preventDefault();
+        handleReflexResponse(event.key.toLowerCase());
+      }
+    }
+  });
+
+  // Shape Reflex mobile button controls
+  document.addEventListener('click', (event) => {
+    const btn = event.target.closest('[data-key]');
+    if (btn && reflexState.running) {
+      const key = btn.dataset.key;
+      handleReflexResponse(key);
+    }
+  });
   </script>
 </body>
 </html>

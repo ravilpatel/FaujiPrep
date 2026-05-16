@@ -82,18 +82,45 @@
               <div class="meta-pill"><span class="pill-dot"></span>500+ Practice Items</div>
             </div>
           </div>
-          <div class="library-hero-card reveal-up delay-2">
-            <div class="card-title">Library Index</div>
-            <div class="card-sub">Start with the collection that matches your current need.</div>
-            <div class="index-grid">
-              <a href="#shelves" class="index-chip">CSSS Guides</a>
-              <a href="opam/olqs.html" class="index-chip">OPAM & OLQ</a>
-              <a href="practice/cognitive-tests.html" class="index-chip">Practice Sets</a>
-              <a href="tests/full-mock-test.html" class="index-chip">Full Mock</a>
-              <a href="blueprint.pdf" class="index-chip" target="_blank" rel="noopener">Catalog Map</a>
+          <div class="library-index reveal-up delay-2">
+            <div class="index-header">
+              <div class="index-kicker">Library Index</div>
+              <h2 class="index-title">Choose your launch shelf</h2>
+              <p class="index-sub">Jump straight into the reading, practice, or OPAM track you need most.</p>
             </div>
-            <div class="card-divider"></div>
-            <div class="card-note">No login. Open access library for Stage 1 preparation.</div>
+            <div class="index-shelves">
+              <a href="#topics" class="index-book" data-accent="amber">
+                <span class="index-spine">CSSS</span>
+                <span class="index-label">Cognitive Guides</span>
+                <span class="index-meta">10 topics · Core reading</span>
+                <span class="index-cta">Open shelf</span>
+              </a>
+              <a href="opam/olqs.html" class="index-book" data-accent="violet">
+                <span class="index-spine">OPAM</span>
+                <span class="index-label">OLQ Profiles</span>
+                <span class="index-meta">15 qualities · Prep notes</span>
+                <span class="index-cta">Open shelf</span>
+              </a>
+              <a href="practice/cognitive-tests.html" class="index-book" data-accent="teal">
+                <span class="index-spine">Practice</span>
+                <span class="index-label">Timed Sets</span>
+                <span class="index-meta">Speed drills · Accuracy</span>
+                <span class="index-cta">Open shelf</span>
+              </a>
+              <a href="tests/full-mock-test.html" class="index-book" data-accent="green">
+                <span class="index-spine">Tests</span>
+                <span class="index-label">Full Mock</span>
+                <span class="index-meta">Stage 1 simulation</span>
+                <span class="index-cta">Open shelf</span>
+              </a>
+              <a href="blueprint.pdf" class="index-book index-book-wide" data-accent="amber" target="_blank" rel="noopener">
+                <span class="index-spine">Catalog</span>
+                <span class="index-label">CSSS + OPAM Blueprint</span>
+                <span class="index-meta">Download the full PDF map</span>
+                <span class="index-cta">Open PDF</span>
+              </a>
+            </div>
+            <div class="index-footer">No login. Open access library for Stage 1 preparation.</div>
           </div>
         </div>
       </section>
@@ -106,29 +133,33 @@
           <p class="section-intro">Each shelf bundles guides, quizzes, and tests so you can move from reading to practice in minutes.</p>
         </div>
         <div class="shelf-grid">
-          <article class="shelf-card reveal-up">
+          <article class="shelf-card reveal-up" data-theme="amber">
             <div class="shelf-tag">Assessment</div>
             <h3>SSB Personality Assessment</h3>
             <p>Take the assessment and generate your detailed report.</p>
-            <a class="btn btn-ghost btn-sm" href="tests/ssb-assessment.html">Open Shelf</a>
+            <div class="shelf-meta">Assessment • Report • Debrief</div>
+            <a class="btn btn-ghost btn-sm shelf-cta" href="tests/ssb-assessment.html">Open Shelf</a>
           </article>
-          <article class="shelf-card reveal-up delay-1">
+          <article class="shelf-card reveal-up delay-1" data-theme="teal">
             <div class="shelf-tag">CSSS</div>
             <h3>Cognitive Guides</h3>
             <p>Verbal, non-verbal, numerical, logical, and data-based material.</p>
-            <a class="btn btn-ghost btn-sm" href="#topics">Open Shelf</a>
+            <div class="shelf-meta">Guides • Frameworks • Examples</div>
+            <a class="btn btn-ghost btn-sm shelf-cta" href="#topics">Open Shelf</a>
           </article>
-          <article class="shelf-card reveal-up delay-2">
+          <article class="shelf-card reveal-up delay-2" data-theme="violet">
             <div class="shelf-tag">OPAM</div>
             <h3>OLQ Wheel</h3>
             <p>Explore Officer Like Qualities with definitions and prep notes.</p>
-            <a class="btn btn-ghost btn-sm" href="#olq-grid">Open Shelf</a>
+            <div class="shelf-meta">Definitions • Traits • Prep notes</div>
+            <a class="btn btn-ghost btn-sm shelf-cta" href="#olq-grid">Open Shelf</a>
           </article>
-          <article class="shelf-card reveal-up delay-3">
+          <article class="shelf-card reveal-up delay-3" data-theme="green">
             <div class="shelf-tag">Practice</div>
             <h3>Practice Hub</h3>
             <p>Quick drills and guided practice to build speed and accuracy.</p>
-            <a class="btn btn-ghost btn-sm" href="practice/cognitive-tests.html">Open Shelf</a>
+            <div class="shelf-meta">Drills • Timers • Scorecards</div>
+            <a class="btn btn-ghost btn-sm shelf-cta" href="practice/cognitive-tests.html">Open Shelf</a>
           </article>
         </div>
       </section>
