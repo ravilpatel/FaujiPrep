@@ -126,9 +126,15 @@ body {
 }
 
 body.homepage {
-  background: radial-gradient(circle at 20% 10%, rgba(110, 138, 122, 0.18) 0%, transparent 48%),
-              radial-gradient(circle at 86% 18%, rgba(216, 184, 115, 0.2) 0%, transparent 44%),
-              linear-gradient(160deg, #111917 0%, #0d1413 55%, #0c1211 100%);
+  background:
+    radial-gradient(circle at 20% 10%, rgba(110, 138, 122, 0.18) 0%, transparent 48%),
+    radial-gradient(circle at 86% 18%, rgba(216, 184, 115, 0.2) 0%, transparent 44%),
+    linear-gradient(160deg, #111917 0%, #0d1413 55%, #0c1211 100%),
+    url('../img/bg.jpg');
+  background-size: cover, cover, cover, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--dk-text);
   position: relative;
 }
@@ -151,7 +157,7 @@ body.homepage::after {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.22;
+  opacity: 0.12;
   background-image:
     linear-gradient(120deg, rgba(216, 184, 115, 0.08) 0%, rgba(216, 184, 115, 0) 42%),
     repeating-linear-gradient(135deg, rgba(8, 12, 11, 0.35) 0 18px, rgba(9, 13, 12, 0.12) 18px 36px);
@@ -1752,99 +1758,7 @@ body.nav-open::before {
   }
 }
 
-/* -- CATALOG MAP CARD -- */
-.catalog-card {
-.catalog-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  background: linear-gradient(180deg, rgba(12,14,12,0.96), rgba(8,10,9,0.98));
-  border: 1px solid rgba(216, 184, 115, 0.15);
-  border-radius: 20px;
-  max-width: 800px;
-  margin: 20px auto 0;
-  overflow: hidden;
-  box-shadow: 0 16px 40px rgba(2,6,7,0.4);
-  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
-}
 
-.catalog-top {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-  padding: 20px;
-}
-
-.catalog-image {
-  flex: 0 0 140px;
-  width: 140px;
-  height: 140px;
-  border-radius: 8px;
-  overflow: hidden;
-  background: linear-gradient(120deg, rgba(20,24,22,0.6), rgba(8,10,9,0.6));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.catalog-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.catalog-content {
-  flex: 1 1 auto;
-  color: #dfe9e1;
-}
-
-.catalog-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.6rem;
-  margin: 0 0 6px 0;
-  color: var(--dk-gold-soft);
-}
-
-.catalog-desc {
-  color: #9aa79f;
-  margin: 0 0 10px 0;
-  line-height: 1.5;
-}
-
-.catalog-actions {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
-
-.catalog-actions .btn {
-  padding: 10px 18px;
-}
-
-@media (min-width: 768px) {
-  .catalog-card {
-    flex-direction: column;
-  }
-  .catalog-top {
-    padding: 28px;
-  }
-}
-
-.catalog-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  box-shadow: inset 0 0 0 1px rgba(216, 184, 115, 0.08);
-}
-
-.catalog-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 24px 48px rgba(2,6,7,0.55);
-  border-color: rgba(216, 184, 115, 0.35);
-}
 
 
 
