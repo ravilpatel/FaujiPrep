@@ -1425,9 +1425,9 @@
       container.appendChild(div);
     });
 
-    // Dynamic timer: reading time + decision buffer
+    // Dynamic timer: reading time + decision buffer (+10s increase)
     const wordCount = (q.text + q.options.map(o => o.text).join(' ')).split(/\s+/).filter(Boolean).length;
-    timeLeft = Math.ceil(wordCount / 2.5) + 5;
+    timeLeft = Math.ceil(wordCount / 2.5) + 5 + 10;
     totalTimeForQ = timeLeft;
 
     updateTimerDisplay();
