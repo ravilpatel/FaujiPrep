@@ -127,10 +127,10 @@ body {
 
 body.homepage {
   background:
-    radial-gradient(circle at 20% 10%, rgba(110, 138, 122, 0.18) 0%, transparent 48%),
-    radial-gradient(circle at 86% 18%, rgba(216, 184, 115, 0.2) 0%, transparent 44%),
-    linear-gradient(160deg, #111917 0%, #0d1413 55%, #0c1211 100%),
-    url('../img/bg.jpg');
+    radial-gradient(circle at 20% 10%, rgba(110, 138, 122, 0.06) 0%, transparent 48%),
+    radial-gradient(circle at 86% 18%, rgba(216, 184, 115, 0.06) 0%, transparent 44%),
+    linear-gradient(160deg, rgba(17,25,23,0.18) 0%, rgba(13,20,19,0.28) 55%, rgba(12,18,17,0.36) 100%),
+    url('img/bg.jpg');
   background-size: cover, cover, cover, cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -146,9 +146,13 @@ body.homepage::before {
   pointer-events: none;
   z-index: 0;
   background:
-    radial-gradient(44% 38% at 12% 18%, rgba(176, 139, 76, 0.18) 0%, transparent 72%),
-    radial-gradient(38% 34% at 82% 24%, rgba(110, 138, 122, 0.16) 0%, transparent 72%),
-    radial-gradient(40% 32% at 60% 78%, rgba(200, 211, 196, 0.08) 0%, transparent 70%);
+    /* subtle diagonal rays (very light) */
+    repeating-linear-gradient(120deg, rgba(255,255,255,0.02) 0 6px, rgba(255,255,255,0) 6px 48px),
+    radial-gradient(44% 38% at 12% 18%, rgba(176, 139, 76, 0.14) 0%, transparent 72%),
+    radial-gradient(38% 34% at 82% 24%, rgba(110, 138, 122, 0.12) 0%, transparent 72%),
+    radial-gradient(40% 32% at 60% 78%, rgba(200, 211, 196, 0.05) 0%, transparent 70%);
+  mix-blend-mode: screen;
+  opacity: 0.96;
 }
 
 body.homepage::after {
@@ -157,10 +161,10 @@ body.homepage::after {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.12;
-  background-image:
-    linear-gradient(120deg, rgba(216, 184, 115, 0.08) 0%, rgba(216, 184, 115, 0) 42%),
-    repeating-linear-gradient(135deg, rgba(8, 12, 11, 0.35) 0 18px, rgba(9, 13, 12, 0.12) 18px 36px);
+  /* Olive-green tint using blend mode to preserve image texture */
+  /* darker olive tint to increase darkness over the image (slightly reduced to reveal bg) */
+  background-color: rgba(25, 40, 32, 0.72);
+  mix-blend-mode: multiply;
 }
 
 body.homepage main { position: relative; z-index: 1; }
