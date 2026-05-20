@@ -32,10 +32,55 @@
 
     <main>
       <section class="container section">
-        <div class="section-header reveal-up">
-          <div class="section-label">OLQ Guide</div>
-          <h1 class="section-title">Liveliness<br><strong>Basic Understanding</strong></h1>
-          <p class="section-intro">Positive energy and alertness that lift team morale in demanding situations.</p>
+        <div class="olq-dashboard">
+          <div class="olq-dashboard-main">
+            <div class="olq-location">
+              <span class="olq-kicker">OLQ Guide</span>
+              <span class="olq-path"><a href="/opam/olqs.html">OLQ Library</a> / Liveliness</span>
+            </div>
+            <h1 class="olq-title">Liveliness</h1>
+            <p class="olq-summary">Positive energy and alertness that lift team morale in demanding situations.</p>
+            <div class="olq-actions">
+              <a class="btn btn-gold" href="#olq-read">Start 2-minute read</a>
+              <a class="btn btn-ghost" href="/opam/olqs.html">Back to OLQ Library</a>
+            </div>
+            <div class="olq-next">
+              <span class="olq-next-label">Do this now</span>
+              <p>Read the two cards, then jump to the scenario and self-check below.</p>
+            </div>
+          </div>
+          <div class="olq-dashboard-progress">
+            <div class="progress-card">
+              <div class="progress-header">
+                <span class="progress-label">Your progress</span>
+                <span class="progress-value">Step 1 of 3</span>
+              </div>
+              <div class="progress-bar">
+                <span class="progress-fill" style="width: 34%;"></span>
+              </div>
+              <ol class="progress-steps">
+                <li class="is-current">Understand the quality</li>
+                <li>See a real scenario</li>
+                <li>Practice and self-check</li>
+              </ol>
+            </div>
+            <div class="progress-metrics">
+              <div class="metric">
+                <span class="metric-label">Time needed</span>
+                <span class="metric-value">~2 min</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Format</span>
+                <span class="metric-value">Guide + Self check</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="olq-read" class="section-header olq-content-header reveal-up">
+          <div class="section-label">Quick Read</div>
+          <h2 class="section-title">Basic Understanding</h2>
+          <p class="section-intro">Two cards to define the quality and show it in action.</p>
         </div>
 
         <div class="explainer-grid">

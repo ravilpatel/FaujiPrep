@@ -56,71 +56,57 @@
 
     <main>
 
-      <!-- ── LIBRARY HERO ── -->
+      <!-- ── DASHBOARD HERO ── -->
       <section class="library-hero" id="hero">
         <div class="hero-atmosphere"></div>
-        <div class="container library-hero-inner">
-          <div class="library-hero-copy reveal-up">
-            <div class="hero-badge">
-              <span class="hero-badge-dot"></span>
-              Free SSB Material Library · Guides, Quizzes, Tests
+        <div class="container home-dashboard">
+          <div class="home-main">
+            <div class="home-location">
+              <span class="home-kicker">Dashboard</span>
+              <span class="home-path">FaujiPrep / SSB Stage 1 Library</span>
             </div>
-            <h1 class="library-title">
-              FaujiPrep Library<br>
-              <em>for SSB Stage 1</em>
-            </h1>
-            <p class="library-sub">
-              Browse curated shelves for CSSS cognitive guides, OPAM/OLQ profiles, and timed practice. Everything is indexed to the latest Stage 1 pattern.
-            </p>
-            <div class="library-ctas">
-              <a class="btn btn-gold" href="practice/cognitive-tests.html">Open the Library</a>
-              <a class="btn btn-ghost" href="#shelves">Explore Shelves</a>
+            <h1 class="home-title">SSB Stage 1 Library</h1>
+            <p class="home-summary">Pick one lane and start in under 3 minutes.</p>
+            <div class="home-actions">
+              <a class="btn btn-gold" href="practice/cognitive-tests.html">Start practice</a>
+              <a class="btn btn-ghost" href="opam/olqs.html">Open OLQ guides</a>
+              <a class="btn btn-ghost" href="tests/full-mock-test.html">Start full mock</a>
             </div>
-            <div class="library-meta">
-              <div class="meta-pill"><span class="pill-dot"></span>10 Topic Collections</div>
-              <div class="meta-pill"><span class="pill-dot"></span>15 OLQ Profiles</div>
-              <div class="meta-pill"><span class="pill-dot"></span>500+ Practice Items</div>
+            <div class="home-next">
+              <span class="home-next-label">Do this now</span>
+              <p>Choose one action above. If unsure, start practice for fastest feedback.</p>
+            </div>
+            <div class="home-quick-nav" aria-label="Dashboard shortcuts">
+              <a href="#shelves">Library shelves</a>
+              <a href="#topics">Cognitive topics</a>
+              <a href="#olq-grid">OLQ wheel</a>
             </div>
           </div>
-          <div class="library-index reveal-up delay-2">
-            <div class="index-header">
-              <div class="index-kicker">Library Index</div>
-              <h2 class="index-title">Choose your launch shelf</h2>
-              <p class="index-sub">Jump straight into the reading, practice, or OPAM track you need most.</p>
+          <div class="home-progress">
+            <div class="progress-card">
+              <div class="progress-header">
+                <span class="progress-label">Your progress</span>
+                <span class="progress-value">Step 1 of 3</span>
+              </div>
+              <div class="progress-bar">
+                <span class="progress-fill" style="width: 34%;"></span>
+              </div>
+              <ol class="progress-steps">
+                <li class="is-current">Choose a lane</li>
+                <li>Complete a set</li>
+                <li>Review strengths</li>
+              </ol>
             </div>
-            <div class="index-shelves">
-              <a href="#topics" class="index-book" data-accent="amber">
-                <span class="index-spine">CSSS</span>
-                <span class="index-label">Cognitive Guides</span>
-                <span class="index-meta">10 topics · Core reading</span>
-                <span class="index-cta">Open shelf</span>
-              </a>
-              <a href="opam/olqs.html" class="index-book" data-accent="violet">
-                <span class="index-spine">OPAM</span>
-                <span class="index-label">OLQ Profiles</span>
-                <span class="index-meta">15 qualities · Prep notes</span>
-                <span class="index-cta">Open shelf</span>
-              </a>
-              <a href="practice/cognitive-tests.html" class="index-book" data-accent="teal">
-                <span class="index-spine">Practice</span>
-                <span class="index-label">Timed Sets</span>
-                <span class="index-meta">Speed drills · Accuracy</span>
-                <span class="index-cta">Open shelf</span>
-              </a>
-              <a href="tests/full-mock-test.html" class="index-book" data-accent="green">
-                <span class="index-spine">Tests</span>
-                <span class="index-label">Full Mock</span>
-                <span class="index-meta">Stage 1 simulation</span>
-                <span class="index-cta">Open shelf</span>
-              </a>
-              <a href="blueprint.pdf" class="index-book index-book-wide" data-accent="amber" target="_blank" rel="noopener">
-                <span class="index-spine">Catalog</span>
-                <span class="index-label">CSSS + OPAM Blueprint</span>
-                <span class="index-meta">Download the full PDF map</span>
-                <span class="index-cta">Open PDF</span>
-              </a>
+            <div class="home-metrics">
+              <div class="metric">
+                <span class="metric-label">Fastest start</span>
+                <span class="metric-value">3-5 min</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Today</span>
+                <span class="metric-value">0 sessions</span>
+              </div>
             </div>
-            <div class="index-footer">No login. Open access library for Stage 1 preparation.</div>
           </div>
         </div>
       </section>
