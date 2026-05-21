@@ -36,27 +36,79 @@
           <p class="section-intro">SSB handbook resources, free downloadable PDF guides, and must-know material for Stage 1 prep.</p>
         </div>
 
-        <div class="resource-card-modern">
-          <div class="rcm-image">
-            <span class="rcm-badge">Free PDF</span>
-            <img src="../img/handbook.png" alt="Defence Handbook cover" />
-          </div>
-          <div class="rcm-content">
-            <div class="rcm-tag">SSB Handbook</div>
-            <h2 class="rcm-title">Minimum Knowledge for SSB PI</h2>
-            <p class="rcm-description">
-              A comprehensive yet concise SSB handbook containing the absolute basic knowledge required for your Stage 1 preparation. Download this free PDF guide for quick revision.
-            </p>
-            <div class="rcm-actions">
-              <a class="btn btn-gold" href="/resources/pdf/defence_handbook.pdf" download="Defence-Handbook.pdf">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                Download PDF
-              </a>
+        <style>
+          .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            align-items: stretch;
+          }
+          @media (min-width: 768px) {
+            .books-grid .resource-card-modern {
+              flex-direction: column;
+              margin: 0; 
+              max-width: none;
+            }
+            .books-grid .resource-card-modern .rcm-image {
+              flex: none;
+              border-right: none;
+              border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+              padding: 40px 30px;
+            }
+            .books-grid .resource-card-modern .rcm-content {
+              padding: 32px;
+              flex: 1;
+            }
+          }
+        </style>
+        <div class="books-grid">
+          <div class="resource-card-modern">
+            <div class="rcm-image">
+              <span class="rcm-badge">Free PDF</span>
+              <img src="../img/handbook.png" alt="Defence Handbook cover" />
+            </div>
+            <div class="rcm-content">
+              <div class="rcm-tag">SSB Handbook</div>
+              <h2 class="rcm-title">Minimum Knowledge for SSB PI</h2>
+              <p class="rcm-description">
+                A comprehensive yet concise SSB handbook containing the absolute basic knowledge required for your Stage 1 preparation. Download this free PDF guide for quick revision.
+              </p>
+              <div class="rcm-actions">
+                <a class="btn btn-gold" href="/resources/pdf/defence_handbook.pdf" download="Defence-Handbook.pdf">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download PDF
+                </a>
 
-              <span class="rcm-meta">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                Size: ~2MB
-              </span>
+                <span class="rcm-meta">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  Size: ~2MB
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resource-card-modern">
+            <div class="rcm-image">
+              <span class="rcm-badge">Free PDF</span>
+              <img src="../img/new_pattern.png" alt="Defence Handbook cover" />
+            </div>
+            <div class="rcm-content">
+              <div class="rcm-tag">New SSB Stage 1 Pattern</div>
+              <h2 class="rcm-title">Know your upcoming test pattern</h2>
+              <p class="rcm-description">
+                A concise Shandbook containing detailed information about new SSB Stage 1 pattern along with differences from current pattern.
+              </p>
+              <div class="rcm-actions">
+                <a class="btn btn-gold" href="/resources/pdf/ssb-new-pattern.pdf" download="New-Pattern-SSB-Stage-1.pdf">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download PDF
+                </a>
+
+                <span class="rcm-meta">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  Size: ~2MB
+                </span>
+              </div>
             </div>
           </div>
         </div>
