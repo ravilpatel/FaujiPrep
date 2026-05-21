@@ -88,6 +88,125 @@
         </div>
       </section>
 
+      <!-- ── FREE BOOKS ── -->
+      <section class="container section" id="free-books">
+        <div class="section-header reveal-up">
+          <div class="section-label">Resources</div>
+          <h2 class="section-title">Free Downloadable Books</h2>
+          <p class="section-intro">Kickstart your Stage 1 preparation with our free downloadable PDF guides.</p>
+        </div>
+        <style>
+          .compact-books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            max-width: 900px;
+            margin: 0 auto;
+          }
+          .compact-book-card {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(18, 24, 22, 0.9), rgba(10, 14, 13, 0.95));
+            border: 1px solid rgba(216, 184, 115, 0.15);
+            border-radius: 20px;
+            padding: 24px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            gap: 24px;
+          }
+          .compact-book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            border-color: rgba(216, 184, 115, 0.4);
+          }
+          .compact-book-card-image {
+            flex: 0 0 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .compact-book-card img {
+            width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            transition: transform 0.4s ease;
+          }
+          .compact-book-card:hover img {
+            transform: scale(1.05) rotate(-2deg);
+          }
+          .compact-book-card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .compact-book-card h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            color: #fff;
+            margin-bottom: 16px;
+            line-height: 1.2;
+          }
+          .compact-book-tag {
+            background: var(--dk-gold-soft);
+            color: #10160f;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 12px;
+            border-radius: 999px;
+            margin-bottom: 12px;
+            display: inline-block;
+          }
+          .compact-book-card .btn {
+            font-size: 0.95rem;
+            padding: 10px 20px;
+          }
+          @media (max-width: 600px) {
+            .compact-book-card {
+              flex-direction: column;
+              text-align: center;
+              padding: 32px 24px;
+            }
+            .compact-book-card-content {
+              align-items: center;
+            }
+          }
+        </style>
+        <div class="compact-books-grid">
+          <div class="compact-book-card reveal-up delay-1">
+            <div class="compact-book-card-image">
+              <img src="img/handbook.png" alt="Minimum Knowledge for SSB PI" />
+            </div>
+            <div class="compact-book-card-content">
+              <span class="compact-book-tag">Free PDF</span>
+              <span class="compact-book-tag">24 Pages</span>
+              <h3>Minimum Knowledge for SSB PI</h3>
+              <a class="btn btn-gold" href="resources/index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Get Book
+              </a>
+            </div>
+          </div>
+
+          <div class="compact-book-card reveal-up delay-2">
+            <div class="compact-book-card-image">
+              <img src="img/new_pattern.png" alt="Know your upcoming test pattern" />
+            </div>
+            <div class="compact-book-card-content">
+              <span class="compact-book-tag">Free PDF</span>
+              <span class="compact-book-tag">6 Handwritten Pages</span>
+              <h3>New SSB Test Pattern (CSSS & OPAM)</h3>
+              <a class="btn btn-gold" href="resources/index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Get Book
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- ── SHELVES ── -->
       <section class="container section" id="shelves">
         <div class="section-header reveal-up">
