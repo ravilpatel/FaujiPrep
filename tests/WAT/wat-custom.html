@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Association Test (WAT) Custom - FaujiPrep</title>
+    <!-- Common theme styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <!-- Specific WAT styles -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .settings-container {
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .settings-container label {
+            font-size: 1.15rem;
+            color: var(--dk-gold-soft);
+            font-weight: 600;
+            margin-right: 15px;
+        }
+        .settings-container select {
+            padding: 10px 15px;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            border: 1px solid var(--dk-border);
+            background: rgba(16, 22, 14, 0.9);
+            color: var(--ink);
+            outline: none;
+            cursor: pointer;
+            font-family: 'Outfit', sans-serif;
+        }
+        .settings-container select:focus {
+            border-color: var(--dk-gold-soft);
+        }
+    </style>
+</head>
+<body>
+    <!-- Instructions Screen -->
+    <div id="instruction-screen" class="screen active">
+        <div id="site-header"></div>
+        <main class="container section instruction-main">
+            <h1>Word Association Test (WAT) Custom</h1>
+            <div class="explainer-card">
+                <h3>Instructions</h3>
+                <ul class="instructions-list">
+                    <li>Select the number of words you wish to practice.</li>
+                    <li>Each word will be shown for 15 seconds only.</li>
+                    <li>You are to write the first thought which comes to your mind immediately on the page.</li>
+                    <li>Test won't stop once started.</li>
+                </ul>
+                <div class="settings-container">
+                    <label for="word-count-select">Select Number of Words:</label>
+                    <select id="word-count-select">
+                        <option value="10">10 Words (2.5 mins)</option>
+                        <option value="20">20 Words (5 mins)</option>
+                        <option value="30">30 Words (7.5 mins)</option>
+                        <option value="40">40 Words (10 mins)</option>
+                        <option value="50">50 Words (12.5 mins)</option>
+                        <option value="60" selected>60 Words (15 mins)</option>
+                    </select>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="understand-checkbox">
+                    <label for="understand-checkbox">I have read and understood the instructions.</label>
+                </div>
+                <button id="start-btn" class="btn" disabled>Start Test</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Test Screen -->
+    <div id="test-screen" class="screen">
+        <div class="test-header">
+            <div id="word-counter" class="counter">Word 1 / 60</div>
+            <div id="timer" class="timer">15</div>
+        </div>
+        <div class="word-display-container">
+            <h1 id="current-word" class="word">WORD</h1>
+        </div>
+    </div>
+
+    <!-- Completion Screen -->
+    <div id="completion-screen" class="screen">
+        <main class="container section">
+            <div class="explainer-card completion-container">
+                <h3>Test Completed</h3>
+                <p>You have successfully completed the Word Association Test.</p>
+                <button id="home-btn" class="btn" onclick="window.location.href='../../index.html'">Return to Home</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="../../nav.js"></script>
+    <script src="scripts/wat-custom.js"></script>
+</body>
+</html>

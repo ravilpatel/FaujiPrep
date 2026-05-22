@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Association Test (WAT) Tests - FaujiPrep</title>
+    <!-- Common theme styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+    
+    <style>
+        /* Specific Styles for Index Listing */
+        .wat-intro {
+            color: var(--dk-muted);
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin: 15px 0 40px;
+            max-width: 800px;
+        }
+
+        .tests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 50px;
+        }
+
+        .test-card {
+            background: linear-gradient(150deg, rgba(28, 36, 24, 0.96), rgba(16, 22, 14, 0.96));
+            border: 1px solid var(--dk-border);
+            border-radius: var(--radius);
+            padding: 35px 30px;
+            transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .test-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .test-card .badge {
+            align-self: flex-start;
+            margin-bottom: 15px;
+            font-size: 0.85rem;
+        }
+
+        .test-card h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--dk-gold-soft);
+            margin-bottom: 15px;
+        }
+
+        .test-card p {
+            color: var(--dk-muted);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            flex-grow: 1;
+        }
+
+        .test-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+            color: #c8d3c4;
+        }
+        
+        .test-meta li {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+
+        .test-meta li::before {
+            content: "•";
+            color: var(--primary);
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+
+        .test-card .btn {
+            width: 100%;
+            justify-content: center;
+            padding: 14px 20px;
+            border-radius: var(--radius-sm);
+        }
+    </style>
+</head>
+<body>
+    <div id="site-header"></div>
+
+    <main class="container section">
+        <h1>Word Association Test (WAT)</h1>
+        <p class="wat-intro">
+            Practice our Word Association Test modules under actual SSB timing constraints. Each test perfectly simulates the real environment with pure white backgrounds, distraction-free UI, and strict automatic 15-second transitions.
+        </p>
+
+        <div class="tests-grid">
+            <!-- Test 1 -->
+            <article class="test-card">
+                <span class="badge">Full TAT Mock Test</span>
+                <h3>WAT Mock Test 1</h3>
+                <p>Standard psych assessment test focused on evaluating initial subconscious reactions to diverse words.</p>
+                <ul class="test-meta">
+                    <li>60 Words</li>
+                    <li>15 Seconds each</li>
+                    <li>15 Minutes Total Duration</li>
+                </ul>
+                <a class="btn" href="wat-1.html">Attempt Test 1</a>
+            </article>
+
+            <!-- Test 2 -->
+            <article class="test-card">
+                <span class="badge">Full TAT Mock Test</span>
+                <h3>WAT Mock Test 2</h3>
+                <p>A fresh variety of word stimuli curated for testing consistency and spontaneous responses.</p>
+                <ul class="test-meta">
+                    <li>60 Words</li>
+                    <li>15 Seconds each</li>
+                    <li>15 Minutes Total Duration</li>
+                </ul>
+                <a class="btn" href="wat-2.html">Attempt Test 2</a>
+            </article>
+
+            <!-- Custom Test -->
+            <article class="test-card">
+                <span class="badge">Custom Test</span>
+                <h3>Custom WAT</h3>
+                <p>Configure your own Word Association Test by choosing exactly how many words you want to practice with randomly from our massive library.</p>
+                <ul class="test-meta">
+                    <li>10 to 60 Words (Your Choice)</li>
+                    <li>15 Seconds each</li>
+                    <li>Dynamic Random Words</li>
+                </ul>
+                <a class="btn" href="wat-custom.html">Attempt Custom Test</a>
+            </article>
+        </div>
+    </main>
+
+    <!-- Optionally you could include a site footer here -->
+    
+    <script src="../../nav.js"></script>
+</body>
+</html>

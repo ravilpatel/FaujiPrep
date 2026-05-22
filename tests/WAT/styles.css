@@ -1,0 +1,153 @@
+/* Screen Management */
+.screen {
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.screen.active {
+    display: block;
+}
+
+/* Specific for Test Screen which must be fully centered and pristine white */
+#test-screen.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+}
+
+/* Let the instruction screen use the main theme layout */
+.instruction-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.instruction-main h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.instructions-list {
+    margin: 20px 0 30px 20px;
+}
+
+.instructions-list li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color: var(--dk-muted);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: var(--ink);
+}
+
+.checkbox-container input {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: var(--primary);
+}
+
+.checkbox-container label {
+    cursor: pointer;
+}
+
+#start-btn {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#start-btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Test Screen overrides */
+.test-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+}
+
+.timer {
+    color: #d9534f; /* Red color for timer to indicate urgency */
+}
+
+.word-display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.word {
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* simple clear font for testing */
+}
+
+/* Completion Screen */
+.completion-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.completion-container h3 {
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.completion-container p {
+    color: var(--dk-muted);
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#home-btn {
+    display: inline-block;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .word {
+        font-size: 3rem;
+    }
+    .test-header {
+        padding: 20px 20px;
+        font-size: 18px;
+    }
+}
