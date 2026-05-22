@@ -158,12 +158,12 @@ function showWord() {
 
     // Set UI for current word
     currentWordEl.textContent = words[currentWordIndex];
-    wordCounterEl.textContent = Word  / ;
+    wordCounterEl.textContent = `Word ${currentWordIndex + 1} / ${TOTAL_WORDS}`;
     
     // Timer logic - Date.now() ensures accuracy even if browser tab loses focus
     const switchTime = Date.now() + (TIME_PER_WORD * 1000);
     timeRemaining = TIME_PER_WORD;
-    timerEl.textContent = ${timeRemaining} sec;
+    timerEl.textContent = `${timeRemaining} sec`;
     
     clearInterval(timerInterval);
     timerInterval = setInterval(() => {
@@ -173,7 +173,7 @@ function showWord() {
         // Only update DOM if the second has changed
         if (timeRemaining !== expectedTimeRemaining) {
              timeRemaining = expectedTimeRemaining;
-             timerEl.textContent = ${timeRemaining} sec;
+             timerEl.textContent = `${timeRemaining} sec`;
         }
 
         // Timer completion
