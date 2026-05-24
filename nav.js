@@ -121,7 +121,12 @@ if (navHost) {
     } else if (path.includes('/practice/')) {
       crumbs.push({ label: 'Practice Zone', href: null });
     } else if (path.includes('/resources/')) {
-      crumbs.push({ label: 'Resources', href: null });
+      const isResourceHome = path.endsWith('/resources/') || path.endsWith('/resources/index.html');
+      crumbs.push({ label: 'Resources', href: isResourceHome ? null : navPath('resources/index.html') });
+      if (!isResourceHome) {
+        const pageName = stripBrand(document.title);
+        if (pageName) crumbs.push({ label: pageName, href: null });
+      }
     } else if (path.includes('/tests/')) {
       crumbs.push({ label: 'Mock Tests', href: null });
     }

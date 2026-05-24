@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>CDS Elementary Mathematics — Chapter-wise Priority Guide | FaujiPrep</title>
+    <meta name="description" content="A complete chapter-wise priority guide for CDS Elementary Mathematics based on PYQ analysis and UPSC syllabus." />
+    <meta name="robots" content="index,follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .strategy-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 80px;
+      }
+      .strategy-header {
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      .strategy-header h1 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(2.4rem, 5vw, 3.8rem);
+        color: var(--dk-text);
+        line-height: 1.1;
+        margin-bottom: 20px;
+      }
+      .strategy-header h1 strong {
+        color: var(--dk-gold);
+      }
+      .strategy-meta {
+        background: rgba(176, 139, 76, 0.06);
+        border-left: 4px solid var(--dk-gold);
+        padding: 24px;
+        border-radius: 0 12px 12px 0;
+        margin-bottom: 48px;
+        text-align: left;
+      }
+      .strategy-meta p {
+        margin-bottom: 10px;
+        color: var(--dk-muted);
+        font-size: 1.05rem;
+      }
+      .strategy-meta p:last-child {
+        margin-bottom: 0;
+      }
+      .strategy-meta strong {
+        color: var(--dk-text);
+      }
+      
+      .strategy-section {
+        margin-bottom: 56px;
+      }
+      .strategy-section h2 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 2.4rem;
+        color: var(--dk-gold-soft);
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        border-bottom: 1px solid rgba(216, 184, 115, 0.2);
+        padding-bottom: 12px;
+      }
+      
+      .strategy-table-wrap {
+        overflow-x: auto;
+        margin-bottom: 30px;
+        border: 1px solid rgba(216, 184, 115, 0.16);
+        border-radius: 12px;
+        background: rgba(10, 14, 13, 0.6);
+      }
+      .strategy-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        min-width: 650px;
+      }
+      .strategy-table th, .strategy-table td {
+        padding: 16px 20px;
+        border-bottom: 1px solid rgba(216, 184, 115, 0.1);
+      }
+      .strategy-table th {
+        background: rgba(16, 22, 20, 0.8);
+        color: var(--dk-gold-soft);
+        font-weight: 600;
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+      }
+      .strategy-table tbody tr:hover {
+        background: rgba(176, 139, 76, 0.04);
+      }
+      .strategy-table tbody tr:last-child td {
+        border-bottom: none;
+      }
+      .text-center { text-align: center; }
+
+      .phase-block {
+        margin-bottom: 48px;
+      }
+      .phase-header {
+        margin-bottom: 24px;
+        background: linear-gradient(90deg, rgba(176, 139, 76, 0.15) 0%, transparent 100%);
+        padding: 16px 24px;
+        border-radius: 8px;
+        border-left: 3px solid var(--dk-gold);
+      }
+      .phase-header h3 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8rem;
+        color: var(--dk-text);
+        margin-bottom: 4px;
+      }
+      .phase-header p {
+        color: var(--dk-muted);
+        font-size: 0.95rem;
+        margin: 0;
+      }
+      
+      .topic-card {
+        background: linear-gradient(150deg, rgba(20, 26, 25, 0.4) 0%, rgba(12, 16, 15, 0.6) 100%);
+        border-radius: 12px;
+        padding: 24px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: transform 0.2s, border-color 0.2s;
+      }
+      .topic-card:hover {
+        border-color: rgba(216, 184, 115, 0.3);
+        transform: translateY(-2px);
+      }
+      .topic-card h4 {
+        color: var(--dk-gold);
+        font-size: 1.25rem;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .topic-badge {
+        font-size: 0.85rem;
+        background: rgba(176, 139, 76, 0.12);
+        color: var(--dk-gold-soft);
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-weight: 500;
+        border: 1px solid rgba(216, 184, 115, 0.2);
+      }
+      .topic-card ul {
+        list-style: none;
+        padding-left: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 10px;
+      }
+      .topic-card li {
+        position: relative;
+        padding-left: 22px;
+        color: var(--dk-muted);
+        font-size: 0.95rem;
+      }
+      .topic-card li::before {
+        content: '▹';
+        color: var(--dk-gold-dim);
+        position: absolute;
+        left: 0;
+        font-size: 1.1rem;
+        line-height: 1.4;
+      }
+
+      .progress-container {
+        background: rgba(16, 22, 20, 0.4);
+        border: 1px solid rgba(216, 184, 115, 0.15);
+        border-radius: 16px;
+        padding: 30px;
+      }
+      .progress-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .progress-row:last-child {
+        margin-bottom: 0;
+      }
+      .progress-label {
+        width: 130px;
+        font-weight: 500;
+        color: var(--dk-text);
+        font-size: 0.95rem;
+      }
+      .progress-bar-wrap {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.05);
+        height: 10px;
+        border-radius: 6px;
+        margin: 0 20px;
+        overflow: hidden;
+      }
+      .progress-bar {
+        height: 100%;
+        background: linear-gradient(90deg, var(--dk-gold-dim), var(--dk-gold));
+        border-radius: 6px;
+      }
+      .progress-value {
+        width: 45px;
+        text-align: right;
+        color: var(--dk-gold-soft);
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+
+      .tips-list {
+        background: rgba(176, 139, 76, 0.04);
+        border: 1px solid rgba(216, 184, 115, 0.2);
+        border-radius: 12px;
+        padding: 30px 30px 30px 45px;
+      }
+      .tips-list li {
+        margin-bottom: 16px;
+        color: var(--dk-muted);
+        font-size: 1.05rem;
+        line-height: 1.6;
+      }
+      .tips-list li:last-child {
+        margin-bottom: 0;
+      }
+      .tips-list li strong {
+        color: var(--dk-text);
+      }
+
+      .source-footer {
+        text-align: center;
+        font-size: 0.85rem;
+        color: rgba(255,255,255,0.3);
+        margin-top: 60px;
+        font-style: italic;
+      }
+      
+      .alert-box {
+        background: rgba(176, 60, 60, 0.1);
+        border-left: 3px solid #b03c3c;
+        padding: 12px 20px;
+        border-radius: 0 8px 8px 0;
+        color: #e8a0a0;
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+        display: inline-block;
+      }
+      
+      .alert-success {
+        background: rgba(60, 176, 100, 0.1);
+        border-left: 3px solid #3cb064;
+        color: #a0e8ba;
+      }
+      
+      .chapter-quote {
+        font-style: italic;
+        color: var(--dk-gold-dim);
+        margin-bottom: 20px;
+        padding-left: 16px;
+        border-left: 2px solid var(--dk-gold-dim);
+      }
+      
+      .toc-container a:hover {
+        color: var(--dk-gold) !important;
+        border-bottom-color: var(--dk-gold) !important;
+      }
+
+      @media print {
+        #site-header, .no-print, footer, .site-footer {
+          display: none !important;
+        }
+        body {
+          background: #fff !important;
+          color: #000 !important;
+        }
+        .strategy-container {
+          padding-top: 0;
+          margin-top: 0;
+        }
+        .strategy-meta, .progress-container, .tips-list, .topic-card {
+          background: #fff !important;
+          border: 1px solid #ccc !important;
+          color: #000 !important;
+          page-break-inside: avoid;
+        }
+        .strategy-table th { background: #eee !important; color: #000 !important; }
+        h1, h2, h3, h4, p, li, strong, span, .progress-label, .progress-value, .topic-badge {
+          color: #000 !important;
+        }
+        .strategy-header h1 strong, .topic-card h4, .phase-header h3 {
+          color: #000 !important;
+        }
+        a {
+          color: #000 !important;
+          text-decoration: underline !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="site-header"></div>
+
+    <main class="strategy-container container">
+      
+      <header class="strategy-header">
+        <h1>📐 CDS Elementary Mathematics <br/><strong>Chapter-wise Priority Guide</strong></h1>
+      </header>
+
+      <div class="strategy-meta">
+        <div class="no-print" style="float: right; margin-left: 20px;">
+          <button class="btn btn-gold btn-sm" onclick="window.print()">Download PDF</button>
+        </div>
+        <p><strong>Based on:</strong> PYQ Analysis (CDS I 2021, CDS II 2021, CDS I 2026) + Official UPSC CDS 2026 Syllabus</p>
+        <p><strong>Paper Format:</strong> 100 Questions | 100 Marks | 2 Hours | Negative Marking: –0.33</p>
+        <p><strong>Target:</strong> 70+ marks (IMA / INA / AFA)</p>
+      </div>
+
+      <!-- SEO INTRO -->
+      <div class="seo-intro" style="margin-bottom: 40px; font-size: 1.05rem; color: var(--dk-text); line-height: 1.8;">
+        <p>Welcome to the ultimate <strong>CDS Elementary Mathematics Chapter-wise Priority Guide</strong>. If you are aiming to crack the Combined Defence Services (CDS) examination, mastering the mathematics section is crucial for scoring high marks and securing your place in the IMA, INA, or AFA. This comprehensive strategy breaks down the entire UPSC CDS Math syllabus into highly optimized phases based on strict previous year question (PYQ) analysis. By focusing on the highest-weightage topics—such as Arithmetic, Algebra, and Mensuration—you can maximize your return on investment (ROI) and confidently target a score of 70+.</p>
+      </div>
+
+      <!-- TABLE OF CONTENTS -->
+      <div class="toc-container" style="background: rgba(16, 22, 20, 0.4); border: 1px solid rgba(216, 184, 115, 0.15); border-radius: 12px; padding: 24px; margin-bottom: 48px;">
+        <h3 style="color: var(--dk-gold-soft); font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; margin-bottom: 16px;">Table of Contents</h3>
+        <ul style="list-style: none; padding-left: 0; display: grid; gap: 12px; font-size: 1.05rem;">
+          <li><a href="#master-priority-map" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">1. Master Priority Map</a></li>
+          <li><a href="#phase-1" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">2. PHASE 1 — Do These First (Arithmetic, Algebra, Number System)</a></li>
+          <li><a href="#phase-2" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">3. PHASE 2 — Do These Next (Mensuration, Trigonometry)</a></li>
+          <li><a href="#phase-3" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">4. PHASE 3 — Cover If Time Allows (Geometry, Statistics)</a></li>
+          <li><a href="#resource-allocation" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">5. Resource Allocation Summary</a></li>
+          <li><a href="#score-projection" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">6. Realistic Score Projection</a></li>
+          <li><a href="#strategy-tips" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">7. Quick Strategy Tips</a></li>
+          <li><a href="#recommended-resources" style="color: var(--dk-muted); text-decoration: none; border-bottom: 1px dashed rgba(216, 184, 115, 0.3); transition: color 0.2s, border-color 0.2s;">8. Recommended Resources</a></li>
+        </ul>
+      </div>
+
+      <!-- MASTER PRIORITY MAP -->
+      <section class="strategy-section" id="master-priority-map">
+        <h2>🗺️ Master Priority Map</h2>
+        <div class="strategy-table-wrap">
+          <table class="strategy-table">
+            <thead>
+              <tr>
+                <th class="text-center">#</th>
+                <th>Chapter</th>
+                <th class="text-center">Avg Qs/Paper</th>
+                <th>Weightage</th>
+                <th class="text-center">Priority</th>
+                <th>ROI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">1</td>
+                <td><strong>Arithmetic</strong></td>
+                <td class="text-center">22–25</td>
+                <td>~25%</td>
+                <td class="text-center" style="color:var(--dk-gold)">⭐⭐⭐⭐⭐</td>
+                <td>Highest</td>
+              </tr>
+              <tr>
+                <td class="text-center">2</td>
+                <td><strong>Algebra</strong></td>
+                <td class="text-center">18–22</td>
+                <td>~20%</td>
+                <td class="text-center" style="color:var(--dk-gold)">⭐⭐⭐⭐⭐</td>
+                <td>Highest</td>
+              </tr>
+              <tr>
+                <td class="text-center">3</td>
+                <td><strong>Number System</strong></td>
+                <td class="text-center">8–9</td>
+                <td>~10%</td>
+                <td class="text-center" style="color:var(--dk-gold)">⭐⭐⭐⭐</td>
+                <td>High</td>
+              </tr>
+              <tr>
+                <td class="text-center">4</td>
+                <td><strong>Mensuration</strong></td>
+                <td class="text-center">8–10</td>
+                <td>~10%</td>
+                <td class="text-center" style="color:var(--dk-gold)">⭐⭐⭐⭐</td>
+                <td>High</td>
+              </tr>
+              <tr>
+                <td class="text-center">5</td>
+                <td><strong>Trigonometry</strong></td>
+                <td class="text-center">8–10</td>
+                <td>~10%</td>
+                <td class="text-center" style="color:var(--dk-gold)">⭐⭐⭐⭐</td>
+                <td>High</td>
+              </tr>
+              <tr>
+                <td class="text-center">6</td>
+                <td><strong>Geometry</strong></td>
+                <td class="text-center">10–12</td>
+                <td>~12%</td>
+                <td class="text-center" style="color:var(--dk-gold)">⭐⭐⭐⭐</td>
+                <td>Medium-High</td>
+              </tr>
+              <tr>
+                <td class="text-center">7</td>
+                <td><strong>Statistics</strong></td>
+                <td class="text-center">2–4</td>
+                <td>~4%</td>
+                <td class="text-center" style="color:var(--dk-gold)">⭐⭐</td>
+                <td>Low</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- PHASE 1 -->
+      <section class="strategy-section" id="phase-1">
+        <h2>🚀 PHASE 1 — Do These First</h2>
+        <p style="color:var(--dk-muted); margin-bottom:24px;">Covers ~60–65 Questions. This should form the core of your preparation.</p>
+        
+        <div class="phase-block">
+          <div class="phase-header">
+            <h3>1️⃣ Arithmetic</h3>
+            <p>~22–25 Questions • 30% Study Time</p>
+          </div>
+          <div class="chapter-quote">Highest-scoring chapter. Every sub-topic below has appeared every year.</div>
+          
+          <div class="topic-card">
+            <h4>📌 Percentage / Profit & Loss / Discount <span class="topic-badge">5–6 Qs</span></h4>
+            <ul>
+              <li>Profit & Loss calculations</li>
+              <li>Successive Discount</li>
+              <li>Marked Price vs Selling Price</li>
+              <li>Percentage Change / Increase / Decrease</li>
+              <li>Population Growth problems</li>
+              <li>Price Reduction & Consumption problems</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Time, Speed & Distance <span class="topic-badge">3–4 Qs</span></h4>
+            <ul>
+              <li>Train problems (length, crossing)</li>
+              <li>Boat & Stream (upstream / downstream)</li>
+              <li>Relative Speed</li>
+              <li>Average Speed</li>
+              <li>Circular Track meeting problems</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Time & Work <span class="topic-badge">2–3 Qs</span></h4>
+            <ul>
+              <li>Men-days-work formula</li>
+              <li>Pipe & Cistern</li>
+              <li>Alternate day work pattern</li>
+              <li>Efficiency comparison</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Ratio, Proportion & Partnership <span class="topic-badge">2–3 Qs</span></h4>
+            <ul>
+              <li>Ratios & simplification</li>
+              <li>Partnership profit distribution</li>
+              <li>Proportion (Direct & Inverse variation)</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Simple Interest & Compound Interest <span class="topic-badge">2 Qs</span></h4>
+            <ul>
+              <li>CI vs SI difference formula</li>
+              <li>Compound growth over periods</li>
+              <li>Quarterly/Half-yearly compounding</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Average / Mixture / Alligation <span class="topic-badge">2 Qs</span></h4>
+            <ul>
+              <li>Average with replacement</li>
+              <li>Mixture concentration</li>
+              <li>Weighted average</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Age Problems <span class="topic-badge">1–2 Qs</span></h4>
+            <ul>
+              <li>Present age setup</li>
+              <li>Ratio-based age problems</li>
+              <li>Future/Past age conditions</li>
+            </ul>
+          </div>
+          <h4 style="color: var(--dk-gold); margin-bottom: 16px; margin-top: 10px;">🎥 Recommended Video Lessons</h4>
+          <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+            <li><a href="https://www.youtube.com/watch?v=gIs4ZFXEUR4" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Arithmetic Part 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=-E5yGJ5B15I" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Arithmetic Part 2</a></li>
+            <li><a href="https://www.youtube.com/watch?v=p-wtqctLLCI" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Arithmetic Part 3</a></li>
+          </ul>
+        </div>
+
+        <div class="phase-block">
+          <div class="phase-header">
+            <h3>2️⃣ Algebra</h3>
+            <p>~18–22 Questions • 25% Study Time</p>
+          </div>
+          <div class="chapter-quote">Second highest chapter. Identities and polynomials dominate.</div>
+          
+          <div class="topic-card">
+            <h4>📌 Algebraic Identities <span class="topic-badge">4 Qs</span></h4>
+            <ul>
+              <li>Standard expansion identities: (a+b)², (a–b)², (a+b)³, (a³+b³)</li>
+              <li>Simplification using identities</li>
+              <li>Surds simplification</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Polynomial & Factorization <span class="topic-badge">5 Qs</span></h4>
+            <ul>
+              <li>Factor Theorem</li>
+              <li>Polynomial Remainder Theorem</li>
+              <li>Polynomial Division</li>
+              <li>HCF & LCM of polynomials</li>
+              <li>Relation between roots and coefficients</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Quadratic Equations <span class="topic-badge">3–4 Qs</span></h4>
+            <ul>
+              <li>Sum & Product of roots</li>
+              <li>Nature of roots (discriminant)</li>
+              <li>Equation formation from given roots</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Logarithms <span class="topic-badge">2–3 Qs</span></h4>
+            <ul>
+              <li>log identities (product, quotient, power rules)</li>
+              <li>Exponent ↔ log conversion</li>
+              <li>log base 10 calculation</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Indices & Exponents <span class="topic-badge">2 Qs</span></h4>
+            <ul>
+              <li>Unit digit of powers</li>
+              <li>Power simplification</li>
+              <li>Laws of indices</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Linear Equations <span class="topic-badge">2 Qs</span></h4>
+            <ul>
+              <li>Simultaneous equations (2 variables)</li>
+              <li>Analytical & graphical solutions</li>
+              <li>Inequality-based problems</li>
+            </ul>
+          </div>
+          <h4 style="color: var(--dk-gold); margin-bottom: 16px; margin-top: 10px;">🎥 Recommended Video Lessons</h4>
+          <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+            <li><a href="https://www.youtube.com/watch?v=_hNkQjnl-hU" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Algebra, Part 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=vwuwz3vAlmk" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Algebra, Part 2</a></li>
+          </ul>
+        </div>
+
+        <div class="phase-block">
+          <div class="phase-header">
+            <h3>3️⃣ Number System</h3>
+            <p>~8–9 Questions • 10% Study Time</p>
+          </div>
+          <div class="chapter-quote">High consistency across all papers. Easy to score.</div>
+          
+          <div class="topic-card">
+            <h4>📌 Topics</h4>
+            <ul>
+              <li>HCF & LCM (word problems)</li>
+              <li>Divisibility rules (2, 3, 4, 5, 9, 11)</li>
+              <li>Prime & Composite numbers</li>
+              <li>Remainder Theorem</li>
+              <li>Cyclic Remainder (unit digit patterns)</li>
+              <li>Unit digit of expressions</li>
+              <li>Consecutive numbers properties</li>
+              <li>Rational vs Irrational classification</li>
+              <li>Euclidean Algorithm</li>
+            </ul>
+          </div>
+          <h4 style="color: var(--dk-gold); margin-bottom: 16px; margin-top: 10px;">🎥 Recommended Video Lessons</h4>
+          <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+            <li><a href="https://www.youtube.com/watch?v=9K7lqAjU5kc" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Number System</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PHASE 2 -->
+      <section class="strategy-section" id="phase-2">
+        <h2>⚙️ PHASE 2 — Do These Next</h2>
+        <p style="color:var(--dk-muted); margin-bottom:24px;">Covers ~20 More Questions. Builds upon the foundational chapters.</p>
+        
+        <div class="phase-block">
+          <div class="phase-header">
+            <h3>4️⃣ Mensuration</h3>
+            <p>~8–10 Questions • 10% Study Time</p>
+          </div>
+          <div class="chapter-quote">Extremely scoring. CDS I 2026 showed <strong>strong 3D dominance</strong>.</div>
+          
+          <div class="topic-card">
+            <h4>📌 2D Mensuration <span class="topic-badge">4 Qs</span></h4>
+            <ul>
+              <li>Rectangle & Square (area, perimeter)</li>
+              <li>Rhombus</li>
+              <li>Triangle (area using base-height / Heron's)</li>
+              <li>Circle (area, circumference, sector, segment)</li>
+              <li>Surface-perimeter relation problems</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 3D Mensuration <span class="topic-badge" style="background: rgba(176, 60, 60, 0.2); color: #e8a0a0; border-color: #b03c3c;">5–6 Qs ⚠️ Trending Up</span></h4>
+            <ul>
+              <li>Cylinder (CSA, TSA, Volume)</li>
+              <li>Cone (slant height, CSA, Volume)</li>
+              <li>Sphere & Hemisphere</li>
+              <li>Cuboid & Cube</li>
+              <li>Water displacement / overflow problems</li>
+              <li>Volume comparison problems</li>
+            </ul>
+          </div>
+          <h4 style="color: var(--dk-gold); margin-bottom: 16px; margin-top: 10px;">🎥 Recommended Video Lessons</h4>
+          <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+            <li><a href="https://www.youtube.com/watch?v=EUwv98-K51I" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Mensuration, Part 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=1poc-F1pDBA" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Mensuration, Part 2</a></li>
+            <li><a href="https://www.youtube.com/watch?v=irLSDs-c1AU" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Mensuration, Part 3</a></li>
+          </ul>
+        </div>
+
+        <div class="phase-block">
+          <div class="phase-header">
+            <h3>5️⃣ Trigonometry</h3>
+            <p>~8–10 Questions • 10% Study Time</p>
+          </div>
+          
+          <div class="topic-card">
+            <h4>📌 Trigonometric Identities <span class="topic-badge">4 Qs</span></h4>
+            <ul>
+              <li>sin²θ + cos²θ = 1 and derived forms</li>
+              <li>tan–sec relation: sec²θ – tan²θ = 1</li>
+              <li>cosec–cot relation</li>
+              <li>Identity verification & simplification</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Standard Values <span class="topic-badge">2 Qs</span></h4>
+            <ul>
+              <li>Values at 0°, 30°, 45°, 60°, 90°</li>
+              <li>Table-based direct value questions</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Heights & Distances <span class="topic-badge">2–3 Qs</span></h4>
+            <ul>
+              <li>Tower height problems</li>
+              <li>Pole & shadow problems</li>
+              <li>Angle of elevation & depression</li>
+              <li>Two-observer problems</li>
+            </ul>
+          </div>
+          <h4 style="color: var(--dk-gold); margin-bottom: 16px; margin-top: 10px;">🎥 Recommended Video Lessons</h4>
+          <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+            <li><a href="https://www.youtube.com/watch?v=Sikb_WkOC5A" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Trigonometry Part 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=JV07uXH-vEY" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Trigonometry Part 2</a></li>
+            <li><a href="https://www.youtube.com/watch?v=fUp_pqjUQrA" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Height and Distance</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PHASE 3 -->
+      <section class="strategy-section" id="phase-3">
+        <h2>🔧 PHASE 3 — Cover If Time Allows</h2>
+        
+        <div class="phase-block">
+          <div class="phase-header">
+            <h3>6️⃣ Geometry</h3>
+            <p>~10–12 Questions • 10% Study Time</p>
+          </div>
+          
+          <div class="topic-card">
+            <h4>📌 Triangles <span class="topic-badge">4–5 Qs</span></h4>
+            <ul>
+              <li>Similar Triangles (AA, SSS, SAS)</li>
+              <li>Right Triangle (Pythagoras)</li>
+              <li>Median, Altitude, Angle Bisector properties</li>
+              <li>Congruence of Triangles</li>
+              <li>Concurrence of medians & altitudes</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Circles <span class="topic-badge">3–4 Qs</span></h4>
+            <ul>
+              <li>Tangent Theorem (tangent ⊥ radius)</li>
+              <li>Inscribed Angle Theorem</li>
+              <li>Chord properties</li>
+              <li>Diameter & semicircle angle</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Quadrilaterals <span class="topic-badge">2 Qs</span></h4>
+            <ul>
+              <li>Cyclic Quadrilateral</li>
+              <li>Parallelogram properties</li>
+              <li>Rectangle & Square properties</li>
+            </ul>
+          </div>
+          <div class="topic-card">
+            <h4>📌 Lines & Angles <span class="topic-badge">1 Q</span></h4>
+            <ul>
+              <li>Parallel lines, transversals</li>
+              <li>Basic angle properties</li>
+            </ul>
+          </div>
+          <h4 style="color: var(--dk-gold); margin-bottom: 16px; margin-top: 10px;">🎥 Recommended Video Lessons</h4>
+          <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+            <li><a href="https://www.youtube.com/watch?v=vPNOWUXlMsE" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Geometry, Part 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=76bZg8dU14Y" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Geometry, Part 2</a></li>
+            <li><a href="https://www.youtube.com/watch?v=nFTg73u-JKk" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Geometry, Part 3</a></li>
+          </ul>
+        </div>
+
+        <div class="phase-block">
+          <div class="phase-header">
+            <h3>7️⃣ Statistics</h3>
+            <p>~2–4 Questions • 5% Study Time</p>
+          </div>
+          <div class="chapter-quote">Very low weightage. Cover only basics.</div>
+          
+          <div class="topic-card">
+            <h4>📌 Topics</h4>
+            <ul>
+              <li>Arithmetic Mean (and effect of adding/removing observation)</li>
+              <li>Median (odd/even number of observations)</li>
+              <li>Mode</li>
+              <li>Data tabulation</li>
+              <li>Bar charts & Histograms (reading)</li>
+              <li>Frequency polygons (basic)</li>
+            </ul>
+          </div>
+          <h4 style="color: var(--dk-gold); margin-bottom: 16px; margin-top: 10px;">🎥 Recommended Video Lessons</h4>
+          <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+            <li><a href="https://www.youtube.com/watch?v=m1LroMBj-Po" target="_blank" style="display: inline-flex; align-items: center; background: rgba(212, 175, 55, 0.1); color: var(--dk-gold); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; border: 1px solid rgba(212, 175, 55, 0.3); transition: all 0.3s ease;">▶ Set Theory, Statistics and Logarithm</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- RESOURCE ALLOCATION SUMMARY -->
+      <section class="strategy-section" id="resource-allocation">
+        <h2>📊 Resource Allocation Summary</h2>
+        <div class="progress-container">
+          <div class="progress-row">
+            <div class="progress-label">Arithmetic</div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 30%;"></div>
+            </div>
+            <div class="progress-value">30%</div>
+          </div>
+          <div class="progress-row">
+            <div class="progress-label">Algebra</div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 25%;"></div>
+            </div>
+            <div class="progress-value">25%</div>
+          </div>
+          <div class="progress-row">
+            <div class="progress-label">Number System</div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 10%;"></div>
+            </div>
+            <div class="progress-value">10%</div>
+          </div>
+          <div class="progress-row">
+            <div class="progress-label">Mensuration</div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 10%;"></div>
+            </div>
+            <div class="progress-value">10%</div>
+          </div>
+          <div class="progress-row">
+            <div class="progress-label">Trigonometry</div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 10%;"></div>
+            </div>
+            <div class="progress-value">10%</div>
+          </div>
+          <div class="progress-row">
+            <div class="progress-label">Geometry</div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 10%;"></div>
+            </div>
+            <div class="progress-value">10%</div>
+          </div>
+          <div class="progress-row">
+            <div class="progress-label">Statistics</div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 5%;"></div>
+            </div>
+            <div class="progress-value">5%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REALISTIC SCORE PROJECTION -->
+      <section class="strategy-section" id="score-projection">
+        <h2>🎯 Realistic Score Projection</h2>
+        <div class="strategy-table-wrap">
+          <table class="strategy-table">
+            <thead>
+              <tr>
+                <th class="text-center">Phase Completed</th>
+                <th>Chapters Covered</th>
+                <th class="text-center">Questions Covered</th>
+                <th class="text-center">Expected Attempts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center"><strong>Phase 1 only</strong></td>
+                <td>Arithmetic + Algebra + Number System</td>
+                <td class="text-center">~55–60</td>
+                <td class="text-center">50–55</td>
+              </tr>
+              <tr>
+                <td class="text-center"><strong>Phase 1 + 2</strong></td>
+                <td>+ Mensuration + Trigonometry</td>
+                <td class="text-center">~75–80</td>
+                <td class="text-center">68–72</td>
+              </tr>
+              <tr>
+                <td class="text-center"><strong>All 3 Phases</strong></td>
+                <td>All chapters</td>
+                <td class="text-center">~95–100</td>
+                <td class="text-center">80–85</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="alert-box alert-success" style="width: 100%; box-sizing: border-box; margin-top: 10px;">
+          ✅ <strong>Qualifying benchmark:</strong> 65–70 correct attempts (with ~80% accuracy) = safe score for IMA/INA/AFA
+        </div>
+      </section>
+
+      <!-- QUICK STRATEGY TIPS -->
+      <section class="strategy-section" id="strategy-tips">
+        <h2>💡 Quick Strategy Tips</h2>
+        <ul class="tips-list">
+          <li><strong>Never guess blindly</strong> — Negative marking is –0.33. Skip if unsure.</li>
+          <li><strong>Attempt Arithmetic first</strong> in the exam — highest volume, moderate difficulty.</li>
+          <li><strong>3D Mensuration is trending up</strong> (especially CDS I 2026) — don't skip it.</li>
+          <li><strong>Identities in Algebra</strong> are direct formula-based — fastest marks.</li>
+          <li><strong>Statistics is least rewarding</strong> — invest here only after Phase 1 & 2 are solid.</li>
+          <li><strong>Speed matters</strong> — 100 questions in 120 minutes = 1.2 min/question.</li>
+        </ul>
+      </section>
+
+      <!-- RECOMMENDED RESOURCES -->
+      <section class="strategy-section" id="recommended-resources">
+        <h2>📚 Recommended Resources</h2>
+        <div class="strategy-table-wrap">
+          <table class="strategy-table">
+            <thead>
+              <tr>
+                <th>Resource</th>
+                <th>Use For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>NCERT Class 9 & 10 Maths</strong></td>
+                <td>Concepts & theory base</td>
+              </tr>
+              <tr>
+                <td><strong>R.S. Aggarwal (Elementary Maths)</strong></td>
+                <td>Practice questions</td>
+              </tr>
+              <tr>
+                <td><strong>CDS PYQs (Last 5 years)</strong></td>
+                <td>Pattern recognition</td>
+              </tr>
+              <tr>
+                <td><strong>Pathfinder CDS (Arihant)</strong></td>
+                <td>Comprehensive preparation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="source-footer">
+        Sources: PYQ Analysis (CDS I 2021, CDS II 2021, CDS I 2026) | UPSC CDS Official Syllabus 2026 | prepp.in CDS Maths Syllabus 2026
+      </div>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          Disclaimer: FaujiPrep is an independent preparation platform and is not
+          affiliated with UPSC, Indian Army, or any government recruitment authority.
+        </p>
+        <div class="footer-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="Telegram">Telegram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../nav.js"></script>
+  </body>
+</html>
