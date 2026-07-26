@@ -54,6 +54,9 @@ if (navHost) {
               <a href="${navPath("resources/index.html")}" class="nav-link">Resources</a>
             </li>
             <li class="nav-item">
+              <a href="${navPath("news/index.html")}" class="nav-link">News &amp; Feed</a>
+            </li>
+            <li class="nav-item">
               <a href="${navPath("blueprint.pdf")}" class="nav-link nav-link-pdf" target="_blank" rel="noopener" download="CSSS-OPAM-blueprint.pdf" aria-label="Download CSSS and OPAM Catalog Map PDF">Catalog Map PDF</a>
             </li>
           </ul>
