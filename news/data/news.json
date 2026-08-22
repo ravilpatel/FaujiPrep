@@ -1,6 +1,546 @@
 {
-  "generated_at": "2026-08-21T03:30:23.036209+00:00",
+  "generated_at": "2026-08-22T03:21:27.739746+00:00",
   "items": [
+    {
+      "id": "748f6a77483e89d7",
+      "title": "India and UK agree to expand defence cooperation through joint exercises and training - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNUhVU0FJeXBtQXNNaGJzNmxZX2VfS0JPZUh5V2hEQmtQaFQ0YVVHUVJ1Z1ROY0NfWWllc2F2aU5fcjdkbVY5OGdVWWl6TkY3NVVHU2x0RklQeG12VFZDZHZTcXNoa3VWRDdaTDN0R1JxYTBPWHlmNGJsM0ExZlRzUDdUc3hZMXVrMkhJaWZHeFpob0ZyT1BmZjhsc3VZUFAzTTBOSWpyRHFRQjBKRktaOA?oc=5",
+      "source": "Google News",
+      "summary": "India and UK agree to expand defence cooperation through joint exercises and training News On AIR",
+      "published_at": "2026-08-22T02:50:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "4b6dd125bb4ec113",
+      "title": "India, UK review defence industrial cooperation - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMmE0STJBb2JSMzR2dkFfY29HeEdhRHQzVExMdk0yaWJHcXVWLUh5WlRQSFZDZHdHZnpVR1p6MlJyWmRMa1Ytd241N2FVNlZGMXRVRFl1bjhmRWZSQlF2dnpnUjBNajRtb21wVElBSC1RMmltTklEeTFka1FpNUJFRXA1WWRTZnFhbVlhN2dTYllTYmRhT09uVHlERUfSAaMBQVVfeXFMTWlKZVI0M1dMOUt4TGdLb0ZaY0ZUN1lLZ1RYb3VfNGtHMGJtZlJVVGh2QkxaRURQSlM0UlVIa2pwZHBQLWVFTTI1b2dQeUJYa2RCQ21GdlNOWjBDX3h6elNhd254NGFET2Rtc1hHMm12bDh6Um1IdmYyX2w3UGlQWndEeV9IdGI5NGs1VDFfY3hTZXkxbmFWTjFlS0JhTTM0bFBKRQ?oc=5",
+      "source": "Google News",
+      "summary": "India, UK review defence industrial cooperation The Indian Express",
+      "published_at": "2026-08-22T00:26:15+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "a4e372c484cbfd01",
+      "title": "Proposal to Reschedule Afghanistan-India T20I Series Amid Cultural Considerations - SSBCrack",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTXY1NG5lREhfT1d5aGMySWJ6bWY4YzVpVGdNcXNvY25adlFnZDM5eUt4eEEtbnV3TmlkNV9pcW9OakMtdEVwMkZzUG5mNEZKbmdDU3RlaEVHTU44dm1rT1lId1B1MWhzc0Y2QmMzQWlhcDZYOGI3TzFpWXBOZFFUU1NOZlRGZjluaklBelZGSXVqZ0dNWjdTdE9fUGFlR09ELTlEQTd4WDU0aGNq?oc=5",
+      "source": "Google News",
+      "summary": "Proposal to Reschedule Afghanistan-India T20I Series Amid Cultural Considerations SSBCrack",
+      "published_at": "2026-08-22T00:16:32+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "4bb908bb4f5d72f1",
+      "title": "Defence Secretary concludes two-day Armenia visit to strengthen defence cooperation - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSWxXVGRQOGVXMTJ1eDNsc2NVUGhkdUVNLVZTOE44U29tMkxjY1ZwVWlCSkE5VlpIcEtmWWh1bEc3M0dKNERZaW9EMkgzS1RweEhrei1fbEw3d214dFlLWU1pTnNVcFhiZ1lnbDlydUpkNmtqUzdzc2Y0SXFzZ2VUcWJNeVRsOFE4U3B1a2FWWkRKdllDNTd0b09fZjdITUFuN2dGTTN3eGlSeTc4V0E?oc=5",
+      "source": "Google News",
+      "summary": "Defence Secretary concludes two-day Armenia visit to strengthen defence cooperation News On AIR",
+      "published_at": "2026-08-21T22:51:57+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "d7666dd51bb928e8",
+      "title": "Bandi Sanjay hails SSB’s high-tech border guarding - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1hQcjZnMG51T081X0NSaV94VF9jbU13dktmQXpqNVNneFBYTU1BX1BaSi1feVBzS21uZjZUQ3hOaUJNdzRta3RRSW9fNE9ndlgwaU40b3VlZFJEOXM2MXFfdGhDZElzRTU4aUVBNTFPVGZoUHBBQ2hPR3dCbzlUSjNpdGJMTVd5WERaeEdoVGllVWZYSWp5VnJ6NGI1U2N1UHfSAaIBQVVfeXFMTnNYUHI2ZzBudU9PNV9DUmlfeFRfY21Nd3ZLZkF6ajVTZ3hQWE1NQV9QWkotX3lQc0ttbmY2VEN4TmlCTXc0bWt0UUlvXzRPZ3ZYMGlONG91ZWRSRDlzNjFxX3RoQ2RJc0U1OGlFQTUxT1RmaFBwQUNoT0d3Qm85VEozaXRiTE1XeVhEWnhHaFRpZVVmWElqeVZyejRiNVNjdVB3?oc=5",
+      "source": "Google News",
+      "summary": "Bandi Sanjay hails SSB’s high-tech border guarding The Hans India",
+      "published_at": "2026-08-21T22:04:42+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "37a178894f93ee85",
+      "title": "India, UK Hold 25th Defence Consultative Group Meeting in New Delhi - DD News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeTdZY2ZTUXlGM0x3cmdvLWl0UFlyalNVcDMyNWpqclhCVERtRVU5S0lQeDR3Vm8xLU1STnlfVW53Y05Fb3otdEREclFWOWQtVENXeXM5TFJmZU11anNRRkc5RF9zdGVIbXZhV2JxcG5XRmE5SnQ1UEUyd244ZnJ4dVFpc3J5bTZkZW1VUmNrY25MUnBrRWZJ?oc=5",
+      "source": "Google News",
+      "summary": "India, UK Hold 25th Defence Consultative Group Meeting in New Delhi DD News",
+      "published_at": "2026-08-21T18:24:51+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "874f04b59872746a",
+      "title": "India, UK Hold Key Meet In Delhi To Bolster Bilateral Defence Ties - ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdzRMM3RvNTlMQUdGSVlWT1c5MHhLX3lLUWNYaE1udmNtN1F1THpnM2hBQW9HTXlFZGoydzc3aHRHaUw5YU90YklNMVhMcWx6TTRDTTBxenhBQWc0ME5tQTYxeHJiSUhRMk1RdnNfaG5iZUIzTmFPdHpYZFh3WC1FcjdwVkk1LVo0Y01ETzlTU2s2TVdvMEJoLW52cWladmppUG9iVU5PQ0VfRnVkUm9kbm5TQ2Zsd2dDdTdHRdIBvAFBVV95cUxNdzRMM3RvNTlMQUdGSVlWT1c5MHhLX3lLUWNYaE1udmNtN1F1THpnM2hBQW9HTXlFZGoydzc3aHRHaUw5YU90YklNMVhMcWx6TTRDTTBxenhBQWc0ME5tQTYxeHJiSUhRMk1RdnNfaG5iZUIzTmFPdHpYZFh3WC1FcjdwVkk1LVo0Y01ETzlTU2s2TVdvMEJoLW52cWladmppUG9iVU5PQ0VfRnVkUm9kbm5TQ2Zsd2dDdTdHRQ?oc=5",
+      "source": "Google News",
+      "summary": "India, UK Hold Key Meet In Delhi To Bolster Bilateral Defence Ties ETV Bharat",
+      "published_at": "2026-08-21T18:11:57+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "c32c5895ee225c5f",
+      "title": "India, UK hold key meet in Delhi to bolster bilateral defence ties - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQjJ1SV9Cd1dpUFhkdDQxODI2b2xsajBobkV1RW1xRlQtV3Y3ZkJwRGpfWTVQTWRCTjM2amFnaTdmVXJ6Z0tTZ3h6cDdHblFsMVVzOUV2ZmVUczZINDVadU1oTTNoWTdTbEJVV0NKX045blZJWUNTU090cGJkTWRxSmpxcDNlYndMSmktbGQ5XzZabFdMVllIcFdvN09VMUJJeXdINXE1Y9IBpwFBVV95cUxQQjJ1SV9Cd1dpUFhkdDQxODI2b2xsajBobkV1RW1xRlQtV3Y3ZkJwRGpfWTVQTWRCTjM2amFnaTdmVXJ6Z0tTZ3h6cDdHblFsMVVzOUV2ZmVUczZINDVadU1oTTNoWTdTbEJVV0NKX045blZJWUNTU090cGJkTWRxSmpxcDNlYndMSmktbGQ5XzZabFdMVllIcFdvN09VMUJJeXdINXE1Yw?oc=5",
+      "source": "Google News",
+      "summary": "India, UK hold key meet in Delhi to bolster bilateral defence ties ThePrint",
+      "published_at": "2026-08-21T17:45:43+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "28115f598c6e2d76",
+      "title": "India, U.K. review defence ties, focus on R&D and industrial cooperation - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNckRVVnc4c2NIYXZzTDRMQkNSMzZwdXJJc1hWNGJpeWJwU19XSXJaVTVaY21oNnd1SjJ5YXZfSGxmZ3c0d19jSG5vbkdOaUFfbHZZM21MRmJhS2RobjhUR0g1RXl3V1owUll0LTUxS1h6UmdNdVRTNms1SzA5NEZfdUJzLXd0VUpfUnJVeC1kaVRwQTgzbUxlWVpMcTZFU1dzeWlIRU1NcTRtRm9IUXZOSjgtY0JFMlFXcFB0a05fOVFSSFdI0gHLAUFVX3lxTE8xLXotd2NBMVNjaFJMQ0xpTGZzZEFRS0tCZ09GNS10RE5pOG1BaklIUWM2bEVSbVJtNFlxbkpQWDRVZjA4WTNDdnB2djl0MHZsLTZpQmJuS0NaRGdmY0gxcVdXeXg4YURDRG9UWHJTWnQ3eTJweTJUUWdyX0ljZ3ozSk9xdHZ1akw4aDlHTU1LMFNIZGRzTTBCQ1ViZktXcEg1akNITTdpdWZ6N3Z2Ymx3dEM5YlNfLVVRd3Nqd21rSjNmZXk4c0Q3MmQw?oc=5",
+      "source": "Google News",
+      "summary": "India, U.K. review defence ties, focus on R&D and industrial cooperation The Hindu",
+      "published_at": "2026-08-21T17:30:37+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "e3abbcc47aa0e419",
+      "title": "Beyond Runways: Bharat Forge and Flying Whales Sign MoU for Heavy-Lift Airships - CAPSS India",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU0hkY2F6WlhoempCQU9MbXJZc293dDNZR2tTcXNnbFExOEU4c3pySlVNMzlUTUhSMXdudXAyUVZLaGFaRGdkWEoxSGlWNFl6TFgtbkVBZTg2aTFqWWlzbUlmZ255NkFhZk5FUWhGUWFDSk1IeW9CaVRqTXFVcHczUUI4Tml0R2p6OHRkNDJtVU01SjEzdVItQlVrd2xnMng1Q3YzWQ?oc=5",
+      "source": "Google News",
+      "summary": "Beyond Runways: Bharat Forge and Flying Whales Sign MoU for Heavy-Lift Airships CAPSS India",
+      "published_at": "2026-08-21T17:05:38+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "331366e412953dac",
+      "title": "Amit Shah joins SSB for 'Bada Khana' tradition in West Bengal's Siliguri - Asianet Newsable",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcmVkSFNmNlNvcEkybW9sQkpELTdjcWlwSVptVXZ3djFybHRjQ2t3R2ZheDlqZjlHdW9seDBnbTNqTUNzd05YaXZRR0VhSHlxc1FNUjNKbGJOVldORTNfbV9rWm5CUVVXcS1hS3ZOWm5jYmp6dU1nMjVXY2pWUEwwQlNHNG8xQVlKdHh5TDZGYkREdHk1RUgyTkgydVVCMWhvQzdvMTFZUWNTQzExVk1JRVVhVlVQa1UwMkhNRUJyWVktdGV0dVdSctIBzgFBVV95cUxPV0NvNEdfSWt5UEQyV2ZfOVItVFljS2o5Zm1HTHBURjgyWGVCeEltNkxJNVczT2VCVGc1WE9fQXBzc0tsMUt6VHg5TlY0a3FySno4SXdvRHBIaUVudjJ6dUU2ZDlqRWVWQ0Q0b2RSbEU4XzduTlJ0VFRCSUQtcEhMZVMwYmhTTDdTZ3k4UlYwQk5wWm1SdEg2VkY4VVVlMVUza1Y2dFFOQkJPME1ZYmlyWmpCQXpNQUprZk1CZDlYLUdKemFjRE1oSlFSbUNkdw?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah joins SSB for 'Bada Khana' tradition in West Bengal's Siliguri Asianet Newsable",
+      "published_at": "2026-08-21T17:00:54+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "4fd2634d6d8a7fb4",
+      "title": "India-Argentina Joint Army Mountaineering Expedition Launched to Mt Kamet - SSBCrack",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbGo2VGdBUzlzMHlPWmNWV1pwZXlyc21sZnptN0dnRjllZkRsNmRfXzBFeTR6N0NxdmdEYkx0dUNWLXZJNzhENlBXME5oRTIyUlN0ME5ybFFQaURjZ20tWmRuSXpSa2xNUkN5YnRlODBFdXI3VTVtcUwySDRqRnVZNE96Y1dBR3NvVFRmd0RycU1yU0xKcXpFRUlIc2JtUi12bFE?oc=5",
+      "source": "Google News",
+      "summary": "India-Argentina Joint Army Mountaineering Expedition Launched to Mt Kamet SSBCrack",
+      "published_at": "2026-08-21T16:50:06+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "0028999baea0d272",
+      "title": "Sharad Pawar should not go with NDA, says Prithviraj Chavan as Supriya Sule hits back - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWGs5d2c1ZUVHNHJPV1BkRkhsSnZHN1pDcm43enVkZU9PV09uLXAwSHFKcVpfUGZqc0ZwTlNhU0UyMlMwSGYwYXlucTkyVkRXYjhyNGhYM0FsRHR1NWdVNVdaT0Q2d3h0aFFSQnJKWE0td09IbXMzY0dqODhHaFBBZUVIQVFPcTc5OG9lTHVieWpKUWFfNTRyRm9WMS1uNHV5dGQxSzVYOFZFZzdjcFdJcVFYb2dkb1hWNFY3NnV4c9IBvwFBVV95cUxNWGs5d2c1ZUVHNHJPV1BkRkhsSnZHN1pDcm43enVkZU9PV09uLXAwSHFKcVpfUGZqc0ZwTlNhU0UyMlMwSGYwYXlucTkyVkRXYjhyNGhYM0FsRHR1NWdVNVdaT0Q2d3h0aFFSQnJKWE0td09IbXMzY0dqODhHaFBBZUVIQVFPcTc5OG9lTHVieWpKUWFfNTRyRm9WMS1uNHV5dGQxSzVYOFZFZzdjcFdJcVFYb2dkb1hWNFY3NnV4cw?oc=5",
+      "source": "Google News",
+      "summary": "Sharad Pawar should not go with NDA, says Prithviraj Chavan as Supriya Sule hits back The Indian Express",
+      "published_at": "2026-08-21T16:44:27+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "46e4e6afc6ca66c1",
+      "title": "HM Amit Shah Unveils SSB Projects in Siliguri - globalgovernancenews.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOemVxWDNfQllsdS1oM1U0ZWdteDFJUEY0ZTNCZ0RaTFczWFhheUlmdkNHMFE1WDU0RUk5Ny1oUk9TZFZvNmpNOGluWjVRZmN0NUh6WnBOeURpamRXSjJ0YzVSZTlkZzh4VHppVnZYaHM2OE5GUlUwNWJybkpSWUlZY19DTGlDdw?oc=5",
+      "source": "Google News",
+      "summary": "HM Amit Shah Unveils SSB Projects in Siliguri globalgovernancenews.com",
+      "published_at": "2026-08-21T15:22:09+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "a27d1db520bd5056",
+      "title": "Building India's National Cyber Reserve Force: Feasibility, Models, and Strategic Value - NatStrat",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaE4xSWs2YU43bGlHZ3dhRXNSa2hsV0NQcVJZSkRDZDRRZlUxeGlvV25uanQ2TjdZZExDMXdoazhhdndMX3VYQm1rMmp0OWtDWjR4ODhyenZPRkgxTDFhZGxnRmFURTJ2bXdvMS1zbmtmLVQ1eG5ZcVVEdkxLREs5Vy1XNnVMNGNtQzRrLXNQRjk4Qkh6Sm1SbzNSSk1DVEZwNmZmY1lra2hMTGxXMUtzY1ItSUdfX1FXRDdJT0V2VDlRU3QzSDZXZmM0dUt1SXVfTHluc1lrc3ZGenI2ZXc?oc=5",
+      "source": "Google News",
+      "summary": "Building India's National Cyber Reserve Force: Feasibility, Models, and Strategic Value NatStrat",
+      "published_at": "2026-08-21T14:51:30+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "8fa2f8a8cdeaaab9",
+      "title": "India and Japan agree to deepen defence technology partnership; Sign MoA on Maritime Security Cooperation - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQVN0el8zc056LVl2ZFVrLUc5dElGeWFva0hWcUJ6VXQzV1U3V253V2p6RnR6VkZOOEp4Umd5WTVvVEhQb0phQlNHcFF1cTVZemhVSV9PU1RkUXZYLXlJZV9pYWlTMXV4VkU2QWFvbkJQbU5VS2kxdTNPeE1DX21jUEJBV3RZZ01Ecy00bUZtZ2Jaam1zdFU3WnZxZnlXYnZaMzQyWmo2UEthdHRoRUVDWVl0b0dtWm1EdGpFTml2eGlfZUNVWVB3ODR5VWtEeF9YWDNpN09WaWE?oc=5",
+      "source": "Google News",
+      "summary": "India and Japan agree to deepen defence technology partnership; Sign MoA on Maritime Security Cooperation News On AIR",
+      "published_at": "2026-08-21T14:13:51+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "0ad815d0c8c4a1a6",
+      "title": "1st Deployment Of Japanese Fighter Jets To India Planned for 'Veer Guardian 26' Under New Maritime Pact - Marine Insight",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUXNpejV6Q29LeUYxWDMtR1JfOFNIWFlhVV9mc3RTdGVVQ2tnSTdBVkVGOTVFb0lFYVJ0ekxubk1mMTB2R0lyRUlpbndvSzQ3TndfYlkwNlpFTXMxUWRpeVpmTTdpZHdWRjJhUzJNQ1R0UTJPNWljYjgtMjgzNVd1eWhVRUc4VWk2VzNabnhybVplbjVRemdGTlNvTkFTaEJzUFV1NGlnQ0g1V3k1djFKWk55dVMzZHRpd09vUTNJeUdZU0w3RzBEOWhZaUNHU1RMMmhjamln?oc=5",
+      "source": "Google News",
+      "summary": "1st Deployment Of Japanese Fighter Jets To India Planned for 'Veer Guardian 26' Under New Maritime Pact Marine Insight",
+      "published_at": "2026-08-21T13:29:57+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "a736e4e295cc6e5c",
+      "title": "India Seeks Partnership with France for Future Combat Air System Development - SSBCrack",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN2dJTDdEYVoteXN6QzcxYmJEcUk5Z2s1Y0FvZGVRTXlvZ1JGMGNyWXRKQ21PSU11Uzg2RDNvZThwaVFadWNjZE9mUUlCTFFSQ2NDbG9IX3ZxaHhqOTJVWm1zSk41TWM3alUzYUNrX1E2SVMyRkI1WjdhZDd2SlRQc2pDa3JkNkw5aUZ0N1Fqa0FFdklqYTdXU3dOZ182MmgtZGhIc3J3?oc=5",
+      "source": "Google News",
+      "summary": "India Seeks Partnership with France for Future Combat Air System Development SSBCrack",
+      "published_at": "2026-08-21T13:24:17+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "80ab07eb2d9f4b9b",
+      "title": "BrahMos after Operation Sindoor: Why more countries are lining up for India’s supersonic missile - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQcXJGbDAwdmxUUDVYVzllN3g1c1E0Q1V5U21JOGJod0I2ODFCWWxDUjRBdDVBMUFhLWFwNU1RUHowbk13Y1U2Q2o5VFU3c1p2UnU1TnhzUEt2ODluc1d3TzFsU0xIQWU4WFh2U2xPVWdnM3FDSTI2Ny1rM1M3dHY2WHdGREdCalNaLWZXTmtkT1JRaXJEdk5KbXF3QTJMRTM2ZW0xUXpMYlJxM2R3TTZaSFpCWjBxY0hEMVlobFFMNHdTSEFsZmpmWnFNaklFQjNTaW5WZ1Y0dXhjSlh1OWVIUjBrSUpxN2xmRlRKQjNDcElnb1FFdXBkaXl6eXc5UdIBgwJBVV95cUxOUjlRcDkzMTQ1VUhSMWV0SHlHZ3J0cm5MWjNEREJTOHdZZ1BKR3pwcTVUaHVGT2JORjdoOXZRYzY1VjBkd0NHNVBOSjU0TGNiRTJHQWlCWWZ0MjlPa3RLV3JmZ0IxcjZMTEtTZ3pRVHlwcHFZcHAxcXpEbTNFbnpZN0pVQmlwck5wekNCemY1RnM3MmJ5aTN4SVNucElhTUhGSFN3Z05MUlpIZlBJNEpiS2o2WTYxbi1OcmU5NkwzMTkzaW5GODVQbnkwT0xpMVpCbGQtTG1mN3Y0azZPbVI0amNvRUJKTGF3ZjA0RjN0UFdkeUdBQ1BzUlBjdGRrTVlWY0Uw?oc=5",
+      "source": "Google News",
+      "summary": "BrahMos after Operation Sindoor: Why more countries are lining up for India’s supersonic missile The Times of India",
+      "published_at": "2026-08-21T12:33:00+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "70e6e948976b2f5a",
+      "title": "Inside PM Modi’s Plan To Bring Japanese Defence Technology To India - Indianmasterminds",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR3piUW9obXl2b0x5UzZkMTZiWDJNdU9yYmpiZmxhQmItOWdlVnIyTGxxaTNCcm5QM0toYmVVc3ZSaVg1d2tVTGRLYlFZSktJQTlSQUtZR2hXdlItalhrSlgxQS0zNVB3VjFRQTNLV0lQamxrT2hmZ1NtZ2RONGVLckp1RXpsdV9ubGZJTmZiUjYzSlZGV25vcg?oc=5",
+      "source": "Google News",
+      "summary": "Inside PM Modi’s Plan To Bring Japanese Defence Technology To India Indianmasterminds",
+      "published_at": "2026-08-21T12:29:04+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "8c2f313460f14071",
+      "title": "Evolving India’s Defence Industry Through Private Sector Prime Contractors – A Review - India's World",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0JFcWVza1BTZldteTJuaWw4c0oyelZhaDhzTXFISkprb3Jibkp2RlRyeldnRmZoU0k0MEcwWml2Yjg4WTNra01CWmltbDVCNFNJTnFsbTA5bTdrd21Ed0Y0Q1p6RGxLb3RXZzNELW1hTG5fN2U0NU5pbERBT29leldmZjZ1QnN1QWk4TGhIbjMzUk1FSmVhWUJadGZqMDBIekx0MHpNdXR1dw?oc=5",
+      "source": "Google News",
+      "summary": "Evolving India’s Defence Industry Through Private Sector Prime Contractors – A Review India's World",
+      "published_at": "2026-08-21T12:26:48+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "ff1a12eed4d1dff9",
+      "title": "How a German submarine deal could test ‘Make in India’ ambitions - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObWZIelRLclNna2ZjT09IQXBHbGMxbXFRYTJWbXpYUDU5T1FpX0NsNjdYZWRiOEh5RzRNcUMySm9OZVIzcm9mT1pxUW5fU2lYV0lwdlVvWTg1SHRhSE9PSnJKVG0yd1YxSWVDb19FcUdYQXQwSHBnd0N0WG9hZTNSRzFJenZpTlNUaklOQmY5dGFNU3dqNVZLZ1plVTVpcEppcGpwTnRPX201VXQ0Q2cxWjE2ONIBswFBVV95cUxObWZIelRLclNna2ZjT09IQXBHbGMxbXFRYTJWbXpYUDU5T1FpX0NsNjdYZWRiOEh5RzRNcUMySm9OZVIzcm9mT1pxUW5fU2lYV0lwdlVvWTg1SHRhSE9PSnJKVG0yd1YxSWVDb19FcUdYQXQwSHBnd0N0WG9hZTNSRzFJenZpTlNUaklOQmY5dGFNU3dqNVZLZ1plVTVpcEppcGpwTnRPX201VXQ0Q2cxWjE2OA?oc=5",
+      "source": "Google News",
+      "summary": "How a German submarine deal could test ‘Make in India’ ambitions South China Morning Post",
+      "published_at": "2026-08-21T12:15:26+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "bdd55593a2b6a3c2",
+      "title": "Amit Shah accuses Mamata Banerjee of delaying land for India-Bangladesh border fencing in Bengal - Telangana Today",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTnphS3RJLXZDdHp1SW5lcEExczgwZnIwRjV3U3phSE1WMjQ5V3NwMU9wQ3BkNzhDQ0Y5dVloMTI1X1RCM2Y5Um1kMFV5UFRoLUcxaFM5a0kxNFJvRGJpZ1FEU3dXVG5rQk5DcWVvVTFUOUxOZ0NIOGl2QU5HclRJTDNHeFBka2Vtb01tckxNa2ZTdWdtaExlSHQyazVRYzFVNUdEajhnRDE0LVBYQlZhd0xxdEJoRFZhTHBjLWk1dGw?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah accuses Mamata Banerjee of delaying land for India-Bangladesh border fencing in Bengal Telangana Today",
+      "published_at": "2026-08-21T12:11:15+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "0fea1a332f37c9d6",
+      "title": "Bangladesh Keen To Join Saudi-Pak-Turkey Defence Alliance, Says PM's Top Aide - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWkJ1YWdLY1NtYnFNdktVRFIySWhfOWI4Rll2ODV2Skg4NWdaYzB2YkVFbGRNSl9fVDI5em1VTXYzZkh5X1dmR0tHQlJHWjJkcDA4Tm44eVdsOWZhMmhnemhtcVplTkNDLWZBYVpmSHRqVUFWWGR6Q0RLeGxjZkduN085QVgzaWpYQnNQVm0tSTZLdU5lWlk4Tl83NUNWRy1qSm5YaG1FUl9oRmE5M2dBT1BpakU3UTDSAb8BQVVfeXFMUDJHVzR3cmJnTXJBU2JpLVRBSVNscHgzZ2Vva0wwcm9qVGtWSTJCQVRCcTJpOW90ekFZbk90LXdhdERoMUtncllpZzgzRjNfbVBnTnBUc1pjVzF5MW5VX3YxTTF3ZjlDNExzQWZLR2s4RC12dE5vM0dYNDdxUDB0N0lJRWNmX1oxQ2I1VVNrc2E0Zlh0dm1jOGs3anFZR3RWdkU1U1Bpc0hHLWczNW04QjdsQldYajJSQkUwOVZkR2M?oc=5",
+      "source": "Google News",
+      "summary": "Bangladesh Keen To Join Saudi-Pak-Turkey Defence Alliance, Says PM's Top Aide NDTV",
+      "published_at": "2026-08-21T11:38:42+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "88daf3ea67bedf85",
+      "title": "Debate | India Needs a Grand Strategy Grounded in Honesty and Reality - India's World",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV2otRzhEeXRzNm9vUGJILWJWd010QlZDRnNxUWEwNzlsMXhuSHAzbnVUdnBmU1NTSVZ6YTd3NHFpSnd1OGNzbVduck5NUjNjMVhhWjlEdzVyTzA3a3hIeWRkdUpNbDdBWXQtVTlqekdNYllqSHdld0dUQUd0bTR0cmdKUWFmWlZTQ3BGeEJfRTFxcVhZUlE?oc=5",
+      "source": "Google News",
+      "summary": "Debate | India Needs a Grand Strategy Grounded in Honesty and Reality India's World",
+      "published_at": "2026-08-21T11:23:59+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "d9850952bfbdf6f5",
+      "title": "India and Japan Advance Maritime Defence Partnership, Eye Joint Shipbuilding and Technology Projects - SP's Naval Forces",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZDhrN1pyREI3NTFSbWxfREZnWkNoMDExR3lva2NGVFloRVZ2RlZlNTd4MGRNTU9CMWNoMkg0NTRLQmdGeEJEZHFNU1REQ3VhZ09FUzU5QjU3V05ZeUpUWnIzUWItVmV4TlBxek4xLVluWmNLdTlGcFVHNUEtVFVMVzRJTFY5UWJaak5wZzlmWkc0dDJFalZ4WURhV2ZqUGZnQnlUdkZRRHR4SFBWalFYX2hUWjljdk5LeXVyRE5nQ3ZybmlBU1QxanF2NDRRekNNODlxWVBhN0RSZmRlb2VDTEw3NA?oc=5",
+      "source": "Google News",
+      "summary": "India and Japan Advance Maritime Defence Partnership, Eye Joint Shipbuilding and Technology Projects SP's Naval Forces",
+      "published_at": "2026-08-21T10:21:06+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "8e17360d6b98f510",
+      "title": "\"1129 acres given to BSF, SSB in 45 days\": Amit Shah praises CM Adhikari; slams Mamata Banerjee over delay - indiagazette.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa0Fmb3VlYlZZMzBiSkRNN1RXdC1YY1cweGNlanR6VVZRYjdrOWhvbC1va3dsY3Q0ZnF5VjJvajY2bUFpVHFoYlNpM1lVMzljUTBxWWJQVzcybUQySzR1SGRrdHpMNTlLUkZjTEpoY1VtMDFOcm1PVWRmaW1YVmJ1YzdpQkpONnJBY1ZraVVPSlYzckFYQjdrTW5BeVB1RVhuX2VJX1RZZnVnNk1oRkhGMEgyUWpWaFk2bVRya0FVc3l3emFDQWZwV2FuU2J3VmpreHFpVk5zcnJieUNYdVE?oc=5",
+      "source": "Google News",
+      "summary": "\"1129 acres given to BSF, SSB in 45 days\": Amit Shah praises CM Adhikari; slams Mamata Banerjee over delay indiagazette.com",
+      "published_at": "2026-08-21T10:00:00+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "7090d5d85f5c11dc",
+      "title": "India's Paras Defence sees exports doubling in FY27 on war-linked demand - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeUF3ZWUwVkFFWnRNNkxjLTlma3hjZlpzX29NMWpnbkFQdWY5dlJWZW5KcElzQXJzU0JiYXJ6bXR5MlROZlIwbUo2WGJ2VVhIYTBiVk9KT3Z6aDFHd2IwTzdlR3RkTW1OV2tZUXlFQ3hrODZhdVBPbHUwZ1F1X0dvOTFhU0E4V0dVMXNMRXduWkNhei1iM1piZ2hCR0F6VjJlRFJPck03ejZYTGhxYzZyWFE3dw?oc=5",
+      "source": "Google News",
+      "summary": "India's Paras Defence sees exports doubling in FY27 on war-linked demand Reuters",
+      "published_at": "2026-08-21T09:17:50+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "9d9678530152cc60",
+      "title": "To Catch A Predator Host Chris Hansen Leaves Robert Pattinson's Primetime Screening Over \"Restrictive\" NDA - Outlook India",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaEFfYm5POTd3UHFJTGZhRVhnOXNHUkpJNmJkd0d3NkV5X0dCdWNTNTFGVmVDd1NxLThhdUJ2UzczWktPMXlnMFZOdnNzcHpDcXlOSTJXMWt1d21XdWk5Vnl0Yi1KejNzcm03eTBtdTlSLWNORXJ0SkRROGc3dXd4LV9tTGkyT3JaLUxqZWRoa2VzTS1LZEdpVmphdTUycjVqVkQ0T3dSZEdqQkE0U1h0Smh5c2RxOTVsUWRoN2xyX1VJX3diYV9UV3J2UmVicGVDSnlzd2ktenlNVXN6MTg0Z05nM1J1NEJKcHlRd3hzbXEzQdIB_wFBVV95cUxOajBaRnZ0cDNLRVFvdS15azJlVlNCMmprV3pGbmpZTUpVVFBZbUtxUXBoby1NcHhMWGpOMThjT0M3VjBoR0ZvZEhjcVdXVHlZQk9QODVVVXBEeHB0QmdHc0V4VDV5NGkteWxfQ1NmQ2JrWllFeUNkdzNOcjA3bm10cG5leDg3b21ieDV5QTVodFFDMTlzWmllTm9faGloUE52b2RsemRqdDZzTnl6NUlKTGotVVhhZjlGUV9JdFdnbEJCb3JYS0xRU19CejFtNVRtdWViTkM5RmluZGpidkZ5a2FrRDBfbkU0Y2hwanh6cEprUFdPZnhqQ2RkYnVFeDQ?oc=5",
+      "source": "Google News",
+      "summary": "To Catch A Predator Host Chris Hansen Leaves Robert Pattinson's Primetime Screening Over \"Restrictive\" NDA Outlook India",
+      "published_at": "2026-08-21T08:50:46+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "8dae4fd5da405c03",
+      "title": "Indonesia, China expand defence ties and launch broad new bilateral dialogue - India Today",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM1ZNQ1o5NjZRSjBCclJ2THJMNlNUMERMRXdmTGRvU19WV09heWdvM3N2TGdHeU5nTmxiUVFTYmdDblprTU9GTGI0MUswU2NfQUJaLWpzVXFZNFVLQkQ1RXBGZVlTa2hPWlRpcUQ1d0tVdU9QUTc5ZTNkSnBBYlJNeHBodU5lVzNseW1oRWwwR281TF90WDJwRTFHMzlDaUYzTC1DdTFOM2IzNmRDVV9CQ3AxOG1WUWtJOW8wZ3I5YU1JaVdBdW8tdVlOQjDSAdIBQVVfeXFMUE1qV3VtZXBENzlMUGpzdnk0Z19kN1FHbDBlMkQzQzZmblhCLUdOb2VLOHE5ZDVMTmxzZUpXTVZZa1NJTWs4RmhiQ1psRkxqRkZXRGZWanBsWUdKeVp0ZHZiangxdHV3aXhfemN6ZHpRVWcyLW9FbDlodXlQQ1dPUGhxNnpEN3p3RGlhMWVDSU5BOWxzTkpobDg0R0hLTVh5Si1aR3JlWElHUHJlNS1DcndfWEpLRnV6X2l2WDhSZ216YkI2QVhUWEVSa1dFaThjZENR?oc=5",
+      "source": "Google News",
+      "summary": "Indonesia, China expand defence ties and launch broad new bilateral dialogue India Today",
+      "published_at": "2026-08-21T08:20:29+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "494a0852b63533a9",
+      "title": "India, Bengal not safe until borders are secured: Amit Shah - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWFByTzRlR20zbkxkNWJhU1FfQzJ5RmtXZTFVc2dwRy04OC1VQi1tdjhBanI0LWFKaUlNRURpdW4xeDEzbXlqRHFLeXhkNVhKbk5JbEMtd2Q5VXdnNkhMWmU0WUJ4bjBydklsenJ2S0d3VHVnXzI4SVFmRkVPbllVWWxvZnpnMUE0ZzI5b2pGeVpPeUJYS3NXMDc3emVQZWRabnFQVWxOcUtvSlRFUnY4VlpRS3NlSmpKZmhmcW1n0gHLAUFVX3lxTE1XM0I1RFgzRWNycGUzczdubDNvR0ptWkd3VkIzWWpzWG9QaXRwQzJtRXlQbUNDd2p2Rzk5eTdwdEZRbTBGem5oNEh0RS1WWk5yRmViMzB1ckZ0Q0ZtSGJuUndheWxnTjlNMTJpYkdrNVJQVWhrT0RKb2RHU3VEVGd1c1JwMTFnQnV0NTZoZ0xlTy1tcnc5dUFPOGVKYlFrTnlDSkFFWE44OHMzRjhLTUhZRjZMbXlaVEk1R255NXdfaDgwZURmSDhWYmpB?oc=5",
+      "source": "Google News",
+      "summary": "India, Bengal not safe until borders are secured: Amit Shah The New Indian Express",
+      "published_at": "2026-08-21T08:18:12+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "b68c8b52c2d8ad62",
+      "title": "Sashastra Seema Bal is doing commendable work in securing 2,450-km international borders between India-Nepal and India-Bhutan: Union Minister Bandi Sanjay Kumar - Hindudayashankar",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPSDVfX0c4Y2lZLXpuOVRlX3haMEhFRGZRQnA4cFpzck4xSWdxcGM0ZDF4LTBfNVBOT01tRjNkSEh5ZFA5TEd1eGdGMENTUnl3aHpicTMtX3RTMG1JTXktZGRwUl9oTkhVR1otOFdCVERFOFc0aURaamNqcF9JMGNvYTdQaUhVQVpwRGowQmFEOXduMFlYb0l4UWFLemFhVm4zMXJzOXM4UDFZZmFIT1c0ZzVPQWdNdW1IMms4bGdiTjFDakVRX0kxbXpqVzMtTTBvQ01zQjdJWFJldVhEczBOcGdnclVoOXdFREE2OUotN1ZjOWo5SkZxV0VEdk1MWFdrdTB2YkdyWklpTHdfOUhkUVd2MzJ1ZUtmdDB3cnJveWNmV1Vm?oc=5",
+      "source": "Google News",
+      "summary": "Sashastra Seema Bal is doing commendable work in securing 2,450-km international borders between India-Nepal and India-Bhutan: Union Minister Bandi Sanjay Kumar Hindudayashankar",
+      "published_at": "2026-08-21T08:13:57+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "cf9cb18e8984662c",
+      "title": "The missing pieces in India's atmanirbhar defence push - India Today",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1FEclM3eG16QVUtS01hRmtzQ1pQQUY4eFFzejNySzFtZm5EVmFUR2xuVGl0TUN1Y2RjRmdDcDZreVU0MTFCTmxENHk2SGRJT1FDZWRndzZ1TDdmWkFHakx4dWk2LTh0ajh0YXlfMS1Nb25heXlXSkhGR3JxV0h1RnBVekZleDJrYWtWNnRZT0dVRnoxQjFZaERucWRCeloySHE2RnA1TndlSGVtTWstSDdES3NRT3PSAbwBQVVfeXFMTlRjM2FvaUowRHh2LWRiQVF0cnlFWW5teHZ6RF8zalZwQzlOMlJNb3NFZGFFOXNXYm1vMkpOZHlXLTVmWXRMbWM0aWE5NDI1QUNvdDN3dEh1bFFvbmtwMkp6NzNOZWYtcG5pWThMaktBeGdwWEVQd0N3eGJkX3phOHUzNGUtNEFzdS1BN3llUWlaVERWUGNWaEpSTHFLYUpoZ2RZMjZtTTcyZlJVUTdFRmFoMW94c3VKWHp0T0U?oc=5",
+      "source": "Google News",
+      "summary": "The missing pieces in India's atmanirbhar defence push India Today",
+      "published_at": "2026-08-21T07:59:21+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "9af4c24c523a6e12",
+      "title": "India, Japan sign maritime security pact, deepen defence cooperation - DD India",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazhhcENtdmFLSHpiYVR5SlEtcVY2M19mWmxDN2s3ODB1UzdYOU5ibDc2RE5TeEQyV0haOEx4ODM0X2JGS3YzckpBU2Exc2JzdGNPNldQZG9LcERlSlNqS0s3TUJJdHR3UjNtd194VGE5d1o2YnNrNmJHTVZSNVEtZ042SmdqTGpfeWkxOUY0ZUF2Q1NXOEhjemVPaXZUQQ?oc=5",
+      "source": "Google News",
+      "summary": "India, Japan sign maritime security pact, deepen defence cooperation DD India",
+      "published_at": "2026-08-21T07:34:10+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "f5ad63c25bdf6f12",
+      "title": "India-Japan ink pact for Indo-Pacific security; Affirms co-production of advanced military tech under Make-in-India - organiser.org",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMGpvZHQ4NlNXNnpWS2g1SktISG12RDJaQ3ZNVE1UMTc5NkJNdDQ5cjZHWS1DSW93Q29oTFU4T09lakxOWnJUdFpoWVFieFNKZTJ3dlJNbnIweEFFM2tLNmVxdDdfYXZJYWpKQlZYRDJzRE5QZXNJVjFoVFhHSzc1c2JtYjJEX3R2eU1XTXlPRGxsN21yVGJvdkc1LWVMcnoyTWprdW9JQkJMa2JEZ1pscVp4UWVhSmlndkEwaEhJM3ByM082QUZZVjdPUjhJcXJKaTNZcHdOOTdDWkhiMkc5UkozQk1kSklGRXZfMDV4WFpXNUU?oc=5",
+      "source": "Google News",
+      "summary": "India-Japan ink pact for Indo-Pacific security; Affirms co-production of advanced military tech under Make-in-India organiser.org",
+      "published_at": "2026-08-21T07:05:31+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "335fcc368633dea5",
+      "title": "India-Japan maritime security pact: What the new Memorandum of Arrangement means | Explained - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYUtTWmtJOFVZZVRpQVlXbnFxWV94SmZGNXVQVlNjV2UzYkpKckUyckotYkg2dEJ0T2Z6eXF0MTlfV090Mnk3bmFhSDA3ZU1nVDcyTzlXcHZQSk9jQV9vQ1Z1RWxNYzNmRzdua2VkZzExRHcta2FBWFQxaUJTYS1mUG13eDhXRktjWHh4MGJmMXZTaUNxdnh2Q3MtU05uNUN1dXh5QTc4dDFJRlhickpmT0RyUmFOMVNtZGJBcWNGRmVLeTMtTHQtVjR5T1QtN01EVVc2cXdMOWZIVEgtVjZuQVhB0gHoAUFVX3lxTE9RY0FHclR6U2tyTnpEZUJGdk5Ma1JyeTBCZlBVZm5IV0NGT0hSc1VXX0lsNVFXcmc3SVZOZ2lYSjI4a0NHdFhIWFN2U043dVpSZFpNT3NnVEtLS1ZkUEpDdTFrOU45LWUyRGJTVGFlWDZxd0lXdmFqNjlJNTl0Sll0SGtWZ1FjWXBxcEs4WnVQYjB1d2xST3VydkVCekZpMGhJSHpSeS1WeXFqWTBjSWVXNGFFRUhpNS1NSjVzcWxGR1NEM0RldC1rdm13eXZFWXdGOVVTMUdVTGZuLTdKREpDR0RXVzJsX2E?oc=5",
+      "source": "Google News",
+      "summary": "India-Japan maritime security pact: What the new Memorandum of Arrangement means | Explained The Hindu",
+      "published_at": "2026-08-21T06:53:15+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "552085795caeaeee",
+      "title": "Amit Shah to lay foundation for SSB projects, interact with personnel in Siliguri - DD India",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLVM1eXU5dzBLdHBBMDBrRzJPUG5CUU9OTGNrUmxWR0lRZS1PaUd6ai1PcV84RVAzckhQeXpUOGh1UTV4RmZGVWRBTnp6bk44US1HTmV1dEZ0aEs1dkNtbmNnQVVjS0R4LURoMC1PVzAxaFJyN1k4bHRtVjE2T2NxelgwMEVIUkhkYUpNMXc2ZWUxc3A2NXdld1NtVnFaUkNSTE10V19GRWM4ZlRjV25Haw?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah to lay foundation for SSB projects, interact with personnel in Siliguri DD India",
+      "published_at": "2026-08-21T06:12:47+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "ace1437513a4de00",
+      "title": "DRDO private sector push can boost defence indigenisation, experts say - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNHNoMjdZVHRaM1VKMFExalRwRGEzX1BpanFMVEliWEo4X2lManpCR3hmd0ZGNDJuMlZ4elctU3hjVDh5TjJqdkd2TmM1Nm1ESlRndy1pMWdOanpkdHJVT2NidXRPZFdFN2w1MEpHNlEydElXYVZFREp3N2Jra2xBTXpraXMwVTZjczRJaGV0ZUo2MmlHaUU0dy1DTdIBmwFBVV95cUxNNHNoMjdZVHRaM1VKMFExalRwRGEzX1BpanFMVEliWEo4X2lManpCR3hmd0ZGNDJuMlZ4elctU3hjVDh5TjJqdkd2TmM1Nm1ESlRndy1pMWdOanpkdHJVT2NidXRPZFdFN2w1MEpHNlEydElXYVZFREp3N2Jra2xBTXpraXMwVTZjczRJaGV0ZUo2MmlHaUU0dy1DTQ?oc=5",
+      "source": "Google News",
+      "summary": "DRDO private sector push can boost defence indigenisation, experts say Firstpost",
+      "published_at": "2026-08-21T05:24:35+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "3b9e94cc2d44c780",
+      "title": "PM Modi Highlights Japan-India Defence Opportunities For Start-ups - Sarkaritel.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdENtSkh1TWFXWUxPdDlwQk8waDZ6ZnBDSktvTjRad0MtRVo2LWxob3lub2ZDWGpERkxuNWN3NmV3Q3k2U0RSNEs0eFkzTE9XMHVWY281RTRodVRydmRibTg0THJiNmxwSFNiWlpXYnZYQVBrOEwzWE1BWkxqNTVMOTJHeW5rY1dJc0E?oc=5",
+      "source": "Google News",
+      "summary": "PM Modi Highlights Japan-India Defence Opportunities For Start-ups Sarkaritel.com",
+      "published_at": "2026-08-21T04:58:29+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "65f95f2026f72697",
+      "title": "Amit Shah in Siliguri today, to review border security and unveil SSB projects - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNWJPQXZHTHBNc19ncUdRNkpZMWI5bmxWYXNqdzY0OEczRzVBNVZnNkdFRWxvdkgzNFNBeHo0YmFqUDREYS11anpRVUE2bmNvTWVlTzJSNnpJVWQzQkU0cXY4anMzWTdMaG93T1IzX3BYcHlBY2phNTJjb2N5MHN1dnp0cVh2bGJVQ1FCLThKUHRicGw2Yy1nWEp6Qko0VkVYV2xDUVU4S3EzQmI4Rzh0NUx4Njd3N3A0bGdpWjUxZHV4Z0F2czVsbUloWWZHUnhFQ1B0LVBwTmY0Z9IB3wFBVV95cUxOTEFfdGEtU2llcVM1VFg3UWpUc2NCQndiaG5jRVZCVGl2Y2JjajZ6NUxKNno3NUd6eTdEY3BUNWRXZHM3QkRZYnl5Qy1xbE5ubE9XaUFCVlptUFpiM1VQUVNoVVdwTVNSM0c1LVNmMXVKTzdCZnVkQjdkWGg5QVNZWi1mVG1VWllQc09jY1VhbTFjbnpRT1JmVllOWC15bEVQZnZSdnE4Z1o5ZWNQVTZwTDNZTEt6bzdHN2VRTHVSZG1pMm9sS3FUNXdmbi1XMTJjVmR4eXFKX3lwanZtTkxB?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah in Siliguri today, to review border security and unveil SSB projects The Economic Times",
+      "published_at": "2026-08-21T04:51:02+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "885f0256b63c2640",
+      "title": "Shah to unveil infra projects at SSB frontier HQ, visit exhibition on new criminal laws in Siliguri - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNzhXTjJGOU8tU2NpTFBiMEgybC1xRHN0Y0tEXzJwN29mNGEtSWRmVVhDeW42UkVDeWlKN2hYOVc4UmsyOFdrempOX25UWkc5N082UkRxbURudkp2TGxIeHVEZ01lWGxpVWI0VVBPY3BzRGF1bk5Fd0hHWjZtRjRPZ2NPSHd1ZUY0ZlpCVmNqOC1EeXdFcElqYWViY0dLMHRZYlA4Xy1wY1RnQkdpSmRTWmJtTWQxNk9hU1huRzc3ZUpzUXJyTFVYRzFkNG45bVkzODEw0gHTAUFVX3lxTE03OFdOMkY5Ty1TY2lMUGIwSDJsLXFEc3RjS0RfMnA3b2Y0YS1JZGZVWEN5bjZSRUN5aUo3aFg5VzhSazI4V2t6ak5fblRaRzk3TzZSRHFtRG52SnZMbEh4dURnTWVYbGlVYjRVUE9jcHNEYXVuTkV3SEdaNm1GNE9nY09Id3VlRjRmWkJWY2o4LUR5d0VwSWphZWJjR0swdFliUDhfLXBjVGdCR2lKZFNaYm1NZDE2T2FTWG5HNzdlSnNRcnJMVVhHMWQ0bjltWTM4MTA?oc=5",
+      "source": "Google News",
+      "summary": "Shah to unveil infra projects at SSB frontier HQ, visit exhibition on new criminal laws in Siliguri ThePrint",
+      "published_at": "2026-08-21T04:45:47+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "6b8e15bb4d1e4ea3",
+      "title": "India, Japan sign maritime security pact, eye deeper defence technology and shipbuilding ties - ET Edge Insights",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPS21salZfOGVjRmhqZWN6a3UzQnBkRHRqOWtKTU9nQXctaXJKYS1PYzdhVlo0cFFEalA3aU8tN2Q4UlRaRWhxT1l0VTg5cHNVVFZCTTdLWG1LV3FGOTQ2RVhPc3JBZ1FqaWVPNmc4TFg3SWFVNGhvYVBibGk5ZU1MMjJtcFE1YlNadUNmcm1BeF9UR0J6OGp3MGV4RXdGZERob1FOb2QxaUxBb3Q5TEdWd1lCdmVlUWxKUUF1R1ZpcDJfU2NrNUZMbjJBVF9qeXJGUk9IY3l5UDJSVGNVWWVJWnZVazFrUzZtVXE5NGRtSXpsRVluTlE?oc=5",
+      "source": "Google News",
+      "summary": "India, Japan sign maritime security pact, eye deeper defence technology and shipbuilding ties ET Edge Insights",
+      "published_at": "2026-08-21T04:15:34+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "a075fe63160d941d",
+      "title": "From Watchdogs to Stenographers: India’s Defence Press Corps - TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSG0yN2J3WkdFQzBfS3Y1bDNLRUphMVgwS2hjdEc1RXBVWWdqWXlrck1SMmNMR2ZIaFdpNnVDQjdYdWhBSktFNTRmdVNxVklLUGtHU01IVGF3VmtnekVXdmI2Q0gyRkF2a3VEY1UyMjNOQjBwQi1RVEpqZjRFbTJrb0R2cDhrd3NNakhv0gGeAUFVX3lxTFA4SE53QUZMUXNFa1JxM3BkLTVXa3BkLXcwSGJCX3VhSkZTelhQN25Fb2JwT2dVWE1lV1ZQeFhERUJuUktpX3JtdWRKZm04d0w5NDFmUlZrVFB0ZU9KRVY0SEFyWHR0eVRPVXpkd21fTmNLMXBYYzRRMlZBZmRQRGp3Qkdpd09iNlJCMVl3c2Z6RzQxVklfXzVNbjFHTFRn?oc=5",
+      "source": "Google News",
+      "summary": "From Watchdogs to Stenographers: India’s Defence Press Corps TheWire.in",
+      "published_at": "2026-08-21T03:28:58+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "177256a26a438c9e",
+      "title": "HM Amit Shah to lay foundation for SSB projects, interact with soldiers in Siliguri today - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZFlQeGl3bUlwNktOakRYNHBWUzAxRmZZMkFOaXpXLXN2aUptNUMyaVN3OXN5TzVXYnV3ZWlubnpxZ0poNnhVamJtV0psZU9UbTJDbUN3MzFrTU5jSXQ2RWFER29GZ3I0VWxnZVFBbW1YWWZ5aWdVX2JuVWo1eXVodDJiTzZtb0xwRmg4M015RGphNFZJYVVVZy04U0phYmFLSkpFaEJMWWprSUdpME1OR2xWWE05OTJ6LVNCZnpub3BUNWpGdVlFQ3NGNHliMlZ1bGc5Undn0gHbAUFVX3lxTFBpaE1yamJpMXhQWHJZY3hRQzBBdmJrQmJGTWI1dy03Qlp3cVNBYzlqS3E1OTFyVDhMY2t4UlB5VDZWR3RKRHdaV1A1OUNYNHZsVTlzd2k2amxJTldueGkwNzVObEtpQ2I0bHV0WmpINnpJWnhZbm9NeGtJRkwtR1ZBUGdjQVhTaVdkWEl4ay1nX19MdnB1NmF0SHJRUHQ5WW5uRUNiQ1p4WGM5djZYeHY0cE55aTFBczBmdzNIc0o0c2duV3dlVGVxeWdOWC10NlJKa20xZU9sSm9wUQ?oc=5",
+      "source": "Google News",
+      "summary": "HM Amit Shah to lay foundation for SSB projects, interact with soldiers in Siliguri today The Hans India",
+      "published_at": "2026-08-21T03:25:38+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "74e362f583e12424",
+      "title": "Amit Shah to attend SSB, border security programmes in Siliguri - Telangana Today",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOEFpWDZ4a1pPTXgwOVJpNTEtVFRtT3F0Q1dpNHV1NFktSVFUZ0swSEZITGZoNkR4b0owelNBTGotbVZPbGN5dThHQ2JGUVlNWGtzUzZBLXZrNENqSDRQUGVHZlFUVnlKaGlUR3hlaVRvTkRtYm9xY0psa2hQSTFuVlhBc3dUMDNqS0hwMVoxd2swd28?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah to attend SSB, border security programmes in Siliguri Telangana Today",
+      "published_at": "2026-08-21T03:12:12+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
     {
       "id": "9ae0c40ea3788b87",
       "title": "Rajnath Singh, Shinjiro Koizumi expand India-Japan defence, industrial ties with maritime pact - ET Government",
@@ -19,7 +559,7 @@
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxQ0U0YkthUktlV2FqQjd3dDBiTzd4dFZ2bVVoczdFaFFjeVhSWjBHVG5ZQ0lBS0lQZ2FRQS1hd2VrMDNTT1daU1FRdVpQS0JxZktIM1oybi0ydklsRDdTYURLeTNCMm9qMWdINm5MOE0?oc=5",
       "source": "Google News",
       "summary": "Marriage Files: In Defence of Divorce The India Forum",
-      "published_at": "2026-08-21T02:04:49+00:00",
+      "published_at": "2026-08-21T02:29:45+00:00",
       "category": "Defence",
       "tags": [
         "Defence"
@@ -32,6 +572,30 @@
       "source": "Google News",
       "summary": "HM Amit Shah To Lay Foundation For SSB Projects, Interact With Soldiers In Siliguri Today Ommcom News",
       "published_at": "2026-08-21T02:00:57+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "055d00ffdac7ac9b",
+      "title": "India, Japan deepen defence cooperation, sign maritime security pact - Greater Kashmir",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWGVxOUFuZUN0TWpfeHlFUS1ObW9wWFN0a3hYTUhlN0RUZkNXdFcyeEQ0R0ZTUnNucE0zUEJwQzdDanpET2VDZGJtUkxLRUF5XzBVVERlZVVjQVJuTjl1U0dPcmREeVVVdjhpMjFqUXRZSnlXeE1YVzdPZGFLWUw1c2NiSWdCbjZnRFlVdUFqbjcwaHdqQnlSODZrSWw5LXdZY0F0SXV4RXdrc0U0cVAwZUt30gG3AUFVX3lxTE9WMTVfTC1tb0ltS1JVVXYzUUlPdEFJYVlMcWhUN3pLM3lsSVEybzEwVlZpeHRUbFB4bUcwLTRrRjFEVG56b2hJbURrOEdLTUhDbkM0N2pCdnpiUTBFVy1yYWptdXQ2QTh1dkE5aHFnMlkxcFMyemlhMF9zVWhjamt6QlNQeWFYUG4xN1pJcHZONi1lUERHeTN0SFVHdTlQTmczd2N1dmJxYnZmREtONk5pcE9NT0ZNUQ?oc=5",
+      "source": "Google News",
+      "summary": "India, Japan deepen defence cooperation, sign maritime security pact Greater Kashmir",
+      "published_at": "2026-08-21T01:43:46+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "0176a83e62ca1bdf",
+      "title": "HM Amit Shah to lay foundation for SSB projects, interact with soldiers in Siliguri today - Punjab Kesari English",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWnlpZjVoa1ZuTFNOcDU2eU5MY2pRQmVrd2ZuWmJyM1h1dkJ3SElsQjB4UkdzRkU0QWhrR0U0VGVpQnFZYzBLNURkNDJrQ0FFYldMSE9kTDdvOTNua1p5X3JjMi1HRENWYTV6Z3k1VWZLQ25vRExjclNqYWpZOWZwMU02azNLNWN6MHVKaVFFa2k1c2pobmt6N3lEd0YwbXNqT2NGQ3VBeUdhdTZxOW9xNEFJaVRJOFRHc0o2b19yTTU5aFVMbW8tWldTMzI?oc=5",
+      "source": "Google News",
+      "summary": "HM Amit Shah to lay foundation for SSB projects, interact with soldiers in Siliguri today Punjab Kesari English",
+      "published_at": "2026-08-21T01:39:05+00:00",
       "category": "Exams & Recruitment",
       "tags": [
         "Exams & Recruitment"
@@ -110,6 +674,18 @@
       ]
     },
     {
+      "id": "f0d1e0e29c10f8de",
+      "title": "India, Japan sign pact to enhance maritime security, defence cooperation | India News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQUJISW1kRVlIVlJoSTRjclRWZjRJei1FcFp2MWRNX25sTUdmYkctdzNWZGQ3V1Q0ZTRpOXpVS0RSS19ESGsxWTdCODd6SEJROEF5eGVGUEFIblhBcXRQNXlLSXltUDFKZW1CNkY5NlFEb2JHNjBnZ2NLcUNtRWNuMkhoMG9XSlJWcDViSGVaWldPYmdVc3RkMWhoY2xmLVRyam5odUpBX2NpeW1LdlVLWDkzNEl5RlZlZ0tub05pTdIBxAFBVV95cUxPNTlTbkdJZlJjOHM3bkE2d1JIR1V6U3J5eGt4MmpESEVlUmIzb0RtamQ2MUVqWXQ2cEllN2J3cjlsTzJhcHduT05nVkQwMVhUSVZhTkg1RXJpODBJa2UwR0x6SkFjNmt1YkRwc1hmWVFMdklQMERWbV9CdFVSdkNhVnJGWWVjb3NjYzhjdjJaSlRiQW5sMEp4MGN4V2dXRGlzb0RScGY2QjBKY2RfYWk3UlRhdmhWOE1EY2lEell5UUx4dndz?oc=5",
+      "source": "Google News",
+      "summary": "India, Japan sign pact to enhance maritime security, defence cooperation | India News Hindustan Times",
+      "published_at": "2026-08-20T18:35:31+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
       "id": "725aa281c484561a",
       "title": "From maritime pact to Indo-Pacific Logistics Network: India-Japan make key gains, open new frontiers in defence ties - ANI News",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNXMwMkxXSUg1Z3NUU2FCWnJNaWQ2YTc4d196b2tOVzZCVmpBUmtmR0NXRlpyc3hLSTl1QTBfUlB1UmstT0VFcnV6VTk4OEhmUjdPWDdGcGxaQmZxbVdHVnJsVXlJSjBmczhvaThyY3NkVnliN3lLTzhwT2lmaEFhYjNRZWpBNFBRaUdhU3ZPMzd1WTI2TkNfcEgyMURiWUEzNXlvdkp0OUVFMEE4OFByWXRsOUx1MWFnanhxQWJXS25JeVBJTi14ZnNFOUlVT2RpX0NIQjZaQ0ZCM05MVDRCdjJ2V0NfNEEtVHQybml2UmtjajJvMmNOTGJ2bw?oc=5",
@@ -163,7 +739,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03S2JTVFUwckZ5amFRMHFQNkNabUM3S08tQkxiUFFkN0R6MklmWlduYmdKa0RvcHFBbl9SSWhQd1gyNk9XNjdkcnlxN3lKMDFZUlAwbXdvbkFsdFZZb3Z5NDI5dEJoeUItVmd0VXVPWmtNaU42YnpvSnBqYw?oc=5",
       "source": "Google News",
       "summary": "Japan’s Defence Minister Calls on PM Modi DD India",
-      "published_at": "2026-08-20T16:40:00+00:00",
+      "published_at": "2026-08-20T16:40:23+00:00",
       "category": "Defence",
       "tags": [
         "Defence"
@@ -182,12 +758,24 @@
       ]
     },
     {
-      "id": "42088277b4b415a6",
-      "title": "Japan’s Defence Minister calls on PM - PM India",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTFtR2M1NjgzU0FGeTBIUm9QMmhIc3NPX251MDJoZm5xeE1CUkVWbmxnMGE3bTZrNnJzcWRJUHpJV2lNSkx0Z3g5MzA2Sk1naUNsTXItZUo1anN0a0EyV3Y4RUNyeXl2RkVKSTZIdVFXaHVJcWRtbW5GU1k4LXNaNC1Ld2dNS1JvQXZkdW8tanRuZnFGazBVakVFSQ?oc=5",
+      "id": "f1832225e8996891",
+      "title": "India-Japan Defence Pact: Maritime Security Deal Sends Strong Message Amid China Tensions | News18 - News18",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTnVMdGFXRER2N2xuTW1hTC1JM0ZGRUU4SVFZMzFJTXRfdEY4a1FyQTV3b0NFNlc1MU5CVG1Ec3htTGRwa05WdWFKUDFMcmNnVHg1MkRzeWpmTjhEdmFfaHFaZkRCcVpuQ3JEU2JEQ3FuRnBydjBtYWhDb1ZrM3VfU09KNUN6YXJhQW5sWl9CckVYQ0t4NVBpOWVZekRCSFR2dXRjalRTN0RrZ1NkZm01eDBycjdJSDZEYmswUnN5eUFaV3FwZVdUeERiOGVfQzFQeUctdlkySFlsYXZGb01DTzh5TUVxS0VvekHSAe8BQVVfeXFMUEpRVEZ5MUVrWU1NaXN6bS1ycUlscTJzRXE0WGFYMWV1WFhmYS1xSTJteHR2SW4xU2ZOUlpLMFlOaWlqbVExaGV4dGJEbTBRZzJvQUQ1czlGTHVGTkloRm5rYWRUMWRaZFNNaW9EM29rall6dzlkWW1xYUZac25qd1FWNEZUZXdwR0NEZjFoZ1pLTHFFdFBuSW0tRkg0UWticmNEVWFrREhBZWtfamJGc0lLd281Q3pXWkZPelVodnJFRTZfVXR5ZEtRU2NZanliaFA4LXIzMU91eUE0aHpNc25YY2VvbTVoRTVPSW80VWM?oc=5",
       "source": "Google News",
-      "summary": "Japan’s Defence Minister calls on PM PM India",
-      "published_at": "2026-08-20T16:19:51+00:00",
+      "summary": "India-Japan Defence Pact: Maritime Security Deal Sends Strong Message Amid China Tensions | News18 News18",
+      "published_at": "2026-08-20T16:39:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "4515f32ce172f826",
+      "title": "Japan Defence Minister Shinjiro Koizumi calls on Prime Minister Modi - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRmg5dFBhbXJmRkZyc1BleEEtSGpXZFUxMWpZbFhXcEZIc0o3bHV2aDk3bDZ5RDQwRWVGT2RyYnNqZjNvNk9sQUQxa0R0LTZvM0dkT1R6OEZBeFhqZFkwSVVsRzNieWoxeXY1TjV5UXg1aU9jeDdqV3NQanNRcmNOVWdKWkJHREhaLV9yLTZ1bTJLZTN5eTA1emo4dm9McFJUUHQtV1ZXcFlXeDNsdjZpZnJzTDVnVmJPNlRpUnBXRFFsZG8?oc=5",
+      "source": "Google News",
+      "summary": "Japan Defence Minister Shinjiro Koizumi calls on Prime Minister Modi News On AIR",
+      "published_at": "2026-08-20T16:33:32+00:00",
       "category": "Defence",
       "tags": [
         "Defence"
@@ -203,6 +791,18 @@
       "category": "India Updates",
       "tags": [
         "India Updates"
+      ]
+    },
+    {
+      "id": "42088277b4b415a6",
+      "title": "Japan’s Defence Minister calls on PM - PM India",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTFtR2M1NjgzU0FGeTBIUm9QMmhIc3NPX251MDJoZm5xeE1CUkVWbmxnMGE3bTZrNnJzcWRJUHpJV2lNSkx0Z3g5MzA2Sk1naUNsTXItZUo1anN0a0EyV3Y4RUNyeXl2RkVKSTZIdVFXaHVJcWRtbW5GU1k4LXNaNC1Ld2dNS1JvQXZkdW8tanRuZnFGazBVakVFSQ?oc=5",
+      "source": "Google News",
+      "summary": "Japan’s Defence Minister calls on PM PM India",
+      "published_at": "2026-08-20T16:19:51+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
       ]
     },
     {
@@ -362,6 +962,18 @@
       ]
     },
     {
+      "id": "6e01ab65d205e607",
+      "title": "Taiwan proposes record USD 35 billion defence budget amid China threats - India Today",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3ZqM1ZiTTFnSjJGNHVhejJCZHBpYnZsQlVUd29NQ1U4UTdhTG9seDR3NFpzWXFURjRzRmRQeEZXV2h4Q0JYTEJfM05fVGItUFAtaXlobGs3ZE80MDFIckdIWmhHcDNfbnBmaW0yNjdKSWxSTllqZHFZbnh2WnNOVkExVDFnWWF4eDBDS0RIMGtOQ1owX3hwUFhMYzRiY0MyNXVUOGxLLW1ZbWtJU0M5S1B4MkQ5d0dq0gG-AUFVX3lxTE1zZHRSQ1c1U2FiMnpHaWs0eC1jTG8wdHVBcl95U0lpQ0l3dFlTakRremx3Nm5jbnB3LUVEY0R6UXZZUUFnbUZ1d3lZMWRoRUJEU3RiRHlHOF94bDhIQ1Rsc3luLWNaM1BjbXAxNjdKVm8wRnhZLTFCc2JpZ091MEh5V0xRR3hjYmY3SFJidzZxdWQ4d0o2SDZfay0xbDJJR25ubnR1NllaUXBrTnZYODBNbmMxUTdwdUJ2ZndRQmc?oc=5",
+      "source": "Google News",
+      "summary": "Taiwan proposes record USD 35 billion defence budget amid China threats India Today",
+      "published_at": "2026-08-20T12:46:27+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
       "id": "d46f3dec81c56192",
       "title": "Gen Dhiraj Seth interacts with Indian Army veterans from Nepal - ThePrint",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRzJoQTRfeVFuRlNJclJoNE5VVWM1ZUFaek05VWNWcjZsbjlXbGwyMzR1Q2ZaTElYZGhtcjVBa1hWNjlQbHl6YVNFRGpQUzh4U1N1NFRTeWNRc1J2WGQ5Q1I1ekJuMWl4THVRR0dNODlUQ09mWjZHR1daVWUzU25HTHJEUENfcEZtc1ZYSEpjTlJreXJBMkJ6eUVtZFYzWVVvT0lZ0gGjAUFVX3lxTFBHMmhBNF95UW5GU0lyUmg0TlVVYzVlQVp6TTlVY1ZyNmxuOVdsbDIzNHVDZlpMSVhkaG1yNUFrWFY2OVBseXphU0VEalBTOHhTU3U0VFN5Y1FzUnZYZDlDUjV6Qm4xaXhMdVFHR004OVRDT2ZaNkdHV1pVZTNTbkdMckRQQ19wRm1zVlhISmNOUmt5ckEyQnp5RW1kVjNZVW9PSVk?oc=5",
@@ -383,6 +995,18 @@
       "category": "Defence",
       "tags": [
         "Defence"
+      ]
+    },
+    {
+      "id": "c003cdf135b61302",
+      "title": "India Urges Japan Over Tech Transfers To Pakistan, Flags Proliferation Risk To North Korea - News18",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSl92bEYzeGVKdlJQeVBVelAzeEZyazluSnJ1b1FsN0tkcVNDeGMzcXpKVTlPRmNvd3BGSUU3bXA2Z2tCdDF4OW1ZZ1NpdjJYX3VvblhQTXhiQ09LbmVxbHMwZEp1MVVuMVNZRlgzcEpiakYwdG54Zkd5bEdZNnFvZWppZ1IwRkZUMkFnTHdfbmU2eVRBNXA2OE5Da1hMX3dEdE14RDg2QlV3dUhvU3hpRFhNbTBaR2dVa2pUUXdWZmZwQ3JpV1gyZVp2NEjSAdIBQVVfeXFMTnNRbHdHQUFmbklFWjl0bk1XSzJoS2lpdmg5ckwtTERuaDJkRGl1dG1tSjZwaWVJZk1nZnl5YTUyNThYZ1ljZDRNRXdSWHNJOXgwNXNHVnFvbmEzT1QwQUF1TTY3a09WWFVIYW9ielIwVmxNcWxiVFBfTHBmOUU5bFR6c3hPYVB3VTMwaEpxUVZ0OWYtUU4yMjY2SW1neXRRWV9oQXhSMDhfYm0zTXcwSzVfS0R0WDZCX1E3WkJYdzhvcVFNcFgxNXB6Vm5tMU52RWtB?oc=5",
+      "source": "Google News",
+      "summary": "India Urges Japan Over Tech Transfers To Pakistan, Flags Proliferation Risk To North Korea News18",
+      "published_at": "2026-08-20T11:06:31+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
       ]
     },
     {
@@ -410,12 +1034,36 @@
       ]
     },
     {
+      "id": "9fe00632901d548b",
+      "title": "India and Japan Review Bilateral Defence Cooperation in Ministerial Talks in New Delhi - KNN India",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb3NUM0d2TzUyb05HbC1kdUw5enJOR0VOTWxjbmdHTkgzSU42X2NLMVNGX1JMZXo1eHF3WWhLV0dpMFJCeVZOZ0pQOUxBMkVDRkpxUmtla0Ffak9VX3VaYzlIUkE3R3k5MHNQWEJud1U2cExMNUE0VkI2OXJoS1pxanF5ZDFEdm9hcFJ1RGpoTTQ4UWRGSGxiT1JteS1hZ3o1Ym9MM1pVejIyTjlFMFdBOTRPRWpIaGhGb0lFTnVPU1dDUWM1cnVCZkRIWk9zUQ?oc=5",
+      "source": "Google News",
+      "summary": "India and Japan Review Bilateral Defence Cooperation in Ministerial Talks in New Delhi KNN India",
+      "published_at": "2026-08-20T10:32:56+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
       "id": "c76f040594944658",
       "title": "Assessing Amnesty’s Claims on India–Israel Arms Transfers - MP-IDSA",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWWFWZ016VVN1OHhKNlJPaVFuUHF4c3V1WlpkdndGNmVnTks4cnZNUG5YZWZOUUxlUTUtSmFTa01NLWp6eE5DVDBhMmktN1ZIaF9oSnBiVjZIcjYyY3U3RTMwOVhCYVVpMTJKTlA0bXVtYUxtd2xMeGJYT3V3M3pQZWs3c3Q0c3p0cnhoaEFSQzJOOVhtR3RnNQ?oc=5",
       "source": "Google News",
       "summary": "Assessing Amnesty’s Claims on India–Israel Arms Transfers MP-IDSA",
       "published_at": "2026-08-20T10:32:34+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "e535ee2febb8215c",
+      "title": "India, Japan Signal to Beijing: Oppose Moves Impeding Navigation Freedom - Deccan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMnY5amVaak0xdUJRSENsZlhOZG5leVB1NlVJQmF1QTdrR2ZRZzR0eGh2LWxzMGl4R0ViMHF4N1lmRk9naXhWTnpvdkFhMzYxTmtzcnUzZy1qNk9WdjRaUzBXYzV6T2lHa0ZDZ28yajNYWWl1NE9lN3Zqa0NQcHVWYmkwOGVaUWZ2S3RQVFh0MXpQY2k0WWtmTmdSMFhkZWpvWUVqY2dCOWRDQXBHLVJmci1YRThnbjE3M3NnekRVc9IBxAFBVV95cUxOTDdDc1dXVlFQZnZBRlpUYXdrb2tWdXI0LXV0NHBETjQwU09SWU1xVDR6SlRUQ18zYkdKWkRzU0hrRGpFVHZZdEc5VUtyWi1LTXRlMFM5dXNnZE9UNk1qRTVnU3pRR0hmSEhERTBIdzc2ZVEyYVFuaFc5RnlkS1JvWkx1THdpOUt0ZTEwNWhCX0h3TlIwM0JoLUZJeWk2ZlhHM05yNmNMOHhTd0FXdFlsZ0JKOUxsQzRsX0NudFpvSlNfeTFZ?oc=5",
+      "source": "Google News",
+      "summary": "India, Japan Signal to Beijing: Oppose Moves Impeding Navigation Freedom Deccan Chronicle",
+      "published_at": "2026-08-20T10:31:00+00:00",
       "category": "India Updates",
       "tags": [
         "India Updates"
@@ -548,654 +1196,6 @@
       "source": "Google News",
       "summary": "India, Japan Move Defence Ties From Strategy to Execution Bharatshakti",
       "published_at": "2026-08-20T08:56:35+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "8fa2f8a8cdeaaab9",
-      "title": "India and Japan agree to deepen defence technology partnership; Sign MoA on Maritime Security Cooperation - News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQVN0el8zc056LVl2ZFVrLUc5dElGeWFva0hWcUJ6VXQzV1U3V253V2p6RnR6VkZOOEp4Umd5WTVvVEhQb0phQlNHcFF1cTVZemhVSV9PU1RkUXZYLXlJZV9pYWlTMXV4VkU2QWFvbkJQbU5VS2kxdTNPeE1DX21jUEJBV3RZZ01Ecy00bUZtZ2Jaam1zdFU3WnZxZnlXYnZaMzQyWmo2UEthdHRoRUVDWVl0b0dtWm1EdGpFTml2eGlfZUNVWVB3ODR5VWtEeF9YWDNpN09WaWE?oc=5",
-      "source": "Google News",
-      "summary": "India and Japan agree to deepen defence technology partnership; Sign MoA on Maritime Security Cooperation News On AIR",
-      "published_at": "2026-08-20T08:54:23+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "53b6b3f30acc795d",
-      "title": "India, Japan sign maritime security pact to deepen defence cooperation - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbXhkN1Q2Nmg3aUtqUE9kSXNiZHB0bFVsb3YyV25sNGFMTkdZYTVaZGIxcHByTDhrYXhKaE9nLXJSWkpqNWlVODRmdHJuME9lWndYZWZsQlBNZnMzZDhYSF8yTm1RWEwzcmNHZGNUNHJCWVNIUjB0Y21WenczVkRMMDBVbUhkZGRFbHhFd29remtsNUdGWGFuMmFIajVxaVZoUlFreFhfUThFbzk2ODN2SzZUb1Z2SWoyUlEzN0RfRE9iM0Z2cnhZ0gHOAUFVX3lxTFBDUVh2U243NlZGSDY1VDFKRTdDSzdZUi0tMm1mRVlQeFA1d1AyUTlVa2ZVaF9UNmRfa0JneHJZZm1ZVzJobTU3RTg1eFJhSVk2M3Q1ajZCaVFNS212VTFBUERyd2RQcm05OUMtRnJ0VU80Y1lKMnN1bmFzU2Fsd3BmeV95SXNLU1JWQ09zUkI5V3JkeTdOTVEtcmU3T3BvM2VLelF0M0w0TEducExEUU56MmkwMWRhN3ZBQWd1UzRiaDhwTkZqcjRfMVFsS0pB?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan sign maritime security pact to deepen defence cooperation The Hindu",
-      "published_at": "2026-08-20T08:48:57+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "9af4c24c523a6e12",
-      "title": "India, Japan sign maritime security pact, deepen defence cooperation - DD India",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazhhcENtdmFLSHpiYVR5SlEtcVY2M19mWmxDN2s3ODB1UzdYOU5ibDc2RE5TeEQyV0haOEx4ODM0X2JGS3YzckpBU2Exc2JzdGNPNldQZG9LcERlSlNqS0s3TUJJdHR3UjNtd194VGE5d1o2YnNrNmJHTVZSNVEtZ042SmdqTGpfeWkxOUY0ZUF2Q1NXOEhjemVPaXZUQQ?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan sign maritime security pact, deepen defence cooperation DD India",
-      "published_at": "2026-08-20T08:47:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "aec571b241b4a655",
-      "title": "India, Japan agree to deepen maritime security cooperation, explore joint naval shipbuilding - Upstox",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUkNhdWFvMlRYdzQ3Q0RPel9nOURmVF92V1ZjZW5TRXM1UWZHOE5icUF3Q0RYQWpQSV9SaGZXTlZNeVBNVG5ySC1MdUtCQ2RONzBQS1VoTkYyNUlIaUdZc2VIRk9Va2t5aXVOUTBCVk96RnFnQzJoMWJSU1VvM3VpSDNraHNsQUVIYkZteFhpYW03SGxkNlpZWkZSbk1uRF9lZXZXV1BXN08wQU5KYXVfVVI2MHdLYmZTV3dMczM4NFhXZHE5dUpWTHBMY2NRTlFVc3RZcHh6TDJEekRvTkFLWnU1VkcxU1N3QlhHWGNvMGs?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan agree to deepen maritime security cooperation, explore joint naval shipbuilding Upstox",
-      "published_at": "2026-08-20T08:46:03+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "60716f68073d0722",
-      "title": "India and Japan agree to deepen defence technology partnership - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNb3RnTWM3NWdjT0VVVUhGTGswcXpGSk5PTmxmUG16TS16SlYxQzh3RkwxaGlQRDB0cmdoS1VpSjg2aHlLanFhdnpkdGJnRmh4dkkxRVFLVWJtV2hDc2ZFOGQ3Z0drek56T0lZaUhGTUpZaTZIcnVaVDhZd0RVT3NJLThFQjZMOHpZX1NjeDRXa1prUzRyX1RDM1dNeURkRGVDdE9MSzBNWTFVWFg5TWVQMWpjOTliTHg0SU9RN0c5aVFQQ2ZCdm5rdjdfdEt6UnoySTc4Zk4wZzFIWU5l0gHiAUFVX3lxTE1fM0lRVWI2TElpV01ETVY5ZDRtYWI5N1R1QlBMdzZUMzdubTllaUVwNjM1MGNKZE00RFpJemt2Y1VuUjVSSklqMlFOWmZ6aVgxc0c4ZmROd09QQThnbU9HQlY2ODltTXIybnVKOHhnUE90ZmRwUjlGSzdiaEpmbEVPUG13TjZ4MWV5RVJ5Y0RLenI4ZkY4MFNyaGtWWHFxd0RlTG9YTlh2eV9VWmNpSVphVTBfY0JyNkdqTVFpbHR3dmhSTERpekx2dUVfaTJVeWNPaHhkTEQzRGQxcEhsbUIxQVE?oc=5",
-      "source": "Google News",
-      "summary": "India and Japan agree to deepen defence technology partnership Business Standard",
-      "published_at": "2026-08-20T08:46:01+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "03d138bb7c8e5ec4",
-      "title": "India, Japan reaffirm commitment to strengthen defence ties and Indo-Pacific security - ANI News",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT0hXVHZyNlREOVZaU2pXRnNfcEV4eTR4b0hrREU0TnpiaFl3azdkUEpMdmZxVk01YUREbFNvcUQyTUJ1MWxfU1VIZC1SSTFtQzZfV3BycUtjQldVR0dycnp2MEgzaGlFcmlsSTh1SlYxRlg4bWxabUMwV3lPalhaQWUtdDdYanI3dnRKeHlDZWhSTzQxN0dsSmRaeE5QMU5SaWxBb3VIbng0cERzaFRTYWVhX3k3aWFiSWpERV82bHNwVXZfalk5UnA0YTRWWktIMV9z?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan reaffirm commitment to strengthen defence ties and Indo-Pacific security ANI News",
-      "published_at": "2026-08-20T08:40:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "e0910209a8ceb97a",
-      "title": "India, Japan deepen maritime security ties, agree to explore joint naval shipbuilding - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSW1JMUNTR2U1dU1kMlR4LTUzeXc4MlJTMUoyRDJjdTNpYlhiZjl6MVFqYk8yZkMzTV9kMTAzTXhDV01ILUkwNlhaWDlYd3hLM0dDUndyVW1WYkdvdEloMV94Z3J6V1l3em5rMHN0eUZGdDJWRFJkWnZLTTlKYmdSMUp1V3g4aDYxUlRsbVhyYm9vQUQya21HQjNLQ2NGVnNsdmRMQmF1b09hNnQ3RE4zR0tDUWxrbDlGTE9JeTB1VnZ2VzRXdG12OWlrZGpaVmplMDZIb0VsSGg1SUFBRTc1MUFUYnrSAeoBQVVfeXFMUEhsbmxNVkw4cTU3Q2hObWl3ZUxHdFVJUU5GWTB6VngyMlZVejdLREJjZmtKbExYQnhqZFpiNUVURmx0Z0JCdGpqT2htTnV5TkEtUVo4bzh2QWJ3RTlJcm9RR2l5ZllyQjJmUnVBQlU2MFYwN2hPRzZUV19hdkp3LXFhdEc4OVgtYk1mdUtvNjdDaUZncHpJYmRkR0lQa2QxSWdPWmNlTEFSMW95ZWlYOFRaZllpMUJDWkFiemh6Nklvc1ZIRlpwRUdEeFBDSUlGVWdEWGJKbXdVQ0M3ZXZjTWVHa09NMTg2cFFB?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan deepen maritime security ties, agree to explore joint naval shipbuilding The Economic Times",
-      "published_at": "2026-08-20T08:07:33+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "e8048ab4ef11b5e5",
-      "title": "Rajnath Singh assures Japan of India’s support after earthquake - Awaz The Voice",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONTMtQjRrRjd5cFpVd0lvUEFFSER3cmNmT25YZVRfYzNpa0E3bG8tcmV2T25Vc2hJUEh6UWhJNzVYNTlYZEU1TWdfNFdjU2p0eFlaNTg0RFdYQV9ENEh4MWs1ckJWdi1ZaEVjZUR2aml5TU5nSG16aUo2Yk83NE04T2xxOXo4cHcyV2wzYURRRG50dE9CZ1E2eGcxRGRrRWdzOGZmWkFoaTY5Y1dFbk9qczVRUQ?oc=5",
-      "source": "Google News",
-      "summary": "Rajnath Singh assures Japan of India’s support after earthquake Awaz The Voice",
-      "published_at": "2026-08-20T08:07:22+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "be177ec268ab1a7a",
-      "title": "Rajnath Singh, Koizumi deepen India-Japan defence ties with maritime pact, Make in India push - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMTZKcUNMRzJtWFlremlubWctNVZaZDZOV09sNHp1LXNxTFNSOFhlMnlJMlpsNlN2Y3NYdkdNaHhDRzQtQWZ6ZWZCZFRPOTM1alJCRG04UWhzaDVFOURCMm4tSmcwSXBmYTAyOXAwWDBBVVp1Y04wMGhoUUgzNGZ6N2tzUXZERzVBQVZUVWNrUHBueFd4R1c1dmREYmtxTjE2Q2NhSnNJbFB2akNaT0tEUm5DUkNKX1o4VWdHVnlBSXEyTVNHbHBqZE5kRHpHNVdmM3g5ek8zU2U2NVHSAeABQVVfeXFMTnhzS0FPTXh5V2dSS1NHUFBiaUhoRDJmVlRBTnVtME5FU2RzaVVlUnhrdlFkRzVnelc2a2lkSmtxdFVPZEtYWEpDZjNOUEJHT2JhZkducU5fYVozSl9NNzZNa1EzdHc5NUQwYy1Bd3BBZGVFbUJfZDRFUHdyZ2hVejJrbHlrT3g4WlJZWG15bm1BYUZBNzlOMTN2cGc0eDdoUmdENHNBb3B6ZFptaXFaY011TlVNUS1aUG1xRmRJMjhsbGY3SHZ2UHhDZGdfUW53UU1iZHk0MWVKQkN4MFVGel8?oc=5",
-      "source": "Google News",
-      "summary": "Rajnath Singh, Koizumi deepen India-Japan defence ties with maritime pact, Make in India push Firstpost",
-      "published_at": "2026-08-20T07:50:25+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "6577a9738eee1744",
-      "title": "Rajnath Singh, Koizumi chart roadmap for deeper India-Japan defence ties and Indo-Pacific security - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeHNLQU9NeHlXZ1JLU0dQUGJpSGhEMmZWVEFOdW0wTkVTZHNpVWVSeGt2UWRHNWd6VzZraWRKa3F0VU9kS1hYSkNmM05QQkdPYmFmR25xTl9hWjNKX003Nk1rUTN0dzk1RDBjLUF3cEFkZUVtQl9kNEVQd3JnaFV6MmtseWtPeDhaUllYbXlubUFhRkE3OU4xM3ZwZzR4N2hSZ0Q0c0FvcHpkWm1pcVpjTXVOVU1RLVpQbXFGZEkyOGxsZjdIdnZQeENkZ19RbndRTWJkeTQxZUpCQ3gwVUZ6X9IB4AFBVV95cUxOeHNLQU9NeHlXZ1JLU0dQUGJpSGhEMmZWVEFOdW0wTkVTZHNpVWVSeGt2UWRHNWd6VzZraWRKa3F0VU9kS1hYSkNmM05QQkdPYmFmR25xTl9hWjNKX003Nk1rUTN0dzk1RDBjLUF3cEFkZUVtQl9kNEVQd3JnaFV6MmtseWtPeDhaUllYbXlubUFhRkE3OU4xM3ZwZzR4N2hSZ0Q0c0FvcHpkWm1pcVpjTXVOVU1RLVpQbXFGZEkyOGxsZjdIdnZQeENkZ19RbndRTWJkeTQxZUpCQ3gwVUZ6Xw?oc=5",
-      "source": "Google News",
-      "summary": "Rajnath Singh, Koizumi chart roadmap for deeper India-Japan defence ties and Indo-Pacific security Firstpost",
-      "published_at": "2026-08-20T07:50:25+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "f437d5e3aa04e215",
-      "title": "How Military Drones Are Shaping India’s Defence Future - Spherical Insights",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVBzc2RnSmljTDJDeFVfTFRKUTAtaHRzaW51eW9DaFNjaXdNdmhvLXhKRXJtQTlOdlB5NW1NNFlRYlhQenVKZmMxUEJuR3paOEY1SEZrcFo0eEtjVXZKZ0ZCZ3AzQldNb2hZdDFhakZDYkljOGJhRzRHQ3JzaGR1dnBwWnZMbl9pZVBwbUtNTnROakN5NWhtd2tsUHhZakthcUFmYWN1UU9LbS1zQTJycjF0elhXY3BSSFlyQ3JHMTZGOWFzX2tj?oc=5",
-      "source": "Google News",
-      "summary": "How Military Drones Are Shaping India’s Defence Future Spherical Insights",
-      "published_at": "2026-08-20T07:31:30+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "2d84208ed37daec6",
-      "title": "Japanese Defence Minister receives warm welcome in Delhi, to hold talks with Rajnath Singh - Telangana Today",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMXZPMWdieVZXQjhEMzRKbXlIbDZwVGktakxFWEMxNkxwMGN2blFXcHNoNEM5eUlXUXNXOE1iZDRFQl9yY2x1VTNNMkx1dlZWSmVOVkdJdlpJTGhpZHp0RVQzYUdUclk4N3hyWG00a3MxckJOa1ROblJEMTNDSlNtWXppVW9tcHNvMlZZTGF4SWxGTF93MTUtankxbGhjWGh0a0ktOWZ0UmwzTlVBUzBVVFhYeGVhT00?oc=5",
-      "source": "Google News",
-      "summary": "Japanese Defence Minister receives warm welcome in Delhi, to hold talks with Rajnath Singh Telangana Today",
-      "published_at": "2026-08-20T07:10:41+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "438f4650671d3e76",
-      "title": "DRDO Invites Indian Firms To Partner In Strategic Weapon Production - Siliconindia",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaEhYeTFERDNfRGVOR09tZDMyTHh2d3hoOWlMWUtCd1IwSVRIcG1qQ3ZrQlc5NXFZdDBSdGVNRGVROE4tQ2pkWVQwbjBxWXpma1BOaDJrSF9zbmY0OEllYzV5dmlpM18yTWx5ZHdnLXJKbXJoTkdNd2ZhYTNKNklBOWo3SGU0dEhZRWwxZ3dqcTAweVhTeGR4VEdQMVhrdUdrUnlRTVZ2MUI1N01OenJOamZUT0p3RGtCYkFIR2pwX3ZhS2Z6Z3V4ZlBjcw?oc=5",
-      "source": "Google News",
-      "summary": "DRDO Invites Indian Firms To Partner In Strategic Weapon Production Siliconindia",
-      "published_at": "2026-08-20T07:08:53+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "9f27bc3e30dd28e8",
-      "title": "‘Konnichiwa Koizumi San!’: Rajnath Singh welcomes Japanese defence minister on first India visit - India Today NE",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ21uTWdPT2lLaEt6b3lpR2FZbVZRdEt0bTBFYVFLWmlXU1MwNWZjUGszcDFHTDFEZ0JTX3RLM21tS244VUtGbmdMUVZxNlRpUzRLTjFucW1YRkxZVWNMbFliVjQ0YVEtQWFIbGJib1JUY0kzamZrZGVMYlFCanZSMUpQbkc2d2pJSTRrUmx6ZVV1N2RhMEVuTmE2OHo5TmFlZW9kS09lRmltQkY5dFJOUEFlTkYyLV9JMGNxSkhiU3JmTXdEUERTVFlicU5tdjdraVhvcWQybEZvVlFEb2dhLUdIemU3ekhua1HSAe8BQVVfeXFMT1NhczlYUHI0emt2azg0VGt6eHdkQVhTV0daRk9rN3dBSTdCUm5zU09IM3EyVEdVWDJMNGVJdUp6eUhmbzJxbElyZUR4SV9IeFI5WmdYVWprWEx3M2R2RXFjVUNwMHlhY3duRGJVWHplZFB0M2Z4U3ZfaUgwbjdMRE9veU1KRUdYZlFhTUpxRHJaY1AxQWZETi1Kekk0NmpIT2hCelFNRFpJMWxtZkx2UmZzYzlTU3Ffdl9IaFNJUnRjVEd1S0x3T01VdWNUWkRvZ0ZHU3RPUXc3X1ZaQ2RobnZBQTNXeU5qUTNxN3otRDQ?oc=5",
-      "source": "Google News",
-      "summary": "‘Konnichiwa Koizumi San!’: Rajnath Singh welcomes Japanese defence minister on first India visit India Today NE",
-      "published_at": "2026-08-20T06:41:30+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "f03d666e0f7667cc",
-      "title": "Moving beyond DPSUs: DRDO opens missile, bomb systems development to private industry in major Atmanirbhar push - theweek.in",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVDJXNTRHeURLUTJrLUlKQndfUXRRbFJxaVg0b182djcwODIwa1RrMWwyNU1TOVJRUm41ZHNNQ3FpSWl4YVhub3pwejhvQ05SVjNGUktGR0hPWXVrN01LdmFLYWMwYm51TVFKV0R0UkJ6MHA0UHUzai1SWkd4U0FFLXhveUYwb2l4YjNJanNaUWNDZGM2WlI3ZThoeVVnTGNaS29SeUtnR1JUSWJxcklWOGF4SG5jc0pLTkZaaWlncFpLdUJYMUlJUS1GTWlCTHlYdTVISXQ0VXNtVUFnRVNqUHN5ajBmTUFFRHB6WXRmSjNjeVnSAfgBQVVfeXFMTlRpSThRM3R1Z2hLUlRxcHNoczdGd1pPY1VjdzBOdnRJSU8waVFla1pzS0Y5cV9mYlpibFlJQlRyUDdnOGNjYTlydzJYenhiQlZBWWZnVWwtWW5Rel91cU9RYXIwZGRoc3NvUW85cTdIN1JFU08ta05EVG9iTHlsa2o4c0poY1V5eGV3VDdWNWlmUUNXS0tuZk9peTdKcER1X2JFRWlmeGNuS254bnRwNENOZHJxSlFhZmxYLWZZOGZqWFJIUU9PNE5iWUNOblFoRFpQUWVGVkN1cVk2b0FUcGxMUUxHUVZwbV85NUs2YkVVMXJxQmdDTFo?oc=5",
-      "source": "Google News",
-      "summary": "Moving beyond DPSUs: DRDO opens missile, bomb systems development to private industry in major Atmanirbhar push theweek.in",
-      "published_at": "2026-08-20T06:22:47+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "3634381f861344e3",
-      "title": "Techno Defence makes a ten-gram cooler that India previously had to import - YourStory.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEeU5CVW9qbzU3ZzZwaHhMSG12NWVQb3pEWE56YWFENGtqdWdIM3EweVJJU3l4VUhwTndKVTM1VWtIREJkaFd3dUQ4d0cyV2pzV2hBbEM5M3lZUENVS2ZjcU9SY2hidVB2T1R0endHd3NGTlVr?oc=5",
-      "source": "Google News",
-      "summary": "Techno Defence makes a ten-gram cooler that India previously had to import YourStory.com",
-      "published_at": "2026-08-20T06:11:29+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "b62aa375ae024c48",
-      "title": "After 12 SSB Attempts, Ankit Kumar Achieves His Dream and Becomes IAF Flying Officer - Shop SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeDkyM0sydzdZRHRac2VoRjJGZlZJYjg3N3U4eDNQLXdkQmw1QngtMTE5NXJTRk5xWEZ5NHRxc0k4X1dhSnhxbVI0Q21KV2szTHk4TWEzekhLdDFlOGt5Vllkd0RCaGxsajNicHlRTlB0alFtcms3RTM0SV9XdE82TE9IWlB1Q0t0VldsZ2tMREZGMHVib1ozc2JLcUlNbW1xTWk5NERIQmNYMzNrMGFiZDVGVTVNTk5kWFpDSw?oc=5",
-      "source": "Google News",
-      "summary": "After 12 SSB Attempts, Ankit Kumar Achieves His Dream and Becomes IAF Flying Officer Shop SSBCrack",
-      "published_at": "2026-08-20T05:36:03+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "1c1594c59206f439",
-      "title": "‘Crisis propels significant growth’: What India’s 405-item defence import ban means for industry - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdnpWQUk3a21XeFRZWTlSbFNNN3ljcEVYR2NxdVBNTm92bHVHQVYtbTdKQm1nR21IWnNPYjVXelAzOG4tV3l6R25sWVF0dEtDNXNZREVhRlRWQmlRRnJmeVVUVjhMYzVXY2daSUZ4SENzT0NLRkdTUVpaYzNKaUdiS3plbmdPMFhmeGlYTkFQQTQ1dW5hYWdHLWRyWWJyWTVMQXozX0w5NHJiQlkxbEMyNHJFVGYzbU9aQmM3aEwtbEtqc0YwOHA4eU94QnNON2lGMUk1aXc4MG1Id9IB2gFBVV95cUxOdnpWQUk3a21XeFRZWTlSbFNNN3ljcEVYR2NxdVBNTm92bHVHQVYtbTdKQm1nR21IWnNPYjVXelAzOG4tV3l6R25sWVF0dEtDNXNZREVhRlRWQmlRRnJmeVVUVjhMYzVXY2daSUZ4SENzT0NLRkdTUVpaYzNKaUdiS3plbmdPMFhmeGlYTkFQQTQ1dW5hYWdHLWRyWWJyWTVMQXozX0w5NHJiQlkxbEMyNHJFVGYzbU9aQmM3aEwtbEtqc0YwOHA4eU94QnNON2lGMUk1aXc4MG1Idw?oc=5",
-      "source": "Google News",
-      "summary": "‘Crisis propels significant growth’: What India’s 405-item defence import ban means for industry Firstpost",
-      "published_at": "2026-08-20T05:16:28+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "21ecb1b4fac7ff74",
-      "title": "India’s defence manufacturing push: DRDO seeks firms for missile, guided bomb systems - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMERBb1c4VmY4RkFzbnBMbUw5V2pmQVUwaFlBdXF2RFZydUtXdUkyOWVXZ2k2Qnh6OERTZkh0QmJZa1JCenQyNUY0MGxzY012eDl5ejR6by15STVWLUJmY3lmWDZKZ3pnUVFqREo2OUE4dHFkZGhXdHdsRFFyeUp4MzN0YzI5dzZ6YVhhQ3dYWVlCLTZqNENqNmxEQ3JGMm9LYTlFQk5LM0xCOWxQamNNUFdR0gGyAUFVX3lxTE8wREFvVzhWZjhGQXNucExtTDlXamZBVTBoWUF1cXZEVnJ1S1d1STI5ZVdnaTZCeHo4RFNmSHRCYllrUkJ6dDI1RjQwbHNjTXZ4OXl6NHpvLXlJNVYtQmZjeWZYNkpnemdRUWpESjY5QTh0cWRkaFd0d2xEUXJ5SngzM3RjMjl3NnphWGFDd1hZWUItNmo0Q2o2bERDckYyb0thOUVCTkszTEI5bFBqY01QV1E?oc=5",
-      "source": "Google News",
-      "summary": "India’s defence manufacturing push: DRDO seeks firms for missile, guided bomb systems Firstpost",
-      "published_at": "2026-08-20T05:09:07+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "9a371b5def2937c1",
-      "title": "India, Japan To Deepen Defence Cooperation With Focus On Maritime Security & Tech - BW Businessworld",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYXc0Q0NFWkNaaWttV0ZsNmZrUHNyLVhBV1VZR1FNVXBYZTV4QzFHNTZWSEhuNWVabmxELUIxN1RzNnVvZHR4T2RhSGdSR19xT0k5UkhsVDEyWVYwM2lJU0o0bUdzMjNYclUzN3NJanBPeUQtWVA0MkJPeHpEVEtubjRJRjAxVkdQMFp4OW96T0REcjlHSGhYckZfR2M2Z0xHUXZuQnpfQVNwOGN4eHZWdEhqQXZ2cVYyVUU0eUVQMA?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan To Deepen Defence Cooperation With Focus On Maritime Security & Tech BW Businessworld",
-      "published_at": "2026-08-20T04:50:36+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "22fb6a485dc05e12",
-      "title": "Fruitful discussions on advancing maritime cooperation: Japanese envoy on Koizumi’s India visit - DD India",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmFpNlVwRy10MEhIbnF0c0NMVTFmS3JnajF0TC1FcFRENkFUT0trQ3k4Y1hmWTFqSURRVFUxRWJaT2ZrNzhfdVA1RjRPd3pTSG9YWnFER21XZmVXeHhmdi1Odkc0VWdFRXZUTmhGb1hSUC01cGltRDl5TGF4Q1hCTEJJd0RBMjUwUXNkeXdhLXAwMS1jcUJ6NWVVdHNZQ3k0ZjN0NzFWNFpZQVhnWG9DLVF3VTMwZGVYNl9weWh1ZHVYZw?oc=5",
-      "source": "Google News",
-      "summary": "Fruitful discussions on advancing maritime cooperation: Japanese envoy on Koizumi’s India visit DD India",
-      "published_at": "2026-08-20T04:27:39+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "51cd715d2afe5297",
-      "title": "Indian Navy leases two MQ-9B SeaGuardians - Asian Military Review",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3VmbTBEaHdBek9BSUJIb1NsZGo3YmVGTWVaOUw1c1A5X2NYTkc3SFNTT0ZLZHNEZ3RISC1YNFhoU2s0a2RFVC15RmdLYjFNS1NIbGRpbFhMRmpUUWNVX3JkWUdPUDhkQzhIY3JZRUN4bkFvN2NRMWhZcHozbVZQcWp0QWtFQXgxM0RiZFlJWHp2Wkdt?oc=5",
-      "source": "Google News",
-      "summary": "Indian Navy leases two MQ-9B SeaGuardians Asian Military Review",
-      "published_at": "2026-08-20T04:22:35+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "b6fdf5a73edf726b",
-      "title": "Rajnath Singh to discuss defence cooperation, Indo-Pacific with Japanese counterpart today - DD India",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObGhNa2l2QUQwOEhDQ0ZPaGJBZnpaOHVqVml2QzFuSGJpTGgxdnRScE9ERGZWcVRET0ttWkU2R1B6aXZVSmFsR09YY3pnTjR2alVhd0U2V2VTT1hCOHgtNGhpTXY2cTVROGxCSGlUWFY0R2xPVkNQRXNmT1FYMHhmMEY4QlZWbHUtSkhNNVNlWE9WaTRfRnA5RU5mN051TGNMUS15aTNtQkJRWmQ4TlJsTlluTnZydXFSa3JlSQ?oc=5",
-      "source": "Google News",
-      "summary": "Rajnath Singh to discuss defence cooperation, Indo-Pacific with Japanese counterpart today DD India",
-      "published_at": "2026-08-20T04:02:35+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "8deb90b3455daabd",
-      "title": "Had fruitful discussions on advancing maritime cooperation: Japanese envoy welcomes Defence Minister Koizumi to India - The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMzRxRko1bGp6THpSNHpxYXA1MTh5NHJpTGhpSjQtYm9YMEJaSmNKYkFmN2k2MG5seHlYVDBxQmtHOElrSjFKa1lpQVM1WE0yRXU1bEh3YjdyOEVON085NGY4QzdZMHp3dlFaWFNlUjlrNGpwSElWVVNLX0NvajhLTEdTMkpNeUFpY29fM0d2N29Ja05ZREN5ZlJKLXhvNk9NRWRhSlZ5YnYtOU9ORzVYWENScEFqTFVBVWxyUGJzUHdvRU1lQk9vcmtLd1lTRWIwNDRYVDVOQ1JTNDl5V0xKTnJjQUF0RHBnR1pFWGVB0gHyAUFVX3lxTE1OQy1QVDdJSkhFSWlqdFQ5SlRNWjl0WHpxYWd5X3JTMEJGX1duLXExRzNfUzVlSFAwRHJ3YUxrUl9rUDQtekxETkxGSXY1dHhTMVNvSU5PYkwzTDB6V0xLVmU2cHdPNlRRNEpibHNzVmpGTGxaUDhTYXdDTlNxMkRWV2VoRURRSWJkTXBxb1h5U05FTDNTTlRaMjFCbXpfWGZJTkFwa3puMXF5OGNzUVNJa0VmbjMzSzJiTkpQR3hWZUVENFEwU2pRSGMxcFU0dVAxRmRDMFpMdnV1SXRSRFpSWjVVdnZJVnp2bUpuTmNSbWNn?oc=5",
-      "source": "Google News",
-      "summary": "Had fruitful discussions on advancing maritime cooperation: Japanese envoy welcomes Defence Minister Koizumi to India The Tribune",
-      "published_at": "2026-08-20T03:33:02+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "84c1d8f8d1b441d6",
-      "title": "Japanese Defence Minister Shinjiro inspects Guard of Honour in presence of Defence Minister Rajnath Singh - indiagazette.com",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZkc1dEI1ck5IQTRvZTYzREMxc1BuY1E0NEtUWC1ndVdmb3JXSU9FV1FVbFNtcGlVb2dHVDRsa0dUa2dSQUp4bDAxcktqbjhsX05kb2h2N0txSzRQUnI1OWNETEFONm9rcnZGd0hXbGhpMzhTeENPdjJHTHBuTjJDYVIwb2J2OFVSd2Q0MThuT19fNG9jYVRsYnZyR1JIelNEOEFPdDNaRWZzZ1ZJN3dJOHFpZ1dkUDlLbTBzeWxxTmFqM3BPdURyZzMtbk9kX1JDX1N3T2dSalotUHo5ZlVSOEM5bw?oc=5",
-      "source": "Google News",
-      "summary": "Japanese Defence Minister Shinjiro inspects Guard of Honour in presence of Defence Minister Rajnath Singh indiagazette.com",
-      "published_at": "2026-08-20T03:00:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "ce80c7f285ce084e",
-      "title": "How BrahMos is breaking through the shackles on India’s defence exports - Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeFFyRlhVY29jQVAxRDZibFNQamdPbWt4dGtyN0k4M3hYSlZQdWVzMHp3MzdnMGkyOGdyT0pZMFlyVW5FSzVMQjUwTGdPVW5ianV4eVB2VWZnSE1vUktaeEVKZDFjVGpjc25LUjBSNWNPLWxSMW5RUXlES24xektDY25hcm1Mbm8tMm9tamhNblhuUzVZOHR1b3l2M0gyejhjdFcyWmlUY1VDbVN4M290Z1MtTmRPM2NlQnZ1QUx3bTJPVmNLVkHSAcsBQVVfeXFMUF9TZkpYc1UtREVmdU54b0JUajlocGp0Y3didzhJaXV6UlFLVVVRSktRaXd5SHNENElCZTNwYW9kYmFJbVZabENBOWlGU2VPdEhwVjFCM3ZjLU1nUWRSa0NvcTBZZ3A2MGR5V2JGcHpQdkRxZXhISllMdTluWFcwSk50WllBZWlsR01QOGVoUUJLc0NoTndHanFLcXhsdHNBcnMtSHA2TmY3X29GYkptZ0pqN3oxemNEVDdLeFZ3dWRYcjZ5WUNXQkN2QVk?oc=5",
-      "source": "Google News",
-      "summary": "How BrahMos is breaking through the shackles on India’s defence exports Moneycontrol.com",
-      "published_at": "2026-08-20T01:33:58+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "4bb908bb4f5d72f1",
-      "title": "Defence Secretary concludes two-day Armenia visit to strengthen defence cooperation - News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSWxXVGRQOGVXMTJ1eDNsc2NVUGhkdUVNLVZTOE44U29tMkxjY1ZwVWlCSkE5VlpIcEtmWWh1bEc3M0dKNERZaW9EMkgzS1RweEhrei1fbEw3d214dFlLWU1pTnNVcFhiZ1lnbDlydUpkNmtqUzdzc2Y0SXFzZ2VUcWJNeVRsOFE4U3B1a2FWWkRKdllDNTd0b09fZjdITUFuN2dGTTN3eGlSeTc4V0E?oc=5",
-      "source": "Google News",
-      "summary": "Defence Secretary concludes two-day Armenia visit to strengthen defence cooperation News On AIR",
-      "published_at": "2026-08-20T01:31:51+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "d9e1d34cc6c9c596",
-      "title": "Mecca Pact: Should India Worry? - StratNews Global",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1uOHRNVlg5RnVBZU0zTHNOcE1ERkwxcnFCNURxUXZHSDRQaW5DSFI0V3lKcDdjcUdNaWtWSkZIZEN6ZFZIZlpFbG8yaEZjUjRHRDlZdlRha1ZlLUwyNk52RkZDSkdQUmExQXROQUpLQmxjbk5nNUdB?oc=5",
-      "source": "Google News",
-      "summary": "Mecca Pact: Should India Worry? StratNews Global",
-      "published_at": "2026-08-20T00:30:36+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "56e3f72a69e4056f",
-      "title": "After NDA walkout in: YSRCP’s MLC Madhava Rao unanimously elected Dy Chairman - The Hans India",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcktuZDlKMjFyZFJSYndxRndYT1pCWjBDWmYxWkNFYWtrQW9Fb3ZHY1ZsanJ4OURTWW5veFpPYWhKYU5aSFR5OENRQ05DYXJfRHBOSGlVT05mWExYdFVGUkpVdXI4Y2FuaTljY3kzMG1qTDlfY1NoR21SVFRjSzRQRGlwcmdFVHpCNFI5UDFXOHBHcWtYZFd3NXBoVXYzMkNwaWg3QUVpV0RTQlJwSGQzV0hCb2NWTlNFTVU0UmJrTUV0aTNRNVNuVWhWMkdQSjlL0gHWAUFVX3lxTE9LblBmeEhCZ19kZ25DUGNPdVk1emVXQmtGYXp4Ni1rczNXOWVmUjBsT1Vxd2VQT0o5dVJKMlBZaGcwaFJ4RnRRS1RSTmFPVXBudkptSmczUFQyaFBqazBYNHIzMHdRQVMtbzQtcmFIZlc1S3hqOEtJdmpiTWxBR1NKY0ZocWIxRnk3a2lkeS01OWRpaWNOWExjZzhMRnI3NWR1M3RfZU5RSlRGcERicmNaeHFoNnFRNGZWWWVhUm9OWWpFUGhsVUFaT0pxaVF1QzB2aG1tMkE?oc=5",
-      "source": "Google News",
-      "summary": "After NDA walkout in: YSRCP’s MLC Madhava Rao unanimously elected Dy Chairman The Hans India",
-      "published_at": "2026-08-19T21:41:45+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "ac8a855f80bb526b",
-      "title": "DRDO invites Indian defence firms to be its partner for development, production of strategic weapons - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQTTl2TEdId2FWdnpueDlJcXdGNUxKWkZiRGpjMUExOHhkS1NLNDZuWWd4b3ZlN3VNX3RMWGh1SWJ4aDY4N296dmxZb0c4U05pc3B0emNrTldIX1o4aTRVUnFYWWFISGdJZ01kY0JPcVpIdTI3d3E1a1FvdU1ZZHRFRzN1ZmhSdEdDTDFoSUpTWE5VYzlGbVM1YTA1VFV1cmEtRFNPTmRuZUpOTGVwY0M5Y1ptd3FMeUllT21pQ2NIUFZ5OG1ObE5HOGw1VFNRWmVwVTlTNkdmN2RZSHBrRGk1YUowSUVGR2tUSGJmZVNCUVFUc2g4dXN1dU5IUWN4REhBSURkTNIBigJBVV95cUxQMXRTdnVCQ2NRUmY0dS1vLW9KSFFGQlZad3FvTjdWRF96TlQ4b1EwTElGeTdWaFg0TTY5M3g4Qkd0R29va29EdnI2cFBwZ21fdmpMeUJtNVNkangxaUU2dkt5ZGdpSDZSM3ZYT1FaUkZUTFRUNHpSTVlIMGxOSjJlMmwzeENzeU52bmZuZ3hVWG5aaTR5UFVpaFJ2LXNMT1Zua1BmbjVVR1B3cWVtQkpXcE9wZ3BYYWdqUUw2TjRoNmxyR0lOZXJ1SWNxRC1heEppLTdxSHoxVEVxdTRpc0hEd003a2xkaTZlUUtlNUNfTXI4WmJ6U2cyZWVfUkN0RUI2THhGYlg2ME5aZw?oc=5",
-      "source": "Google News",
-      "summary": "DRDO invites Indian defence firms to be its partner for development, production of strategic weapons The Times of India",
-      "published_at": "2026-08-19T20:49:00+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "c24a54428bafba71",
-      "title": "India, Armenia to boost defence and military technical coop, join hands for research & innovation - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNNl9UcFBfLXhBSTRWTFRPVHlMb01Ib0tTbkdmLUNuOWc2VlBzRzJPcFc2RF9NNGs3TThKS1BEVXQtRnNodndxb3VpV195VGZiT3E4R2ZCai1wdE9IR09nVk4tZnJLcUctZmI2WDNtTTdZUGxYeHRlMWdjQXJmRkpWQmEweHFyQ05KWjc1a2J0ajJxMnNhcFBSZjFjZTQ0OXBoRTNqQ2RKUlRjU2wwcEQ1YzJpMUhFakM4bmp6S3NaNzZSWkR3Sk8wQVlrc3hNTE5YWkVxdlNCR3laOVotTVFleUl2bDMtYVVfWXN2d3p6TW9kYVJIdE9WWnhtWWfSAYICQVVfeXFMT2JwZHFvbFI3dzZzM1hROXlKamVCUE1RRF8xR3NmMGV2WWtaUF9IS1FkWUFRWHRvOEN4akgzdXNuaFhiUTF2SF90NEN5Yk1kbzIyNkZ3cWx0UkdpR0t5MFdXRWllaHB6Uk5ZNlBYX3pyWEtOd3Nxd1ZUWkFiNjkzTzRQbTRnc1U5QnhabFctbVVFUWE4OFRDemVkTDBudG1kZ1BGNTBNSW1TX2ZDUmhYbmxpNnUtUDd0enN1bl9zSkdZYVlFVlpJSjl5VXQ0THAwODlPUHZTTG9aMGlqQUV4SVpRdHB0MnhlaXZwTFFlYWo1aHJDNTIzVEMydTVodDVQaHV3?oc=5",
-      "source": "Google News",
-      "summary": "India, Armenia to boost defence and military technical coop, join hands for research & innovation The Times of India",
-      "published_at": "2026-08-19T20:21:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "4f67695822c7f011",
-      "title": "Rajnath, Koizumi to Deepen India-Japan Defence Ties - Deccan Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSnhCRG5MVHlmanE2eUIxWVRLLWwtM1Y3bUdnYTRGVEdYZ2JESjlhZ3pWd1c5Tm10YjlJTS1RTGhpLTc0NUJNMXIxdUZqRU94LUc3TlE1SVhBV3d5WUlMenZyX1V0SEhRVjVpanJ4bDlubEdVX0UtaUxIcmE3czFPeUExT21qbDB3WGhWWnY4eFYwenFGbFhoRk96OW9yd9IBowFBVV95cUxNMS1zcEQydzNvSWFRbjJPMWNCaV9zT3VtYVpLamk3V0VNRjBKQmlBVVFMdnJScE9LbXdBNV9BM19TVHNybFVvd05XUnMtaEY1cW95UEItU3JfNXVBY1JmS0ZhS3FaNGFGMjh6dWlWZy16LUUxeDJaWVcwN04xS0l4dmZienVtd2MwaUcwTXgzOC1oMlNvSFlVbUgxRnVFNG9WbW1N?oc=5",
-      "source": "Google News",
-      "summary": "Rajnath, Koizumi to Deepen India-Japan Defence Ties Deccan Chronicle",
-      "published_at": "2026-08-19T18:21:53+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "7ccad0c6524085d0",
-      "title": "India-Armenia defence partnership: Why the South Caucasus is becoming a new strategic front - India Sentinels",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPemVKOG0tWllRbF8xVm5pX3hXSmEtUVBZMFdKRkVEcHFSTWxOaXF5aDNiQ29vWXBOM003Qy0zV0s2LU9ibjZyYndSamU4YWhOa0Y5UXJKTTBnYzJwYTA4bGRvd08wWjhSSmJyXzRUUGZhREhpOUV0endPQU5LRi0zRldjTml2Q2JzTmJtS3d6YUVBTE1Tdl8ydk9XbDI1Z28zRUR5Rnp3cjY1TkJoWnlJSHRCVEVXZk1HMmVib1dJY0lmY1lmYkhObFh1MGxmMklCN2c?oc=5",
-      "source": "Google News",
-      "summary": "India-Armenia defence partnership: Why the South Caucasus is becoming a new strategic front India Sentinels",
-      "published_at": "2026-08-19T18:18:02+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "b1fc372fe0a53bb4",
-      "title": "General Dhiraj Seth’s Visit to Nepal Strengthens India-Nepal Defence Ties - SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU1hISDVFX0ZBM094NHhwR3EzRFd1a2MwUDVFdHJHNGhISklrcWw3VHY2QVVBdjZrT0M3V3JmYWtkQzVzTzBLXzJhLUo5SVNLMGhHRmR4enV1VUd4X0ZJMWlnTlpMTEZ6SjVPMDdPcEswYm5RcDRzUnN1bHN1RzloandmWlNkemwxVVZmaVNZUFNtWXB5WTZIMDlZcmZuT1Ba?oc=5",
-      "source": "Google News",
-      "summary": "General Dhiraj Seth’s Visit to Nepal Strengthens India-Nepal Defence Ties SSBCrack",
-      "published_at": "2026-08-19T18:10:15+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "63be432ad0434475",
-      "title": "The Role of the Indian Air Force in Enhancing Military Diplomacy Across Oceans: Insights from Exercise Pitch Black 2026 - CAPSS India",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWVcxcjVjSmVLMDhZNjlKNDNIekxSVU5iOXdYdzRkNXhDLUxqTWI3SEkzdXdlOXFtVUlSQVJTUTExMXFhTFNhQXlPZnNZZWFib1NSSlRSMVRVWTBuVWJRbFZsZWNrSXQ4WXFDbXFZelFKQ2RRaHZDUUQ4OElxN1BULXA1dTNrSXJDTzhhZlVSVG1iR1AtUHZCS19OeTloMHVoNTk4SFNidUJtay03ajhhNEtFY053NHV1RGZDNkxjb1pnVDY4eXNWZE03dU5xdXRRejVZYTBBWjMyUQ?oc=5",
-      "source": "Google News",
-      "summary": "The Role of the Indian Air Force in Enhancing Military Diplomacy Across Oceans: Insights from Exercise Pitch Black 2026 CAPSS India",
-      "published_at": "2026-08-19T17:52:23+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "f46229fc2de85d1e",
-      "title": "Japan’s defence minister visits Indian warship ahead of key Delhi talks - WION",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQjY4MUlfd3AxeVJULVJrVjNzeTVsSW9tZkZSY0pZaWhUR1hIQWRBMVE1LXdSTHpkUEs5VUhOODM0UVJPUEg1V1BiX2I3YkdJeEVTbnhzdVYxenBmX1ZQd01ZNHFKekhwbU94NXFqZzZaQXZGZWszVlZZeTg5REdnTzFvNHhTZnVzNGRFcllYcVFZVnJkZktTc2hfam5QdjJvckdrdTRnRTloUUFNNlRPOVpIVW81OVF1dnRsNNIBwgFBVV95cUxQcUhqR3ZXeGEtbHRlUms1dktyUUJzOVEzdDRLX3lpTFdtelFKTHVlX1plaGdSX2xBaDJrNTluTWxoblRCaUpoM3kzUHdiMFZFcWh5YThOaWNWYmxRbWN4YTVadHFMdTI1bV9TY1AwQzBXYjQ1eTRnTVlDQXNpUUJUSDlIbl9qSjFlYjFfeUZQVjdfb05tT29FSDZwXzVYeTFlOWlqcUc0U0JTbHM5SU5LcE5EUnpaWmpabGZxTmFzT2FQUQ?oc=5",
-      "source": "Google News",
-      "summary": "Japan’s defence minister visits Indian warship ahead of key Delhi talks WION",
-      "published_at": "2026-08-19T17:32:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "e2601d4293a87497",
-      "title": "‘What If OBCs Hit Streets?’ Rahul Gandhi’s Big Warning To Nda | Championing Or Politicising Cause? - Times Now",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeVJHM0FReG9QNGtMeWFXRmpiUzN1YkxtSDRYTjc2REJVNTM5WV94TjBqWUJCQTlRSkZLZlFPMHJxZ09mc0lqcC1BanVYaFJkaGM1MHUza21DMkNQVFZQLVhlU3ZhZERsdTlzYXY5TGFlc3dsd3R4VXBsbnR3QmdjRnF2S21GUGN6Q1B0Z0JaZUx4ZV8xN1ZDbWR2VnRqNHp0RjNoYVkxQkpHemVFN1c5SDRIcDd0LWNKS1lSSzFpVmRpbWJ6X0VUd2R30gHKAUFVX3lxTE55UkczQVF4b1A0a0x5YVdGamJTM3ViTG1INFhONzZEQlU1MzlZX3hOMGpZQkJBOVFKRktmUU8wcnFnT2ZzSWpwLUFqdVhoUmRoYzUwdTNrbUMyQ1BUVlAtWGVTdmFkRGx1OXNhdjlMYWVzd2x3dHhVcGxudHdCZ2NGcXZLbUZQY3pDUHRnQlplTHhlXzE3VkNtZHZWdGo0enRGM2hhWTFCSkd6ZUU3VzlINEhwN3QtY0pLWVJLMWlWZGltYnpfRVR3ZHc?oc=5",
-      "source": "Google News",
-      "summary": "‘What If OBCs Hit Streets?’ Rahul Gandhi’s Big Warning To Nda | Championing Or Politicising Cause? Times Now",
-      "published_at": "2026-08-19T17:26:25+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "e0286872127ed9ad",
-      "title": "General Dhiraj Seth Concludes Official Nepal Visit, Strengthens India-Nepal Defence Ties - SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZHFWM3ZyUGN4aENsN0FZXzl6YkNZV1ZkeHl2VWRhQmpPT3pBc3VhY3dlb1JTRngzWkE4YzlOWDJIUklxV1hNc1l4d004RVlkUTR6TTFpU2x4aE1DSDZyblB3OWlLMlk3Vm9YUnY0eTdhek9BQjRqUnd3WU82UnQ2VHE0SEJHNU1udGhodU8tQlFmd2gwNkJaWUN3Zlpoa0c0YmJDUXlkVXRRZk1rS1JELWFMSnRISzhydk9ZVVgzWWJqRTQ?oc=5",
-      "source": "Google News",
-      "summary": "General Dhiraj Seth Concludes Official Nepal Visit, Strengthens India-Nepal Defence Ties SSBCrack",
-      "published_at": "2026-08-19T17:10:54+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "73d8b8758ad15711",
-      "title": "India, Armenia strengthen defence cooperation; sign MoU on joint collaboration and innovation - DD India",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONllORXNMeTh0cXBlazlwRWpOMFJFRHprVGdMUHhSUHZqWi1zMXJ3ZXViUmw1dnBhLVFBTGxwYU9TelhYeC1VVHNGMVozWHNCbDBpbGNpd2lEU1JtVTRwWm9tUndpRHVjMG0tanJ0anFQMmlYaWtrMzh4RkMxWi1BVkJxZHQ4cl96T2pYckZSc2hyVndWV09kT3N2Y2ZXV2t5TG95TUJ5THhUTmxtdWU1T2xhd1BOdUtWRkZScHZNdw?oc=5",
-      "source": "Google News",
-      "summary": "India, Armenia strengthen defence cooperation; sign MoU on joint collaboration and innovation DD India",
-      "published_at": "2026-08-19T16:15:34+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "a1bc54b8ebc175e1",
-      "title": "India, Armenia strengthen defence cooperation; sign MoU on joint collaboration and innovation - DD News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLWtpUHNzU3ZLaU1vRGhQZXB6SnVJU09TY2xid3Z0dWRaUGh2ZFVfNXdiYnFsSWZmOEhna0JzcWFDR21RZXRJZUhOSlVZTTdQOEd0ZUE4ZUFLNHhVcFFOR1BtMTk1YXItMktLVG5FbndOZ1VLcFB2aV9CT2RXblRKQVZwTGpzR3NxWGFrbEFpLXJURmtTWnhsSnctZzBKdGJhMnYyZzlLR1BsSUF1U3Y2MUJPY3FYWkRL?oc=5",
-      "source": "Google News",
-      "summary": "India, Armenia strengthen defence cooperation; sign MoU on joint collaboration and innovation DD News",
-      "published_at": "2026-08-19T16:13:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "4623e01f22d4fc1d",
-      "title": "India’s Defence Ministry adds 405 items to positive indigenisation list - Army Technology",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92RWxBNGdVdEZmY0pwU20tMTVRc2NadVo5NXAtUktDTVpVd2hucmtFMl9ZN1M0ZmtCV1dYcUh0VTZGdUwwbWlVQlZjdnNuR1ZZQ3J3cTJXbGFocThLY3BLUk55ZUhBSDZrTl9uc3Z3?oc=5",
-      "source": "Google News",
-      "summary": "India’s Defence Ministry adds 405 items to positive indigenisation list Army Technology",
-      "published_at": "2026-08-19T15:54:42+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "65c0edb2a45a8fba",
-      "title": "India, Japan to deepen defence cooperation as Rajnath Singh meets Shinjiro Koizumi - Mid-Day",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdGpZTi16bFVwc0IxN0xwMGlnajNGc1FZYzlyTlQtYklGVTZOM1pCZ2kzTlVLV2tENjZfbzB6Wnk4eDJyODM4SWp4OHpjWG9Sdk5jVE9LZ1JTcDhDbEV4andyQ2xxTlZwYm02WVNnYUJ3RnE4NzhvdU55enlWVWNXeWFZejFQYkhJZjFKSTB5eXF2OE4xbzJVbFhZMXhaa19Ba0ZJOUNtTi1lb1U2ZmUtNHprNW5nbk1qY3pmejBiSDBNeXdXeDFIamdvcmdQajVsLVV0NHNDYnN3d1hETEl6btIB4AFBVV95cUxPdGpZTi16bFVwc0IxN0xwMGlnajNGc1FZYzlyTlQtYklGVTZOM1pCZ2kzTlVLV2tENjZfbzB6Wnk4eDJyODM4SWp4OHpjWG9Sdk5jVE9LZ1JTcDhDbEV4andyQ2xxTlZwYm02WVNnYUJ3RnE4NzhvdU55enlWVWNXeWFZejFQYkhJZjFKSTB5eXF2OE4xbzJVbFhZMXhaa19Ba0ZJOUNtTi1lb1U2ZmUtNHprNW5nbk1qY3pmejBiSDBNeXdXeDFIamdvcmdQajVsLVV0NHNDYnN3d1hETEl6bg?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan to deepen defence cooperation as Rajnath Singh meets Shinjiro Koizumi Mid-Day",
-      "published_at": "2026-08-19T15:17:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "52258e1532b3bcfa",
-      "title": "General Seth gets honorary Nepali Army rank, boosts India-Nepal defence ties - India Today",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUG94MFNCdnVEOGlpU1E4WXdfYVlGeTB4Rm56RS1HRm9MVlJ0MngwRkY2WHVHa29mTXNVbjFHR010MmJZUm9Kcnh1ZGVyOTlMMm1EbnNXVklmZzl2dVBOd1FCSE9laW9tVERqNlRSZGFTeEh5Wk81N0xtaGxYV21KRFFMTDMyTkpEaEhPY0M4SXZySURYQ3lFUkNldmF0WXNENGRNakVyS0YzR295TmpIM3ZOem5HZjdSeUFIWVZRZjRKaGpFVXhhZVFn0gHPAUFVX3lxTE9WVXBmajVJYVhPUzMySUJpX1FNVThURERyT2Y4bWV1LU0xZDUwS0V5WjR6SHRoVGtWdFh2MVlSQ05vVVdYWDRqdXE3Wk5XTFhkZUluN19CUlFiWmVRT0RoOEs3U1FzZlhCb1drZ0sxR01CWDlRYWZaWEdZcEJWQTNVcG4wS1NIbnpKcUw3bmZ2Qlp0Zkoxd1ZDS2VnbnJHc2lkVWlNZlZnTWRfRDdRNG12NVdvNW1RNlFNbW1sTTdSM3J1bFNIX2VqQURVbFJncw?oc=5",
-      "source": "Google News",
-      "summary": "General Seth gets honorary Nepali Army rank, boosts India-Nepal defence ties India Today",
-      "published_at": "2026-08-19T15:08:57+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "2a7d28aa57c21b55",
-      "title": "Indian Army chief’s visit to Nepal helped strengthen bilateral ties: Indian mission - ThePrint",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUFY3UFZKU1ZUWWxYZVlKNzh0N04zUmdVSk9qNTBRaS05UmEyY1hKanhaNGN2S3RUTkdZYU9BOGMyNWtaYzQ5RmJEdlVBd04wSkU4SXJCSFQwTUVUZGRuTkpLcExkY3NhTnZscm1fZVRpZTRHOXJPYVViRlp2U1c1VkF1TnhJNldqOEdzV1hxbXYyMTBreS1YeENhdmd0dXFMaXY3ZkFZckZ2MUNQN2EzSXFzNDF1dknSAbwBQVVfeXFMTVd3T3RwTGh1VHA2cV9Zc1V4QzVET0xtdG5SdXpXRXFhWXhBOWhrMlZ1ZXBPTDBIMXN0S0pGVlNqVlNmM2JORmFQTDd3WTVqa0FwaDlRN0g5T0EtRTdlakdBYm1IeWY1TV9rNURsTE13OVlnYkRqZ0U2SFdHZExIbmM0cFZDcjRYRGxkYnVmalkxOFVvcHFmckVOQnFJSXFSNVI2bEFKQmF0TUZ3Q0gwU1FtYjRRUWd5cWZUS2Y?oc=5",
-      "source": "Google News",
-      "summary": "Indian Army chief’s visit to Nepal helped strengthen bilateral ties: Indian mission ThePrint",
-      "published_at": "2026-08-19T14:47:15+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "64c7fdd73f884295",
-      "title": "Rajnath Singh, Koizumi to discuss roadmap for India-Japan defence ties - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUDg4ZnByRl9Rb24tVDVSby04TkJuMXdyR2hMdlFEZDJnUjRaRVUzS3ViRUVFWGd2OWtIODdTWC1LTHVUaVhPVDg0UGpNWEJhQ25HdHRPVHFZb1lIQjRXSVRYOFhpMnZVdXR6MUZOS0ZORGVoVVlLV2w0ckVjbjRDVnZOeldxU3h1eG9VR0lqM2dRZjQ2R2pFbTVxakNaMjhEM2ZuNUgxYV9MZ3pibGQxUVBXeGxwdl84TEdtSVQ4MHFlVFJjZTNV0gHOAUFVX3lxTE00NDVLU3J4XzRST2hPbE5VUEV6cVRoMUxFWTV4aWZ6SDVjYmdZX0RJVTdvdzFnTkJaTXpYMU53cS1ud1o2dERIRnVBdHB2RC1rSmpvNjd6VTZCWUJ2YXVHbm9JSjV5ZEdsenpLV0NGMVlXZW5PSzdwSGF4aEJpeHE3SDc3MGFiTURuWmRReVlQU09aaEVaR0plTGRRUjR0Y1ZDQmdwaEZnb2RFRXZ1eUhfN3o1bFI1emVra2pnNXY4cGV3QnJSNl8zRW5GSjFR?oc=5",
-      "source": "Google News",
-      "summary": "Rajnath Singh, Koizumi to discuss roadmap for India-Japan defence ties The Hindu",
-      "published_at": "2026-08-19T14:41:59+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "890ece53fd3f742a",
-      "title": "SubscriberWrites: From making weapons to mastering defence technology - ThePrint",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbHhqVHh0YWpVZG1iUU9vWDBGLTRncExBazQ0S0dzOFVPSTc2eDhmZEZabklUYlhBRnpaOTRVNElmLWJnTHROdEpVYUFMRmFIdDRLc0pGRUJLdmthQ3lVZXBFMHo0YlRwS19XVEFPWm9iUVpQNG5WYzNpRnZEZXFac2h5MmVlUndDMHBUZFowTkNRbHpRa1Bna3cycFBPMjNBcDktNEtyNmh6M2ZHOXZB0gGvAUFVX3lxTE1seGpUeHRhalVkbWJRT29YMEYtNGdwTEFrNDRLR3M4VU9JNzZ4OGZkRlpuSVRiWEFGelo5NFU0SWYtYmdMdE50SlVhQUxGYUh0NEtzSkZFQkt2a2FDeVVlcEUwejRiVHBLX1dUQU9ab2JRWlA0blZjM2lGdkRlcVpzaHkyZWVSd0MwcFRkWjBOQ1FselFrUGdrdzJwUE8yM0FwOS00S3I2aHozZkc5dkE?oc=5",
-      "source": "Google News",
-      "summary": "SubscriberWrites: From making weapons to mastering defence technology ThePrint",
-      "published_at": "2026-08-19T14:35:30+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "1ec8a409c90ca5fb",
-      "title": "Video | Japan Defence Minister Shinjiro Koizumi In India For Key Talks | What's On The Agenda - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3BFSjdVQWRtQ3k0NV96ZWFfNWVwUWs5XzR1OE1fTkZScW1TWnA4eGVoMFdNZUpyb1FKT2ptcHB4QVBMb3F2Y2Y4TEpCUVJLcmx6ajRyeU9JMVpPRG53bE1zWG9CU2R5eGVfQ3ZrZ0FKaDZaVDdObWdMcndHN2hSOEhsTmdlVlh1aDM1R0RwZllGeGtITXZQTnA5NVNiLVU3MFJVc2l4eHVFbHlfMzVoVTI1REVETDJMaXc?oc=5",
-      "source": "Google News",
-      "summary": "Video | Japan Defence Minister Shinjiro Koizumi In India For Key Talks | What's On The Agenda NDTV",
-      "published_at": "2026-08-19T14:16:11+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "f63d1d00a1bf40eb",
-      "title": "India Boosts Defence Self-Reliance: 405 more items to be indigenised, covering Su-30MKI, T-90 and key weapon systems - organiser.org",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcWhHSHFheHNqeFlDRjJ1c0RSNVlKOHplX0xaVUF6S1l2aGJjOVBlbmZwblVWOTF1Z2pCcmVoQ0xKZWFsR3hBUG9ORmlVRkowcU5NNjhyajVXMHRONC02WTFnY1Y0dmlZODVzQUtMZkhiVG9vc2xpdjBGdi1mMnhFSDA2ZmxOejJJQTBzbXphNTR3ZjhpRUNIenNpTnRObkJWY09iYWhlME1rN1l6Z2lEb1Zla19KY3dmcU5xaG1JZzRHckJQM09PTXE5Rm5rbEZpSGFnT20tVGIxV3hBUWQ1OHoxa1BDbDU5YTFBb0NIZnN5MWPSAfgBQVVfeXFMT2ktTEtCd0FDTUtVdW9qQUlaRVY1YkVEX2pneUFrT04xbGoyenRLZUp4N2tNWHhYSk5oZDN1UER4ZHI2RjZEX2d2SEZtb0lRaG9ZNlJLTU5tVE9JazJTNUtZTUVxVkxuejJRTS1EQzcweFJWSGd6ZkdQMXJLbmN4MjlaVjhSZlVKYjZVUk5tUE9xeXM1c2JQSjlJRXJDR0hwMzFlc3ZmZ2RiZ2FrVkc2UjU5bjEySVhiMEhHRDlJc080LUZGRFFvMU5MVDA4dUVHWTJmOWZ3eVM3MGVxbzhjUzJleEVwNHExWVVvQ3hoeFZobWJ0VUh3czk?oc=5",
-      "source": "Google News",
-      "summary": "India Boosts Defence Self-Reliance: 405 more items to be indigenised, covering Su-30MKI, T-90 and key weapon systems organiser.org",
-      "published_at": "2026-08-19T13:56:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "efc38577263ea873",
-      "title": "SSB jawan shoots himself with service rifle in Bhopal - Telangana Today",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWVlRc0d5ZFFGQTN0Q0FydTdfUGxWNmdmcnBQNzEyUUhrQkxfcWMyVGRoUEczNGU5ZzFZYWFjN05laE55TkFHSTVXbjgzVEJEVXpQQU5EalVRbFhoQ1F4bnJqTnJiSmJfNmZEbk5xeFdubTJLRC1jem5Qb2dtTy1uYS1JWFRnakE?oc=5",
-      "source": "Google News",
-      "summary": "SSB jawan shoots himself with service rifle in Bhopal Telangana Today",
-      "published_at": "2026-08-19T13:54:01+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "2e0c09f5a20515a2",
-      "title": "India-Japan Defense Technology Cooperation Hinges on Industrial Endurance - The Diplomat – Asia",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVEdBcWprUTl1dnZkaHRNLWluUnlBV2szcC1qa25mSnk3Um5WVDhlS2RvVjNTekJCbFdnVlh3QzRuRmJPMlBJR1VIejB0cnFLQVJrX0owbjJ2d2dvRjhQazRBV1JPU3FUUkthdUQ0NVZINk1lR0hNNXhhSVBjWS14LVFYc1haNVRjSFhmeTQ1Vl9LNVVTWW81dkF2dkx6Z2RTMTlMU3pweU5UQQ?oc=5",
-      "source": "Google News",
-      "summary": "India-Japan Defense Technology Cooperation Hinges on Industrial Endurance The Diplomat – Asia",
-      "published_at": "2026-08-19T13:52:08+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "97435dc044c94c53",
-      "title": "DRDO invites private firms as long-term partners for missile, guided bomb manufacturing - The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRnp5UjJmY19IRDlwVk1lUkRqdzVJTEJ3RWJaYW54dGRjUDZuajVlcDAtbGVCclZlajN6aHRuRkVLN1JrS2gtdkRuWmhnV0xndEVOQ2NHUnlPOTkyNEt5NlNYT1hreEdsRzFBdjRkX1lZLVpIXzFTU0V2bk9YUHpDY0Q5bG1iNWs5b0VVRnhFVkFCSTFQSG93ZkRISXoxNEhDMHRDQW5lYkhKZXlRTWlXaWdxRTNCQnJSaTAzSHF5WWRXVm9FR2p5dW5tOUzSAcwBQVVfeXFMTUZ6eVIyZmNfSEQ5cFZNZVJEanc1SUxCd0ViWmFueHRkY1A2bmo1ZXAwLWxlQnJWZWozemh0bkZFSzdSa0toLXZEblpoZ1dMZ3RFTkNjR1J5Tzk5MjRLeTZTWE9Ya3hHbEcxQXY0ZF9ZWS1aSF8xU1NFdm5PWFB6Q2NEOWxtYjVrOW9FVUZ4RVZBQkkxUEhvd2ZESEl6MTRIQzB0Q0FuZWJISmV5UU1pV2lncUUzQkJyUmkwM0hxeVlkV1ZvRUdqeXVubTlM?oc=5",
-      "source": "Google News",
-      "summary": "DRDO invites private firms as long-term partners for missile, guided bomb manufacturing The Tribune",
-      "published_at": "2026-08-19T13:22:27+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "5d696ce6aac278ea",
-      "title": "What Is DRDO’s New Tactical Missile Programme? Everything You Need to Know - indianmasterminds.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSjB2YnJ1bTlIdjAtR281dHFjbDdjWGszb2JyYVJXZEQtcFIyS20yNU5VdzRyMXEzNFdlT3lveWY4NmNncG1NajVFa3p5bWNXMjN6eTQ5Tk1wVmF4c3ozblNyWVhvV1pRX0RNN2NjRzU5cmQyd2dqa2ZEOEl1NWVJQmxhZERJUWpoMG5HZkRieU9JRF9hMGZ4WEQyV0FNRmFFeV9LRWc0dzBrT1FrbEkxeEtZNDJHdFpEZHJsNms3Tlo0NGExeWh2RjBHNjQyZw?oc=5",
-      "source": "Google News",
-      "summary": "What Is DRDO’s New Tactical Missile Programme? Everything You Need to Know indianmasterminds.com",
-      "published_at": "2026-08-19T13:04:38+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "32cc0c2259800e7e",
-      "title": "DRDO Opens Strategic Missile Manufacturing to Private Sector: Impact on India’s Defence Industry - SMEStreet",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSmFlOGg0Ti12VkJldkFBR05kcktBMzB3MGhSd3pDNVJFNV9fUmN0MFdqaWliZXhDSzJKcXN2V2hpWFFXaVU1c3QyNzlGelYwMjBaNndpb2xTNlBSNkxMWHpXenZOSi1CQWVoaWc0aFJqMWxWYzZfenRUc1Q5VlNXRWoxNzd4Um84MkpNV3VsLVRpWXVadmI4SVc0Wlp0akJlTU5CYkRNOG5nUDJKdlRMXzVLYldTOGdZWjlBYy1zeTM2Tzd1WDF4X2U2NDRrS0poR0VOV0hDZUZxUUoxREQtRW1JdFRYYWkzLWZobnIzUlg?oc=5",
-      "source": "Google News",
-      "summary": "DRDO Opens Strategic Missile Manufacturing to Private Sector: Impact on India’s Defence Industry SMEStreet",
-      "published_at": "2026-08-19T12:58:48+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "52ec0851f6693411",
-      "title": "What is ‘Positive Indigenisation List’ of defence ministry? - Manorama Yearbook",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUZuY2tTc1FNbHk5T2RoanM2eEJ4SkVSdFNYUUhPazdPbDE1N0NGVVNSSEJuWmN2NHJCX2k4UEgzV244ZmpHUV9ZU29DZXAyWnlqSVdyek9qbFFyNFJ2TFpCRGRYVHNVOHBiaHlxSXlXRjlCNUVpMU5SbEhzTFMxWnVub2NCYlFXby13SnBFMjZqdlFPVlBxeFpvQURacjJiLVhnTnpZZThQdw?oc=5",
-      "source": "Google News",
-      "summary": "What is ‘Positive Indigenisation List’ of defence ministry? Manorama Yearbook",
-      "published_at": "2026-08-19T12:50:07+00:00",
       "category": "Defence",
       "tags": [
         "Defence"
