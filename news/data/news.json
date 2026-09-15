@@ -1,16 +1,784 @@
 {
-  "generated_at": "2026-09-14T08:03:48.037859+00:00",
+  "generated_at": "2026-09-15T07:58:59.474708+00:00",
   "items": [
     {
-      "id": "2f08a6a018be8330",
+      "id": "313a45bd1925492c",
+      "title": "DRDO-industry tie-up can make India global defence hub: Rajnath Singh - Asianet Newsable",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRWZMZlZncWk3ajFqUF92czlSUEpIUndNZHFFVVBNLTBEZy1YUnhrcDVJbkM0SDlKbVZpQ1h3SXdyank4TEx2WWMwYnZTZWtubmRJNndCTm84Mkk5SFBaZ0x0Ykg4VWg5Ull6aS1ta1Rncy1IOUV6YkMyMHpXWUlfV1dwb2tfMTlJMnlVNnpLdTcyM3BkMm44UXQ0ZWwwejdfbERCLWZSWkFJdE1SVDdRc3hLS21INnBVTWFjUGViZllsY1NrWXfSAcsBQVVfeXFMT2xWd281Yy1vOVJoSllPTXBNUjJnMHZnaFlJek9sclJJbmY5RWY0ck1mMUQwSlFDNnBtNEdKaDVCVnZJT1NNUlRuZDBlaEI5LU1pdFNKb29DZ00yN1M5cDVxY3ZJd2VUNm4wVWZ4bTVHWTZzbjk1TkFMZ1JpUU5rc3QwV1B5QVBab0U3NVJBRG9mdjFIOU40amZFWnhsckR2NElIU1JwQjljUHBPd0FsdVU2MDIybjI4a0Qzd1dtU1hIYUtNanhhSlNrMTA?oc=5",
+      "source": "Google News",
+      "summary": "DRDO-industry tie-up can make India global defence hub: Rajnath Singh Asianet Newsable",
+      "published_at": "2026-09-15T07:31:40+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "af3dabc2dfa056aa",
+      "title": "Does India still need Russia’s S-500? How its own missile shield is changing the equation - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT1lpd2N0dFl1RFRtcEtodHBEb1ZsSzJKbzFDelVIckFrMzBQaUp4Vm9nci0wQmJnUjFRa1pYUTBuN3Z3YXZDbkNkbWdGSXFfSVdadWw1UEZOQzhmalVzQ082czNrdkR3eWVoY1k0X2cxWkp5akhQRFlOckxoUDllUmg3Tl96VWV1NW5aQUIzc0R4aXFBRW1DVFVmbDJTWFlHQjZIU196eHl1V2VRdTA3R3dKdEY4RVd2X3VkQjg4Mi05d2JBcGhpcF9BY3g3RlZxUWEyTTlTNWlBUXZLS2VZN2picUxMdUxWdk5kX19zbURBMmk00gH6AUFVX3lxTE14eVZ0MjZFLUtwcUdFNDNiam1rVERpZnZSSFAxTmd6ZGw4anU5RUl3UDRwLW92dEpJa05rQVh0Si01NFJ5QjN2RmR0TVRrZTR1ZjNEdkZjWUlvV2x2QjZMVVAxMllpbF9haXBPdEU4MWJhaHhPcWc3dTAzX3ZqWUdKLUJOUTV6RHlWejFhVTBVSFd5blVSZDFhWEtJYmFXcWVHUFB5Um1yMlBFcjFxNHVOWGkwQlRSbmNFY3ZyMFcwbk5VMGNoV3I2MUl6MlY2ZVZhRmk2SjNxSjlQeWFCQnM2Z0FvUHdGQnd6RGU5TFBfYm1UM3p6XzJlZ3c?oc=5",
+      "source": "Google News",
+      "summary": "Does India still need Russia’s S-500? How its own missile shield is changing the equation The Times of India",
+      "published_at": "2026-09-15T07:09:00+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "f7da163380ee5477",
+      "title": "Rajnath Singh: DRDO-industry tie-up can make India defence hub - thenewsmill.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc0g3SDlxLTQwcEd3TWhuRExBN0txcnVqS0VrVDRMSnhfN3IyTTR5eXAzMWhyTGJhbVhwRlV2YnNMVFkybEREOGdLb1l3bDFNbm1LSUdyMENXQnUzaU55ZGQ1bDhPcGZEanZNRTdremNNUkE3VWhWMUV6Y0pwYzB2QnlxVDR2bDNqVTJ2dy1xWF83N05iWUFaYUpR?oc=5",
+      "source": "Google News",
+      "summary": "Rajnath Singh: DRDO-industry tie-up can make India defence hub thenewsmill.com",
+      "published_at": "2026-09-15T07:08:07+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "9bda472d9a930dc6",
+      "title": "India, Vietnam Step Up Defence, Trade And Technology Cooperation - BW Businessworld",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcDBPdk1RcUg4OW1xRkg2WV9GeFFRb0hXVkJpcWtPWEpQVEJ1QVdQQWp2Y3lYeDBNTlhYQTY1VTVIR2k0ejdGMDNXS1hYWEZZZUdnQXJpWUtvQUs0dkl4N2ROeXMxTzU4M2dsNWJjYUZDOXFXYS1wQV9FS3p3Mi03cHhHZmtXMU1oalhyeVUzSjNoQWp5RUtXQTI5aTFuMjRTYlFvdlVtb1Zsdw?oc=5",
+      "source": "Google News",
+      "summary": "India, Vietnam Step Up Defence, Trade And Technology Cooperation BW Businessworld",
+      "published_at": "2026-09-15T06:13:05+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "ffc1aa9513889988",
+      "title": "Solar Industries, Data Patterns, MTAR Tech, other defence stocks drag Nifty India Defence down 4%; here's why - upstox.com",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYTFxZGJsME1UV056dE1Yc0RpejF0bzdmYlkxejJJV3hQMGhhQU1hWjFuSHZmRmRPM0JackVqQjEwUThQTjBENFR0ajVCc0h4OVR2TkxIS0NFYXB5Zk01MDkzeVEycXl6cmVGOUQ3NEsweWZEQlpKNmxDa2lYZ2ppSVZDQUhlbWpXQV9obmZLTzdhZHJfeEQwVDNxZWRWeVZXNVRqaV84OGJ6LUc3dTlPeTFseWtSeXlYQjU0N195alp3R3lXQzRCMHRxUlA2bnFjWEIwT0dhRmhtMnYyTDlKR3ZtS0xNYlotX1NfQkZaVi1FdlJpVkE?oc=5",
+      "source": "Google News",
+      "summary": "Solar Industries, Data Patterns, MTAR Tech, other defence stocks drag Nifty India Defence down 4%; here's why upstox.com",
+      "published_at": "2026-09-15T05:36:40+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "5c1517d2a855ebdf",
+      "title": "Amit Shah's UCC 2029 Plan Faces First Test Inside NDA: What JD(U), LJP, TDP Said - Times Now",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQktEUVdWVkNWVkNqNmdYR25nbkx6R2s3VjJKNmg5ZnF0OUNIREdHajRrUXNBWVFrbDU4T2RuaF8zS0llelktSktSdHJXZ2N1eUNDcktXcGNJZnhFeHVJVmIxVUxSNUhYQlBrTXgwOEwySHVnS2pmTzQxbThfUDcxd2F4c1QxRWRGbms0aGFZRk1nX3U3b3Fjc1QxY0ZsLXlUZzlrbmlmTHRpVEg4MkJvQmMyTHhrY3RodkIwZ0RFWU1lZFhfaXfSAcsBQVVfeXFMTXByT1lPZk1NNWV4NEhEcUo3S3B4aEhsZ2NBWHRsa1Q2bkl4aUVodW1WRkhvN0Fuenk4dEtNNWxyaE5PME1DR1BTWld2YzczTUNkQ0U2MFJ1SXB6ZUxNb3hIa0lkWl9qYzIzSTNLd1JrUmhaTFpQb1dNdnlPRS1BUFhmSzU5WEtJTkhZSlFIRUdKT29fWTQ2QkNUd0ZHQXZfMHpHZjE5aVhmREljMHd4S2NIU0dSSng0XzNpRlhXTlN4RGNkaGNsc1pUX1k?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah's UCC 2029 Plan Faces First Test Inside NDA: What JD(U), LJP, TDP Said Times Now",
+      "published_at": "2026-09-15T05:18:57+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "65d9add45d738d43",
+      "title": "One health, one future: How Ayurveda is shaping global wellness - government.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSTF4RVZRWDNZdFRYb1ZqNm16cUpxZU01WlFNNHdiQ3NPNFB4TUllQUxvQzc3ME9lcDVQR0QzSi1hbWlOaDBjVkpxQWc0bGx2UEh3QzYyeC15bWRtOE9kVXVrR1FxLUxlcTF5QTV4bmVZSmRzRWVHZ1hBdHlDLVhBeHA4X21VVlBYQl9VM21mOFpBbXNOWmN5V295TERtVmlIdEI5cjQzY2hkMXlwOWYzbHJfQmU5d05RVVk2ZkFHb0JUXzVZRFlF0gHHAUFVX3lxTFBJMXhFVlFYM1l0VFhvVmo2bXpxSnFlTTVaUU00d2JDc080UHhNSWVBTG9DNzcwT2VwNVBHRDNKLWFtaU5oMGNWSnFBZzRsbHZQSHdDNjJ4LXltZG04T2RVdWtHUXEtTGVxMXlBNXhuZVlKZHNFZUdnWEF0eUMtWEF4cDhfbVVWUFhCX1UzbWY4WkFtc05aY3lXb3lMRG1WaUh0QjlyNDNjaGQxeXA5ZjNscl9CZTl3TlFVWTZmQUdvQlRfNVlEWUU?oc=5",
+      "source": "Google News",
+      "summary": "One health, one future: How Ayurveda is shaping global wellness government.economictimes.indiatimes.com",
+      "published_at": "2026-09-15T04:13:11+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "00bc8c6a92cebd63",
+      "title": "BrahMos important aspect of India-Philippines defence ties: Philippine Foreign Secretary - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMjczNEZCSGtEdFpycjVjMzZqcmpha05YdXFtb0NWd0d5emZ5MUVMaldLdS14YzdvazVlSjc1OUtDdjBlWUtDbmtVWEpmQzFRVS13OFZDTWVuT09WbTI3aU9EM2dUSUhXUXd6akNjYXl2X1pRYldNMG1ucHZwd3Q1WEgtVFdkSnltVEZ3U05zUGNfNGpxaFlTb3VNUWU0V1hGZ190WXJYemFCUjZLNFl2dk40NVFjN3dMTUJBVHFOT1NJWlpNSzVrMVFzSDhRWmNjTEhpWm5zbw?oc=5",
+      "source": "Google News",
+      "summary": "BrahMos important aspect of India-Philippines defence ties: Philippine Foreign Secretary ANI News",
+      "published_at": "2026-09-15T03:48:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "19b1e39f2f132ada",
+      "title": "Landslides hit West Sikkim, SSB rescues residents - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZlVfTGZOYVZ0alRyYnZablc2V3dXMGpIN1VNY3UwNUhEbGk4QndtTG8wUzcwRWotTEI4QTY0dkM3aU4yZEt6eFN4RkxtU1FFdlNEUU1NejQ5Q2tNMTlrRjAtQXR3cERwVmJvYk9vYllyRjdsVnNrV1hxY0lpTUh3d241TVBZa0d6V05pNHMzYWHSAZABQVVfeXFMUGZVX0xmTmFWdGpUcmJ2Wm5XNld3VzBqSDdVTWN1MDVIRGxpOEJ3bUxvMFM3MEVqLUxCOEE2NHZDN2lOMmRLenhTeEZMbVNRRXZTRFFNTXo0OUNrTTE5a0YwLUF0d3BEcFZib2JPb2JZckY3bFZza1dYcWNJaU1Id3duNU1QWWtHeldOaTRzM2Fh?oc=5",
+      "source": "Google News",
+      "summary": "Landslides hit West Sikkim, SSB rescues residents ThePrint",
+      "published_at": "2026-09-15T03:45:24+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "f767ea960db33d56",
+      "title": "UCC push exposes differences among NDA allies ahead of 2029: JD(U), LJP seek consultations - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWkx0NkZaSHM2NjAzUGhZVGI2MGpZXzF1MzFmS040aFhTQTRfQ3BjamxwUlJncmxDM3lTUGQ2SEhoSU05dmRVaERYOXliRURsbXpOekswVDJjSU5YRjhXR3FISDV5dlN4ZXY1cTItbWdQTzdTVHBTYU1BQTU2cm0yM3pZSmJ5XzVYU2NlNS1Nck5hUGVvdEZSRjRoN3U0ZVppMThDU1pKM3NDZGhWUmg0OXJ4aVl4akZvUk4wQ1NNcXNnZW1FWlBscWxQZVNRN0FEQk9lYU90UWIwVGpSY2fSAd4BQVVfeXFMT1pMdDZGWkhzNjYwM1BoWVRiNjBqWV8xdTMxZktONGhYU0E0X0NwY2pscFJSZ3JsQzN5U1BkNkhIaElNOXZkVWhEWDl5YkVEbG16TnpLMFQyY0lOWEY4V0dxSEg1eXZTeGV2NXEyLW1nUE83U1RwU2FNQUE1NnJtMjN6WUpieV81WFNjZTUtTXJOYVBlb3RGUkY0aDd1NGVaaTE4Q1NaSjNzQ2RoVlJoNDlyeGlZeGpGb1JOMENTTXFzZ2VtRVpQbHFsUGVTUTdBREJPZWFPdFFiMFRqUmNn?oc=5",
+      "source": "Google News",
+      "summary": "UCC push exposes differences among NDA allies ahead of 2029: JD(U), LJP seek consultations Moneycontrol.com",
+      "published_at": "2026-09-15T03:20:41+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "0e5b48f1accbf964",
+      "title": "Critically examine how the Missile Technology Control Regime (MTCR) guidelines influence India’s defence export ambitions and joint-venture technology transfers. – GKToday - GK Today",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNS0ZCTDdNdXN0YlFKc2ViTHJUTDNSY3RaV2daVHFyOU9JQ2tDNW9BWGgyTlBuSG5mbXlNaEp5cWtGbXJyMnJjSkF5dFYwY0Q4QldwSkV6Nm9xMnJKOHpFU19kd2tFWE1RamxNNWRwYnRfN0FlQ28zbTY5TUlsTWlUc1NSbUduV2pTLTFpZXFzNG1QMWNVRy1zc2xaTDBoY184V2xENk9pdUdLUmRtaDNjOFdmQ29qZU9UVURpTTlRNC1WUllLT2hqMnEwX2lwZnpMWFNfZWF1Z29INURNdUxYV19abkJJYmtWWVlpQWtBSTFVTkd5NklDQVJtdWl5NWJ4aUg4aGh1QlAzWkZybjJ0dU45YXBQcW8zanFUajVjdmkyZw?oc=5",
+      "source": "Google News",
+      "summary": "Critically examine how the Missile Technology Control Regime (MTCR) guidelines influence India’s defence export ambitions and joint-venture technology transfers. – GKToday GK Today",
+      "published_at": "2026-09-15T02:34:56+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "99eee0e74f3d5215",
+      "title": "Centre's UCC Push Sparks NDA Rift As JD(U) & LJP Seek Talks; Key Provisions Explained - India Today - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSnFLbnJrdkFNWXN5dGVxRGp3LTR3ZjNaVzVkamJXbnlxbEliMHVPT3Zqem1FdE8xaTJyWkxuMk1rU3RST1JUMnlpQ28tYlRwX2lmT21jMERyNGppcGtNOWhuWHZzSXJhQjVHN3h5VVpnQlhWNWdmaDZUVW5zZ3QxTGJlR19HZEpGZmFBUlVWWmdEZ1V2N3RhZzREUVZlZmIyamc5QS1hYUdKOGtKWjdxak50Rll2V21pNllyb1NkQkxJczZZRU94eF8xOWV2UUp6V1UzcVFCV1DSAd4BQVVfeXFMTVFxNGJRZEZTSkxISnd3MlZSU0VBM0U0UTFtWWItS2xPQTRXQThCcXZqLThXSEhmREd3N1A2SjM4U1pRaUdqaE5TWkpjUjhTNTJxWTUwVnBRYWJYVnp0aHhDempvSFM4MkNzTmozQ3R3d3Z4Rjc1Q01VbGJYQjdsWXlUbFA4dGxMQkx5emhHbUxoQjZ2a1B5QU91WmdCbGdNN2l3OWcwVHd6Z1lpX3hPdWQwRndMODBoQ3hTYVY4blVFazJUX2p4ZkstOUk4N0xvTjJ1ME90Sk5TWjZGVlNn?oc=5",
+      "source": "Google News",
+      "summary": "Centre's UCC Push Sparks NDA Rift As JD(U) & LJP Seek Talks; Key Provisions Explained - India Today India Today",
+      "published_at": "2026-09-15T02:33:52+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "1bb21820dda2d1be",
+      "title": "'Could have died': After viral crash video, Gurgaon biker Sia hits back at driver's 'accident' defence - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPQXVLbVp3bmtydHJuZmVjTEh0U1QzVGc4RVFvbnFfMmpqNzRLcDczb3dlT2pUamUwVld3NjNJV3VWUGl4UDR2N3kwTlRYQW1HbUN3cm80ejc2elZkRnV0NUpWY0dSX0hiYUNoeEZRLXBaQWpzNkZ5U1kwcnNKSmdpUk10Unl2RnJVZ3p4Y21LRlhNeVVtdzN0WFhQMkNhUVl4VDJFdl84eEQ3SmdwR0pvUzB3eWtLYTVlc1ZuRFpEY3BsWjhqREkyUWtYOXBDVmJNcjlmMkZQUzQ0SXROcVlMYktTU2JIejdxTmFzdnNya01UQmtHZ2xmcFdKTE1sTlHSAYQCQVVfeXFMTzNWYmtMNENxdGhHY1hrYWMzUlN1eE85OW53TVRXUy1nTDJJREMxVFhCUGNSN1lPSWxWSFdxSGJ6MTBFZy1YNnBvY3NnRGstMDdRSFRaVFZFbEZiOTVSSkhMb0lWZlZZeTUxbC0tQ0FnRlZnZXpneS1vT2lqTnhFdkpGVUgyUThqMlNOYk9URzNMMkw2X2tLZXpxMGR1RkczWThfQXUwd0RWLXJzamFJekcyaWM1N0NKU2k2aGpfUEkyMkt3b0RQVlgybVBENWlMZUtvX2FEWW1nRUN0d2xWTkNCVVZIcmZwRnhUQ2pfM2xrWlFNdlJpejRWV3Z0ODFDLURHa2Q?oc=5",
+      "source": "Google News",
+      "summary": "'Could have died': After viral crash video, Gurgaon biker Sia hits back at driver's 'accident' defence The Times of India",
+      "published_at": "2026-09-15T02:29:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "257d87aa2d2700eb",
+      "title": "India, Vietnam step up defence ties with joint military production, target stronger trade and supply... - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPZkdlMWo0N29tMFNCNTFMSDE2QTJ1TDdzam1hdkpseTZ3b0R3Vld4Ni1uQ0stSGtwSlp2UjQwc01GaVpQWlRGdEl6Nlk2UFpuTWdYRk5EVUdiYUF0UnVIeU84TkJpLV9HcWtVX3RqTmVlbXdhNkhscDFaYWZMaXBxSnpzUnRwQ0FVQXdIRnEzYUNDNlRZZEdwMlZBS21lWk5EMjJ6ck5yS2c0YlFRTVVER29YRTZLaWZPWHJ0dzlkb1k1MUpjZ2l5czVOWEZRTkpUODRRNmxNNWNFSmw4VVVMLXlFTFRQVUZYeDd1N0lYNGloQzY2NUE40gH8AUFVX3lxTFByc1BFb3hQcGE4ZTFHY3NhV1lLUlJGdXVuenIyREpkOW9SX1BIOXhDemZIV1JYT3BNU3BkYV8tS1NONWhmWGJNd2lxcFVrZWtwYVlrT3dVMk9lQ2ZqZVBGNmJMT3Q2Q21rdkJaVHdyN056VEVROGFlOEc2X0NxUFNWczdKb0Z3NTJ2em5VNVpoSm9fWUEydHB0S0lWZHQ2R25NT0hmNWFKNW9lMnQ5WXQ0OFlUZHczd3RwRlBtaFNNYlg5RDlGVWJfV0d1VmV5aDJMTDA1MlYyTEw4ZlNJdkE4UW9fY2V2bkRsVkhxR0dIbU1hbmpMVkpDTjMxTA?oc=5",
+      "source": "Google News",
+      "summary": "India, Vietnam step up defence ties with joint military production, target stronger trade and supply... Moneycontrol.com",
+      "published_at": "2026-09-15T02:01:35+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "718bf8148f8c97ba",
+      "title": "Uniform Civil Code: Key allies TDP, Sena back Amit Shah call, JD(U) says not in Bihar - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWlQtWGhzY2RCZk04Tmk1LVFsNDdLTW1WcUJXNXNJbFJwRmluazNRazBSLW51dVdfaFVScEV3VGc2N1BCNnFEM3llcU4xR1BfT3JHak92dVB0S3RHTzFLLUE1WTV2M1lPZ3hhZElQSmJvbmQzR0tJdEc3S3lzVVdfQ2hMNHZiYzk1Ulp0S1NBMUN2bjQ4UGZzcDVXZ0xGal9MSlloMW45WVZxRXF6bHpUb3dtZktqUU9ybDlPTWU2M1F1U1pNSk9Ddy00QVVlODllVWVhMGJiWUNpRFVU0gHjAUFVX3lxTE5mVERwY2pPRllSSnRONHNpMm0tc3lGVWdMc193YUpUR2xudEw4d0pPSUdocmpTWFlHZXNSYlUzamN0d00xVW9UUGFpRVIxQUZRRnhuMUNsaWpZcmNFbS1vbkJ3RHBWOU5yTTFOZEhSd0pLd0dHNWxXMGFhT3RkV1BWY0oxVlJuTERpVlQ1bXpwYjRsa181N1d3SHo4cmRwWTBiN1dESVYwX1FaNE45cHFzUk90YUNlbHBjaWZORFdYd3BTUFl1bkZSMG5meTVEdTVnbFE4OWprYmlVNUNnczNBUlhj?oc=5",
+      "source": "Google News",
+      "summary": "Uniform Civil Code: Key allies TDP, Sena back Amit Shah call, JD(U) says not in Bihar The Indian Express",
+      "published_at": "2026-09-15T00:08:15+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "fa9676d16c54f98e",
+      "title": "India, Vietnam agree to deepen defence ties, co-produce military equipment - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlFkMDBPMHNtWHRqYkZRbzVRR3gyNWo2LTRDQzl5MjBLUk5zZ3ZRcEVPY18yQlJqOTRkN01rMHVuSnVWeUdkX29CVDdWeGNvMFpISEJ6VUZEOTcwV2hBRzlFYTBUMjNqcDU2TlNTYWR2VTlFdzVobUNxdHdYMUJFck5teDdPOHpzeWxSSVBDUE9oclVzbUptZ2xOdUFSWjJSbmh5XzBsTFd0NXRNclhZcWtHR1ptZlpvS2hUSUxsWdIBxgFBVV95cUxNb1VhMVp6UU80d2lIWHVMRWxpbllFaGttaUhna2Raa1VuWENFdHZ1eDdObE9Mc0ZvWWhNWEhPVWk4ZXM2M0VPQ0t6ZEI0UnRMdDdEQ1pLQlRHakR3cVRBNE01TzRoVGFLRTRid292bFFIeXdCLWhKTElQUmlHLWpScElfNzNWSzIxTXc5QkpqTHB4SUVxNUc3am9RWEd4bkdmYXlhT2UteGw3WjEtcDBKZkY1VHdqTWdHTUR0Uy04aVZWRVU2Z1E?oc=5",
+      "source": "Google News",
+      "summary": "India, Vietnam agree to deepen defence ties, co-produce military equipment The Indian Express",
+      "published_at": "2026-09-14T23:50:08+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "8158f63363d92117",
+      "title": "The hidden market behind India’s defence push - financialexpress.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONDNmamNwYm95QlhobmlXb2NSTWhoYTE4WjRRQV9WN3dCclNzZFdEYkQwMGViRkJ5V19WLTJwRzQzQjl5NDR2RHloNTNLTXpHSEtLV1UtM01idVp1NExEOER0czB5VEhxMEpmUlA1T3dObHRBcEw1U2pTSlRuc2FHLW1BOWdDbVZBU2ZrYllTanljWFBnNnhxUC0zbVA4dHhtWnMxUUFn0gGsAUFVX3lxTE5YS0V4cWtiSGg0OXR3dnNDUnUxNmFLY3p0b3JraWxjT2ZBX1Z0NHNYdVdObFNOWXBfaUFaaGpycTFmd0ZoWlBaOEVZcUhxdFd4bW14M2g1RVNmTGFfX1Q3cG80Z1ZLSUdBOE1RSUFuY19Id2E2NzRKQzJmRGx1MUpCYkFDdnBDdGJ1SWp1S2tvQWpRNFVWMUY2SU04SVR4aHhKcFRlcjZwTk9QMnY?oc=5",
+      "source": "Google News",
+      "summary": "The hidden market behind India’s defence push financialexpress.com",
+      "published_at": "2026-09-14T23:32:54+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "b39d3c4182fe7197",
+      "title": "India and Vietnam to expand defence ties - MillenniumPost",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOGRES1JvMVhEZk9mZ05fN1YweXMzaGd4LVlvZDNqalh3MjFYT3U4LXNHYzBPWTF0NThwTm9vdlVHNWVaeExjSk5DNHBnYjNsaklJT2hFZmliMktwUXpBaWNRcXItNnFjUnIzNDNVenpsMS1hZ25yeHBrYWttVkpONEVpT2VxcmZBbkQyeTd1ZjloQdIBkgFBVV95cUxNOGRES1JvMVhEZk9mZ05fN1YweXMzaGd4LVlvZDNqalh3MjFYT3U4LXNHYzBPWTF0NThwTm9vdlVHNWVaeExjSk5DNHBnYjNsaklJT2hFZmliMktwUXpBaWNRcXItNnFjUnIzNDNVenpsMS1hZ25yeHBrYWttVkpONEVpT2VxcmZBbkQyeTd1ZjloQQ?oc=5",
+      "source": "Google News",
+      "summary": "India and Vietnam to expand defence ties MillenniumPost",
+      "published_at": "2026-09-14T19:04:47+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "e1d0b23a3a5baea6",
+      "title": "India, Vietnam to deepen defence ties through joint production of hardware - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOZkJfXzc2allGUlJBdWZJSzFpQ19oX01CQkNoMkFVaWxBYmdIYWpPcUpsN2RPSEVqN2hENnhMS1NxWDlSUmdFdHFuUjB3X2tseE9lVjZ6cC1xTnNUa25WT3lNRjhtN1ZsQWM4cm9tVC1BOXJEa2xoTXBwa1kyZjhGOVNDX3NVUTNxUHlzZ1hDUlZ2eHlMcno1cXFCYWVlTzEzWmZqcEpiZ2Y0T2ozMnhpeUVPemg3QTdEX3ZES2NZNm5vTUFZMzhEZnd6dnZwR21UY1VjMVVhSzZ4X0ktMHZ3WDFYc3NtblFvUXlmZDRqUjFGQkN4X0Ewcmhn0gH_AUFVX3lxTE9IRkhYbXJYdlhiRFVwRGdzblFySDhhU2UxTFFUUVNZTXppRndzMmlIcHVzUm1telZlLWNQMmNXWVRzeG5VZmlmVkNXcEZFeDBCT1pBR0ctX2VVejhaODBPa2ZBWlhzNjhXdEVKdlZ4OElMa2JFck9zYWZibEZmVlBxbzBPNUp2SXpYX05aOEJNSWFlRE93T0xhaC1rQkJTbmV6a1pTdDVfYjdva2N2cVRacEtObkNCUTNVUjVKWjZLSmdDaW5iVURETFVkcjIyR3p3aVJqc0tLUjNzRXdra0xhMTh0NGJGaHZQR1l5U0daamNyWXdyYklodUVNOXNMQQ?oc=5",
+      "source": "Google News",
+      "summary": "India, Vietnam to deepen defence ties through joint production of hardware Business Standard",
+      "published_at": "2026-09-14T18:24:05+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "3ad0e8a760229b43",
+      "title": "Ministry of Defence wins Rajbhasha Kirti Award on Hindi Diwas - thenewsmill.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSURVbk8tN0k3YTN3dU9ZR193Zml6dWJVZ2NQdG5sVDVaVlk3Q2ZYNE1vWkdwSXpXd09WX2JCZTVldFU5U0R1TEowQzBGSEV1V3pnZlNBVV9mN1ZKczViRk02eEFhZVo0ZXFYVGZDWEtJNmZra3VnT0dXdVNiSFF1QXZxNTB1V0NsRVYxMmsxUHBCak5FeS16VFNB?oc=5",
+      "source": "Google News",
+      "summary": "Ministry of Defence wins Rajbhasha Kirti Award on Hindi Diwas thenewsmill.com",
+      "published_at": "2026-09-14T17:17:15+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "97ac1554222d59a1",
+      "title": "Defence Ministry receives Rajbhasha Kirti Award on Hindi Diwas for exemplary language implementation - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUXZrYlY1YlBPYzRJRW0tVnNGcEtMZ2o3dWVBWVBUMGZwSEZELU16RkR5ZDdIOFRpUk1fQ05SSUlxTnVzNndpWXRvUmR0WTZhYXNLM2pSWDhGbS1VZTREOG1UUzZXdlc4aW8yVWRCSWFaYWlUMzRSRnZZb2NtWlE3RU85dzB4NGU1UmdFWDhaNkdoNnE3SlAteEJJdE1KUVYtQWkxRGVCbjREUXE1LVRyTzE4aUlDQUlNOEtJSHFDVVl4aGtZSUhlajFSMGVOSjNhMnFhaTlaN0VfbDZMWmZQYUt4N21ZUDJWQUVTQ1Z4WHA4SmVzcmZF?oc=5",
+      "source": "Google News",
+      "summary": "Defence Ministry receives Rajbhasha Kirti Award on Hindi Diwas for exemplary language implementation ANI News",
+      "published_at": "2026-09-14T17:13:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "11bcad15539ffe9e",
+      "title": "India tests drone warfare at Pokhran as IAF launches first Dronathon - WION",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3ptdjNUVEJlSWJjM0I5V1gzeUdoMU9MYlpXVHo2d0pDTm5jNUxkS3k2ZGE3T0RaUFBGd0hUQkQwUWlmNWRiVEo4dXp3YVNsSTNoQmRhZkFDQmdjTHlFNTVNUlo4cUVUTkVaQ2R4WXd5UXBadGZlLXdyNkk4VS1EeVpSY1hIaE5zbFY4YVZGX3BURndPcW1JUmlkR1lPYVdqQnU1cXQyc1phN0trLWhtSE5ncnQ0LWx20gG-AUFVX3lxTE0zdmxPYXB4SHF5WlU4czAtdFNLNXNGc01PSi1ORFlPa3FXT1Y1cW5STzVfU1lUc1RlVUNzYmJ2TWdqTndYNDE3RmExWFVfc3RIY1BkZHd6WjlLUG9JRkdmVXBVbFRlWXN2NUpMSDIydlhKS0FpSkQxYXpOS3Y1MUFUYXpodUI5ZFFVeDhFSVdCeEEybDNRemR4MG1JU002Yi1Pa2gwT3ZjeEFRcUl2dV9NV0ZhTDlqUVNjaTNVYUE?oc=5",
+      "source": "Google News",
+      "summary": "India tests drone warfare at Pokhran as IAF launches first Dronathon WION",
+      "published_at": "2026-09-14T17:00:00+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "55ab49429cbbed69",
+      "title": "UCC row in Bihar: JD(U) opposes state rollout after Amit Shah’s 2029 NDA target - News9live",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMDNTNWoyckEzcWdVY2JVbE44VmhBYWN2eFRkTzB1NHREMmhlb3pEa2JBeGw2WkU5dEpEODVKSVotaTg2Y2lFb2trbGx4LXJKak9uVU45NTNFb2N6bUt5Yl9VNklYS0NnUjhiUEVERFVFME54OVQ4a3VNS1J4R0g0V3dPSmlnVUpfM09jM0d1aFZrTEQxMkRvUmtxM2YyRGdrb2hucW54dTVrYS1TNDBPQlRlNnFTQdIBuwFBVV95cUxQUFBNeGRiZmQ5bVI3Z1V0UmlqNnhNTmZ3X29JX1IyaXFHQXNSQmluSnBNY29USFQwc3BsbHg5T19mcmYzVXc5MTBxNE1NOGhkZGFFRzVGYkhIZ0FNWklHeW9mZDVrTEZlYkV4ZFRVaGhwSTZYLU1xd2xLejhEOU12bm9tZEJOcmJmXzhZSVBLWG01M0FndktaYTRFY1hIY3ZWX3NtaUpBV29QSHdPS3YyN2FQYzRLQ0VDVnAw?oc=5",
+      "source": "Google News",
+      "summary": "UCC row in Bihar: JD(U) opposes state rollout after Amit Shah’s 2029 NDA target News9live",
+      "published_at": "2026-09-14T16:56:10+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "2bd124a7c1d45d54",
+      "title": "Bihar NDA Faces UCC Divide As JD(U) Opposes Implementation, While BJP Allies Seek Clarity On Proposed Law - freepressjournal.in",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaUxJN0NZUWE4ZXF6NU1YMDhBeUFKd0l0NlF5MkRIYlpiMVJPNVl3WFhNa01Rbmpqb2o1Snc0U0xRaFVwdTBPYVNtWjcwUTNMMEYwQXhLSU5iRXdfMjZBZ2htdjVWT3JoaV9uVFc0LXdXWVVvSUI2TW4ycE5HQTNkMUkyREx5NzNtdzVUcVBUSm1mdWQwMi0zYVVtM211VGlralBRLXU2MEtqOWRTWVlBSi1MSVhOTGh6M2xVRkZzNThKUG8zckl4WTI4TlllZ2ZHVnBBREkxNNIB3AFBVV95cUxOUzdlVzBmbks5a2VjeG5mSERRVnlfZFhwRUR2Z0xBV2lvVmVhUllpNmRPeTBDaFNtRGZzMzFQaFh0eHpDTUlmdEN3a1oyWXFlTEgtNlpPY3dIOF9OWkYybmVkWnBPQWxiLVBNbmtpT0dDVzRwYlFwMFRKYThVVEVtYlpQM3JITm9BWnVxZFp2bjZJUV8yUzNqUU4tRDJhQndNR3RGa3BYRDJ6blc2aXM1UVhrODBlVFJhQzdyR1ZpQXd0cDVuS21QamRheXVKX05sVUhoV0MxV2JhQ2dI?oc=5",
+      "source": "Google News",
+      "summary": "Bihar NDA Faces UCC Divide As JD(U) Opposes Implementation, While BJP Allies Seek Clarity On Proposed Law freepressjournal.in",
+      "published_at": "2026-09-14T16:53:34+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "a98e0593321f8c91",
+      "title": "PLA deployment along LAC significantly reduced by China: Defence ministry's latest report - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLS1FZXdVVURXSndFZTVZNEVJODIyYVctOW81UzFkZ1Y5NERrZ1FSRUFEZEp2MEplYTZLTF9KZXI5ZDJCWnNWWjBNYjgwTmEzcEt1R2ZrNnlwWm1JdWhwRE9MS1B5aHEwRS1fUk9ZMkE5TXNabGR6eU01Q2FFekV2Nk1EWDB0Sy1EXzBDV3pMTWZaWlVFWExKUC0tZWhWV2R3WW1BNkk5Rl80d1NLOVFpN1liWjRTdjNWU19NUkx4a2pDVDRtd2xrek1aenR5NjdGdFdsUlVUaThrd1VaOGl4TndMMHhIbFRQX2p4WHZjRXRyc2NU0gH6AUFVX3lxTE9rQXdJbko2OHdMYzJDR2RKby1MWTZzLTdONDZ0WFZEVkhPZERGbHFMaHlwTGdIMDVkbzBIMl9NQlNGam5vNHd0ckNHZkRLT19IZWRWSkxOdUUxd2V3SmJXSm9fU183Y2NrVWVFUlh1OWxfano1WEUzQU94WVpuUzFEckZ1QjNCMUY5Q2ZoMkxRZzNQX0dsQVZib2hDZ1BlRDhLazBMOW5veWMwRDRDRlZiV2VlcjBBeEJkeDZuRDJxTENNcm9wVjJSNWpNcXRNdC1PYThyeGp0NnVETDFRYUdTQXp0QnVQbmVuVW93b3RrVkZyYzluSUgwNkE?oc=5",
+      "source": "Google News",
+      "summary": "PLA deployment along LAC significantly reduced by China: Defence ministry's latest report The Times of India",
+      "published_at": "2026-09-14T16:38:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "669b74aeb492a736",
+      "title": "India-Vietnam defence partnership gets a major push: Joint production of military hardware planned as both - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPY1I4MzdIcXlvZG5ESW9DajctZk1SdnY2UUhGY0xRWUYtR0xGRU1lcFVMNHdmRkd1ejlXSWpQSjN0WmNFTDNMY3cyaHBxR2FQcmUwYmR0Y0RYZEYwQWs1bl9FTmJIcnhIOFNPajVHSGxLVFgyYllyYlpWa1Q3SnZiREd0UnNLSk1hVDV2UXZpdi1tZ3d3YWwwWnNxUlc2dUFqRXhyUVBVZG5qc21CY2JXSjhGRll1V2o2Rm9XdWxYd3huOUhWNGVnbkVtdUhYV2sxdEhzakc0SmdnWkVydWNWSmd1OVE4amNhNEs3eUdlelplUUVwMHFPSG9tc2RpM2FVR0FSNFl6akQ2RnVPSEJoaXlZZXRpamFycXdmTHFtR0F6b3huNG0zd1d4Ui1SbHQ2YmZRSEdEekJkajh1TnJz0gHEAkFVX3lxTFBrZTZkTXhkUG8zSF8zU2NpLWhldDJQb1h3ZE5NdElNeGFTdHU0aC11OWl2NmJNbUhYM3R6clNGdXlHOVl0Y25tcHU2aE9GdWNGeGpFc05ZWDhCRWQ0MGZsdFFuQzc4SFJIRjFlc2d4bFlrdjY3OGNtSnFGdUk4TTdXWkVCVGRwNWI2UW8xVEMtdlQ1M0I4aEtVbWFWRFltazdlZk84Q3lDY1dabzdYT3hFYjZCM3lDQXcwTUEzQmhKbEhPZDlqVjB4cTc0WjkzVHIwWTdpZkUyUnVNMy1pNnNwQktqa19nejh5MW0xbVZNSlg0SGMzbFoxMkp2MTVNdk9xYk1RTF9qUzJkZGdQUGRuSHpBdUlRRTg4d2VYRUZOSDktaGpmaWc5Qm5KZDJaQnZDTG9hRUFuZ29CZVJqQS0zNGFXdw?oc=5",
+      "source": "Google News",
+      "summary": "India-Vietnam defence partnership gets a major push: Joint production of military hardware planned as both The Economic Times",
+      "published_at": "2026-09-14T15:50:17+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "897e1c29bb95e59d",
+      "title": "India, Vietnam to expand defence ties through joint production of military hardware - Press Trust of India",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc2V1ZVVBRXJrb1BYUEdwWnFldkhHazEwaHNhQXFCS1dYR09vb244QVM3bVM5cDV2dWl2VllPM0IyS1JoYU0tTWNhLU9tdDI2a20xaEJYUzdvYnNnVWE4MzFwVk5OY2N0MHJUMXhRb1lvZnlzSmhzTjdCZ2J5RFRpc2tzZThQSUlXWGFUMXY4emo3UzZ1a1lJME5Ga256UGtjUTZWUjY3eHQ2NXJvYnBFeWU5RWpxRUdYVWZhb2YxWTRXY1lxTUFWRw?oc=5",
+      "source": "Google News",
+      "summary": "India, Vietnam to expand defence ties through joint production of military hardware Press Trust of India",
+      "published_at": "2026-09-14T15:39:19+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "966e41848fe57b46",
+      "title": "IAF launches first Dronathon-2026 at Pokhran to test India’s next-generation unmanned warfare capabilities - defencewatch.in",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxONmxZdngyWGp4dUt4Z0RWcGpMQzFWMXNfXzBnVnBvU29ZTE91OWlCS3AydHJmd1lRU25WQV9qZlJzdC1FR1BkNTFKbXpyX2N4Q1Z0VW54N2c2MGJOdUV4LUlNV2JaOGFnMzR1LVpHclhiaTdVUGVwYnBhRXRxcjVHcG1SRDY5T1Y4cXQ1dGY1XzhEVEMzcjdEVzlobXE4NDFUZ3dKU2p5TUhEZ3FYN29iU050TlpBT0MwbTB1T3QxRjlwQ2Z6N3o1OEVqZ3NkM2dGTGd3WUVzdGc3VDFwOEREQ1YtWDR0TDlfeThUNXRoZjRRLTBkWnhmWFdYbmlBVnpBeGfSAYICQVVfeXFMTjZsWXZ4MlhqeHVLeGdEVnBqTEMxVjFzX18wZ1Zwb1NvWUxPdTlpQktwMnRyZndZUVNuVkFfamZSc3QtRUdQZDUxSm16cl9jeENWdFVueDdnNjBiTnVFeC1JTVdiWjhhZzM0dS1aR3JYYmk3VVBlcGJwYUV0cXI1R3BtUkQ2OU9WOHF0NXRmNV84RFRDM3I3RFc5aG1xODQxVGd3SlNqeU1IRGdxWDdvYlNOdE5aQU9DMG0wdU90MUY5cENmejd6NThFamdzZDNnRkxnd1lFc3RnN1QxcDhERENWLVg0dEw5X3k4VDV0aGY0US0wZFp4ZlhXWG5pQVZ6QXhn?oc=5",
+      "source": "Google News",
+      "summary": "IAF launches first Dronathon-2026 at Pokhran to test India’s next-generation unmanned warfare capabilities defencewatch.in",
+      "published_at": "2026-09-14T15:39:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "166e0773b7506804",
+      "title": "Defence Ministry report highlights DRDO's push for indigenous next-generation radars and electronic warfare systems - defencewatch.in",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQ0VSTElwZWMxak92dElsN01BVlNRUnZLR3Q5LW92elQ4OGJEcGNrOGl3azFiYWpHcXVsUzVxRnBIUDdDQkZKeTFneFRUaV9sMm9jcDQ1VkJDX0R2ZDI3MjQtUXRQbzd4UHJ2cXFIU2NpdjdCUjE5RWZyQ0oxbjRxUXhrY0M2RGJHVXhPcmNNQjRfckNMaUc1c3Z4WU8xOFJkR09wZzFzUTl0VzZRMjZuS19qbmJLeldUNVQzU19fYUNILXVuSEc0ZzZWblpNLTNDUllSSWpycUpTV0tXbjQzRzdoOVAwbG5ad1ZkZHkzV0F0b0plbXF3WXM2V0ZyQdIBiwJBVV95cUxOYllLU2ZYZ1NjZ3pDWG05Q3RibE1rTTBzaXFVdXdpQ1FMeXJWUWVRU3JzUGF0blFwM0pDM09EaTF2cElSblJlTk4wM2ttTG9wN0pFd21JZTVmQVM4R0VoWUFsS014NWZUang1bTNNTTB0T1JVWURuQnN4U0QxbHhqWUpBOS10ZXZLZ3FhQ2FRWm9nM19hQ2NBR0FiLW1LLTY0RGwtdTRYcmh3X0ZWMWdCZEpETnJBcmpBR3FYbGJxLWhmRWpwSlA4bGlzRzRxRjlZYVlnVHZsUkJ1d0Uxc2ZENFgwLWR4b1VkZEk0akxSbWNjYWtsUXJCQS1WVFBBQ0F0NHNuRTZrZm1PTzQ?oc=5",
+      "source": "Google News",
+      "summary": "Defence Ministry report highlights DRDO's push for indigenous next-generation radars and electronic warfare systems defencewatch.in",
+      "published_at": "2026-09-14T15:29:04+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "0217b8828376a6d3",
+      "title": "DRDO’s New GaN Technology Is 300 Times Faster Than Silicon: Here’s Why It Matters - defence.newsd.in",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZXFpek1pbEdKZzFYQk91dTFWTkZYUm9KN201Nlp0TFB3N2prTDM1dnNsTGZQQ0pOSzA3YlRSR3FHcWtTc3dLU2VSSDQyUmJjbFBnVktiRmpnNmp2R3dVQkZxVVAxNUsxRE04R0VJeEJka2JXSFo1U1pKQzZ3N2dHOWh4cUljcllSM1p4Q3lTbkZtSDdtTV91OElSTGcyV01pY0N2Q0FmZU1fdmFKS2JGZVBzbzdkT2df?oc=5",
+      "source": "Google News",
+      "summary": "DRDO’s New GaN Technology Is 300 Times Faster Than Silicon: Here’s Why It Matters defence.newsd.in",
+      "published_at": "2026-09-14T15:18:12+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "acf7fef645f497d5",
+      "title": "China cuts troop deployment along India’s northern borders: Defence Ministry - The Assam Tribune",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTUJQTGhLMU03TVpYbmN6Ykt5bWpSV09jOXZmbzM5S2tlZzVJb0RwSXp2MHBVNXFGTGVEajB1bjNwY1poQmduUXlKNlNHaF9wTXpHSXNOSEpycWFYR2VVdWRVYkZ2c2dSX0RSY0ktSFBiblJyRGxaMDBvRmdrTUlHMWJUVG5fdTBueC1pdC1zNEZBdWlkYklUcnp2Y3lpOVhfWERnSExIR3c2Q2c1Qmc3N2tneUNwVDTSAbwBQVVfeXFMT0ZtazV5dGlkVVE3OFcyMS01d0xGTGhKTVZCTk9rWUNMeXY4M0FheS1HWGUzR05BNkhFUXhsYU8wcU9mZFFRZWFROEhJM1RJOE9zVDl5ZkRkbVQxc2pyeG84SUVYME9Uck55bkUxcWt0SUZGYWw0Z0FhWXpQTFdMSnB4M19mWVlUWTJ5clRjTUZqdFhGNE5HN3VQTjJvZDNhY28wenZPTGVFampEemFlVFQ0ZnZVN3lnMm5YU0E?oc=5",
+      "source": "Google News",
+      "summary": "China cuts troop deployment along India’s northern borders: Defence Ministry The Assam Tribune",
+      "published_at": "2026-09-14T14:16:01+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "08b54aed477e231f",
+      "title": "UCC across 21 NDA states by 2029: Why India’s Uniform Civil Code push matters - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNU44MV93S1hodzJXYTFwOUptT2EtQjNCdlhtckRmRVZ5MHRBZU92cWlqM0dtMU10NWhSaVpSN1hRSjFlem1tczRuTjQwVmlfbUtqa3BRN3ZWNnoxNi16S050QWk0d3hBOGJRMG1yMmFfblRkaVZma2F2ZG4ybDhocEFHeFNrRE5KS281QWxXMHhnRWxUMmh5Tnp0RVFFaVBNNDdtSHpvWGtlTk9RSWVSNnVpVEZ6SW8yZ0HSAc8BQVVfeXFMTXVlLUl3UFAwVnFqNkd2WUFWdHJNWGNUbExlT21zWnZhYjVRQ1FuaGtEd3dEVmw5aEtURzdIMHJERjVTX1UxNk1WN3NJLVNKb3FEUldzU3AzUVlqQWhSMkc4eWxmY0g0S1pYU2IweEYzRmZaNHdGbU5GM1NUV29pZTBDN3BMMEJ4T2VyLVBjNjkxTVBpdTRsdy0zNk1pMkFLcU5PWWdLV3RUTDVQREtIT2h1ZUlwbEpocnEzWEJ5cDZGOVpsTkdsajJnMGxRYk1n?oc=5",
+      "source": "Google News",
+      "summary": "UCC across 21 NDA states by 2029: Why India’s Uniform Civil Code push matters Gulf News",
+      "published_at": "2026-09-14T13:59:40+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "a3ecef3a414da9e6",
+      "title": "What Is DRDO's New GaN Technology That is 300 Times Faster Than Silicon? How It Will Power India's Future Defence Systems - Indianmasterminds",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaFRwUzFjV0FsN052NTZFakY1RHR5VE01SDRrVkQ2SndOeGFrcHdxdGpZSEZ1bGhVVnNpUGQzTHUyNUFWRFZiUS1XOTJtRUpvOWZTSS1LdkRxUDZTZS00eGRqbllxWndSQ1ZGT2k3RVQtUzlSMXUtc0pHQVZoc0NTakpTdFdxT2hySlljQ1JCQVdTX3VOUXFxbGZHbm0wWmdaNWZWa1lvNEd6c3RNeGdHRjk0am5HOEpWenptRnF0TVNSVTM5TUx2RVFhejNRd0pfWVhsbGtrZXhvWGk2dXc?oc=5",
+      "source": "Google News",
+      "summary": "What Is DRDO's New GaN Technology That is 300 Times Faster Than Silicon? How It Will Power India's Future Defence Systems Indianmasterminds",
+      "published_at": "2026-09-14T13:04:38+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "3993a5f81941c594",
+      "title": "UCC rollout call sparks concern in NDA, JD(U) seeks meeting with Amit Shah - India Today",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObllDcUxCYmRtS3p3M0lFa3pwZXFlNjJPbUJLX1l6YlNfczhXQ2E5eG55TU9YRkJtNmhpVE9NaVpHNGRVZzltLTJPbHhYazFJZzUzWXNxT214LTg2RE1SRlhjUFpSWFQ4WWlHT2VDVjJGbVFkSGhYdzZIcTBkM0tRY1FuS2pCMHhpN0hwUWl1b21tNmlJUUVyYjNVbkFHall6TzJJTlRUeUtiMGFMcThRYnFrSkhkaGI0TWJjOGJxWmFCNTjSAcMBQVVfeXFMTm5ZQ3FMQmJkbUt6dzNJRWt6cGVxZTYyT21CS19ZemJTX3M4V0NhOXhueU1PWEZCbTZoaVRPTWlaRzRkVWc5bS0yT2x4WGsxSWc1M1lzcU9teC04NkRNUkZYY1BaUlhUOFlpR09lQ1YyRm1RZEhoWHc2SHEwZDNLUWNRbktqQjB4aTdIcFFpdW9tbTZpSVFFcmIzVW5BR2pZek8ySU5UVHlLYjBhTHE4UWJxa0pIZGhiNE1iYzhicVphQjU4?oc=5",
+      "source": "Google News",
+      "summary": "UCC rollout call sparks concern in NDA, JD(U) seeks meeting with Amit Shah India Today",
+      "published_at": "2026-09-14T12:57:54+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "2157fe5b3450383b",
+      "title": "17 NCPI MPs To Join BJP, 3 MPs To Back NDA From Outside: Rebel TMC MP Basunia - Outlook India",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMml4SzJrcXBvdmhrdkRzeW4zS0Y3dWl4Yk9fdFZ0dGVWeHJJSkJYMGY2a2xkeTVSMlNVVW9CWlp0YWZDZ3IxYW1YLUtXd3hwNWRJc1RXbXRuNkpUUEVMZ3V2ZE5wZnBseHpBdVBZb2RVaWJpN0ZMNlg5bGN3LVl6dnNSWkhIRWlrU0t3U1hCRzR1clA5SHNNZmxEaFFnLU9vSVRwWFlOY1FWWUZHem9lMG9aVDdrMUlSTkM1WkFXSWTSAcABQVVfeXFMTzJpeEsya3Fwb3Zoa3ZEc3luM0tGN3VpeGJPX3RWdHRlVnhySUpCWDBmNmtsZHk1UjJTVVVvQlpadGFmQ2dyMWFtWC1LV3d4cDVkSXNUV210bjZKVFBFTGd1dmROcGZwbHh6QXVQWW9kVWliaTdGTDZYOWxjdy1ZenZzUlpISEVpa1NLd1NYQkc0dXJQOUhzTWZsRGhRZy1Pb0lUcFhZTmNRVllGR3pvZTBvWlQ3azFJUk5DNVpBV0lk?oc=5",
+      "source": "Google News",
+      "summary": "17 NCPI MPs To Join BJP, 3 MPs To Back NDA From Outside: Rebel TMC MP Basunia Outlook India",
+      "published_at": "2026-09-14T12:49:12+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "65a2c9be7d92fcd9",
+      "title": "From Junput To Nagayalanka: Inside DRDO’s Ambitious Missile Testing Expansion Plan - Indianmasterminds",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQckUySFdRemIyVG1jVDkybmJjWXc2Mk12NlBiYWpmVW9XcUV5cTVwdUZkc2JxOXlEMnFJRzRtajRzOHFXQVQtQ0R6QUdjTDBxUmZRMlRpWFBqXzdpSnI2bzNnUl85anhJR0c0RFVJb3RuWlkzbC1IU1pucUl5anJ1czBzakpoUkUzQTBGQjlqZFdHS1F4RDlGZ1NKeElKcXZHbHRCUQ?oc=5",
+      "source": "Google News",
+      "summary": "From Junput To Nagayalanka: Inside DRDO’s Ambitious Missile Testing Expansion Plan Indianmasterminds",
+      "published_at": "2026-09-14T12:48:44+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "031017521daaf8b2",
+      "title": "EAM Jaishankar, Vietnam FM discuss increasing supply of Made-in-India defence articles - The Shillong Times",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV0hJZGVGcjFDWER5UGU0c2RaZ29xQnpIcU42R21ZM0wwNjlSbEd3VEp2eVVQYy1kbGtuTzhLeXozdG0wdXMtX1QyNUFKZ0p5aFFvUUtha0tSS1U4bHZMVU1ZNHFvRktLNElESmh3dTRLSy1qcVdqU0h3eTNCYjF0cmZBbWlSN29ndVFHa3dCejJyemJPNUpNV2ZTaFhuYzE4eGl5T045QUktX3psVEU1NkRoN28ySGFvTWdYaXd0QldjQzhN?oc=5",
+      "source": "Google News",
+      "summary": "EAM Jaishankar, Vietnam FM discuss increasing supply of Made-in-India defence articles The Shillong Times",
+      "published_at": "2026-09-14T12:32:39+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "b579624b7a9f7260",
+      "title": "Inside India’s Bold Strategy To Mass Produce Astra Missiles And Boost Exports - Indianmasterminds",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYXh3SEpOMVlyUTlDc2JvMmV2Vk5aWlNLdjQtM2I5MHNPS2NqYzdfOWsyNEFWbkNKRi1KVkhxczhqNkRXTmlGbnVxUndremZQcWczM3RleVgzdy00b2VKVFFzbVBEanJ6d3B3MGFHbEktd2k1eGw5YldyRHhaSGdrM19NdXVtcnVqS3JXTlpVT3lGU0tWQThVMUEyQmRSa1Y1TkRqTjlwbzlvdGpGa0VLZlBzREZaZVJybDdNTzdINkh2UWl2SUI4?oc=5",
+      "source": "Google News",
+      "summary": "Inside India’s Bold Strategy To Mass Produce Astra Missiles And Boost Exports Indianmasterminds",
+      "published_at": "2026-09-14T12:27:02+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "1f7ab1d29c432baf",
+      "title": "Su-30MKI: Why the Indian Air Force Flies With Two Crew - MiGFlug",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGJBeDBCc21rWTNSRnRfYlg4enBldXhBQy01Q2MyRU0zR3FiNEp3aDRHX2ZCaVY0MUZ3M01yRGlZQ3N3dzlvSzZFRE1jR0RJLWNLellkYVQzQ210MDNfQWtWNXFmTXI5N0MxOC0zcnNhZDliUmV6aTN0MXFTaXlJNkdjdmJpbjYwRV9nWUQzVGdZVXc?oc=5",
+      "source": "Google News",
+      "summary": "Su-30MKI: Why the Indian Air Force Flies With Two Crew MiGFlug",
+      "published_at": "2026-09-14T12:20:05+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "aedfae6b3e1c4bf6",
+      "title": "India's Defence report: China thinned Himalayan troops, border \"stable\" - WION",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczRwQnVUdV9ycmlselNITzhJRllKVmlMWmJ2aWNCVnZqVmczUnFMQnJka0NjRFJ5X0o2RTFWTzVxQm13MkJFelpTSGl0a2M1QmNidW9Mc2MyNl9DbmhVYnpXNzVuQVJNSHV2T1RsTlFMY0d2VnlHZEhhdGZsY0E1bmxWNzFwSWkzblRISXhIMFZjVWlsdUs4QkRFSXVWUUZkRlRWSF85WkpyZUczclV1dHFmRlpwTEdzWFE?oc=5",
+      "source": "Google News",
+      "summary": "India's Defence report: China thinned Himalayan troops, border \"stable\" WION",
+      "published_at": "2026-09-14T12:20:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "e81996ab0ef03dab",
+      "title": "Operation Sindoor exposed a critical gap in India’s defence industry. How things changed after that - theweek.in",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTWJSdE1ZWWR1QTg0QzFvQU1CMno5d0ZhVy1xb2xqS2dXNkd5MkV6cEV5T1kyTmJUZ0NMMjlVZFNpZWtCdDhnMjB1bWh1Rll6VmpqTW90X2RRMlZybEN4YnNwNGIteUlyLURXM3VIRGp2NEI0SUhlOWM4UUJlTW5OV2tod05SSzB4X19DNEdsZG05LUZWX05ia01TRGd3c21uOWUtcDgwblF2R3RkaV9ReldUbWJqNkx0aElEZnByZzJiTVc3VUNCaWtsMG1KcDJJMHVPUmM1M3RxM1BIUWtUak05WdIB6AFBVV95cUxNUkJxS3RfdHQ2cWlxN0J0bHI2U1BaTndwcW9Md08tdGtVY3pzX3FIVkJqWDZCVFZ4aFBqSGkzTlRNb1BtT2FSa0lQVk8tbzBfNW42RG5VQ3lFTTNtVjBrOGxHZlF6RHdrbmFnT3lHdjNpMW1Sa1VmUlAtdmY5a2xTQ05ZaEdRTmthd3JxZXhNcy1CWkdCWlZiZmVtaDNaQjBXVGJNVmZlSkgyaGwwSzFDVjBlVkMxRGkyc05veldiZFhULThBOVZ6SkV4aDhJam1yYV90WDZHYzZMVFBHLUtVc2U4Tm9kbWUx?oc=5",
+      "source": "Google News",
+      "summary": "Operation Sindoor exposed a critical gap in India’s defence industry. How things changed after that theweek.in",
+      "published_at": "2026-09-14T12:07:09+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "790959ca9ba282a0",
+      "title": "'BJP's UCC Is About Targeting Muslims': Owaisi Hits Back At Amit Shah - Outlook India",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWERhOU8yNnUxcmxDNkhvQ2owbHdxUS1aeE5WTS0tODlKNXlnTjdrbzFCMFZBdlFvRzNURUduTlhMYUJWeGdHZnhqNUU1Q3JDdGNXV2U4eU9IcVpKbHJYaVU1OG1fczhMRm5FRWVldG5XLTZzR0hEZ0dpVldGME9BTWVpNWNWZ1B4RVo4NnEwREU1Y2RQaWdJN1FselpOSjZjLUJiZ3pB0gGzAUFVX3lxTFBRY3BScUotX3NUMkdYaVdLLWI4b1lCc0dhQUl4MkR2TXhPTmF2UkpzYVhDdm9mVE1JVGRPNnVCYjZTeUgwQmZIY3NHSzN5R2dMR2NSMGpiRC1TSFQ4aDRZZnBIMzFLcUlYUFpYcl9tZEd3SUY4T0NvclJtRFM2R2V1d1FOYzZGa1gxREtzSWZDVTcxTlJqQllaZlEzd3NfaXNibHlBS0VrZWVjMWxhNWNMTmxF?oc=5",
+      "source": "Google News",
+      "summary": "'BJP's UCC Is About Targeting Muslims': Owaisi Hits Back At Amit Shah Outlook India",
+      "published_at": "2026-09-14T11:52:56+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "ef8099e71e764458",
+      "title": "‘Country's soul is its pluralism': Owaisi slams Amit Shah's remarks on UCC in 21 NDA-ruled states before 2029 | India News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNcWtEekFhbXllelZTSTRvZ0owakdUUGlLRzJrWkFNQUlOR0I2Nk1qU3Y1T3FFMk9yYkdZVDRiUGJOZ2lvMERnWGZ1WUVUeVdTa0VPS1VXT2JoZkFLdmMySkZIeW5abVNyRVgybkZ6dHpyeFRFYy1rT0pYUUl5MUVSYllsYnNSZU5KUGxZNVRzTVNPbk1jRGNjYTJpLXlaY2tGZEhrMkJxeHVWOXFPSzFWRVBFSUY4eFVuQ1FNY284NTI1V0h5aGc4TV9Qbm1WNGNOQzVOY05kRlVUOHRJM2hOODhlNUNKMTVOY0pGUnA5X0lpMGNRZlhZLXBqRdIBgAJBVV95cUxNTDBKTWt6OHB1c3JZbWtqN2k1OXJpR0F0dTAxanptaGhJVzI4ZjduZFpuMmNQVzFUalVmNzBvMHJsbWo0MXFvRnVkYjlLZERTajBDMGI1Z1hfZDdha1RpWWIzSjZKNzVCZFk2RW04UEhod1Nfa2l0TXg1ZnlqZWd3YUxSUmFtNDZkazJRY0M3R1NreXptT1R0aDl0ejNzVnJ2NnhpeWh4VW5sYXplaUdhODcwaE01bjROYWJoS3N2cVgzOHJrekdNUTdtcXhWRHJzSGdPZG1XYzVXX1g3TklrV200czNLZ19yeUM2X3BjMlhiTmFEMWhzU2xsdVl4TWdG?oc=5",
+      "source": "Google News",
+      "summary": "‘Country's soul is its pluralism': Owaisi slams Amit Shah's remarks on UCC in 21 NDA-ruled states before 2029 | India News Hindustan Times",
+      "published_at": "2026-09-14T11:52:00+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "130b58f7dd32be4e",
+      "title": "West Bengal: BJP rejects viral claim of 17 NCPI MPs joining NDA; says 'we welcome their support, but...' - theweek.in",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSWdlUUdHNFh2TDFDX29pdXVXOFkyaVhqZjBacW1zelBGZVpobVhWR08tMDVzV0V2Q0lSN0E3THlNbkVVN1NKTmJwR0w3LUpZVW82c0hzZmNJUjdZQWxlczhTYVZNLW53ei04T04zTVBBVGt3MzBuQ2p2bzRnQXk4WmxxaW5vN3VWcjJrN1lXM0NWdHcxZ0hremdocUEwdjFabW9FYXJwTVhtT1JUaElvSTV0dXh1VHFGbFhrYW12eEd3V2g0dEFQd3N0UUQ5eHNsY3RyNElfenprcHd5S29B0gHkAUFVX3lxTFB1MDVsOGQxNEU4SG5lVHA3WWJzVE5OZ09pWHotNkxNMWljS0ttdlpxNS1SdU85Qjg3ck1TbktfdEt0bk1JeG1fWEJWVjNZMzlQOEM4bEowcjUzamluZlVkVTdQUjkxSEtJSjkwSmlTUDlIME5IdzRyX21GQnIyNk5DNUpVQWc2RUhJUElQUXBoMDFvTloxSmljVXQ0cVM5RXZ2OHdGUWdoMTBJcmZ2VVpZbHYzT0R6bTJUUGRLS0R2ajVTUXp3SmpiTVFvcmotelgtSjJ3N0ljMTRiVHhzN2hSaW1KXw?oc=5",
+      "source": "Google News",
+      "summary": "West Bengal: BJP rejects viral claim of 17 NCPI MPs joining NDA; says 'we welcome their support, but...' theweek.in",
+      "published_at": "2026-09-14T11:51:54+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "3ad3bfaa84fc4958",
+      "title": "Russia Proposes High-Speed Ivolga FG Train Concept for India - SSBCrack",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaDU4NmtUWm1jTFNHa1RMaS14bTVTVUM1ZmtMUU83U0lfWE5UYnR4V3h6enNVWWc1V1JaMV92NjJtY0ZXbl9Td2t6MGpZOGFfSUxnaGVicXJ3c3BsSXNxTkUzRldhNTlPUHp6dE5keHJYVVQ1VFV0M2FHdUVLODJZTEFSczN4ZWdEbUdDMld4NnE?oc=5",
+      "source": "Google News",
+      "summary": "Russia Proposes High-Speed Ivolga FG Train Concept for India SSBCrack",
+      "published_at": "2026-09-14T11:48:33+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "fcb86ea25587bc04",
+      "title": "Indian Air Force evacuates four NCC women from 18,500 feet in Ladakh - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeENhcDBNWXZhUjZadUkzUWYtNEJjU2pWMWt0c0ZnOXlta3RiMzZkVUwxZ0l2Y1ZSSS11b3MxU2JVS2p1M2FRWTJSdnJKYWE5WHpGaUREdk5Zd2VELTh6eVZKR1FIdHZKWWU4VUF5c1FsU0Q5SW9tZUUyRGRiRUVaakthWUhEMURrMGRrM1F0NFZCZGVWMGp6RWctVmVxU0VZWkRHeElZVkhIZ2ZvcmRyTk1VYk80M2FfMUHSAccBQVVfeXFMTU0tazRVY2FrNE5xdURDTHl3YS1IQlotanZkTWVPQW1NTDJDVnlNZ2VfQktGYl9NVU90WVU4SDFtamZrVkp4SDlQempGZEJ1WnJZOTExWnVCblJVYlVpdnBHbUhDaXczc0FBTnRmaHFXMnRyT2syd25NT1psVm11ajg5eGNIMjd1TWJ5c2tSMUlEWWk0YU1FVWJwZ0w0X1IzLS1DaWRPRUtKRm5MU1BRR3RULTg3bEFKU3Y1ZGljUW5udWo4YzdPQQ?oc=5",
+      "source": "Google News",
+      "summary": "Indian Air Force evacuates four NCC women from 18,500 feet in Ladakh The New Indian Express",
+      "published_at": "2026-09-14T11:47:51+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "2573596972ae5138",
+      "title": "Owaisi Slams Amit Shah Over UCC Pitch In 21 NDA States, Cites Goa Challenge - India Today - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSkRmU2c2dDlTMUhhbF80NmdWdlMzeGRhQUx3VExxUnladUhWUC1kbGZrU0ZTbDlYcHVYTGxFQ1RVN2FRa1VmdFhTdVc5clFiVXVkUldKZmlIVDR3UjZVRDFCanpqbU1mLWg5RVE5SkE4RHIwb1Z5b3hsOHdIM2tmSlZ4NVBoenVfNXMzNVpPNnRPcjI2QnlxRHFKX0Z0MS04NDdNZlR3UEhYTURzaFRVOTU2WUszWEhlaVBGTnNsWFNueVJPYko1N3hVUlQzeTlsc1HSAdcBQVVfeXFMTUtWU0Q4ODNnZVZpUzVZRUxrWVNWbXc2RkFKd1RvdnlGcHdrVkN5N3NkcWMtU0FEa0g5ZENhOWVLbGpVNzF3eXVMZmM3U1RYMm1wc2J6aDFpWEhVc2FTbHpvbWt1ZVg0YTZSTEttbnhLcUNfeWFtN2VSd0xVbGVoWkdLTi1POE9YTjZvdHhiTGNMTThqUERURHV5bS1hQnF3LTRVc1B1OUJ5cTNmYzZEV3dmaFdJUU9KMkFZanhHbnV5cFRZZ0lnUTNxSm9xdHNsZjFVc2ZlREE?oc=5",
+      "source": "Google News",
+      "summary": "Owaisi Slams Amit Shah Over UCC Pitch In 21 NDA States, Cites Goa Challenge - India Today India Today",
+      "published_at": "2026-09-14T11:03:55+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "bb980a478b41b02b",
+      "title": "1.10 Lakh Crore Indian Defence Technology Pipeline Approved - ELE Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWllyRUVBMlVLekQ5WG1WT0xUcjRSZWRpU3FlclZNd2wxckFnRzk0WDUwNnFOWlp5dTV4T2tXdDdOeENvMThZajJBQUV2UURwNHd0NU5vTldac2o1OG5PSkljbUpGNzZVYy1EOWZiLW5xLWctaHdxYTlNVDRYUW1ZTkgwN3pVeW13SDk0?oc=5",
+      "source": "Google News",
+      "summary": "1.10 Lakh Crore Indian Defence Technology Pipeline Approved ELE Times",
+      "published_at": "2026-09-14T10:59:36+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "1bc340572850b9b8",
+      "title": "Good news in India-China relations after BRICS Summit as Chinese forces along northern borders reduced signif - India.com",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOUjRMaTBOM2tNTFJ0LUxhZ1JIeDd2VW13UDZkdXl0aS1mY3d2bXFpMmYzRm9RUnoxTlp2MHRYdnFmVGJVb0Vjalo0WWQ1NG5TSmYxVDlRNVYxNjAwc2hSS0NFMm41UHRhVnE4Qmk3TGhsbVdVenVnWVZvZTBtWmUyWnR4T0RrQkpzdEY4b3ZRMXFyazN2SVVaWmt2aE16dlRNbkUwWnRERXIyV255NThXM0cwUVJmdXp1MFRjenZudFltLWN3SW1ETVZpS1RqcVlJdWhfVU14OVBYbENCV2llSHpyV3RFNnlHTkZ3bWFLLTU1TDFzTV9mOXc3UmZlWmNPZXFDYkk1LWJkNWxMU2gwdHkwWlllQ19kYjBTZ3VrdXRpMldY0gGqAkFVX3lxTE03UnRVX0swZFJJSGpZWGhCcHJ3R2EzT0w0OEtial9iX0xwUlZYWXNTYUpXSG56X1I0N3A5UlBiMnlGZDdTd1g0WmFDVHdpS1JTYjlKNmYwOG5QemFUMjVmTktNVDJfU1VWWUY3NE5aTWdNVFcxTDVOdVdzU0c5NWtacFRIcU1PVkh0SFZfWWNQV2d5S0J2c1JpUzhoeDEwVlBtTWJIMlFweExRNTUxTVNveXRWU1dqMDJYeXNIeTZCb3ZuYVBucUZpOHRodV80SjNBdUgwU1FFU25XR0lfNzR6SXVyaTNMbW5yNFRhSVltR01vWmZNSm9kV05DZjdSNGtCeWhjeXk1bFU2WWZ1X0VhYWNIWXM0VnhINGZYbFNRMnVfZHItSWhxREE?oc=5",
+      "source": "Google News",
+      "summary": "Good news in India-China relations after BRICS Summit as Chinese forces along northern borders reduced signif India.com",
+      "published_at": "2026-09-14T10:44:55+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "d5acff150392d8bc",
+      "title": "India’s Defence Production Crosses Rs 1.09 Lakh Cr in Q3 of FY26, Exports Hit Record Rs 38,424 Cr - Bharatshakti",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOWZBaVIyeklyaVRtM3d2Q3RfcC02WUZQWlljcWFhd053LVJEakxsbHIyRnlSQzNKbDdSWndwTjA2WGJENklRTlhhVi1nMVlPV2hEdGxXNWs1eS1MbncyMWk4bGcwZk5rd0JqbnJ2NnhtSzNocEY5VjFBeVl6X3BZcTFBWmxvMlpMTFRqMWdkYVAtVzlWZDFybklJY0trR1lVd2lfaVkycGdDbGlkREZPOVRKaXd1emlxTGlj?oc=5",
+      "source": "Google News",
+      "summary": "India’s Defence Production Crosses Rs 1.09 Lakh Cr in Q3 of FY26, Exports Hit Record Rs 38,424 Cr Bharatshakti",
+      "published_at": "2026-09-14T10:41:04+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "15e819d0aaecd139",
+      "title": "India China Border Management: Ministry of Defence Annual Report Assessment - Security Risks Asia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT29xM2l0bld4dFlJRy1KOWlrQVhjMC1jeDVwbjBiV09QQlNZRUZYcWNHOGYzNzhNMmQwOUJCaEZYa1J5ZWdwWWUzR0dVYUtfZlMyWEZoUXJfX0d4T3BzQVhLaXlPRFZIeFlaakV2NVNxY0o3M25Pb01VV2JkekNVZ0t2bU9WZ2ZOU1VYQnRBLVNnYjR3clFReEJNNnY4VDFuSUpadnRPTGJhbjdMc0ZR?oc=5",
+      "source": "Google News",
+      "summary": "India China Border Management: Ministry of Defence Annual Report Assessment Security Risks Asia",
+      "published_at": "2026-09-14T10:34:35+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "06107543a9be74d0",
+      "title": "Amit Shah Says 21 NDA-Ruled States To Introduce UCC Before 2029 - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdndBLXZsaWZuVE01bUtzOFlkcHV4OFNiM3F3M09DTXdvYXBZWDFZbXBKUWJYTWttMUxkV3JWcXBTMGw1eXZZMnJnR3NiUW9qMjQ0TmkwWnlhYUY1cm9QNWh0WGViMmJ4dXpteXZNZVVCRmhFaXVxa2locnNZMGhaNXFZZzY0YkFDajdMSlVjZlRzRk1KMW5vUzBadUREZS1lTmZ3X0lCOEnSAbABQVVfeXFMTS1BR2l1VDlMbzJlTlVsR1ZsM1FpbHBlODdBQTJJdVk2Ykkzb056UTF2ck9jU095czQxQXlkQzUxZ3k4WUVIZEdWdG5HQ2hrQ1lfQWUtUXIwNFViS2hoaUNHekZUSlNlUVdQRTBRSGp3ZERKUnJjVG9rd25mQ2thUWNnTEdvMS11MVF1Zzd5dmpxZkZrak4tN3kzNFBaWElzbmRlNURBRHVqangwRFdYcDE?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah Says 21 NDA-Ruled States To Introduce UCC Before 2029 NDTV Profit",
+      "published_at": "2026-09-14T10:31:49+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "daaa4a5416cb5353",
+      "title": "UCC in 21 BJP-NDA states by 2029 will advance gender equality: VHP - Awaz The Voice",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdWdWLVhYUVExV1VWZzJUZzVMZmZCYmJlZWU2VDZBZlBkbDZEMUl2UlhyVlQwT1I4aDRWdDB0VEx3SjBkY2tpM1VhRDRJVGRza0ZuX0xQanQxQjlwUzctQW84V1NkeksycWdEZlN3U2k5Zk51MUxzTFNfRkl4TUN0SnYzRjA3LTNTd0pVS3pJZ1djNXBxVzdqWWdoTGw4WEZ4dmJ1WU9fZWVTZjg?oc=5",
+      "source": "Google News",
+      "summary": "UCC in 21 BJP-NDA states by 2029 will advance gender equality: VHP Awaz The Voice",
+      "published_at": "2026-09-14T10:21:17+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "1df14f0c50870e3f",
+      "title": "Why Amit Shah’s 2029 UCC push is going through states, not Parliament - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcTk2Q1YzLWktSVJEb04xMWVxVmVEVlptVUNZMGNCN0VIZzlCa2ZQN0pYR0xtSjMxaldCbjdmN0FVN1JEU1VSOFFtbGh2cE9FYTF1UDROaDZxTW1jWnhZaHZZQmxfTXBiQWcwelJUam9Uakd5cHdzOVQ5TkppVEJqTjlMalF3THA3NGNpSVd1MnNJTjR0NThXVkRHcms4enRNV2RpbUp1c1FVOG_SAbIBQVVfeXFMUFg2cWtzdE56c1NjaXBQLVZDbjZpdFVQY3pRT0NzVXh2c19Pcmx1M2VsbVFiRHZ4VzdjSzNaVE9SanNya3JoSm5OZG43NkNpRXJLNmoxTmV2d2NMUmxYaFJQUW1EY1h0OHNpZ050bnVtaGdhR2ZwVXZUZmphMTY4OGtBV2xCSkY3bjJtMXB0YlhqN2oycUx1c2pBaVRhdjZ2YWJDZW5VSTZvNVB1empJc3Q4QQ?oc=5",
+      "source": "Google News",
+      "summary": "Why Amit Shah’s 2029 UCC push is going through states, not Parliament The Indian Express",
+      "published_at": "2026-09-14T10:07:37+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "d498525a18485d1d",
+      "title": "China Draws Down PLA Forces Along LAC, But India Keeps Its Guard Up: Defence Ministry Report - Outlook India",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcXRYMVp5aFE0WERsTnNJeEVTeEFCZXNiX0JqSHg1Q2t2RWFEcVg1U1N1T1A4NF9nNDhFV2lMQVdaRmVaRU5hQzEtcC1uR0RESUczaEhtQm1SV2JQc1JzdDFlX2xadE82c3Z2WkhKcS1WUUgzeFUxbWd5QUc1ZDdYZGlQNU1YMGhhVDQzdW10WjdEaFQ0WUJiZXI0emxHMDM4LVFZV3VqcVp5ZXdMMjBIX1Vkb25yaTVfdUlQUXdjWnNVenBBQnlF0gHUAUFVX3lxTE1EUFduS0hNYzM4dFg2QlR5U3RXMUo4emVPUWM4UjN5bVd6RGdrMEdadHRvTHZ3bmxQRlRLQjJGajVlVkxiZ05fYmpEYi0taFpwQS1OQ0Vua25XTFQ5RHZSVDJXUXhyaDUyczNNYmdvVGg3NlJ2dmExUDl1eG40MXVJaFR6cmI3MkNmTUNQVjdVdnp4Z1NnaHVXb2x1V3lDREFMTzRmekg0NGdLNlE4MHJlX2V0ZDJVNmxPTUp0OWRwaHJUaDhrbGV1cGdiSzdoSnVnbjR4?oc=5",
+      "source": "Google News",
+      "summary": "China Draws Down PLA Forces Along LAC, But India Keeps Its Guard Up: Defence Ministry Report Outlook India",
+      "published_at": "2026-09-14T10:00:55+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "fbd8cebf8a1176e5",
+      "title": "Amit Shah’s Big UCC Promise: All 21 NDA-Ruled States to Get Uniform Civil Code by 2029 - The United Indian",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdHNwRmNtdC1CLTZIenNVLW1NUDloZFNqSmUzSVdjYWVjVDB6R2JOZWRueEFMbUxHNERDRFltVmM0em42S3BGcVIyWVJSODM2WFpQNW5KOW9Ec3ZoR01vdTFZemdZZ3NjdDFid0wxNWFuLVMydVVKUnRVX3I1aVNhZ3d0eXFvRjlvX2ttWA?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah’s Big UCC Promise: All 21 NDA-Ruled States to Get Uniform Civil Code by 2029 The United Indian",
+      "published_at": "2026-09-14T09:47:54+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "3d383ee888a38226",
+      "title": "NDA Leaders Call BRICS Terror Stand a Historic Diplomatic Victory for India - sentinelassam.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQenNPRmhXTTlMWGt1dUpYQnRRZmZxWGxva0w1ZUdneG5hckxsV2VJUWZwSDF3UnJQZ2t3Y2JNZ1VJemdYdjhZZE14cmJnX1ItSy1xNW1SSVJDNlVqYjZ4SWxHc2JrRWpTQjA5STBjdFdLM2xRZ0ZoNG0zZTJWSnZUMDFaRkdnODRRa2picUlYVG5tekQ5RUJXMG1nU1VHUU52NENERThhVTVZQUxJQjlLdDlCa21GaTJ1bHhWMHJFMjdQbURDbU5XQ2taOXJlWFJOTG9MN3ZB0gHWAUFVX3lxTFB6c09GaFdNOUxYa3V1SlhCdFFmZnFYbG9rTDVlR2d4bmFyTGxXZUlRZnBIMXdSclBna3djYk1nVUl6Z1h2OFlkTXhyYmdfUi1LLXE1bVJJUkM2VWpiNnhJbEdzYmtFalNCMDlJMGN0V0szbFFnRmg0bTNlMlZKdlQwMVpGR2c4NFFramJxSVhUbm16RDlFQlcwbWdTVUdRTnY0Q0RFOGFVNVlBTElCOUt0OUJrbUZpMnVseFYwckUyN1BtRENtTldDa1o5cmVYUk5Mb0w3dkE?oc=5",
+      "source": "Google News",
+      "summary": "NDA Leaders Call BRICS Terror Stand a Historic Diplomatic Victory for India sentinelassam.com",
+      "published_at": "2026-09-14T09:20:58+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "7730dd5b1a006468",
+      "title": "'Nobody can replace' Russia in India's defense ties - ex-BrahMos chief (VIDEO) - indiagazette.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWkJGNUg0MU9vREdxMXV6Y3h2YVJ1VlhkRjVIU2xJLTI1NUtyUDEwSE5rUEp0RUVGbUpOMUVIM0tmV2ttWmoyaDk1RWhMcmxEVVFmTHEzMUUxN3A3ZjVkT1Y5ckRWLUFFcjZhV0Jlcm5uRGk1YWFmbzFJcTBmQnR1NTNWN0sxc3ZZUzVUNkxQU1JmV3R3ZXdkQ1hrSXVEeTBZcVZnYVExRjZGaDBrOU15WkotT1M?oc=5",
+      "source": "Google News",
+      "summary": "'Nobody can replace' Russia in India's defense ties - ex-BrahMos chief (VIDEO) indiagazette.com",
+      "published_at": "2026-09-14T09:14:00+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "7ffb81cb47d4998e",
+      "title": "Indian Navy Chief Admiral Krishna Swaminathan Receives Traditional Māori Welcome at New Zealand Naval Base in Auckland - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSWFFZFE2cXIwaE1JczBJcjhCOFo0bVIyeThJXzJQWE5KazFQclNsT0tOOURHcnRfbG4wVVRaYXliUU4yb3dfUzQ1M283WWZVemdqWm9vZUZxLWZmUU0teUhEcVZuaHNZQXhOaGMxUE1sRG8tcEEwcjVMR3FIWG84aUhYa1ZLd2JwbzI3Wk9CWmt5SkFRN3pBRVBWWVBLZ29iVE5TY3dnNnVNZUZZSEhVb3NyN25mZlpXc0lPRWNfdFJZTXV0M2V6U1o2SlA0YkNtMTZDcDVNX2xPVlVaeHRTbDJTZllsa3M?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy Chief Admiral Krishna Swaminathan Receives Traditional Māori Welcome at New Zealand Naval Base in Auckland Defence.in",
+      "published_at": "2026-09-14T08:53:09+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "1e1abdf16fd5b68f",
+      "title": "Uniform Civil Code: Amit Shah targets 2029 rollout across 21 NDA states – Where is UCC already in force? - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWHh3bzJDWkhDam1kU2tzTW1MRFhRclZzTWRmZHZSSEdsaXpBelB0eUw0RklscG1UZUkxbzRPR0txVEY1UWtSSWRBQktBdjZlS3E1YlNydnJ6UnFYRHc2MHlUUXFESGF4TmNUbGxLMjBwTDd1TU9tNF9fQjRxbzhoVEhrTG9ObDlWUDdhSTF4dl9uVWZYMHNjSWNWSENLVGk4Z0tLaGF4MDVXZ1hEcFNJUFFkckJhc0QtT1NzR2dTZUpmbTFWTU5hWUYxanpXc3ZBNVdWQ2FxS2JNUzJiZmRoakdWenphanRPaW1qcdIB8gFBVV95cUxQT3pMQ0hLRFZucnB4ZmVLX0ZoV3pRWk42T295THJ1STF5RjhRSlVFVVBXUVdMTHZibEZYRTVnMWo4S3ZrX3l0eWp3Z01tbTZncy0yaHp4T3pmMUZkQ3JsdkdDc0p1T1V2cng4dXpUM3VZVEJDREVXTEcwdEJuTHRTaHlBeGwzT1VJTlJ5MG9sYWdOTTA4Y3pyREllSXcwdEZyU3JpX3dKS1hXcnhLekNRTzJpUFd5WGtnZ0hxV1NoWUZ3VVZxbl9Wako1cTUwd1RrdUNBSm5aNzJ3Z0h6X3JOQ1VPMnFiNlRDd0hUc2tEYlhzZw?oc=5",
+      "source": "Google News",
+      "summary": "Uniform Civil Code: Amit Shah targets 2029 rollout across 21 NDA states – Where is UCC already in force? Livemint",
+      "published_at": "2026-09-14T08:30:42+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "028f03c00fc43393",
+      "title": "Bihar Reservation Row: NDA Allies Differ Over Reservation Sub-Quota, Review - Outlook India",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUHdRQmFhdHdfNTFtLVlsS3RpMWNodGpWc0Z5X3A2QjBCQzUzcjRXNlRUT3JacnB2UnlUWjRMUlRTeTdzWFRaNDZXUXBiRFFWT2lUTG93WnQ3cmt5R0V0b2lieHlIMEVlT19kZ0dMd0tYV0RZdExRZ3ppUHpXb3hjLVJ2dUN5U251MzFLcW1GeWVpMUlQX0VuWkZ4Q05tUkxncUpOS0NBbWNOY3JuVkV2U3p4STZsck9hVG05RVZn0gG-AUFVX3lxTE9Qd1FCYWF0d181MW0tWWxLdGkxY2h0alZzRnlfcDZCMEJDNTNyNFc2VFRPclpycHZSeVRaNExSVFN5N3NYVFo0NldRcGJEUVZPaVRMb3dadDdya3lHRXRvaWJ4eUgwRWVPX2RnR0x3S1hXRFl0TFFnemlQeldveGMtUnZ1Q3lTbnUzMUtxbUZ5ZWkxSVBfRW5aRnhDTm1STGdxSk5LQ0FtY05jcm5WRXZTenhJNmxyT2FUbTlFVmc?oc=5",
+      "source": "Google News",
+      "summary": "Bihar Reservation Row: NDA Allies Differ Over Reservation Sub-Quota, Review Outlook India",
+      "published_at": "2026-09-14T07:54:27+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "63a74afe47e5acb4",
+      "title": "IIT Ropar Partners with Army Air Defence College for MTech Programme in Defence Technology - Shiksha.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYmtvaDJGOFEzeHFKYVFheFNWNlRLU3M0c1ZpckhoZGx5SUNfLWVlR1AyczRVbDVaUDNFNXZMZkhMRVJKNXpKLVZGY0RINF9uNFFDaUowRWxkeG11OE1rdTZPdXM1RzYtbV82UHRyeV9LR0d5eGdCYTFET29vSl9INmk4WXVEWnJaT3pCT0JTaHlsUGhwd2h5SkxKZ0xiR3ZTXzI0dVdjY20tQzMtTXJma3p1S05qcnFDNTRZZ3JBaDBSa0NZUXFpaXp5T180eHNqazJQNnFtTW0?oc=5",
+      "source": "Google News",
+      "summary": "IIT Ropar Partners with Army Air Defence College for MTech Programme in Defence Technology Shiksha.com",
+      "published_at": "2026-09-14T07:35:12+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "7d6aa1ead1f11cb6",
+      "title": "Enemies Beware! India Widens Missile Testing Infrastructure - Rediff",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2N1MU5WeE9wem9tNGQ1YU1KeWg1RW9teVh3R0FRaWRva1VKRHBqckx0T2h4YjV6U1BuRjVKaXRaU0RIWXRqTVYteXBBc1RTSGprRHZ5ajZ2YVRlUmpjS2ZxQ2s5dmFiOVp5aHVDdHp4VmhkcG9ldzlwemEtU29hcmYwOVd3SEE5cWFvUnRFaWtjdU5QQ0U1dDRyY3JxbWQ5OUV0MDFBLTFNUdIBrAFBVV95cUxQc0xyb2xSa2JpMnFvbTV0bWF6TjNmbmhOVExiSVBsSzg2SDQwSmg3MnNVLVVsUlpoVFp4TWxmZDN2OW9sQktHd09WN0pPVEVzRnl1SE9LZVdKNTI4TmNBdWxHbDJHaVFWaUZLR2Nib3djRzRIc1l3WklFTGZLTG5kUGxQZTdfaC1ZUndYSWM0SDh3eGtWZWhMNHFPeU9CaTAxbGZtZDlGcWk0R3lq?oc=5",
+      "source": "Google News",
+      "summary": "Enemies Beware! India Widens Missile Testing Infrastructure Rediff",
+      "published_at": "2026-09-14T07:33:27+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "e3180e38291f9965",
       "title": "UCC in 21 NDA-Ruled States by 2029: Amit Shah on BJP Resolution - thewire.in",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNek9sNWxXVjVMd0RMQmJLQVd3OWZsSDVuMTlWYkxJUTJuLURkSFhGZEhHY3d6Y1RRNTVpVWdPZmwyUmE4OVEzektfTWdUajBBM1RyVHV3amVubGhwaGhFa24zd3JVSzh3V0tVQVpfTWdGY1d0Z1VrYUdGZzVaODBUSWwyeDRNa2pxak04YUktd1FNQjlpT2VXNlpRbDUxSTl4VHJtbtIBqgFBVV95cUxPWUhjRkhmZjd0RUpaZmVFb0pGNFg2TjZoYzgxUDQ3SlBGNTc5NDVIQ1ptekE5LUplTEhKMHlwR0Y4eWh5ZFhyenBSWFZUamJZa1p5NEdicXd6Q2dWU3Q2SWE0TF9ic0VpalB3eUlVYjBMMG5NYXBXaUd0RjFMMDk2T00zM0YyRE11YkJObDNTSVRqLU52a1VhRnBHZkFIXzZEclEwUmVXVzB6UQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS0wwcDI5MUpPejU1Uks0UW1nNGoyLTNmaldqbUdmUXRoNVR3UDFTUzJoUDhHVXdKXzEzSmdUT2dZT0JZOTNGaUpQc3ZmS284S3lsVWlyNDJmcFhUNlVXRmUzUVNRbDZPS2Z2Sk84RUJBREd5LXpERWMxUFMxNEZLazloYWtNUXRBSHU0NUpoM1ZYZlZmTUcw0gGqAUFVX3lxTE9ZSGNGSGZmN3RFSlpmZUVvSkY0WDZONmhjODFQNDdKUEY1Nzk0NUhDWm16QTktSmVMSEoweXBHRjh5aHlkWHJ6cFJYVlRqYllrWnk0R2Jxd3pDZ1ZTdDZJYTRMX2JzRWlqUHd5SVViMEwwbk1hcFdpR3RGMUwwOTZPTTMzRjJETXViQk5sM1NJVGotTnZrVWFGcEdmQUhfNkRyUTBSZVdXMHpR?oc=5",
       "source": "Google News",
       "summary": "UCC in 21 NDA-Ruled States by 2029: Amit Shah on BJP Resolution thewire.in",
       "published_at": "2026-09-14T06:23:36+00:00",
       "category": "Exams & Recruitment",
       "tags": [
         "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "4763069db0c9b528",
+      "title": "DRDO develops indigenous GaN technology for next-gen radars, electronic warfare: Defence Ministry - government.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTHBaZGRnQmFQbGZocHFSNU0zRklPR2lqZDRBQUdnTlpRaHVfZS05NThFN0JURHR5Sk1jQU4zMHI5dkoxOUYzb3BKcXp5S0kyR2xLVUs1Q2Y0OVBJWFNQc1dmTUczN1RBazNOUU9YTWg1TTNyU2loVzIxX2YycnBDVnhRM0xvVWlfUzg2YWNRRjJUSGo5YW5fS2VaUnRESWpPZTRUclZIS3BRQTJYX1I0bUg5OGROanczTVUyVGJXUDVTLUl2YjVWMENwVlM0dFNBNjhCZnVHOUtzb1M5NmpneEJhbWE4dDdQMVNWVC1senRHVzV5Y3Y0Z3E1SEhQSUXSAf8BQVVfeXFMUExwWmRkZ0JhUGxmaHBxUjVNM0ZJT0dpamQ0QUFHZ05aUWh1X2UtOTU4RTdCVER0eUpNY0FOMzByOXZKMTlGM29wSnF6eUtJMkdsS1VLNUNmNDlQSVhTUHNXZk1HMzdUQWszTlFPWE1oNU0zclNpaFcyMV9mMnJwQ1Z4UTNMb1VpX1M4NmFjUUYyVEhqOWFuX0tlWlJ0RElqT2U0VHJWSEtwUUEyWF9SNG1IOThkTmp3M01VMlRiV1A1Uy1JdmI1VjBDcFZTNHRTQTY4QmZ1RzlLc29TOTZqZ3hCYW1hOHQ3UDFTVlQtbHp0R1c1eWN2NGdxNUhIUElF?oc=5",
+      "source": "Google News",
+      "summary": "DRDO develops indigenous GaN technology for next-gen radars, electronic warfare: Defence Ministry government.economictimes.indiatimes.com",
+      "published_at": "2026-09-14T06:18:48+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
       ]
     },
     {
@@ -27,10 +795,10 @@
     },
     {
       "id": "d2592eab8af08337",
-      "title": "All 21 NDA-governed States To Implement Uniform Civil Code Before 2029, Confirms Home Minister Amit Shah - Swarajyamag",
+      "title": "All 21 NDA-governed States To Implement Uniform Civil Code Before 2029, Confirms Home Minister Amit Shah - Swarajya",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZl8zenpvcDhzYW80WjI4d2MyeEhwSGFwWHRkcC1raWxfSG05bVQxWEMtenpKcEVOTFlmdVZHMXNlNUNhakZfTkFacDU1UTZERVZteTl5LWdDSVYtR2JOUDFIeFNZU1pRWWdSdVNsb0N0dVlPZEhNdExYRkdjTWRabkZEYlNtU2I2MmtVWVRFUmI1ZlNUVzNHRm92aVBvX21oZVFrX1RHRkNPdFB0RTBKVlZSZ0h3ZG5FWUtoQk5KanVqS2k2MUdYc01GNDBaV0lKaF9XUtIB5AFBVV95cUxQRmNCUEVBT1IwMXh5VmVhc2lGV2pQWHpsbExqVHotYktpdWxIa29nM0VzT0wtMnJyNFMwVFNBU1Uzd29ZQUxfMXI0ZUJHTzdobUVDbWljY3FwbXI5U25TdFdlbFFUTjVjZ0JTcXh0NmxfVEdhbUlsNk5KU1E2dDlobzdnYXlJQzg4cEt0SGpWZ1VHaEl1N1NNUUtCd1prUTNNN0lxVXd6VWUxMzZKLUFObkpnS0NUTDdqSkM2OHhwa2t1QlJoY3dCNk1NZTROR0huOHFPS3FaWThqV2pIYndBTTBGOFY?oc=5",
       "source": "Google News",
-      "summary": "All 21 NDA-governed States To Implement Uniform Civil Code Before 2029, Confirms Home Minister Amit Shah Swarajyamag",
+      "summary": "All 21 NDA-governed States To Implement Uniform Civil Code Before 2029, Confirms Home Minister Amit Shah Swarajya",
       "published_at": "2026-09-14T06:16:32+00:00",
       "category": "Exams & Recruitment",
       "tags": [
@@ -50,6 +818,30 @@
       ]
     },
     {
+      "id": "1386630799ba0a84",
+      "title": "ଜୁନପୁଟରେ ମିସାଇଲ୍ ଟେଷ୍ଟ! Junput Missile Testing Centre | New Defence Corridor in East India - kanaknews.com",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQQmhxX3JkdHhKalVsaVdHZVFhSjR5UGgtV1EwaGZTNm5wM28yc3o0N3A3NEl4ald0SEYwV3pqcXR2Z0RwLWc1M0VldE9iU1JoMTZNZ2p0WFl2NXRqS3VNczJJRHA0cmh2SURvcVNCNW42SUZpWVk3NU5pZS1yVnBtdTJXUEJfNTQ4My1VaDl2b1FnYVZjbVFTaC1jVzRGNzhMMi15YkJHMG1vTmlNMDNXcHFBUnN5UkNzYnhzTEtuMUNZcW9UWXBjVFE3TThqbkhfMGFVdmNpcmhueTR5Wl83WmEyRzdpZUk4cElUdEVpSDYzVUZVUV90N1oxNm1xLVlHQU9aU01KVGhhb2dPdzFxdWZxQS1lelIwcU1OcllGU2JwUmpOQ1JJSkhONjc2bEQ5ZWkwT3NWU2V1eUlUVHNXdEQtenRIVVhpNXfSAcoCQVVfeXFMUEJocV9yZHR4SmpVbGlXR2VRYUo0eVBoLVdRMGhmUzZucDNvMnN6NDdwNzRJeGpXdEhGMFd6anF0dmdEcC1nNTNFZXRPYlNSaDE2TWdqdFhZdjV0akt1TXMySURwNHJodklEb3FTQjVuNklGaVlZNzVOaWUtclZwbXUyV1BCXzU0ODMtVWg5dm9RZ2FWY21RU2gtY1c0Rjc4TDIteWJCRzBtb05pTTAzV3BxQVJzeVJDc2J4c0xLbjFDWXFvVFlwY1RRN004am5IXzBhVXZjaXJobnk0eVpfN1phMkc3aWVJOHBJVHRFaUg2M1VGVVFfdDdaMTZtcS1ZR0FPWlNNSlRoYW9nT3cxcXVmcUEtZXpSMHFNTnJZRlNicFJqTkNSSUpITjY3NmxEOWVpME9zVlNldXlJVFRzV3RELXp0SFVYaTV3?oc=5",
+      "source": "Google News",
+      "summary": "ଜୁନପୁଟରେ ମିସାଇଲ୍ ଟେଷ୍ଟ! Junput Missile Testing Centre | New Defence Corridor in East India kanaknews.com",
+      "published_at": "2026-09-14T05:59:40+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "45d81f8c0890edbe",
+      "title": "How Project Zorawar is breaking India’s tank manufacturing monopoly - Forbes India",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQTFsdVZNNEx3ODE3MEhnQTNMTjNKYjFoUUhGZ2VyRFhzUDU2MUlnTERJVzQ4WTBVSktDT1ozUFU4WkdfZ2otcU13WHZ0SUF4cGYtdWw3Snc1Z29EQkE2c0diZGlMOUMtT3l5Unk0eE1ULTZNbkpubTY2czlUOUNzQk1WNUEtZ3VkNXdueWpSdVZjVEhnWkhCZkhSNDgtZnZHaGRYX0VLOWJUMDV1c2NzLWlVRnlvVzhXem1pa004UngwNjgyV3fSAcsBQVVfeXFMTjdiQjc4cmctQXJMN2c5VDlOYnJSVjJzN1hjdGUwdlc3S0U5c09VWjF5N1F3aEdhaHVFN3E2QlllZnBnSTVVVXFyTlZ6RGtYaDQwM3Z0WGRUallMblg4LW1yaFNTQ0F0RW9LZlBOVlhYdEZmS0tZNlhWcTh5c2RrVWROYk9WZ3d2VVVKN0QxaXVuVVpHVTktSHNURWw4d1dpNjVadVVIUE5FeFplQ1psQ05hZEdIZVlGLVg4eXBCUy11SGgtVGVmZWtWMzg?oc=5",
+      "source": "Google News",
+      "summary": "How Project Zorawar is breaking India’s tank manufacturing monopoly Forbes India",
+      "published_at": "2026-09-14T05:44:54+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
       "id": "454361bf642fde7b",
       "title": "Fewer PLA troops, same tanks and missiles: India's Defence Ministry explains why it's still on alert - PGurus",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM1ItNzh2LTZYRU5rQ2p4SVlfZi1FN0NXWlhpNzE4ZkdhZ1dzUUlFOTM2Z1gwd2lySkNBVG1VcS01ajNGZ0xkY1J1T19la1Y5NkVtQlNCVFJpTGswWWRnN243ZzlITVp0V2dyV2FxMnAteEZ3MXYxZC1QSGpkZ0h6ZFg0alJ4Q2toVGtEVTFST2tSaVVMZ3hseXdBNklGTW9Z?oc=5",
@@ -59,6 +851,18 @@
       "category": "Defence Technology",
       "tags": [
         "Defence Technology"
+      ]
+    },
+    {
+      "id": "db161bdeca43fd90",
+      "title": "As Modi, Xi Push India-China Thaw, Defence Ministry Says PLA Deployment Along LAC Fell In 2025 - news18.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUEVxeUh0M3Zwcm1Ba2xKUF9DQnBNR1d5UkNJenMzTDI5RmZCYWxWa3BuQW1DdGxHVXdRNHlLVzhDUU9yRTdKRm9qZVB3bmdObTdmM1FSMFR3bE92WVlxWmxsSGhxcFBjZjF3bVZNWlA3V3hkTGxzekUyWVNoWG9pOGlkTC04YlhVd3k1cXlLV3d2ME9NZkc5eEZIVGxCMGc2T0RYRWtEdkNMM21qMmVZWmRVM2VxOW5ELTh3NldlcUtHU2xEVl9KSXFKMTBBZFFQdUM2WTFHWdIB3AFBVV95cUxOQi1MS19tRktGTWg2NzdFS2tTYkFwcXEySXVjaDV0czNIbEhDWEFkYjNBWGVIbmZCZ3c2YW9BcXVEZUNIeXFWRG1uMnhjSnhERkRHVEI1QWthQzc5bGtpajgzd3p4R0VwYjJ4MmRhdmwyNWVLZXRvajlUS0dra2hWaUNEZHh5NVRlc0NYMG1JLXNqYTFCbWJZV2JwaVVSZGV6bklQdnRFUGU1bFFDQ2szWjBTSGFjdWhveThYZGNBUkFYUmthdnZqUmNpNGZVcFhJLVJNUElJcTcwdldV?oc=5",
+      "source": "Google News",
+      "summary": "As Modi, Xi Push India-China Thaw, Defence Ministry Says PLA Deployment Along LAC Fell In 2025 news18.com",
+      "published_at": "2026-09-14T05:01:19+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
       ]
     },
     {
@@ -111,10 +915,10 @@
     },
     {
       "id": "5b2bf762f5e16dad",
-      "title": "Defence stocks in focus: BEL, HAL, BDL among Motilal Oswal’s top picks after ₹1.62 lakh crore DAC approval - economictimes.indiatimes.com",
+      "title": "Defence stocks in focus: BEL, HAL, BDL among Motilal Oswal’s top picks after ₹1.62 lakh crore DAC approval - The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOanJELUFkMmVXZGpPZlBSRWlMR2NKNUgzUUJpQVlrR3d5Rm5yVzVPSzdfUm1icG5PSVBxUno0RUNzRjBLVTlDWkVvOWIwODZjY0pkU0wwNzY2b0V0emlsenNuZlFEOHBEOGllZ3A1S0ZRWE8wWnd0Uy1NOVUzbXFnd0RTM0tvWUJ5TmdwTy1RYlpkRWN1T2VzWndsdm0wRUJTZnlHT1UtYXp4OE5XZU5UbUwtZ1dRaVFMQkJPM0dRczl4Z3QyM1ZHYlczN3BQM0pCaGVkR2F5bnl4bTFVRE42T05pbzBnZk05dTZ2a3dTUS1JS005YnBUZ3hzNWxoNDBmWnEwVk85MA?oc=5",
       "source": "Google News",
-      "summary": "Defence stocks in focus: BEL, HAL, BDL among Motilal Oswal’s top picks after ₹1.62 lakh crore DAC approval economictimes.indiatimes.com",
+      "summary": "Defence stocks in focus: BEL, HAL, BDL among Motilal Oswal’s top picks after ₹1.62 lakh crore DAC approval The Economic Times",
       "published_at": "2026-09-14T04:10:02+00:00",
       "category": "Defence",
       "tags": [
@@ -123,10 +927,10 @@
     },
     {
       "id": "149839e0afcc89ae",
-      "title": "China thinned Himalayan troop presence in 2025, India defence report says; terms border situation 'stable' - wionews.com",
+      "title": "China thinned Himalayan troop presence in 2025, India defence report says; terms border situation 'stable' - WION",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY2tjOWY3YVpULU1OVVY1QXVGay1OYzZjV1BGcVNrUm1DRDRwMjdBTEtDVEF1TjhRV20wcU5ELUNWTC1sS1MyRmhjY0VielpJWHV1cXdMZldPQkhSQzFNRTFoN3FQN0lEUGduMXdHZWxrbWtmelFTeG82ZnM0MlF1djVLWWhyejBUckVQVkZYUnF1YkhlTmVxQS1yRU1iemUzRGc0VzEtUVp0Zl9ZekRIOVNkS0sxcXhVMDduQ0pTZ2lsX0gwaXAzdTlJVm04Uk1tUFNZTHlpTHl0OWhhZ2hz0gHkAUFVX3lxTE9meUxnZGQtN1RPZVVLY2ZxaDJlQkw0MFc5WGM3bjNSWXhEZHI4Sl9Na2VzakN6ZmFOMEJNd3h5V3VQcG9Ud0N4VEZySkVXQWFfR29KRlNMbWR0VklSOWY0bUdNdUZwQURtQjhDMzBWSkR4S3RnN25ORmJJTzdKaVJNVVB4NU55Y1RRMnkxVmxNNDJuaWJlMmtJdnI2b3FzLWxmUEoxbnFNUmFDbWZjVndSTW1HZ2tDY0kzZU5XYkZoMldqV0NIc2I5b0E4MHdqbE9FRlFRR2I1Z0pDZlBWNElxUXk4UA?oc=5",
       "source": "Google News",
-      "summary": "China thinned Himalayan troop presence in 2025, India defence report says; terms border situation 'stable' wionews.com",
+      "summary": "China thinned Himalayan troop presence in 2025, India defence report says; terms border situation 'stable' WION",
       "published_at": "2026-09-14T03:50:00+00:00",
       "category": "Defence",
       "tags": [
@@ -183,10 +987,10 @@
     },
     {
       "id": "56771c0f86646a0b",
-      "title": "From ledgers to cloud: How India’s Bankers’ Books Evidence Act 2026 redefines digital proof - ET Government",
+      "title": "From ledgers to cloud: How India’s Bankers’ Books Evidence Act 2026 redefines digital proof - government.economictimes.indiatimes.com",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNVm8wVko2UDdRQi1LVDJ1TUUzcmhXNEtoUWhJazFhNjZ6OE9mMGlfLXBUQWMzVGx1OHJCeGFnSldlWWlEZG1jVWtDN2NpWG9zOWJ0b2o5eXkwTVE0OWZ0aktzVmFzRnQ1cy1kTU15RU1sZHp0bU92dDZGNi1DVHNMcXpnaUZqSWhpTUtHZkJhcVVvRElYZ1Nsb3h2YVlXTGc1YXRQMzAzd3BZYm5ubHJTNGppaS1vWFJucnBPN0YtS2xUeV9PbTQzaFBmLW5MOGs4TzBpNFdVN1d3R0Fia2RVS2NFd2NSaldqYmFvMEEyMDQ0NEdtSFFYb2hZY0pNd9IB_gFBVV95cUxNVm8wVko2UDdRQi1LVDJ1TUUzcmhXNEtoUWhJazFhNjZ6OE9mMGlfLXBUQWMzVGx1OHJCeGFnSldlWWlEZG1jVWtDN2NpWG9zOWJ0b2o5eXkwTVE0OWZ0aktzVmFzRnQ1cy1kTU15RU1sZHp0bU92dDZGNi1DVHNMcXpnaUZqSWhpTUtHZkJhcVVvRElYZ1Nsb3h2YVlXTGc1YXRQMzAzd3BZYm5ubHJTNGppaS1vWFJucnBPN0YtS2xUeV9PbTQzaFBmLW5MOGs4TzBpNFdVN1d3R0Fia2RVS2NFd2NSaldqYmFvMEEyMDQ0NEdtSFFYb2hZY0pNdw?oc=5",
       "source": "Google News",
-      "summary": "From ledgers to cloud: How India’s Bankers’ Books Evidence Act 2026 redefines digital proof ET Government",
+      "summary": "From ledgers to cloud: How India’s Bankers’ Books Evidence Act 2026 redefines digital proof government.economictimes.indiatimes.com",
       "published_at": "2026-09-14T01:31:31+00:00",
       "category": "India Updates",
       "tags": [
@@ -267,11 +1071,23 @@
     },
     {
       "id": "ccba12d7c6adc623",
-      "title": "UCC To Be Implemented In All BJP-Led NDA States Before 2029, Says Union HM Amit Shah During Mumbai Visit - Free Press Journal",
+      "title": "UCC To Be Implemented In All BJP-Led NDA States Before 2029, Says Union HM Amit Shah During Mumbai Visit - freepressjournal.in",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbGRsMmk1NlU0VzNqeFI0YXZSX3B2azJBTF9uVDdaaVYwVkxyc25kQVNhelgtTFc2VlNiVEpJa0NyQ3lCaDBzTUFjUEx6TVM2UENUV19teTFObHhJTTF3X21KbHVDeHFXX2ZTdTNXQXBvTDlwWXYySnZUZXBhUG1QanZ6ZmVPMjBYS1RRZHFmek5YcGUwMmJvT3B6THktMl90UWpfbjYtdDd1Y1dMTkxaenJrMVF3akRoRlBjbHZlSWtvNERzOE9YdDZTOEphM3ZSX0FoRldyaXNtUdIB3wFBVV95cUxONlZTREExYUM3enZjUXh1b2xUSkhBU0hZOEFBNWJ5b0x3ejJic3FYYlE3cHdlWnNrNGNjMkpOaWlmdWJOZTF4bHBXM1pTTjRONV9OeU11d3VHekhLaWhycnlrS2RHYTZLTjNKODhhWHBqUzRIa3V5MkdtQzhJQUJwUkZXVm4zdHlFem5ia0VvemRub0RyZFRFNFk0b3dQbUYxOE5EN0hYOTdzYmhFcGJweE9JMkZGblM4VERzQ3dqbkoyV0U1OGxRUDZRVk1BekdTWW5TNXhyZmcyWjluYjRJ?oc=5",
       "source": "Google News",
-      "summary": "UCC To Be Implemented In All BJP-Led NDA States Before 2029, Says Union HM Amit Shah During Mumbai Visit Free Press Journal",
+      "summary": "UCC To Be Implemented In All BJP-Led NDA States Before 2029, Says Union HM Amit Shah During Mumbai Visit freepressjournal.in",
       "published_at": "2026-09-13T17:40:50+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "b42d387d83e7b5d4",
+      "title": "UCC to be implemented in all 21 NDA-ruled states before 2029: Amit Shah - Daijiworld",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42R3RFLW9VUzZFTlMyYVJ4NFluM00zZEI2dHFFNEE4Q1k0WFJzamFISVRDamlOSFZoeTNOWHRra2d2OTBrT0U0SXNYMFhleENMYWZGeFJBOTZXRWZ3b01LeVZfM0U?oc=5",
+      "source": "Google News",
+      "summary": "UCC to be implemented in all 21 NDA-ruled states before 2029: Amit Shah Daijiworld",
+      "published_at": "2026-09-13T17:20:08+00:00",
       "category": "Exams & Recruitment",
       "tags": [
         "Exams & Recruitment"
@@ -291,10 +1107,10 @@
     },
     {
       "id": "054a65e780020fa3",
-      "title": "We will introduce UCC by 2029 in all BJP-NDA ruled states: Amit Shah - business-standard.com",
+      "title": "We will introduce UCC by 2029 in all BJP-NDA ruled states: Amit Shah - Business Standard",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObVhOU3pyZGdKZm85c2dqTjRaMlFjRWxRdzVwS3pQYVFwcjFIR0ZnQWM0dFBwYVpSOHVmeVhiX3Azb3cyRldSclJyVTV6UGFoV3I0TmZfbVE3eGtEcHdldGdBc0xfc2QwS0tDVmd2OWF5OWdObkRFZ05GdFI2RGJCYjlMMVZfN2tBNjFWWHRYWmxvemhYd2VQSWRnMnBIQlhMbkJKVllwLXNleFZOR0RUSGNfdUdNd29LbmdiU2hPQ2tiMG5aV0owRGRJVkxfeWvSAc8BQVVfeXFMTm1YTlN6cmRnSmZvOXNnak40WjJRY0VsUXc1cEt6UGFRcHIxSEdGZ0FjNHRQcGFaUjh1ZnlYYl9wM293MkZXUnJSclU1elBhaFdyNE5mX21RN3hrRHB3ZXRnQXNMX3NkMEtLQ1ZndjlheTlnTm5ERWdORnRSNkRiQmI5TDFWXzdrQTYxVlh0WFpsb3poWHdlUElkZzJwSEJYTG5CSlZZcC1zZXhWTkdEVEhjX3VHTXdvS25nYlNoT0NrYjBuWldKMERkSVZMX3lr?oc=5",
       "source": "Google News",
-      "summary": "We will introduce UCC by 2029 in all BJP-NDA ruled states: Amit Shah business-standard.com",
+      "summary": "We will introduce UCC by 2029 in all BJP-NDA ruled states: Amit Shah Business Standard",
       "published_at": "2026-09-13T16:38:28+00:00",
       "category": "Exams & Recruitment",
       "tags": [
@@ -314,23 +1130,11 @@
       ]
     },
     {
-      "id": "602466276034fb03",
-      "title": "UCC to be implemented in all 21 NDA-ruled states before 2029: Amit Shah - Daijiworld",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yZzh2WkZUZkY2UGtIOUozLVVyMG16TmJ0d2c3M09PTVZPdzFJS0VwUzJ3ZFRBZnBMRHlWWlhNbjc0VmpkNEVCUHBfczlQWFVUTnNZem81RzBpb1Rzc2U2V0JSNDVqd2dsUWlOQ0UzZGtMX2pmQm84?oc=5",
-      "source": "Google News",
-      "summary": "UCC to be implemented in all 21 NDA-ruled states before 2029: Amit Shah Daijiworld",
-      "published_at": "2026-09-13T16:26:24+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
       "id": "8e1ba8e7c8c3c9e0",
-      "title": "DRDO to Set Up Missile Test Facilities in Andhra Pradesh and West Bengal to Back Phase-II BMD and Broader Weapon Trials - defence.in",
+      "title": "DRDO to Set Up Missile Test Facilities in Andhra Pradesh and West Bengal to Back Phase-II BMD and Broader Weapon Trials - Defence.in",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMlBpaW1QWGtjQThmTlhKRFMzT2RBelBIUWNnelM2VWw3WmVwMzhxOEw1dVdBTDJ1VkVBMFpldlVpV0JPQjVqSjl0eHljYlprUF83UWlxU3ktOUFQakZPc2NYUVUtRTdjTVpLb24zSHM0QzhxNWc3czVKcXJBSDRkSkJ6RTRoOHhUMG1HX0JybXo5Tm1zX0ZuRzJSeVQzaGdReDg5dW5YMFhEWGlrclVuaTRaY3Mwc2dXY1R2b1gwaW1rR2U1WkdOYV9EY2dVQy1HZkpiNzV3NHYxa1NZVVNtSTkybGVaRE1n?oc=5",
       "source": "Google News",
-      "summary": "DRDO to Set Up Missile Test Facilities in Andhra Pradesh and West Bengal to Back Phase-II BMD and Broader Weapon Trials defence.in",
+      "summary": "DRDO to Set Up Missile Test Facilities in Andhra Pradesh and West Bengal to Back Phase-II BMD and Broader Weapon Trials Defence.in",
       "published_at": "2026-09-13T16:22:32+00:00",
       "category": "Defence Technology",
       "tags": [
@@ -350,6 +1154,18 @@
       ]
     },
     {
+      "id": "0c25dd661b96542d",
+      "title": "UCC in all 21 BJP-NDA ruled states before 2029 Lok Sabha polls, says Amit Shah - The Statesman",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZlRpeURxX09uazFic25qaExfU0xtMm53MXVnblFjRDY0Q3RXQkNtNXc3NkI3Ym5yMlNiSzF6T24yQ0lxb3VpWjNnVkQxTUFQTWlKNlFHZHpwaTFUZzFXb19mUHMwM0s4NWgwc2toamRrTEI4SEt3c0FXR3UwTHJHdXo2Y2gxRVh3UGNfa25hUG9XRFBvVnpMNmw1VXZ3VEcwUl9mNWVaYWsxZ3FPV21LbmZqajZ0RVAtZTNHNDVhUnFXTXR0MU1rWUI4QWLSAcwBQVVfeXFMT2ZUaXlEcV9PbmsxYnNuamhMX1NMbTJudzF1Z25RY0Q2NEN0V0JDbTV3NzZCN2JucjJTYksxek9uMkNJcW91aVozZ1ZEMU1BUE1pSjZRR2R6cGkxVGcxV29fZlBzMDNLODVoMHNraGpka0xCOEhLd3NBV0d1MExyR3V6NmNoMUVYd1BjX2tuYVBvV0RQb1Z6TDZsNVV2d1RHMFJfZjVlWmFrMWdxT1dtS25mamo2dEVQLWUzRzQ1YVJxV010dDFNa1lCOEFi?oc=5",
+      "source": "Google News",
+      "summary": "UCC in all 21 BJP-NDA ruled states before 2029 Lok Sabha polls, says Amit Shah The Statesman",
+      "published_at": "2026-09-13T16:04:23+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
       "id": "3f00d495c2da32c7",
       "title": "UCC in all 21 NDA states before 2029, says Home Minister Amit Shah - Asianet Newsable",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMUs3LXJGZUJGNGpoZHdCREYzRElUR3hCWXhYWVR5Qlo2Wk5tTEJyZGNKRndVSktoZnlrRmZGQ0FWYUpnUHlrckRxMl9RN3BtbFl2TDFoZDYwczk0TmY1T0pDOGF6Ujg3cTRvMy1CWUdTTmJBSDh3SmstNHkxQTNpYUFwUkJZZGVfcHkzVVhEMHhjYlhacF9Ka2ZTUm5fUk5CLWRDN044NmpPdnVxaUJLMkk0dTRyc1NTUWg5clFTaEFNX1pYUFdv0gHHAUFVX3lxTE8xSzctckZlQkY0amhkd0JERjNESVRHeEJZeFhZVHlCWjZaTm1MQnJkY0pGd1VKS2hmeWtGZkZDQVZhSmdQeWtyRHEyX1E3cG1sWXZMMWhkNjBzOTROZjVPSkM4YXpSODdxNG8zLUJZR1NOYkFIOHdKay00eTFBM2lhQXBSQllkZV9weTNVWEQweGNiWFpwX0prZlNSbl9STkItZEM3Tjg2ak92dXFpQksySTR1NHJzU1NRaDlyUVNoQU1fWlhQV28?oc=5",
@@ -362,840 +1178,24 @@
       ]
     },
     {
+      "id": "76f7927770cc2328",
+      "title": "Amit Shah Sets 2029 Deadline for UCC in All 21 NDA Ruled States - illustrated Daily News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMFZsY1JOSU1idE1FZS12NnlTeFlpLU9JRksyYXVtZ1RTajVhMFJKWWFLRVdlN2s5djdIeFhXcnVmdjZDUEo1MGo3R29zQnktSnhBSGdiTVkwVE42U0RFeGY0SUFFdHRENmlhdnQ1YjJPdURQdnhIYWxFenhyUUNjVTE5TkZIME1XVTBMVW9iSS1YNWd3ZzZ6TGdsb0hEUUMxeF9OX1R4blZGV2FieUhXMk1IUdIBuAFBVV95cUxQNE5CMlJTT2hBSmNmb043bld6ZzBnVFBJWXRBX3VPSWR2VjZoZ2JiclcxeXJ5YXpGM0o4QmpfTVpwekJOU0h6NUFUV3pCX1JWNGdvRUNXS1FibEZYT1FKamZnSHJZTHpVYkJyWVVNMlUwUXRQaUZZV0g5eTJZNTk2RldtZm9oOTVXa0ZuY3lmQVo1V1IxVmJxWGhZUjR0NW5GdjVqbmJrVnRtQ05uWkpORVFOcFI2MHhM?oc=5",
+      "source": "Google News",
+      "summary": "Amit Shah Sets 2029 Deadline for UCC in All 21 NDA Ruled States illustrated Daily News",
+      "published_at": "2026-09-13T15:59:27+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
       "id": "a3b1c2a8353c84ea",
       "title": "Uniform Civil Code: Amit Shah Says 21 BJP-NDA States Will Introduce UCC Before 2029 - Outlook India",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY2lFZnI3QWRGV1ktNE1NLUNfZ3h4SGVIS0pYVDYwNWZ4N3RtNDNzbFFFMFBPSXQtQkRWemc2ZzZBOTcyRHhINnFTVGVQM0ZEeDQ2elRpeGF4c2FXWjdSbzROaUhPaE43M1JXNVhKOERLOUM4MFdCZW8xalE3TzUwMHYwVmlnQUxSVFgtQWctbElpNV9fV1FxLUc3dGZGdE1tVFNiV1JWNzBYY3JSSVZHQlFmeVpnZGQ1Y011clNTS0RaaEZxNmUyWHVB0gHKAUFVX3lxTE5jaUVmcjdBZEZXWS00TU0tQ19neHhIZUhLSlhUNjA1Zng3dG00M3NsUUUwUE9JdC1CRFZ6ZzZnNkE5NzJEeEg2cVNUZVAzRkR4NDZ6VGl4YXhzYVdaN1JvNE5pSE9oTjczUlc1WEo4REs5QzgwV0JlbzFqUTdPNTAwdjBWaWdBTFJUWC1BZy1sSWk1X19XUXEtRzd0ZkZ0TW1UU2JXUlY3MFhjclJJVkdCUWZ5WmdkZDVjTXVyU1NLRFpoRnE2ZTJYdUE?oc=5",
       "source": "Google News",
       "summary": "Uniform Civil Code: Amit Shah Says 21 BJP-NDA States Will Introduce UCC Before 2029 Outlook India",
       "published_at": "2026-09-13T15:45:13+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "8a560c0decaac88e",
-      "title": "NDA 2 Result 2026: Check Expected Date, Cutoff, Merit List and SSB - newsd.in",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTFpmcU1YOTRkaE8tME5rZUZabkdyZmJMRTN6ODJ4VVVsZnpRVExvR1lJenpDSm1ISzBqbEFWdTdvc3lMOTZjQ0ZRd1FCajZPUTIxa1M2MzdPTVBPT01maWlGWnBtYVQzRG9vakxmYTZ2LVM2S3FXOWNrcEhNUFl1a1o4QUE0a0k40gGOAUFVX3lxTE5TMEFjUlVldl82UjhsOGkxN1NOLXZFbHRPcE44UFJMZXlNRndVZTBSUW5JVXJiZVprd1lTbEpDVEFLTFNkYUJBZTkzR2JYODlyYk1qSmZnMUllTFdjbGEtd3ZoLWpRNGxZdGFsRUhYdXk2QXZ3cjhoTlA1Y3JQTkg1NzhDRGxYbGVRTEtWZ0E?oc=5",
-      "source": "Google News",
-      "summary": "NDA 2 Result 2026: Check Expected Date, Cutoff, Merit List and SSB newsd.in",
-      "published_at": "2026-09-13T15:43:59+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "6fa919f81bc01837",
-      "title": "UCC in all 21 BJP-NDA ruled states before 2029 Lok Sabha polls, says Amit Shah - The Statesman",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb2tTWGFVVTQ3N0xSNWNwR19aRHdGRnZpdHd1Z1B2WXdmTlM3V3dQNXRMeENKd0dBSE9MTXZvY2NNTWFEbHRJZ3NwTk03QlQwNzRGckwzLVc0SWlNdm5NcGh1ZGJtUFFkNVZxVUwxNFBxbWMtaHVLcFdGSldkSGlkUUgzb2VHajUtR1dJc1VwM2ZhZTY4bWFnYzJaZnJhak5JRkM0eUR0cTc0ajBzQWNIOVlqS3FSWGZaNUM1YktrNVljckxBSTVF0gHMAUFVX3lxTE9mVGl5RHFfT25rMWJzbmpoTF9TTG0ybncxdWduUWNENjRDdFdCQ201dzc2QjdibnIyU2JLMXpPbjJDSXFvdWlaM2dWRDFNQVBNaUo2UUdkenBpMVRnMVdvX2ZQczAzSzg1aDBza2hqZGtMQjhIS3dzQVdHdTBMckd1ejZjaDFFWHdQY19rbmFQb1dEUG9Wekw2bDVVdndURzBSX2Y1ZVphazFncU9XbUtuZmpqNnRFUC1lM0c0NWFScVdNdHQxTWtZQjhBYg?oc=5",
-      "source": "Google News",
-      "summary": "UCC in all 21 BJP-NDA ruled states before 2029 Lok Sabha polls, says Amit Shah The Statesman",
-      "published_at": "2026-09-13T15:36:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "d4918df7f40b4672",
-      "title": "India News | Amit Shah in Mumbai: UCC Before 2029, Seva Sankalp Campaign, Push for Indian LGD Value Chain - LatestLY",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWnotMlBtTUhOQy1rTWJDSk5WYzdCNl85c0hNTld1RXNZc21EY054UjFjWDljcV9kLWRWUFdJSnlvMFlST2NUYl9OZGh0NThQbTJndldRU0x3bG9PYU96Q3E5Mko2QUdPWV81bEZLU29QOTMtejZuMFk5aVU1R3JwQzdSUzB6MHEzb0UxSnNKUy1fbnBZNFNRaUNERWUtZmFkNGw3WEZSSnRqd0hOb29pS01KUjhudzN4SzNIekJ1UU9oNXdjbXZpalA1azdJdmhoU0dqelVOaTlEQUo5eG5Mbl9TOVPSAeoBQVVfeXFMUEN0dlBQdmxmenJWQWtlRnZwUkpyQTRYVFdacVhldUcxWHhwSjYzblFLSDNMdy1EcXJBOFFILXpHMzRDY1g0Z29TZW5DVk9JRjNpVk0wdmQ3MERmTmc0V0l6X1RWN1l6cnlXZXp2eG80NGhJOV9yajIxX3hwVGQwLWgzUEwzSVJHRmpwT2ctOGRpanlaWkJfbGQ5b0kxVFkyeGkzV2daMFF1SVRtb1VVRzVrM3dMQllLWHlwbWp4UFZxNHY0VUVEQXd0SmY4S1h0cWJpLXZReENVQy1vVWwzTmZlTXJlSExXVU5n?oc=5",
-      "source": "Google News",
-      "summary": "India News | Amit Shah in Mumbai: UCC Before 2029, Seva Sankalp Campaign, Push for Indian LGD Value Chain LatestLY",
-      "published_at": "2026-09-13T15:32:23+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "5da07b4e43197778",
-      "title": "Defence Officials of India and Vietnam Discuss Strategic Partnership and Indo-Pacific Security at BRICS Summit - defence.in",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWnJ6UktMbjU3V2J0OWtscm9UOUtoaGd0M2VTdHdpTTRLc2NYMkxfd0VQZDE1dTJrT3RJYWpacHF4WGpZVkthalpMaU1MQThrOEdRNGpndVA3YVBycVAya0V6ZGZ2cG03V3JBejdTQy1ZRk9pTnNHV0lmWUYzTEVkNVI3bGxta1QzcFE3LW1KSEJRdVhZSWNFX3NweU81VElUNW9oZUlsaUhqUVIzS05lZ09KaE9hNG5ZbmpzbmFpU1ZqNHJUckxWaWFTYmVWRDZESGREeENJSnVtZl9O?oc=5",
-      "source": "Google News",
-      "summary": "Defence Officials of India and Vietnam Discuss Strategic Partnership and Indo-Pacific Security at BRICS Summit defence.in",
-      "published_at": "2026-09-13T15:21:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "6b596954689d8049",
-      "title": "India Plans Astra Mk1, Mk2 ToT to Private Firms for Mass Production, Eyeing Assured Orders and Export Opportunities for Sustainability - defence.in",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTUVZeVRqWmNNVGFxaGRPR1FvTHp6cnNHUUJnUVRlQTJmaVIxQ0MyTWtxbE5QUkkzRUhTcUNYeU5iSXREWU15ZnZ6SjJwZE1VcmVGUmduYktNSTFkNlBSblBBSmhSQ2tFbDYzQ0JVeHRFdmprV3pSRVdwNkVMVjVrU0ZiWEdGYUFwQUdNYmp1TFRweXpxRkllRWg0V0paQVZQNktwbmVRT0VQcW5EVG1OUEM1LWR3Uk1yZl9wU3lFSGljejZaRkg2Uk83N0FweUYxX1NTYkhTcTFQcTZMZXJPWEptZVRqX3lpQ0ZZcGJteUtEX3VETzhKOFpn?oc=5",
-      "source": "Google News",
-      "summary": "India Plans Astra Mk1, Mk2 ToT to Private Firms for Mass Production, Eyeing Assured Orders and Export Opportunities for Sustainability defence.in",
-      "published_at": "2026-09-13T15:15:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "99d036036b994f57",
-      "title": "Amit Shah: UCC in all 21 NDA states before 2029, asserts Home Minister - Asianet Newsable",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT3c0ZzhmOUZVdTJ1dkQwZS0tZW5wekNfUzRESjJuOEczVmc2WDhqanZfQnJtc2NmVFdrTEtlZG1ZaXRvX0FQbk1Ma3QtQ09JY2VncXFZN1piOUw2emZxOWc5RzBfQ0ItZ281b2txN2NsTWdOczFDbWpjUkVfTnVqZ1JRcFVKOVpST1F0bkU4clFXV211NjNFS3lwV1NFbE1YYVhjMHROSWp1a2hyclpXekVNbm5ZTjlKUFhySVVYYXh2QUxFYkHSAcsBQVVfeXFMUG5rUHJOaWVQQTlEMTlzdXNfZ3U0dDM4Yjd3ZVgxa0JsWWY2OWttQTVqM1dyVXJqZFRtQldCTVpiOWw3MGc4U1ltU0o1cW9rcE05VWFwZDBYV29vRXp0cXpGRmVsLUNtQkFyaTVBb3dvRTEtSGNmOXBnbXBnc00yVzVXUmpob1FCWXVsQW5MaHp2MmFKMnAtaG54dlZ4VEVBWkVwaHh3VUpIWVMyOGhBRGFxSENwaUxBU3BxRW5NaGJLNjNyOGZjYzJGcjA?oc=5",
-      "source": "Google News",
-      "summary": "Amit Shah: UCC in all 21 NDA states before 2029, asserts Home Minister Asianet Newsable",
-      "published_at": "2026-09-13T15:01:40+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "8fffe0b559b5fedc",
-      "title": "Modi’s bilateral meetings on BRICS sidelines put defence, security cooperation in focus - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMTVIMXU2emxuUTljOHJhRUNEMld6ZWQxOWxDdEtkeWhqcERmaDdQNExocEE1eHlBeXFBS2dQZFdNNUpyUU1nNkVVbDY0VTN1SXJMeUNZcFdNVEhIeWxGZGRBVEx2cF9raXo5LUhhMVdFYlRURnV0V0w3OEJydHhzSnhjdlFCWE90NEpVSnlxaW13N2h0QTNGMEUwWmYyVXZFT0R1Q2U2WDVaT2ozR3o0a0VRRHBpVHVnTkxOaExGNndaUzFldGdMUzYzZURJMXRqd19zOWJxVDBSQU0y0gHjAUFVX3lxTE5td20wZW5HZjdFaExDVUZOblBWRTJNTy14SWVCQVMxMkRNVGZJb0JIaVluTU16QnAyQWxUQWJyNVI0TERsT0xDYVkzUThqZVc0UjQ5TEZiV0RLNDVTemIyMlJicDlXWG9UQ05MbnktZXVDdGFXUlhCRkQ1VmhMd1UtNmlrTUJMNER6VFhUbmRPc18xckx5a0VGX2lBM2tza0EwUjRxZi1yX3pLbjlOeWdhYXNxR1FlLWVuVUhNN3U3UlZ0TjZ2VDUxQmh3ZUlPQW1KOXdsbGN5UTJpUG53WnVLbnkw?oc=5",
-      "source": "Google News",
-      "summary": "Modi’s bilateral meetings on BRICS sidelines put defence, security cooperation in focus The Hindu",
-      "published_at": "2026-09-13T14:52:02+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "4bfc64024e496ecb",
-      "title": "UCC will be implemented in 21 NDA-ruled states before 2029: HM Amit Shah - The Hans India",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZnZjM29tbnFqeGxQMTVXcnd2dmhSQ29oaldhMU95N1g1aGo4Ym01a21FRGJJX3lCTm4yMnR0aVBTLUhlM1NFWFBQYlkzRVhIWWRiQ3FlTm1rWlNGNEMxc1ZsY2RaaDh2OENGcU5BV25lRndkWFRPc203MXA1R1JpckNfUGVnNWVJa2l2c0hZaUdxZEZJVVNqVUVqVWV6THRTa2hTRjdaYTduRF9QNExFM2l6OWZ4QQ?oc=5",
-      "source": "Google News",
-      "summary": "UCC will be implemented in 21 NDA-ruled states before 2029: HM Amit Shah The Hans India",
-      "published_at": "2026-09-13T14:47:27+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "733408273011fc43",
-      "title": "‘UCC In All 21 NDA-Ruled States By 2029’: Amit Shah’s BIG Announcement On Uniform Civil Code - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTlJuNWpsVGc5WXFZdG9GVVltR1RQTXJHTzF2cVNTUk81NlhobklQbTItRTM1eE5CVFdWUnRJcXRoTjBtdThMUzNNUF9QWlZaSldWV0doQ2syS0YyV21MM0lucEtMbWVoYVBaUkhVMUt0dEoyZDU0TFYtR0hZaV9mN2tlOEFCTGhUY1JqdzFvMWgzeTA1a0pKd3dvZGFKZUZ5Q1JuWEdrZjNhZGFUVm14emtXNDZueWhicXl1TWdxMUhBQjVOSDN3U3Y3d2VvWGc4NVBJcFFOdGN5X2YxSTFCUTNCRnpycWVCdktNMVVRb3dJUdIB9wFBVV95cUxQUGVKT1pyS2lnUkRtWHF3RkI4X19TUzhDYk9COUhfejNXbi1WMXBTOWEwaTJuVWFxbk5tMHJKTW51cTdrdnhEMmJ3SWYtR0pKY2ZIWjFPcFE4TG53R1QtQWdNc2hDU283d2otOWd1ZV9HSzlFa1l0RnRDQmUwcy1sdXlCVFhkWlNWaU1hOXVlN2lQVHczZ1Fqai1WdXVhZ08wTVRwcDRlY1p1VDRKUXVCSXVXWkdfbGNXazNkVDAwbEJ3MGNrbmtueDdwOFlhUDBPbXJYV3dSa1Z3bXc4SzlhLTRwRldqTEdpSTFzeGpXTDZuRHRudEQ4?oc=5",
-      "source": "Google News",
-      "summary": "‘UCC In All 21 NDA-Ruled States By 2029’: Amit Shah’s BIG Announcement On Uniform Civil Code The Times of India",
-      "published_at": "2026-09-13T14:39:03+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c23a41e4c850897a",
-      "title": "Uniform Civil Code in all NDA states before 2029 Lok Sabha polls: Amit Shah - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVnVmaHZLTTVILUtfakxFSkNmUUl0aTdWcFJHMlUyMk5WYXpPb0g2Q2pXZXJfNzVSSnFrcE1DUkNvU0JiZTU3dm5rS0s1cWVVTWcxbXpBRnFjYWJTbFlmU3M3a21mQlJJdWFXR2gzMU5BYmY5Rm9ZUFF2OUtiZl9HVUR2WkdILXNjb0VtWkoyNE0yYW5FY0E4WFlhcWctdm1CcXF6MUFHRmUzc2xwVGYxVWxFeVUzYU1vOTBJZ3AwOWkwTk5Fb3Y4N3dyNXotd9IB1AFBVV95cUxOU2tXaHZTRGJKQUVFX19RSU1tTDBoc2p0SHdnVUxYcWRnN0Zrb3YyLXlxV0w4Ni1JSjVZZDN5Njhfak1uUVc4cWRqNnZPWXlhT0tfRU5VMWhQSkJoY3FBWWNna3YyZ3ZrMjR1S3JPSWp4dDVmUUtuR19XUjZ0eDIzbkt6V1VJSVFrNXBzRWR1VDlseVNiQ0pZSS1xS1o4OWxoTV9yS0hMUFR1ZjJCWGlNaXpqV2pQem90ZzBncXJxMnF2cWIzanl1UkJkaHNmLU5sSnF5eQ?oc=5",
-      "source": "Google News",
-      "summary": "Uniform Civil Code in all NDA states before 2029 Lok Sabha polls: Amit Shah The Indian Express",
-      "published_at": "2026-09-13T14:32:18+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "3862c0eea3a53247",
-      "title": "India News | Amit Shah Sets 2029 Deadline for Implementation of UCC Across 21 NDA-led States - LatestLY",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNN0w0ei1vb282LUtqLW1mcHEwVkRTaVRCcHVPNXlhRDNjU2FpNlpnM0FEMGRpdnJ5a3BPNnhCU25CbU5GZzRuZkdnMlZiLWtKbHZEVTJBVVFPNWMySlR5MjFuNWtueUVQdHFUZW9LSDJ1elFDOV9OWjRqTWg4blkwRy1qQi1uS3dURldvc3g3ZDBCVE43SFZFMmlnNHJYd0RMYU50SEZCQUVKeDlCaldNZXplRUlTT3lSOUQtYll3LWtwY1gwZ0dMVi0tcWIyMEFzUzZOWF85Z9IB3AFBVV95cUxPQUpFaWgyRHFZdzFxVDNrNnpaS09ubVFtR2IxTDY0NHh0QTVUSkRsdGpKV09UandkWndqc1U2QTJBU0QxQlkzcWhXYlNvdFBtNFRhRm51MXhKejZSQ0xXczVrZnUwMDJaeXg2dldhcTJaRWFicFZ5S0pQVHVscVdZUFZ4SnQ5LWVRVGVneEhvcDZOTjRtbG9LUk44YXNyemJ4RXNvOHNSOVRvUHpabnBFSW9NQWJQSmdLOWJrSkQyQi00TGdBQWY5T3Z4VDR2SEp4X2RwSnd2UWZDWkJo?oc=5",
-      "source": "Google News",
-      "summary": "India News | Amit Shah Sets 2029 Deadline for Implementation of UCC Across 21 NDA-led States LatestLY",
-      "published_at": "2026-09-13T14:22:22+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "d887904147d6d3c1",
-      "title": "In a first, 3 IAF trainers join Royal Air Force to train young British pilots - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR250V01GdXRBQ1BqRlNtM3hFYndWdDZLaDJ5SGdpaEVFcjBSYmxENEYwWG5xeW1fWGhOLVRXbGJiay1fbzFaVkdmS2hYNUlNZDZVRmhhOUgzeGp6aGYwUXFQQ2IzTF9mLTNrbVctNlFWbFIzUXJydTVaWXl4bWdDSnZJN1RHM2w1dVQ2c3RxQ0RaRkl2a3UteUpRMEFUVnpBM29LLVFlSmVIT3BJdFRzQjcwcUhCWGwtZjVQa1ZOQnVMVzJqT2l6YVVzUVRoYjJiQWpGQXBGRUVEMXNleU9ZX3dZNW5Dd9IB6wFBVV95cUxQMFlHNWRmOHFHME5EVm1hbUFkTmpBbjRMT3J0TU50ZmFOQ3RkS1ZoODM5SHhRY3ZNRlVJUDliaU4wNmFEazJEUkRidElYdjJyN2VnRHRSNVRQajBNTGFIbE55Unc2M21RYm5XUDVBXzREVnNTM1c3QkFUUlREYVRfQk5xQmlLQzB3QkoyZTRZaHNTZWVaOEJKOE5EbmxtWklnRzQyM3hmRmxPUUpteHJOWWRtQ1RVdllJM0dmblgxeDJSNnoxUjNjeTdMUjg0MHRnR0lOU3Faa0VjZExXUm9oRWlSS0JWWWNDclVz?oc=5",
-      "source": "Google News",
-      "summary": "In a first, 3 IAF trainers join Royal Air Force to train young British pilots The Times of India",
-      "published_at": "2026-09-13T14:21:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "a86c6abd8398dc26",
-      "title": "21 NDA-ruled states to have Uniform Civil Code by 2029: Amit Shah's big statement ahead of next Lok Sabha polls - theweek.in",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZS1tR1QwQ01kbUNDYjFyRVphRC1kTkZEVjJyRGs3cFQ3cW16TWx1eFIwaFU5T052bzBHLTdtenVraHlabVBmTjBxWUFuYVdOaWU2SXJaTzlDTVBFbTJuU05iSXZsbU4zMUtYQ09OWlFDUWtpSVNWeXFvOG1tV2xtSk9NZFJORHR1eHl6WXZNYVpraUhXTGM2S0tHdnZaTmtnVko3d2RqS3A3Qko1eURycFVTU0VZNHVRU2dYRGFPMjBidEhzQjM0dHNCOVV4X1N6WnlwUk94RnZTbk1wQkJYbEpXbTBTQ1FZdDhVbzdBaTlTUdIB9wFBVV95cUxQbnlrenhBYmRwNWhGQWlIVVdCemRYa1NoeDNEd2FPeGhUYTJrUWY4bHY2LUVpZ25Qdm83ZXg1OXNnR1NaMjJpTmlFdHNuN2szRnI2dFJCSjJxUWN5b29iblktdXhPbWYzUzltRVNZXzZFRjFrRmRrSWtFVTBxRUtyMmJ6ckxCNVI3WnVQc283MkZyY1h6My1CejRrdXh0TWx6enhCeVhNUUhiMkNGeGtWTkkyY2plclZnelMtOGY3SmxlSnc5RW9Ha0k1WUhVMjlIUWRTbGFlZ2hhTFV0blVPMkVDZkRVUnJUYk9EY2xIZmlZcVk4RTE4?oc=5",
-      "source": "Google News",
-      "summary": "21 NDA-ruled states to have Uniform Civil Code by 2029: Amit Shah's big statement ahead of next Lok Sabha polls theweek.in",
-      "published_at": "2026-09-13T14:20:45+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "d1084a34fcec16c7",
-      "title": "BJP-led NDA governments in 21 states to introduce UCC before 2029, says Amit Shah - Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaXljUXhscUVCU05sYy1sR3dTNkIzbHI2ME9mT0ZoMnN6b2NYRzNKMnRGc2ctRGVENmwzbzdCQTZGek84RkRuMXlVMWJHYXdzRHowQVFpTjZiNnBkNXV4N1ZnZWp1TXNWM3RXRkJzNzJlSGFWU3pKdkg3c3piSEQyQWFOV1Z0T3d5czRGVzVsZ2t6ckxINTVRcV9uOWJzaXZKak5qem51VDJfY2VXTUpCdlgxRVhIY3hCNkJLVG5tbW9Ra0x0bkJHd0Q1cjc4T3Bu?oc=5",
-      "source": "Google News",
-      "summary": "BJP-led NDA governments in 21 states to introduce UCC before 2029, says Amit Shah Deccan Herald",
-      "published_at": "2026-09-13T14:06:54+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "6f7978d4ef79a609",
-      "title": "Su-57 for India: Can Russia’s stealth fighter counter Pakistan’s China-backed J-35 plan - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdmJMMWlIQmZWMkFmeFE5bGZMb0FJbmVicFpwZnNNZUVqbFp1cUgzaXpwN0I1QnI5MGNEeVFSS3RxU0ctNnRjYkUza0hudDE2RXlvSTdRYXB4c0RfcEJEMkdydXAyU0lITmxxVVprclE3TGZOU2x2TUY0WWdzMkVjbmJSU3lNdklpakh4QlNaUFZlV1FfeTB5QTl1S2lGT090NzZzSVdKckxkSnpPdTJVYVBPNEhBemozejNpMjU2OGo1NDJQOTlENnptVFE0S2JDbGJXNzBGUGxRM3NfRlJ4RFRibWFkYmRQdS1QcUd2M3XSAfYBQVVfeXFMUG9SVTlvdUNXTkxqT0tPbFByVllBQzFzQUlyQzJ3TG9QMm5ZeURpRURjZk5GNVlGbGl1MVdwY0JZSkJaWTZ1NUx2cFRWb1NVYjlXWnNhT1RYUGtVcU84dC1KNi05ZWNuOEdKeS0tVTJvOUZvY2Uybmw1LUhaamtOVVdWNlE0d3JDcjBzUTNWOW9VSUZjVG5JS0UybUtubXRTSVZZY0gwdEd4YzFwa2piQmtWM1JCclVzeFRNVkFmbnYyby11UUtDZ3lfdks5Z2NtQkd1dE1TQnpBR252cTRqTERWRGxyTzFyVFNpMUFZYnF3akpQU1RB?oc=5",
-      "source": "Google News",
-      "summary": "Su-57 for India: Can Russia’s stealth fighter counter Pakistan’s China-backed J-35 plan The Times of India",
-      "published_at": "2026-09-13T14:06:00+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "41eb9e567faa196b",
-      "title": "‘UCC before 2029’: Amit Shah announces rollout across 21 NDA-ruled states - News9live",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZFJFOWZPNHg2dndHMEllREJwa2xJZWpVMGUwTUlsX2xONmpSRTRleDI5X01RY2J0QjMtd3FBSHduUU54Q21OM2dGaWZkQ2REUUlFMENrVFR0c1hSeGxoZUNpUDlqU2ZPX29iYmJ5LXlGaHpTb20xSlN3MlZvd2V0YVlOZm0tdTJzbUM1YmhmczQ3aEJaSXhXYklKMzhFLUJrbzVGVHh1bnZ4NlBQenZR0gG0AUFVX3lxTFBiTTlzNXVZZkxxZm12YW52WUFEWUpBbUhuODJETXdlLTBRZnRPREVVUUxsYkoyU0pqQjVjTXNMZkRHOUJRZFFJUC1UbTdVTi1oRm54YVZqQXNwbi0zMEx0WmZvR1lnRVJIRkphWWg3Uk9oQ1k0Q05uVEM1YUZKQk4wdkpFZlIzWEhLTkxWOUFLRDFVakYyMVlET3F5RUxOTVl1Vko1NlM5TTJkSVczMERXVmt0OQ?oc=5",
-      "source": "Google News",
-      "summary": "‘UCC before 2029’: Amit Shah announces rollout across 21 NDA-ruled states News9live",
-      "published_at": "2026-09-13T13:56:38+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "17948ece1562d737",
-      "title": "Union HM Amit Shah Sets 2029 Target For UCC Rollout Across 21 BJP, NDA-Ruled States - Free Press Journal",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR0gyZmpHdnFMN0hrSVdQa0ZUajBVc2VsRy1mLXJuUm04WmN2bXBlMkhmUkJMS2JaMUpxVHpuY3ZTcTNDWG5rbVhiTktvNE9jQ2otU0s3bnROYUcwcE52Wkh4UFJvaHh4ZC0weHBYbTQwR2dyUXdsMTctdXRPdEpFazNUT2xNU2pRM21lTDU0cUtjMks2ODVhNDFtYlpYMHNOMm40RGFHY09mcUJSYnVxeWJBT1duSGFFMUxLdtIBwgFBVV95cUxNSWthTHUyZDR3YWFtbWZxWDdaa09STGhOZTAwYXJvTjdMb0xLY0U3ekw2UTFsb3BVd01lX0dpMndNM1ZWemJvZEtfZDc0MGI0R3hGQnB5NzB0WHVhdHRIMXdaNjdtVzMtaDBSUUZsRE84UkFYUmNubzVJZFlEZWJKWFVZdGlaWFVSQ3lTOWVLNG52NU1iaUR6TGtfODRKR0JiRkY5eUpudXBZX2RQblBNV1VYN0RKWjR5RmdGTTVaNkZsZw?oc=5",
-      "source": "Google News",
-      "summary": "Union HM Amit Shah Sets 2029 Target For UCC Rollout Across 21 BJP, NDA-Ruled States Free Press Journal",
-      "published_at": "2026-09-13T13:55:54+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "062bb1f5952afb51",
-      "title": "BJP-NDA Governments in 21 States to Introduce UCC Before 2029: Amit Shah - 10net.in",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUTg0UEtwZ2R3WXpBazFLdjdTbDl3eWpSUDR4a1lIbUZpaVU4bHFlTkFKWlhTYVNDNXR0TUM1ZVZiSVA1WTNBSTNHWGx6S1E2dDVSVUgwQUt5cmpWZ1E4WGZVUHJ2MlBma0hyQ0VDZnM5VXRoZmFJcEhETVBfbXQ5M2R3NWd0RkxhTHJNRkE1a2EzWmdhOEs4?oc=5",
-      "source": "Google News",
-      "summary": "BJP-NDA Governments in 21 States to Introduce UCC Before 2029: Amit Shah 10net.in",
-      "published_at": "2026-09-13T13:30:45+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "ee14e5ba789e4b5d",
-      "title": "NDA alliance to contest Tripura VC polls together, says CM Saha - Asianet Newsable",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcEtOa2dxTjg3eUxKckE2SjlnblZnYU9NY21JdU14YWZCeV8tTUVlVkxNN0JBakg2WHdkTEFabXZ4NG56ZGFBS1REZXR5dmFPRjB2MFdqUzVnVGs1QXpJOGluNWpHb1ljcUpsVzhNQkRsN3h5dmw4Q3hOY1EyRi1iNEtpdjBib0tEUzR5QnJwRGRvTUlPU0dJTTZmU3NJRXJfYUgxbjNhZ2JRR0NXRkowWWdYVTZITWNEN2NaMGFB0gHDAUFVX3lxTE01NW9TcXVpc0tRdUNGdlFlWXZhU2NpcFRlcHg4Rl83OXpNUTkyRHUyVHVULWNyVHctaEdjOXdXVUhsd1BVOHNSNGc5eGRzVXJjcHlJUTI5akFyOFpSZHluVFV0VTZ4Z2FTMkZ3SUJLM0d4MkVDcXhiZVpnZzBQOHpHXzFJekdTbDJWTDJLY3d0b1JmZTM3UnZqMFRweTROSG50M3dXOG92ZXMyYTRsOHRXbkN2ZF9ROVN5em43ZkF5NTNNVQ?oc=5",
-      "source": "Google News",
-      "summary": "NDA alliance to contest Tripura VC polls together, says CM Saha Asianet Newsable",
-      "published_at": "2026-09-13T13:30:24+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c455b20264435528",
-      "title": "India News - LatestLY",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNU1JjWTNJSld0TTdQb3FjajFQOHZZMUVHV3RoR2xKUUloVm84T2pTY05QeGo3RFRQM3dUaXAtVEwzeDl0SXJXNU5LN3VmTEc0azYtdUJIa183LUlLUjM2eVlkcmRFa2VKWmhhUzU1QXRSX0RqdFFteDZqS3plTUVKNGlvMWIxQ0dBa2J4WXRYcWU3M1FDNUdsd0VVWjk3RUhFSy1SN09vb2tCbEs2bmNrOWhPQVM2VlZCWGU3eEp0a18yV1p6NmxmRlhMbzFLM25QQUY2VVhkUk11UUw0X3Z2SlloWWxBbWx3QTVsRjVGcTl3azTSAfgBQVVfeXFMUDVOTzdiTmN2NmVqcXV5b253R0QyV205b1ZJY3V5RXh6c0VxbHB5SVRmS3NET0RMMDFiVjk4RFp5NnNPa2RBczU0VTZ2WlBrVUVUNmN6WU43Nnkyb3Ywc1d1UjhtTU84UmF3aC0zMDU5WEdELWoxbVdxYkEtZjZ1dE1DaDFycEdfUlFlNTFJOHI1MWswS2dTUFBXQW9YYXRsUUFHaExHYV9jVFhSSmY4dGxwLXI5VlVsMWxjU1BXaV96VElnazkxZ0x3YkJvbWxTWVd6LXZ6YUxYTG55MkhuMlVKSHU3TGszOWpyR0J5M3hWTDFKVVFvcmc?oc=5",
-      "source": "Google News",
-      "summary": "India News LatestLY",
-      "published_at": "2026-09-13T13:28:23+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "98b867f94f1907af",
-      "title": "Tripura VC polls: NDA partners BJP, TMP, IPFT contesting together, hopeful of victory, says CM Manik Saha - lokmattimes.com",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdW9KN0twU3VFUURHR3VzcW0zNzl6MTlhQkZoblF4RzZxV19yT200c0ROMkc1Z2RFbnVTdTZXZG40TjFZUW5sU0tJTHJqd0hQd3ROWGhHTUowOThyeExUdkN6V0RuVjdzR0dRX21nTTBacHFCV0t3Wlh1WXVIOTcxUEZiZUUwbWN5dFRUdGlkQmVLSkJCbDRQNkVwOHlQRllEcUJKVzZzYkhKcnVaSkxKWng0UkdlMjRtWWg4NEp2UW9EWHN5X0QzbS1TX1E0RzJtUHByTdIB2gFBVV95cUxQTFo1cjFLQUxyUklHcVJQelhsV0FZZ1NHZXNndzlUNDVSeDBTcHNqZUJoT0FCUzAwSVF5b1l1dnh2dEY4dEw2akF2UjZWakhtblhGOVlGdUdTX3JtN21WdWNCYk5ZUTVmQUZqaGthdmFJWVdkb2V0a0poR0RQWWhuRjI1V0RaUXpwTmc0WTVUajFZWG9TNEkwcEFHby1JSkxkb2prTjhOS01oc0dfbVdKM093aDV6SVNZSnBEN0RlZ1djR2N3NDNaaVVIWlh3a2RPSnhCanJuTVg4QQ?oc=5",
-      "source": "Google News",
-      "summary": "Tripura VC polls: NDA partners BJP, TMP, IPFT contesting together, hopeful of victory, says CM Manik Saha lokmattimes.com",
-      "published_at": "2026-09-13T13:26:14+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "4b60bfd2730ab3f0",
-      "title": "India-Philippines look to deepen defence ties, even as South China Sea finds no mention in Indian readout - ThePrint",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWlJyWWJiZEljQjRLcG1LcVFPY1ktLWMwWFg5OWI3QS1NZXVlUkNsUnprZFVZd0EyNHBZcjIzblBjQ3M3RHN1M0dzNk4wckF6LUJJT2VDYWRha2lST3RVUWVFM0ZPaTVsMG5DZ1p3SHpySFVxMWRLUXNsNC1rc3I2emd0N0dYR1J5RUpiWmIwZHd0QVB4a0NrNFFiRnM0aVdlX1pCRXlJY1ZsOHZUcDFDa3lnVE9tbTRhaVpaZll0aGg4dlVOdXhnQ2hhZmwtSmpFNEF6N0pB0gHbAUFVX3lxTFBUMklMdVlLVmpMTGFaRUY2N3puRWRSc0VfemZ6RVlrODA2QlMya1ZBRTJIbXhpOWUxNV95MUZkWElpaTJGdXRiR2RBMEFOUlMwN0VXQktCUTJYUmVodUZQUXJlLXVuUUNoaXBvUmlUTjlCVHZ6NFFoX3FCeWFyeHBpdG5zZm5wTldFRUo1SVVXRXA3QjlmQ0JyV2JmRGtOb3R0MnMwMEdLRDJ0MkQ0X0VaZHFJb3A4d3JGQjhZanVrdG1QWTRQTWVWZFlxVmZuMzNJVVBKT0N6dWs0NA?oc=5",
-      "source": "Google News",
-      "summary": "India-Philippines look to deepen defence ties, even as South China Sea finds no mention in Indian readout ThePrint",
-      "published_at": "2026-09-13T13:17:13+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "c50df81435456bf3",
-      "title": "HM Amit Shah declares that Uniform Civil Code will be implemented in all 21 NDA States before 2029 - opindia.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaW1UZjkwRVVXOHo1SG53S013WEVXVlRqcDAxQzZfSHNScU0taXhHSzB6OGw1UlgtNm9salBYYjJBTWY3RGRVU2tMZGJ0aFZBSGNUb0tnV3lkY1ppaXRwZ2RBdkVqSDFjTFM4akdiU2xCckdUOUJ1MjR3eG1KYldWOTRJSllfeFJZZjM3YzF1S3djaEE1aWJHY29PQ2Z5eV9KQV8wX2NZcU1FQmQ4WjlJTi1McWpUX3ZtNWhNUWE4eDNyQnZV?oc=5",
-      "source": "Google News",
-      "summary": "HM Amit Shah declares that Uniform Civil Code will be implemented in all 21 NDA States before 2029 opindia.com",
-      "published_at": "2026-09-13T13:12:39+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c1bd217984b36743",
-      "title": "India, Vietnam step up defence tech, industrial ties after BrahMos deal - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYmtDcWszc1RlUmZ0M1A0QjdTeXplSUZQNWh1VTFISmY0bktQQ3Q2MWpEeFgyMk9GOWIwRlM5dDVtSzBucUpoTlFqTkdwWGdqTDJ2RGg5c1lMWHRUakpGM2oySkJVNE55djJ5UkExSjBzXzQ0N2w0UWlVRVZPWnpYN1l2bjFweXJWWUNWZnhpcHIyOVk4VUtJNlVjcVcySjVzV0tjakJGUGY4Q2Z3SzJ5R241blZkYk5NWEMtdNIBygFBVV95cUxQQ3JXODcxcHh6ZnFvSmMyYWtiRGhnVC1pd2VzZFFUYmNGSWxWcEZxRlp6MHUxOXVJaUhqUjR3UXFWd2swLVZrNVdMMWxvN0p0Z08yNVVfSkE3dGVXSTZlUjMxUjladTRTRG5zR1l2a0hpRmRxSjBpZ3JuWVlzeENlSHJqZHNwMkU2Y19hcnJGaGY5V2FROFpndHFvYldibTRGWW5adS00WEhGZmNoMWdPc2FDbWc4bG5nWnBRX3hZaFhNcDUxM3A3NkJR?oc=5",
-      "source": "Google News",
-      "summary": "India, Vietnam step up defence tech, industrial ties after BrahMos deal The New Indian Express",
-      "published_at": "2026-09-13T13:04:25+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "db1787bcb21b548c",
-      "title": "Amit Shah’s big UCC deadline: All 21 NDA-ruled states to implement law by 2029 - wionews.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeTJfUUdySzA3YjMwSFF1bnVjellrcVVET3VWRWI0a1pfbnhoTUN3M1V3anVnTHhCYnp2YXA1ejI5dGFjOFJ6dFBqYTNWWHVLSWtqYnZDOFlOd3FHODlzdWRaRVExeUJrZm1tMF9CWDlFYVBpdGFpRXdjRzJrTEx0OUw3LTNyQUJHNXlYVUVJaGEwTVJqWDFVY0ZmQWdVVjV3MER3NmdhdDJrNXFvYk5STTQ1MDJvai1GOW54VDZJUXdjbUVL0gHKAUFVX3lxTE9GdW5UVDAyOGZha0ZqVm9xWVFxd1o4STVsQ3dQSERuY0VueGtSZ0VGSVVDWU02UG1QdFFTTFpqTzF2N2JHYml0eUE2TmpjaHF0ZGd0a0R6b1BrRUxxc1hJMGtYQmpRUkd1aTViblluNUNTRFlINHZMYkZKUS1tWXAzMW02bEEzTFlTRGJpWUlvSHdXRjVEMVlCLVdha2FxVERURkNZTE9LdzZQMTlaTnhKdEFsWm9HYzZGVDlKdjNSRU1lS1c3ZnM3Ymc?oc=5",
-      "source": "Google News",
-      "summary": "Amit Shah’s big UCC deadline: All 21 NDA-ruled states to implement law by 2029 wionews.com",
-      "published_at": "2026-09-13T13:01:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "36423f15acab67ee",
-      "title": "UCC to be implemented in 21 NDA-ruled states before 2029, declares Amit Shah - Mathrubhumi English",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaVBaNlZyVi1DSEhUTEZZOW1UMTZ5VUJLTUNxQlpiaHl5Z1BkcExvMkVjVzZYZUJneV82S0VtNlFaOExaMTZpbUwwNExLc0JESmZoM3hIU0xlaUdWR2VUdnA2d2hYb3VWQjVpT3d6eFRlcml0TmxfcUpPejNrVmlrVlR3OGhJU1dWRG1EMUc5aHdvalBVUVNiekFJc0FNVUZrNVEyREppZG9WQTjSAbABQVVfeXFMT1haUm1aOUgtLTVYSDNMbEc0UVFCcE16dDlLdUlqeVk1dlVMTEQ4WTk4R0x3dkNsQ21uQjNRMVd1RldkQnNfbVUwZDFwUzBhY0J0TjhFbnY4QnlXR2h2bjZVNFduZkF4Vk5uUWJSVEJvX3dYd3JnQ1d4S2N2NU5qUnBTWGVONlVUOVprdjNmcXNXdlFoXzZMQnJ5RjRURDdubXJLZEZNZ3lJbFpZeVREeDI?oc=5",
-      "source": "Google News",
-      "summary": "UCC to be implemented in 21 NDA-ruled states before 2029, declares Amit Shah Mathrubhumi English",
-      "published_at": "2026-09-13T12:51:05+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "0dcb45d21966fd06",
-      "title": "Amit Shah: NDA states to implement Uniform Civil Code before 2029, highlights govt achievements - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNN1FGWXl4aEp1SUFPZWlYZ2pFM0h2MGtHdEQycnh3c3VhdDF0TThDTGdIR2F5R0lXamhUam9PWjI0VUlpSkdPdWNsWmlwR2V5aG9OSUl0aUdUNkZoNGZia2lqUmFWMFlMTHU3VFowNE5yOWtFUFM2UmVOcUFOVGFwclVVLV9nT01aNFk0T3ZyWmVEOEtENGhNaVVJMXBodEdDMWRDcXF2Q2ZJMHpXS3FsaWt1Uml0S24xb1F5X0s1Wmlicjlzck5LdW5FYmZ4bEpSZ0Zsc1I3ZGlRMktvNXVwQjVWTEZYaklRTkp4TlNzNNIB9AFBVV95cUxPZUNxUWI5UDBMUGZpWHVPSHBOeU05eVNJVVQyNEhjTEFzaWZPYURxb2MtdG0wZUlUT1kxQzMyZENPeTAtcVlVU01pVmRWNWFpNnl5MzZ2bnZ5UjZsLUtSQXh2U1RaNFp0aS1tZTVIUzNQS0p6cl9GaXlZNGt3c3N1dDY3Tl9OYWZacmdKRUttN2FRR1FWWHp3MmFIR1dYeFdDdDY0TUJic1Zlc2F3Z0txai1NNmY3cHh2SWdka200b0VhOFdJUzlySk9jU2RVNlFmM1hPZnlWNU9kNEQ3Zl9OaDFtcWJKa0UzZm56b0tzUnExTTA4?oc=5",
-      "source": "Google News",
-      "summary": "Amit Shah: NDA states to implement Uniform Civil Code before 2029, highlights govt achievements The Economic Times",
-      "published_at": "2026-09-13T12:42:13+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "d08a57b708ae82e9",
-      "title": "UCC to be implemented in all NDA-ruled states before 2029: Home Minister Amit Shah - Zee News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd0NBbUZNdW9POS1PYkJUdUIxLTQxSnhqdFRxMDhrNERaVTF3bDBvSlVQZ3hpR2g3VlJXcmdmcmlSS01lazZ3alowV280OFBUMnFvRU41WXhTY0xYUGZ3ajBBaDEzYWtyTjlCcU9FX2R2ZFFuSW9yRVNzM0s0aEZ6MzBWQmRIbDFkdGxOLXRpcWtIYmRNUC1pLXA3cmxUekluV28xNzhjYjF3cnhPOU9SWko5OE5iVF9kOXBrb2VEMHRNS245TEpIRFNR0gHKAUFVX3lxTE13Q0FtRk11b085LU9iQlR1QjEtNDFKeGp0VHEwOGs0RFpVMXdsMG9KVVBneGlHaDdWUldyZ2ZyaVJLTWVrNndqWjBXbzQ4UFQycW9FTjVZeFNjTFhQZndqMEFoMTNha3JOOUJxT0VfZHZkUW5Jb3JFU3MzSzRoRnozMFZCZEhsMWR0bE4tdGlxa0hiZE1QLWktcDdybFR6SW5XbzE3OGNiMXdyeE85T1JaSjk4TmJUX2Q5cGtvZUQwdE1LbjlMSkhEU1E?oc=5",
-      "source": "Google News",
-      "summary": "UCC to be implemented in all NDA-ruled states before 2029: Home Minister Amit Shah Zee News",
-      "published_at": "2026-09-13T12:42:08+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "d4aee1a39c0dca45",
-      "title": "UCC to be rolled out across NDA states before 2029, says Amit Shah - Pragativadi",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUW9ESGZHLXhzVlBwUWx2WElDQnQtZE9xV1pNZVdtWVp5ODRia3RJaEY1NzJIaGl5UWVxYjdxWkZkS1h5cXdkbFluU29DMTlENXJhM3VVYUFIRXlhOFRnME1XMzhVRGljbzBqa2g4QXVvZklwNjlHd2RLbWRTbHNZTFRlRjU4b184ZVBwQm1jT0ZoeTVE?oc=5",
-      "source": "Google News",
-      "summary": "UCC to be rolled out across NDA states before 2029, says Amit Shah Pragativadi",
-      "published_at": "2026-09-13T12:38:51+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "a9a3b75fbbeb22b7",
-      "title": "UCC in All 21 NDA States Before 2029, Says Amit Shah - LatestLY",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQamVWVGFhc3FSUmllalBrcGlNMklRZE5wZmJZQTc4cUR0U1FieVBPbzJUaXBuMG8wSmZxZHVXWHcyLThGbjdrZ0kwc2N4eTZlai1uV20tX3c5Q2JSVWJGVXQ4ejl1TlI3TDJQeFZFUUs5bWtCeUxrNmJzQ1hPS3NUSG9XT1huZW9XcUtUaHZOY3V5STlEZnM3QkIzSzRWaWlKSVHSAacBQVVfeXFMTS0tVkRYbjB4bGFtX1B2RnNOUkRqcUFQS3hnOFpWSmIxYnpBZG90OXZERjNveHVWaXJnSTBsS1JnVF9USEVZWVBPX3JJRlVNMHNOcE00VTRJM2VRRkh3c0ZFOUxickJIS2tValJkbERCTVN0U3c4bHM3bndSWVFtUF9tTlV3dl9fd3B0c08taURYVXYzOEN5b19qaGpwazdndU82aWpxXzQ?oc=5",
-      "source": "Google News",
-      "summary": "UCC in All 21 NDA States Before 2029, Says Amit Shah LatestLY",
-      "published_at": "2026-09-13T12:36:27+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "a52ea32072dff725",
-      "title": "Amit Shah: UCC To Be Implemented In All 21 NDA States Before 2029 - ABP Live English",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNkFVWWowTTI2eVU2VHV0UjlsbGlzeWVRNnduZ2lBalhaTzRpc2dwMEVtRTZvV0RVUEprMW80MW1wQjR1QXZUdXJJcEFUa3Fvby1lS0lmSjh0ZUVBNTZBYVI1Tl9ra1JFSkFpZHV3SEd3d3laOHREVzNDMS1xYjJJM1F3X2dQRjFxREVrTm5TblRpbElWLVB4STlabDJNN0lVS191WHJqYTRWRzly0gGyAUFVX3lxTE01Z24zOFJfMXl0WmViLUpCVFpacl9qRDNtNGd1aTRTVFFBb0gza3pWc0RNX3kyN1pTR1FreVFnenBzelh2bEJzYjF6U2VxZUlGTjMtZUdjb2N5MmlOdE5fYWFSYkl0YmNkQUlZYmZ4MHZkSWF2SVdGRVBVcHY0ZHYtMjR5OUZuUnFvN2h6cjMxUFVTc1FmbG8zMHV4M1dCU05LWFBjS3ljQURPWEJiakVwUGc?oc=5",
-      "source": "Google News",
-      "summary": "Amit Shah: UCC To Be Implemented In All 21 NDA States Before 2029 ABP Live English",
-      "published_at": "2026-09-13T12:24:19+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "794ac793705adc27",
-      "title": "Amit Shah Hails India’s Global Rise, Modi’s Popularity And NDA’s Political Strength - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZWduLXA3ZTVSTEpOZXVIUkE1X0lRbmpibXphOXNJM3VoX241dGVmeklUSTFBZkoxMWliYzgzSlRmd3lJdDZTOS1JYmxBNnhYWF90VXlvVjdBYXhLZG1XQ1ZXNEg0UExiQlVLTkRtNFUxaWZOeWR3VkoyTlZ5dzBNMFdDd0dKRXdGZkJ5WnFMangtYjhrdzdjaXE4anA3QldZQ0k0SktiY2hfWTZDS0g4ZG1nQ1hpTlZ2aEw1Sm9MSG5vcmo4ZEFzNzdkVEIzM004Q1B1NDFCbXlrUlpZ?oc=5",
-      "source": "Google News",
-      "summary": "Amit Shah Hails India’s Global Rise, Modi’s Popularity And NDA’s Political Strength Business Today",
-      "published_at": "2026-09-13T12:23:54+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "93a02c7573fd73ad",
-      "title": "BJP-led NDA governments in 21 states to introduce UCC before 2029, says Amit Shah - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcTFDdFhUZ25NOGFkLWFGSDd0eTJXalhpNm0ybFhCNEstN1Y2bk1CekZrRXdKZzR0R3B6cThkY1BSalZTTXNVSDhZYkNtT0RRWXBDV1pEMlgzemY3WG1KeEJtM25xT1pxd1VORDdYTDFfXzBTQ0FiUzRDeTVXbnA1aTJ5WVBhYVRJQUNDWEE3X2JHZ19fRGdwQmpDUGVaODhWY3BSZUFDSHR6Z0hzWF9MWU94R3hrQ0VJMlVNU1NSVG9tdS1iVHBwb1pWc9IB2AFBVV95cUxOYUpJcVFELWs1cEdNeDVsNlJQQUJmUm9POG9UWHBEUmotdnZkUzhvX3dTcXV3V2otVWxDNTZCX0VjNGtIWHJkNlRDTUticEVVV0FvYVJ3cjZXa1VtTEJmcmlxOEphcXdMT3hlbGFWUGhCN2NQYUMzdnRtSTB0blBRSTV6V3lQUWpkMEtFUDFHT3NnM2tVQVZZV2Vfa1dBamU5V3lyemNDS1BGZUZOR2VOWUZGTWRmTUhOdEdvUTVHb25KR2xkc0FQZllzZ1Q5QVd6ZGZjTDMtdnA?oc=5",
-      "source": "Google News",
-      "summary": "BJP-led NDA governments in 21 states to introduce UCC before 2029, says Amit Shah The New Indian Express",
-      "published_at": "2026-09-13T12:17:08+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "12fccbaaf095ecaf",
-      "title": "Uniform Civil Code to be implemented in all 21 NDA-ruled states before 2029: Amit Shah - India TV News",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTnVjbVBkNnB5dFF4aXk1VGpzU1BmVUpMamw5WkN2QWpUQlFMcjJXa05UOXJ3QUlPeklXc1JNcEhxWjZsem1WWUNheXpyNFhWcUZTMk1XUmJaY2NaT1dVdTFHSi1sZ3dvOWFyMVUyUWVFSW1CNGVPUFppM29JUlJ3MFNwOEVqOGNTa0duNEhHNXFGRlk5RkR5OVQ4VzNZQld1ZlNKZDMxYjg1emRTenZVV0RsMmhzVjNhbEhBVzY1dzRCcEtkLWhHUmFqejhWUFpVZWVaVUJURG4xc0tvNm45VdIB4AFBVV95cUxOTnVjbVBkNnB5dFF4aXk1VGpzU1BmVUpMamw5WkN2QWpUQlFMcjJXa05UOXJ3QUlPeklXc1JNcEhxWjZsem1WWUNheXpyNFhWcUZTMk1XUmJaY2NaT1dVdTFHSi1sZ3dvOWFyMVUyUWVFSW1CNGVPUFppM29JUlJ3MFNwOEVqOGNTa0duNEhHNXFGRlk5RkR5OVQ4VzNZQld1ZlNKZDMxYjg1emRTenZVV0RsMmhzVjNhbEhBVzY1dzRCcEtkLWhHUmFqejhWUFpVZWVaVUJURG4xc0tvNm45VQ?oc=5",
-      "source": "Google News",
-      "summary": "Uniform Civil Code to be implemented in all 21 NDA-ruled states before 2029: Amit Shah India TV News",
-      "published_at": "2026-09-13T12:02:19+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "f17e1eccecefb369",
-      "title": "UCC implementation in all 21 states ruled by BJP, NDA partners before 2029: Amit Shah's big remarks | India News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZ3BaNm5SZ0F6a25tNnNVd21TTnZGN1Fma2lMVTdxaF83a3g2cjY0YmpfZ01LNkpGNHVkcjk3RjdDTDhzZTVtNG5qeU9HN29HRE1wY1o4eEdLSlNsSUVhOHgyOVJMV1hKcGNmdkpabjlDWnUxYjlnZ0lPS3hJWHJqb2tlOVRkTlNfdFBNZnUxbkJFc0otc0swZ2M4U19kWlBISC1rQ01jLXRMREd3S0R5MlY1ajlfdW9Va2FsNEdLZ3Fmb1dUckYzazdOeFNCenExVDByR3hiUmlYTktyR2VLTGhITXdvbGcz0gHuAUFVX3lxTE90eDNPQ19ub09PQnZ2WHdhSUdCaXZGbXlwenpWSWw2M2hUa1EtUkFxbGl2aEJaRXdXbTNlVGcxMk1FUlpKMlVHWXBKeS1FZWdQQzlVNXNMdnAxalg2U2U2TnlLeVNSUlRQOUtOVlBWbVFIdUV3UDRJWGRvZ21yOGdOa1pNLUl2bC03LUplYW9oZzU0dmxOMjhvYnkwb29NQmI0MWUxYkxJaldXRUNqSHBDZXYxSGJRX1lLVkt1X3pEakx3dTFzLXJrOTVzNnpvajctUGtIeGl2WEhvakdTOW5pSlgxOVE4M1Q4djhZcHc?oc=5",
-      "source": "Google News",
-      "summary": "UCC implementation in all 21 states ruled by BJP, NDA partners before 2029: Amit Shah's big remarks | India News Hindustan Times",
-      "published_at": "2026-09-13T12:01:54+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "bb57e31b21709a2d",
-      "title": "Amit Shah vows to implement UCC in all 21 NDA-ruled states before 2029 - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeUw5b3NsMGw2UndmQXpla1VmbDV6LWNseVRqWEExTnVWUExIM1FMXzZJdWFOWWcxQWw2YXJlS3ZXNVlMOEFQbHlXRGdzME5NSk9fNko0WHg5SU1TQmNUZWlFY1lQa0dDZDB2TFA1SFlhRVI1amt2U2s1SjFwanF1UzFpbFZDU1dvQjdtOEw4eG5OSVB6Yllsb2JlemtxVjRDZTN4aHRuQjRYbHZtdnlKa3BOc3RqSWRKV2trZXVCeXNDaHRLUmJUbUYxM3U0N1l5QjZmUNIB2gFBVV95cUxPQzRMMmI3c1liTEpZbERadXpxdWQ3dUtrSEp2dEVGQmZsS3lWZUVqc002MHNwWGN0WTg3Zk9IUUZMdE5BUVlTcy05V3cxcExsb2VlSUxwM19OOFZ0QnhmbEcwZEY2NWZkc3FfanB1TlpkRTgtMDlIazVhTUtlQ3ZFbDh2MmJESEUwRUgwcmVKNHRWc1FXejgyTldlNV9qWUtJTXdXOG1KUXdVNkZrbWJrYWtmZGZzRWlVa25BNm9ZclBod3lEbDZ2c2EzcTZ0SHNtRDVieGlpVjFfUQ?oc=5",
-      "source": "Google News",
-      "summary": "Amit Shah vows to implement UCC in all 21 NDA-ruled states before 2029 The Times of India",
-      "published_at": "2026-09-13T11:58:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "768219cccd5dcf89",
-      "title": "From Uttarakhand to 21 NDA states: Amit Shah's plan to expand UCC by 2029 - DNA India",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbzh1VzNWcl84QnZidmxsZVJmakNyelB1aFEtRmxmZzBpLVNlMzNsY2ktX1lVVHQzTVJwaFNlRXJYdldIZmxVa0hsYkxpdkxOQlFMaElTMTBEX3dRcWplSTBpQjh5STNOc0dYM2xBMGMxckhDaDAtVExvQTllVE5TYXBUdXVNSThoMGpST0d4X1FIMzV6M2Z0UUNUQ18tRU5zZVhpWlpSamlfWndlalN1N1NoLUZxVzjSAbwBQVVfeXFMUERJNG9QcmxLbUxuWDlBU3ZfYjlyN2d2eUtuNHM3NTcwSGw0NlJkLW9Hc0Fsb0ZhbjhDT0NFTnRGU3dUcGtqdlMxUE93aGM2bnFEYlV4VkxBMEVUcnI4aHRoM0xXRGN3NWdRTi1DTFppWlJIb2t3M0JZQmRDeWN0QzF1WHFRSzM2VUljak5PRmg0d2RXS1h1bVk3ckEweHEyMWRkQ09wMEtpSklMajNuM1ZSU1RHbXhrdFhiQ2k?oc=5",
-      "source": "Google News",
-      "summary": "From Uttarakhand to 21 NDA states: Amit Shah's plan to expand UCC by 2029 DNA India",
-      "published_at": "2026-09-13T11:58:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "b925616711f6f407",
-      "title": "By 2029, 21 NDA-ruled states will have Uniform Civil Code: Amit Shah - India Today",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOTnJKZU45X0xldm1TMVRZLTlCZ1Jwcjdyb3ZmNVVVY3B1d3pZTklCNU9BbV8zSjc4RHB6X1BFTjYxQ1J5N3dkbVZ2aVFDNm04Z1dCdGNIMUlPeHZzZDZTZnRXdnExMC0yVnRmRVpSYV9aWFphcHViN05tMEtkWVpPdFRlZzYxQ0QwdjdWaUhJRTRfT1dGdUFRNWJiNTJWVFI4U2llbWtwenhLZXJvTjJXdVlVOHlIYWNXb1d4OFVUM0ZsSkU4YkZJb04xd3hrLXhlNjhZbzZ1QUhrSDNKbDM3MExHN1VNTFNLaHFOTW0wdTJaMkY4d09QT1dXSmtBdUN2ZkHSAYcCQVVfeXFMTTd5cWNMWVJuRHB3ZkxPTEI4MTJhRDZCN0NHUmVjdS1LQVYzLWJkb1lQMC1ORjRZbE9HLXM4TjhZbUtZamVURDhEUnBtdXpnZHVRVXpXWWZnWm9ySVl5WkxJcjBPZ2JtRWNmZl83a2hQWDhQNFdTbHA4VnhTOXZ6ZGlnZW9CbFZncXdYSUdJdGRHeGl3R0NlWEM1T0dNUHJCUlJkQVVyWHdrUkJldVFNSFZ2Mk1YZ181SUlEaXZFMmdQRGpfdHBrUy1JcDhwUW5tSEFRQXc4U0xGLUlZaHpZdDh0Q09uOVlyYVNWTExNZDN5eW9iZlJka0d5a1BOSEZ1RDJjWTRSSUE?oc=5",
-      "source": "Google News",
-      "summary": "By 2029, 21 NDA-ruled states will have Uniform Civil Code: Amit Shah India Today",
-      "published_at": "2026-09-13T11:48:28+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "1ba32941a0bb4c5c",
-      "title": "India and Vietnam discuss defence ties, emphasise maintaining regional stability - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0dQWTZ1WmJCdllhZDE4bnY0QTRWc0RrR2o4WXIxdko1ajlQWnNYOVZDaGZreW9qZ3diak02X2JFcUkybnd6aDEzWU9UZnhVZ1JvVU5QTUJtUl94YjRWeXBra0hnQTZMMHZGbnpZVnhFUHpUZVk0ZnJRTFZYZl95b2VZLWRjRmtDUjBhWElfaHB5MV93UnJhX3FXY24zLTJ1WlEtOUJoQXpmX0ZueW5aZWdvc2hWZXViMVhZRWU4ZmlVX1RTVW1iaNIBzwFBVV95cUxPelRjUkxlTU9FcXZvSXpsb2szVURuckpPd05yYkdIQ0F6Y05fV20wSWE2N0ZrYUY2TUlJTW83dGpXRlhFVjBrcFBPYW9qYW5XNjdhUS1RUmlPWGZQTDZUSzhNU3pZbWcxQ3lkdEJTcVlnRDFCMGVvMkYyaml0ZU95WWJDS3lIMTdCQ3BPZ1NndGUyakJ1Zl81NEVOMkNvdlh3bEFBOHl2ZlBFSnhDTVBPb0g1SDNWVXFlY09nOGM2ejE2VDJVakpkckg4UVBjdGs?oc=5",
-      "source": "Google News",
-      "summary": "India and Vietnam discuss defence ties, emphasise maintaining regional stability The Indian Express",
-      "published_at": "2026-09-13T11:11:35+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "7aff5a3f6374d3f8",
-      "title": "BRICS 2026: India, Vietnam deepen defence ties, focus on industrial collaboration and regional security - Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRDRZWmZrRzl6MFNSRFVrRUVuWE5oTUFiWnIwLUdpcTFVWTJkUmVYTEQ0OE4zQm9Cdkh4RUpwdUx5ZFI0UkhhSXFBUDl0b3E4QkljZWNQZzVvdlVOSjR0QWpHa1lYUHpDZURDX2lTTW5qbFdublpLUjc0WHh0SGVFLU9tbkNhOVo5bHhwcVVjUjNyb2hlaXQzY2tSZTlmT3cwc3U1YlNyajVEdmQ4bGU3aXVNTkRVMWpHMDFUN0ZjMTVZcHVYU1diNHk0NEhDbklZNEZlQnJCMlBvRGl1OW9ZdWdydHdCZld3emfSAe8BQVVfeXFMT09ZLVF2NllvMGNvcEx3cmpvNUZGRTBGUDNWQzU0VzJsbGJpMXZlYnEwRVpjMFprWlhKcnBpYzNYcmh5TE5Gd1hZc2RmV0taT0V1b1g5VG5NUW94NE55a2Mya0hNd3hlM3VObWlfbWVGMUo4dVlyTm5TeVhQNmhxMjNSUTVBWFR5YlVtSmkzemx1bDhyU2V1Qk1PNFh4YnppSlE0YXJqOTExc1AyTy02WHRsRktvaHMwUm40QmJNVEJ3cG9VVUNZYTZWcEpNV2tUT2RHYTVEQW1MbFZZZ19wRmNLaWVIZ211Qk9tZDhHSHc?oc=5",
-      "source": "Google News",
-      "summary": "BRICS 2026: India, Vietnam deepen defence ties, focus on industrial collaboration and regional security Moneycontrol.com",
-      "published_at": "2026-09-13T09:57:55+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "0b44a4d902bdcc6e",
-      "title": "NDA leaders hail BRICS declaration as diplomatic victory for India, say Global South gaining strength - The Hans India",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNY0ppeHktYkVLVXVGYzk2akRUSHo4QUFhNFY0bGRjSGQ5T1lpNFNfNi1sUFJBLTdEbXF2MDF4SkhaRGk0dktBNkg3dnFpUF91V3llSU9lV2dmbFRaM1JiTGxQbTZzTGdtTHdjUHVsZU4yX3ROUW4wMjJWb3hsVC1CZVBnWDVzeklLMHNBX0pSeWRyUVRfRDFRUUo4NUI4QVVBaUF0ai1USzJaUmp4MVlDb3V2TElyT0xXM3VLZl9NT0lyWjR2VFROOC1hQ0lOYWFKSXFvNGZwTlVITjF5Y253UGZKaGxBZnVMSHczdmc0dnQ?oc=5",
-      "source": "Google News",
-      "summary": "NDA leaders hail BRICS declaration as diplomatic victory for India, say Global South gaining strength The Hans India",
-      "published_at": "2026-09-13T09:41:21+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "7ef5dd0a624e7928",
-      "title": "DRDO develops indigenous GaN technology for next-gen radars, electronic warfare; tiny 3.5×3 mm chip delive - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQcWhrRnlmb1RhM3lDMkNiS215RGI3bW8wMkpWVVZ3LTBrY0lWdkV6eGhMZ2VYNElNbFB6cnczVG9nTkhpaE5kVHFSMm1jeXdkWWxBZ1VOam5RMVVZc1dad0ZZRUU0ZlBGbEY0RlRXNXMtZFhkNS14MmtFMGo2YUVxQ0hPalRqWXlHQ3RQRlJRVnVWQ0tJNkdXQnI3ejZUWElpWVduZmNvTFNjcVpDSGJXcFMzc3hWSloxZWgzcWktLXhUWXFfdGpSQjAwWi1CYS03QlpKVW1LcGJmM3FHN3B5MEthdzlCbkhiQ25mUkhzRlFkSE8zcGEyZEZWc2FaeEFUTnlkMTRrcFVHVU1jTmJFVmk3ci1LNWdQOHAzMmcxcWZYeUJNejJnLXlpN0dxTTc1Y0R4VmZ1NNIBvAJBVV95cUxNREdaWHp0NFJTOC1Ubks2dzFHbTUwZE00NzZ0cHpRNGtacGhIM2FXU01ucXZVZlNyVDhNZXhoTHVXeDdxejhzMGs1OXdNVjNxS1ZSWkl2U3BFZHoyNkRONDdNLXppWDhIeEVvVTBOejdVWE5wZldHSllCU1QtUkNQMlFPM2RvMnF4ODlmVVBmU2tJandmTk1xTWhrSElIZGxwVDhPWm5SYlh5SVVaQ3hmU3FBaFdFOElMYjBtbGg5WldKQTZVcTN5WXktTzdkN2tmMFl3ZTRkQmRmSGtfSXhQVFBmckpiNktIeHFSSUk4X0d4V2JpV1F0WDJKZi1ZNkJMZEMyZFY3QmVXMlpvc3Y5RkFFUWhQQy00bkdVZmNXUnE0aFBDMnE4dTFOR0xENk42TmFPWHlvRkc4QjNJ?oc=5",
-      "source": "Google News",
-      "summary": "DRDO develops indigenous GaN technology for next-gen radars, electronic warfare; tiny 3.5×3 mm chip delive The Economic Times",
-      "published_at": "2026-09-13T09:28:14+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "9992a410bf7e0d04",
-      "title": "India & UK focus on strengthening defence partnership during CDS General Anil Chauhan’s first visit | Akashvani News - News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbnZZU052THBEelRtSUVVMU40cFZqNUtlRnRxSFBPYUlrak82NHF4RGVtQmpLTUZhWE9LVVpvR1hxMk9DRjktVXR3eXlWZHBKVUxRVDZXSko5TzB0Unkwb0ZaMF85OTlGYVZtYlZSNzVZNFhEbmxTbzRvWUxUTlNLTzZCa0RMTUV1eFYwT0RIeXFIUXk0a2w0Tmxoc2ZJZl9uazlyd2F4Wi1DWk5qdFI1TVBlTGktYkstXzRKNlFTZw?oc=5",
-      "source": "Google News",
-      "summary": "India & UK focus on strengthening defence partnership during CDS General Anil Chauhan’s first visit | Akashvani News News On AIR",
-      "published_at": "2026-09-13T08:28:32+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "75dc56cbe85a286d",
-      "title": "India sends first consignment of Bailey bridge components to flood-hit Nepal - ET Government",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMkdfallZcHV0R21SYzZ4bE5aVndLVTVnLTJlMDdBYzJ2amJrYkNyZkJCS1V0OTZEOU9weEhNTEJOb2I3akQwai02M2V4R051RjRhOWwwRUVZTDEzaGxCMUJoWTBhZnh0S3pIdFBFVWhiMUx0YVozckZwX3pIVjBBajhaOUxLSzMwTndFek9BZUJkenBCTGdqRFpTaG81ZjJleWxtb3VwcW8zLUhrX0JNb3ZMbGxKR2lkMFNhVmg2cGExWGY0VE1tck5mUnZQYWRkdXg2QXR5T1dickXSAdsBQVVfeXFMUDJHX2pZWXB1dEdtUmM2eGxOWlZ3S1U1Zy0yZTA3QWMydmpia2JDcmZCQktVdDk2RDlPcHhITUxCTm9iN2pEMGotNjNleEdOdUY0YTlsMEVFWUwxM2hsQjFCaFkwYWZ4dEt6SHRQRVVoYjFMdGFaM3JGcF96SFYwQWo4WjlMS0szME53RXpPQWVCZHpwQkxnakRaU2hvNWYyZXlsbW91cHFvMy1Ia19CTW92TGxsSkdpZDBTYVZoNnBhMVhmNFRNbXJOZlJ2UGFkZHV4NkF0eU9XYnJF?oc=5",
-      "source": "Google News",
-      "summary": "India sends first consignment of Bailey bridge components to flood-hit Nepal ET Government",
-      "published_at": "2026-09-13T08:22:41+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "f3b7ef6eb304be71",
-      "title": "Egypt-India strategic partnership: What the BRICS 2026 Summit means for Egypt and India relations? - ET Government",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeXZQWnJFY1o4WVBfNmJPb2Y5MWJkRVV1dDBTVGVQS05TdjNDa0NHc2FuSzJ4Si1GcGlXU01FZzEwci0yNGJnZXBMRS1ZblZtQ0RIb0dQTlk0ajBkcXhHYjByVzVieVdmYk5fOTFqQjdsdUJNNmluaWgzMXRKblVzWEJ6bGdyc0dlTU4xZ2QwLWtRaVZ2NEhXYjctb24yVzRJUzdmTUFhSGJ5Y24tdkJSWjdlYnowNUd1akxrTlNIdjdaT2dKa1RzNDdGZUFXelRyRVlnY01BOUpfTTF5RFMxbWdiUHNfd1JKT3ljd21BeGhoNlFfWUHSAfYBQVVfeXFMTnl2UFpyRWNaOFlQXzZiT29mOTFiZEVVdXQwU1RlUEtOU3YzQ2tDR3NhbksyeEotRnBpV1NNRWcxMHItMjRiZ2VwTEUtWW5WbUNESG9HUE5ZNGowZHF4R2Iwclc1YnlXZmJOXzkxakI3bHVCTTZpbmloMzF0Sm5Vc1hCemxncnNHZU1OMWdkMC1rUWlWdjRIV2I3LW9uMlc0SVM3Zk1BYUhieWNuLXZCUlo3ZWJ6MDVHdWpMa05TSHY3Wk9nSmtUczQ3RmVBV3pUckVZZ2NNQTlKX00xeURTMW1nYlBzX3dSSk95Y3dtQXhoaDZRX1lB?oc=5",
-      "source": "Google News",
-      "summary": "Egypt-India strategic partnership: What the BRICS 2026 Summit means for Egypt and India relations? ET Government",
-      "published_at": "2026-09-13T06:02:26+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "b60efb4e8ce80f2c",
-      "title": "DRDO to set up new missile testing range in West Bengal’s Junput - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQXlyLUpSZjZMZ2VnYTNpVWJseUI0b0M1Sk5GeFVhdDctdk1fckF1OTJmTkp1YVJuWi1tWjNZRlB0WkcyQ0tDYXJoV0tqejRZTl9tUmFLT2pxaEFJTDVSTUEtZzduTDM3NV9fYjdyOXBfYXZSNHVLekY4SzBsdGpjQmIzV2l6YnRoT2Ewb1pVM0ZrcjVfVEY5bVYtSEk1Q0dudjlSdzhrdmw0Y0RrTmlzM0pmaG4tY2ZPRnBFVDVQdzVPUFJnS3hhSDJn0gHPAUFVX3lxTE5ab3BIVnVFLURTN2JiZmF4czJ4TjlXY3BPWmpveVNQNGpWNVBsbmJWNjZ3d3AxUXBybU1EYWI2bXhxdTdXSWFOTGdRLWRKMEpQUmZRMTA4LXRKdEVqbzBfVXAtLWU5b3ZtYVJYb3NuZTBHZ0xGZ0FmNl81LWdqSGdTaHZCYjNyMmdCQ1R4QkpXa1Yxa25UZURDZll3Mm80Z0JFSndSQUJIQkFOcTFiT1RocGljbWZKZ3BSeXhyaWJLSGVTNmZONWpINzNFdkd6dw?oc=5",
-      "source": "Google News",
-      "summary": "DRDO to set up new missile testing range in West Bengal’s Junput The Economic Times",
-      "published_at": "2026-09-13T05:40:28+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "61adba3e9f2871f5",
-      "title": "India’s Defence Testing Network Set To Expand As West Bengal Clears Way For DRDO’s New Missile Test Range - Swarajyamag",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb1Q4NDdxZU1GNXk4RTNFNFZod0V5dFVtQXhRTk02QlNieGhHeXFPeVlmbHR5dUpWX3VFV0dGYUt0Y3ZlX1U5c0tDR3E1enpPZkZ0ZXBjRFktb21ZSzJYOXpPUjNqRHpsVF94LVJBU3JvM2R5N2tvdzN2aWFGR0tUZ3ZUWjBwWEtKS3ZxQVNTX0FJb2tES3dwbjRmcVQwci1qc25ZT0xDOFBDZlZEbWZVQVhCUVEwYTdRY1hqU2tYZzNlY2M4S0xTdkdOX2lISUtvT0owT21PcGJOWUNWcGpaUNIB4AFBVV95cUxOb1Q4NDdxZU1GNXk4RTNFNFZod0V5dFVtQXhRTk02QlNieGhHeXFPeVlmbHR5dUpWX3VFV0dGYUt0Y3ZlX1U5c0tDR3E1enpPZkZ0ZXBjRFktb21ZSzJYOXpPUjNqRHpsVF94LVJBU3JvM2R5N2tvdzN2aWFGR0tUZ3ZUWjBwWEtKS3ZxQVNTX0FJb2tES3dwbjRmcVQwci1qc25ZT0xDOFBDZlZEbWZVQVhCUVEwYTdRY1hqU2tYZzNlY2M4S0xTdkdOX2lISUtvT0owT21PcGJOWUNWcGpaUA?oc=5",
-      "source": "Google News",
-      "summary": "India’s Defence Testing Network Set To Expand As West Bengal Clears Way For DRDO’s New Missile Test Range Swarajyamag",
-      "published_at": "2026-09-13T04:07:19+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "eeab2dd201000f35",
-      "title": "RAKSHA: Ten years of Defence diplomacy turned a decade boosting export and global cooperation - organiser.org",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZkFYN2E4REx6bVJqSWx4SkpqcERFUlJKM1FhZ1BpMDloX3lGMmZuM3ZvMlhPS2VrdXotdlBVZ0VvdFQ1QlZjM0JoZWdqdnJfMURmQUpneUhlTkFLQ2pGcHU3V0tNUzRmUzdySUVaRTFWZXdDRUszcHNzQ1N1Y3pTbkdyZE1jakRnV2FkNDdobUNqbk9aaTRydGw4eU1Va0s3SXBxN1dMUXhGWnRlRXpzdjQzby13ajlpUllybTJjODRGbW9lTVBPNDAzNzdFNUU1MExsdFBEONIB3AFBVV95cUxPbzc2TVNYZHljbC1ZVlk1TE1pYjRsUTc4Sk1IVHVVVXRpMkUwbmVVYXNtRll2V0JnNHpZTGRGZy1mV3ZsNlo0dmplMFhBOG5JcWFhV0V2d3lfcW9aWHVmZW1PcHlVcXc4Y0lpTXA4V2lQT2VEVmF1S1pyYmhyenBjb1NyMUFDTndHWDlLOHUxU1M0bnhNcTBQZjBjaEpEQ2RaRk1tMk5vMk9URGdlNTdGMUlDV3JFTU5OVmRyNnQ5ZEpHa3BxVl9WemNvUFRyUUg5QnQ5OGpoa29UNTZn?oc=5",
-      "source": "Google News",
-      "summary": "RAKSHA: Ten years of Defence diplomacy turned a decade boosting export and global cooperation organiser.org",
-      "published_at": "2026-09-13T03:33:18+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "c0ccd4350e92ff2e",
-      "title": "NDA, CDS 2 Exam Tomorrow: Delhi Metro To Start Services At 6 AM Across All Lines On September 13; Check Exam - Free Press Journal",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMzNpWGdYVmNuamFJNHM4WjdXS2JSSWJWRlNONGRHamRTLTlLTkRlb2czMGpyLS1GMzFmQlM0MXltUEdqTEFnRjNRY0pONWl1bVQydDFGOFpGMjJZY0p5enJSYUVkM293NUhpMjF2WjZaT3hLRFgzVENfUG5JTzZqYlZkZ1YzR0g0OEtxRF9LOTZXOUJmZ0JNZGx3MERBVWxtd0ZvQTk3OUx0OGJIb3NxNnZNWlZxM1prU3ZLZnRENzZVZ01idWhlcmhpMldOM1gtSV9CMElUQUo4a3FKcE9vSjExbmc0X3dmbkRZQ0E4ZF85REhvVnh5alJsRGdHaGvSAYQCQVVfeXFMTXVWOTBmNl9SVHVjNTVBOHFjNFdvcW5ySkpER05yUlRhVGRqbk1GQjJqblFld2hITEJxSjF6NnFzb1kwczhNVW1nY2sxaTNRYVNncEp1NzV6S1luXy1LV2NUWXphNHNtV09BOXhNS2dJOG5rYm9SUEdlTTlRTzBFSE10M0dLdWlCR3FfdW9hZTNmWU5MLTFDWmF2UmN4LUo5cFE2Y0NsMVIyUi0tN00zcU5KVGVBcV95d2pzOUc5T2VTQnVEdUo5M01JU2s1RWVQcVpRakgySk9KZkRzVDRHcnNuNlU1ZHNlN2xEcllyUzVSaVgzYzVRMlBzbnAzT3FoVFBOQ1c?oc=5",
-      "source": "Google News",
-      "summary": "NDA, CDS 2 Exam Tomorrow: Delhi Metro To Start Services At 6 AM Across All Lines On September 13; Check Exam Free Press Journal",
-      "published_at": "2026-09-13T02:20:04+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "bc1fa4f6b96a6f5e",
-      "title": "NDA to Opposition, Minister to Akhilesh Yadav, why key UP players step up Nishad outreach - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc0xxS0tRd3pmTTRhQXllMWhzRC1OS3hqZkJYcUMwXzBzRks5ak0xNGUwTld6NlFRM3VoZVZNYzdjblRMYzdJdkVldmp2ZlhhTnRCYS12UWxJaEp3T2ZaZFV5VG5aalFoam9BMVlJRU1NTWd4UmQydlBqMlZyaDZEVFlycW41SnJKelQwcFB6b2QwWUsyc0VrWUp0SmoyQUhiZ1FLb213Y2dIbUg5N3ZhRi1kaE51ZktGcGVCUkItM2hyMkxNLWRrRjJ1c2IzbVZQZUtGR3BDQUJMY3FwTl9jVtIB5wFBVV95cUxPOFJScWUtaDhzaUJaZWprdVhJLWRDUndXNnE1OFotNUFxSGZ0YUt4NVJBQjhOSFlWMzZ1Q0xMS3k2cTNzTEpsWGFJRWdWN3pLN2J3bnh2bnBsakl2R2RPdkZ5Q2VmX3Ywd1dtVV9leG0teUJQb3p2Q0FOVzRiQTFuallIbVdZSU9IbEVYVkNualZHQlhUU05RejFLOGROT0tFSWVlaGplQjRWWWxqaWJqNGRSUnlTeWpSX2FCRWJfUUJwbkF3WXZDakRscnNNS3JYNDNpeUtoREdBclQ4cDdVczZDMGtKSFk?oc=5",
-      "source": "Google News",
-      "summary": "NDA to Opposition, Minister to Akhilesh Yadav, why key UP players step up Nishad outreach The Indian Express",
-      "published_at": "2026-09-13T01:15:33+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "3f1e3aebc4d71b92",
-      "title": "Malaysia, Ethiopia seek stronger defence cooperation with India - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV2djbmhCZ2FJOE92eWc2cnRfaUo1X1c4TlMwNXdQWTNWM2xKTFctT01kcVdJNl93bjB4X2RweWdEa2N0b0Y1cGY0N2Fsem82U3NnQ0IzZjVIQ04ycHgwRzdIbXl2SG9QQkpDcm1WMkpneUpPcmpPZjI1cm9mUWl3VjQ0ZXRjQ3ZUS3N3Nl9sOGFHbkNMR1EwWHQ3UjU1eDg1clAwOGlrMVdZVm5tbFdZU3FCb05hS2gwSmdIcmtrRW1NYkZsblZESVNn0gHPAUFVX3lxTE9SS1UxV3VPSUcwSkl3QW1GQm1FTVVzeERoUl9VazJCVWg2YnVjbUt3YktCczRlVVUxTGFfQ3R1NDdvU2k0OXM0cTVqcUhsbHV2R1BSX1ltMExsNlNDWE8wNGdxU3ZRbmlramV6VXdYcHVObFl1OGprbHRCLW8yZVVhQUg5ZWtqZVNNQTN0dFg1aVVITU0xLW9zRWFLcF9QWWR5UlQybWxGYXJkN24tTUhrNUR6SDJnZ3A4ekN2R2hMR1NHRy1mVmJYd21UcE9raw?oc=5",
-      "source": "Google News",
-      "summary": "Malaysia, Ethiopia seek stronger defence cooperation with India The Times of India",
-      "published_at": "2026-09-12T23:40:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "326755fb865cb689",
-      "title": "Puducherry Assembly results: NDA set to retain power; CM Rangaswamy re-elected - News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ2NLeWJaNmhVNkFFTkJwMVd6S1BIUGFlN0NPNEZRSEdkZUEtcktHU2hlR3lsWTVDWnM0WDBOSDJ3UXMtYW90VGw0cGpOcFhmWktmZ09mSjlkaTRoencxc0FKRzZOMnVtb1NBOWg1U2NKVEdGU1U3Y2NOemdPTmlCSHIxTHBoMGIxQ0NsTkd2N0ZHdU0?oc=5",
-      "source": "Google News",
-      "summary": "Puducherry Assembly results: NDA set to retain power; CM Rangaswamy re-elected News On AIR",
-      "published_at": "2026-09-12T23:26:07+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "38893dce61a61982",
-      "title": "Xi Jinping Welcomed in India for Brics Summit Amid Thawing Relations - SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb1JRQkMxWThkOUtXUmwtVE1oYWFpU1FxWU54dzNSS0EtalhtU3FzU1N2bVY4dmNOSFRRRm51eEpieWdfUnZaRXFmVjBYTnU4X2FxekdCNHoxTVZaYTlIR0NRdWlLQ3lLU1ZJRnNCNzhhWlRDeFAxb3RUQVRDbkdqcXJ0Q19vdVMwSUdIQ09nOXNLeHZHbmlwdUZacw?oc=5",
-      "source": "Google News",
-      "summary": "Xi Jinping Welcomed in India for Brics Summit Amid Thawing Relations SSBCrack",
-      "published_at": "2026-09-12T22:32:47+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "24f3d9506dc9ba8b",
-      "title": "India to get another major DRDO missile testing range in Bengal - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQXzNORkN2VWcxYzFLTUdYUWpfVkZ2c3NUczFTcDdnVmw5cFdDZHJBWUVXSUNrSnZyUktJWWVKNUE5Y3RTWGxJRER1c09xZGZhdFFsX3hIdlpYYnFzeE5CV3EtemgzNlpYR20xYXlFeG1uZTBhNVZJMXBvVFg2T2JSLUsxbE9kWkhXbl9qb3JNM3FoTlhEQ0I0ZzBhZVVpaFEyMkloMjNsMnNhLVFRVkpNeXNxZmwzLUc0RlowQWNNMlUtSXRVWlloemdub9IB0AFBVV95cUxPYk1USjRDblJ3RndqZFdPcnE1VjAtZktMaTVsQ1hUc3BXOWhnOGNxMHhCREdoTDU5cVA0cnpabFh2SjhsbmJOeXBNMk1UVHFCaHExY3BaRmZTMEhJZjdqRmFYTXpjWHhoTkVQSmI1aFZPS01rLUpFTkhpd1B0bDhRVGdsY3RfeDlnR0dpQ282Wll6aHNNQXVycldTY3BGSnFhVDQ5WEVieHhXM3VwMnhNQkp2b0tqLWp3V2pyT0VOUEhYUUtoREVNbnp3V1gyenlS?oc=5",
-      "source": "Google News",
-      "summary": "India to get another major DRDO missile testing range in Bengal The Times of India",
-      "published_at": "2026-09-12T22:16:00+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "1514ba839d35b834",
-      "title": "Assam Rifles Joins Hands With NIT Chumoukedima To Explore New Drone Technology For Northeast Operations - defence.newsd.in",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbVlOVDI5WE1PRVdYVWhydU45V09aMFRtR2tDY2kzZU1CRG9jYThXYWNsZ2NxTDN4SW41WEdrV2p2SUdtSzY2SjNhOUJydTByWjJxTWs4RmpwelhaTVp4R1JqZlVnNkd4bFJmUXlDLVNydFBiRHF1U012cnMwQXNRQWNGUE5sVTZjbHdKdzVtdmIxZTVLVXFzbWdiWmtYbDRyYVpEeW9YQVo2b0xoRTR3NUJPalNTUmtZTzljU0VxSVp3RmZUYnI0R2xXRzc5N2M?oc=5",
-      "source": "Google News",
-      "summary": "Assam Rifles Joins Hands With NIT Chumoukedima To Explore New Drone Technology For Northeast Operations defence.newsd.in",
-      "published_at": "2026-09-12T17:33:15+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "a2505d2424bd8ff2",
-      "title": "Modi Turns BRICS Into India’s Strategic Lever - StratNews Global",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQmtYbWpqOEs1ejVIbjhENGFwZEhURkg2eFlIaE9RU1JQTGhxaXRmODhwbUtnZG9DZS1DX1p4LW9IY0xzUDRkc1U3SGdza1ZJVnVpVU5HbEl3eV9Wam1sY1R6ek13R2tZajBmR0NfOVFUU2JObEZLUzA1bF9TMlF3czhfeWMzUQ?oc=5",
-      "source": "Google News",
-      "summary": "Modi Turns BRICS Into India’s Strategic Lever StratNews Global",
-      "published_at": "2026-09-12T13:44:00+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "def3222bafc37cb1",
-      "title": "Chandigarh NCC Cadet Shrshti Sharma Secures All India Rank 1 in NCC 124 Special Entry Course - Shop SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdmcwN0luUjh6ZXI5SENYdU5fN3J6S0FvSy1lSm1Mc21EelBxUjlQeFhHRjZxaFFoSnZ5T2NoaGZFU3JYZ0tRTWkzN0VUMEJVOUhmb2toSDBNTFJiOTlQOEV0MXBVYkZ2V3o0Zm5EdXluUHh6T0Frb1hkTy1zRlBTNFZWckZRYmdkZ21PbFFyZjduUkZpV0ZOQkdDc1llRk9xU2ZEeDYzenNaSmdvb1kyU1FLMWR3bkVkOHdwYndjbXM5b01GaHgyYw?oc=5",
-      "source": "Google News",
-      "summary": "Chandigarh NCC Cadet Shrshti Sharma Secures All India Rank 1 in NCC 124 Special Entry Course Shop SSBCrack",
-      "published_at": "2026-09-12T13:42:02+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "14af3db38ccc5f1a",
-      "title": "Video | India's Nuclear Submarine Story, Arihant's 1st Captain Speaks | Ctrl Alt Defence Ep 56 - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQTVPdnhja1lwWHROb3BreVRTcmdzUTF0dGczR0hJWm5sUWpGaU84Z2wwMzVHdF90Vy1XOE9xdG1Pbnh1LUxxOGtQdUUzcEtVZmd4YVNla0x5d2hVbU5acl9fVl9mZXlUcVlVMTF2OEttcWtvbDhrSldqTldORnZNZlVIbk5lX0drTnMySG42Q1ZLSDlWQVEwZkVpd3RiaWhaSC1CV2VObHNIZ1pzOGQwWTVNUnltV05iWEE?oc=5",
-      "source": "Google News",
-      "summary": "Video | India's Nuclear Submarine Story, Arihant's 1st Captain Speaks | Ctrl Alt Defence Ep 56 NDTV",
-      "published_at": "2026-09-12T11:58:29+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "46e63b1816b0c786",
-      "title": "West Bengal Approves Key DRDO Expansion Plan To Support Future Missile Trials - Indianmasterminds",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSmJ0d041eGZKSDNpZDZXNmxhemVJMGJrejhicFdreGV5LUt2UjFVV1J4dnE2MEZvNk9mWi04R1NwM1lwbUVoeTYyQ3RJaVQ1a1RYc1oyR0p3QlJIOXgxMkNVTFF4eUxDc21LYlFxU29LYUY3bzh2bU1QV3QyTTlfV3BNT19FRDJrVHE5YjdqYmJmamJJSC02SkduanhvYzJ0Zi1keGMxUQ?oc=5",
-      "source": "Google News",
-      "summary": "West Bengal Approves Key DRDO Expansion Plan To Support Future Missile Trials Indianmasterminds",
-      "published_at": "2026-09-12T11:49:08+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "b34cd6a0b056b907",
-      "title": "PM Modi & Putin set $100 billion trade goal by 2030, to strengthen defence partnership - thepamphlet.in",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZzZIODVwcC1sbXZ6MVRUakt1OGdVcjZ2V2RNV0x2WVVwNjNvT0swWERnWTVNUFRnazMxUno5MjAxUDNPcWZJd3MzMVNROFp5OGUtVmp0OTlQZWVzTndpSHBYQWlWS0wwZGVhWnR1Z0p3MWV0cExlSFRSYnU3dzR5WmtYNGlNUVU5WDI1YVRNa2xISEN0bnd5RXV6RXJJTk5UbTEzeWxONA?oc=5",
-      "source": "Google News",
-      "summary": "PM Modi & Putin set $100 billion trade goal by 2030, to strengthen defence partnership thepamphlet.in",
-      "published_at": "2026-09-12T11:02:42+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "0c271ba54b47aa8e",
-      "title": "Russian Experts Allege Rafale ‘Kill Switch’ Risk as India Weighs 114 Jets - Defence Security Asia",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUWJKNTVjOTVHX1pkTGR1WV9SSVBFUnA0b0ZFUUhGR0k4ZE1BMUQ3c2V5WWNQME9MeHNJRUlwNllzUDFuWVl6U2tMajJnR2JjN1E2cV9iaXRkTU9pUDJYSlltd0NYSzA4bzNZYTAzaEFOaVdVSFN3R2gtN3BRQjd4cFBuVEU?oc=5",
-      "source": "Google News",
-      "summary": "Russian Experts Allege Rafale ‘Kill Switch’ Risk as India Weighs 114 Jets Defence Security Asia",
-      "published_at": "2026-09-12T11:02:27+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "6381d4f7d5eef290",
-      "title": "'Being used as cover-up': NDA on Harish Rawat quitting party posts; Cong alleges intimidation - thehawk.in",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmthbUVobWw3a0dyTEFWSlhJNGd4aldMTExvbzlTdXpqMFZqcjc0MnRJVWdwQ3VRRG40a3lIQ29fT21MYzRwSnVJTVdjQV9JeG9lcHQ5RWxNNUV3ZTdWa29jVUdJYXl2SGZ6Vzh1Mm1NLVNqdGhlQUVDeXkzeVA3WlpzQjc4cWk2bDJfWGR1Q0RQUDVvQVd6RTV1QUdneVhEa3RJaEEwUXV0UE5BcWFWZUY4T2xPMUFDWlJpZUJ2UVU?oc=5",
-      "source": "Google News",
-      "summary": "'Being used as cover-up': NDA on Harish Rawat quitting party posts; Cong alleges intimidation thehawk.in",
-      "published_at": "2026-09-12T10:58:57+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "b97d901c16b933ed",
-      "title": "'Being used as cover-up': NDA on Harish Rawat quitting party posts; Cong alleges intimidation - lokmattimes.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLVBNU3RyMVFfSUFGMHJuYWo5b2ZJSjBSRmJIRzhPeTk3U2pNd01ZT2FKcEJEaWxwOGt4bVE4a1IzTTVEOUEzZ0tKRUpOYlIxYXlicDcwa3g5Wjc5c1lqcElrUWVYc1lYbzgyZGhYeUhFaUJjUXhaRDA5Zl9HRjFUXzdWd0k5NDE0MG5qRmhKMmtTY0lYcmtoRUdmenVrVFNCNThRM1I3OE5tUjg4U0VESVVZeFJnUFczcHlvSmpPUTRhWmtZVkE?oc=5",
-      "source": "Google News",
-      "summary": "'Being used as cover-up': NDA on Harish Rawat quitting party posts; Cong alleges intimidation lokmattimes.com",
-      "published_at": "2026-09-12T10:57:37+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c10addbcfd22a5e1",
-      "title": "Ethiopian PM Abiy Ahmed Meets Indian Counterpart Narendra Modi to Drive Practical Cooperation in Defence, Technology and Mining - Fana Media Corporation S.C",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTHpsRWhFeDI0N3BxbjVsNk9vS041VWVRMUlYc0dXeUVoVkNza0tRLU9lTWdMZkZYWl9BMkdqSjkwVXVfR1JTOUNybV9IWFl3c2t6YWdIdUhWT2tBeWNuejJsT0FCeHptR0hkdDFqYkUydXUtUGNqVVFWbkMyc0VWbzlvQVppRDl5NUdYNHZndHh4ckxIYzNuOFpaSXBOZUtvaUNjdkVNY0ZUTWNBVnZ4MWVGVGdMYTM3Ym1IQmk4eGJIa1pCb1k3aTRTRkNsN3NUZnZfZmpyVmpmRV9keFk2M0hhaHJyTExtbEVlTW1SQQ?oc=5",
-      "source": "Google News",
-      "summary": "Ethiopian PM Abiy Ahmed Meets Indian Counterpart Narendra Modi to Drive Practical Cooperation in Defence, Technology and Mining Fana Media Corporation S.C",
-      "published_at": "2026-09-12T09:22:49+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "2b40bed3235f5079",
-      "title": "BRICS Summit 2026: Delhi metro to start at 6 AM on Sept 13 as UPSC NDA, CDS 2 exam takes place amid traffic curbs - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdTQ2c2pRaDdGUmsxZlNsNlV1QVpnaGU1bGQ2aEFhZ0ZIdDFoWF9qYW5pSGxzR0g1TDZkS3NBSFlIbFVHaFRpdHllN2RfYUlJeWxuZkNJRzhrcDRKOW91ckxrTDZSYWowcTdQUTFFVkRUVXdlYlE4VUJsaGd2NmtsaVdMV2IwNGV5MHdienI4ZW95MzgtalYydXNpTVY1V1VKWVZ1R0FWdVFld3o4Nk5aLW5iZC1VN182cVV6S3ZNSTdndkc5V1FNV3hNVDNsemRnSzRQeUdJTUNiRFdvcklGWW1uaDJZZHJrWXM2eXVrRXBOSEtYZjFuSWVGTFZ5UEHSAYQCQVVfeXFMTV8zQk8zOXY1Y3AzTHh2ZWxZU1dURHlpOUpqd0EyeDhBOENqUGhPeXhpbVhnSUd4T01fMmJxNkZZZ3BSeHR6UlNFbjN0WmdjX0VncXJRanZ2Tkc3UXJ6UjVhejZNSkpvbDhoUjVCek4xOFBTUzcwNWI0ZExOUzRrcDg4WkNMZHl6NVZ1NmdRd0g5REFiMFRVb3V0aC11UkdFb2lMUFFLMEpKYWJKM0w5WndyQ0d0T0lwRzFNN3RBa2lYRHZqVzAxRlRLeWNjeVdwaHctTjRnOHNQUmN2Q2lLX184YkNNS0lRbDlDTzBrandtdDFhX0xLTmd3bzBWTDhWVGI5enI?oc=5",
-      "source": "Google News",
-      "summary": "BRICS Summit 2026: Delhi metro to start at 6 AM on Sept 13 as UPSC NDA, CDS 2 exam takes place amid traffic curbs Business Today",
-      "published_at": "2026-09-12T09:10:34+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "ab347e7b71f57a69",
-      "title": "Ethiopia, Malaysia eye strong defence, business ties with India after Modi meet at BRICS - The Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdkUwUU0tVmNBTGpVMU9vUldFaFlvUEdNdGdQanpkdXVwREVpQVI5WXI4UHJ4YkNxWm15T0pJdkdUTFU2b3cyYjg0WlR3eFNtd1dIbG5KbDdyTUlKR3YtYmxaU1JjUTlzcUFXa29kcWMyd1lVVVBqNHhBNVU4ZWJwVGhrdEI3a1lBQThWSV9SeFFka3hmOHlvenR0SFhjMEJCXzRVNlRGT3F2b0JMcHpsWVpjT3FwZmR4Q0dlZXJZOFXSAcABQVVfeXFMTXZFMFFNLVZjQUxqVTFPb1JXRWhZb1BHTXRnUGp6ZHV1cERFaUFSOVlyOFByeGJDcVpteU9KSXZHVExVNm93MmI4NFpUd3hTbXdXSGxuSmw3ck1JSkd2LWJsWlNSY1E5c3FBV2tvZHFjMndZVVVQajR4QTVVOGVicFRoa3RCN2tZQUE4VklfUnhRZGt4Zjh5b3p0dEhYYzBCQl80VTZURk9xdm9CTHB6bFlaY09xcGZkeENHZWVyWThV?oc=5",
-      "source": "Google News",
-      "summary": "Ethiopia, Malaysia eye strong defence, business ties with India after Modi meet at BRICS The Business Standard",
-      "published_at": "2026-09-12T09:05:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "7f0e53e8bc7e7a8c",
-      "title": "Blind Cricket Asia Cup: India name 24 probables for title defence - telanganatoday.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLTdLTHl3RWRrSkktQ1FFckRVSG0zbHBQRk53ZzFqekYzNWlKc25zTm1DX055dUZESm4zZHJMc0JsaXM4eFdGdFpYaldUeFRFeXk3TjVidEUtS2FaS01PMUxEcGNPU0kwU2ZRZGV2eEJwaHp2bk14S2w2RjJROHItMEpZWFI0djdjdFBydHoybUk4eno3Z0E?oc=5",
-      "source": "Google News",
-      "summary": "Blind Cricket Asia Cup: India name 24 probables for title defence telanganatoday.com",
-      "published_at": "2026-09-12T09:04:23+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "94a94b813b4dd389",
-      "title": "IIT Ropar, Army Air Defence College Sign MoA to Award MTech Defence Technology to Army Officers - Telegraph India",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbHNPRnBMdXdQZ1ZTMjI2bFpHUzU2NjNTYmo1Tk5FTDR2TTRrVlZudWpWQllnaUhhc0hHUF9YeHJuZmN0YWVPeXVPaExrTlNWSG1JczY0NWljT2RWRDRUUnl6cUtOTEhtUjhOaEtmVGVnQ1FxRmtQdDNvT0VRZDNSa2xxUEtrTEhTRXYySW1JT1FrMXB5cTdWSkV6UVNaUGVmel9XN1ZlbHpzTHNjak1GSWsxdUFFMEFUU0pMZlpzbWdPWWJMWDlIRG5UT3JfOVlMbmd6WFIxT19PXy1LakHSAeMBQVVfeXFMT0tFUUktd2Z2X2RTVG93QVFiUzlCNGIxTjR6OVh3UzJ4ZVlIZHJFR1pfVWJ5aklUVW1Xb0ZWakNST2xydXJqclYtYkhYV0FTeDhEUGNBMktVWEo1ZlpoUkxKUTF5TThFVDV2aE1seTg3V0RvTXpUajY5dnE1aWZQWTNkVDVuMDUyTWk2RGQyY1JJcXg1alN0VFlJanQ0eWFaMmdqZEh6Sk1YclRSaFA2M0VYN3VHSGpwd0syVjAxZUNHZXFEeW54Q2V0cGRESC1nMHZyckdSbEtTNGQ5cFFIUmVBdDA?oc=5",
-      "source": "Google News",
-      "summary": "IIT Ropar, Army Air Defence College Sign MoA to Award MTech Defence Technology to Army Officers Telegraph India",
-      "published_at": "2026-09-12T08:45:01+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "4427ab2d76ebc6de",
-      "title": "Narcotics, firearm seized by SSB close to India-Nepal border; five apprehended - Punjab Kesari English",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbHJiMFZNTXVGMEs1UVBnWTJDOUJoajNnekkwaHJwT0pieHdTNV82WnZYTEx6cGhUSU0xMGpsdEowdFlraHZPcTJqbjd6SUItUGtKS1VSaUpVMHNuVVVvU1p1alpOWGdpZnhlTHlRYmVaLUFWRzU2MVBWWVpDTV8zNTE1cm5lbHJKamNDNjU5Qm95cWRNMTlXSldYMkNCNGkwX1NrS2Q4YkktdmxfamxIOUNuOWl6TzTSAbwBQVVfeXFMT0MwZFhITjd1MXBNVnVCQ0I3WjdZZTFGX2FxMU5YOGRyOGNmdmtrMVFZbFVaeXVTb3p3S0lOeEdyaF84M1IzU0RTeGZnclF0Ui1JejMzTUR1bVZjWGN6dWdIMzZJdVFOU0F4Q1RqTGw3WW5VajhDZ3R0elNGN1BBbTlPWTY4dHpMWGM0YTBycThnZUVCUnpBa1p2dktTb2NvMnp3S2ZiZjRoMTE3ZUFjRHJhbXZPcU5zTFo2SFc?oc=5",
-      "source": "Google News",
-      "summary": "Narcotics, firearm seized by SSB close to India-Nepal border; five apprehended Punjab Kesari English",
-      "published_at": "2026-09-12T08:36:10+00:00",
       "category": "Exams & Recruitment",
       "tags": [
         "Exams & Recruitment"
