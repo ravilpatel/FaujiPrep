@@ -1,6 +1,786 @@
 {
-  "generated_at": "2026-11-11T09:46:02.535565+00:00",
+  "generated_at": "2026-11-12T10:07:52.365822+00:00",
   "items": [
+    {
+      "id": "c5a6e0ecc6ebb328",
+      "title": "Rajnath Singh asks Indian Air Force to sharpen 'element of surprise' as he launches in-house AI tools - India Sentinels",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbS1VQlBjRW01Mm52YnBRTUxwZFF4U0pMVFlJbTQ4YTRmMnhQWktpZDhBdUJyY0EweFFSTFU5YXFjX0VwWTlaMVZlYXBkVG5pTTE0emFPQWs1MGJWM2ZTS1JuZHZGZThiTkJfenQxXzRFLXhnY2VRekdvZGx2OFdFSlFaMjNrS3d5STU0M1J4dmZZRDF5YV9ucFFSaDhGQWlsaHh3R3VtdWZPbXozcHcyV0RPajkwODQzUzFlZkZaUVpsN19tQkJqWjZhT3BMTjkzMjZyQkZfSWhTanBIU3c?oc=5",
+      "source": "Google News",
+      "summary": "Rajnath Singh asks Indian Air Force to sharpen 'element of surprise' as he launches in-house AI tools India Sentinels",
+      "published_at": "2026-11-12T10:00:23+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "06f04d58fb9a425b",
+      "title": "Surprise, technological edge and jointness key to India's military preparedness: Rajnath Singh - DD India",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRjhaZnpBVTVxbWNSMzItVWhtVFpWMWtCZGxBR0J2YTZVeXdZc1djWEJjZjNLYzNxZnljNkhYZW5Ta0I4bDJfdWQ4VGdpUzAtNjktTWY4OFR2UGxZcVpZeUZyT0ktOTVjVmZqY3d5c3p5NjNCbGhKM19Paks0TTFQaVJ5YlB1aERobjd3WG85aFZBbEQzMVNYLVpjdzJOc0w4d3FpMmNUa0RwUXJKZnRZNXlIOUVBMkQ4bUplNkVFZw?oc=5",
+      "source": "Google News",
+      "summary": "Surprise, technological edge and jointness key to India's military preparedness: Rajnath Singh DD India",
+      "published_at": "2026-11-12T09:48:34+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "d8c5cf557a590f0f",
+      "title": "After NEET row, NTA invites retired defence personnel to monitor exams - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVXZTcDVmcFFJem9EZXJNNjF5bzdQQkdZMUw0QnVRQzY0TFk3a3BpV2tNLWp3THF6T3dQMHc2cTBBSGc3a0lmSVo2ZVNwMW8yMlZESjdtdDA5RGFtODJZaVpESUZ2ZjZUQkxiYnBOVEN6MmpDNlhhOENXYm1nNFBmM0YxMVlTNW9iYm1ZYWVyR2dYRnJWN0RvUktiemZmdk05c0ZsRnFCTkRBNUt1ZWJLWFlFdlJBdTk3bjdxM2VYY1o2SnJNRTRoVlhxZzdxcW5kRW1n?oc=5",
+      "source": "Google News",
+      "summary": "After NEET row, NTA invites retired defence personnel to monitor exams The Times of India",
+      "published_at": "2026-11-12T09:40:00+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "c34f91f74890f679",
+      "title": "India Tests AD-1 Interceptor for Its Phase-II Ballistic Missile Defence Programme - ELE Times",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUklSaGZDdFV0eWpIZXdLSFRmX0NBaHBiaDNoRzlwOUw5ZjkxTFZaS25ZUl9lWDFBX2JUUGdYRlAyUk14bW5VellmWW54TG5rWG85R09YTTYtVEpVaXY0VDNKWTd0bERpYTl6aFNLX2NjeElzeHlkYWNjU2U0Wm5qYWRiMnNSaFhIUkJKdXJEc256Z0l1U0hQWU5tT0xPZFMwdV91RjdZSlA?oc=5",
+      "source": "Google News",
+      "summary": "India Tests AD-1 Interceptor for Its Phase-II Ballistic Missile Defence Programme ELE Times",
+      "published_at": "2026-11-12T09:38:07+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "4217e6433f3c6089",
+      "title": "RSS chief Mohan Bhagwat’s defence of firecrackers: ‘Once purified atmosphere’ - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXFzdkllOURydm9seW9lVjVxLXIwNC1jRm1sdmJUSUNyLXVxeEkzX2hqMTgxajRBeTBEMzFXZFZ5cGF1MFk1LU13cWxZdWFFSWRjWUhfQWsweFpRZ21oSnBiLTg5MEoyalBIX1NJSy1XUGx0em9NZVIyV09RYnNsTGJvY0luV3k1UGQxT1JhTGxIQzFJTkx2alZyMjRaalgyUVFJUkJJVUJKbXBNd292eHZpU1BXRVRPZ3A3MDB2Y0VBNFdH0gHLAUFVX3lxTE9wY0c4WWhqUV9FZ3NTQWFTd0M2amNUSWZOajhCdU5kUmRLY1hseXU3QUdSTlcyUTdaTjRPbklvY1c4c3dpaExJellnbXZMaXh6TG1fRlk0LWhUVG5FT3g0MFlLX2hKOHpybzJiejczSHh5MlN3TXRwdlJGbm1VelluSUxzckx0SUd3WU93MWJvOVcxQ1htVUV2UHZETXUyVUZUdllWNE00QkhxTVhvZGdVRk9yalZMX1J1dGJTN01kaVRtak1aQVU0WTJj?oc=5",
+      "source": "Google News",
+      "summary": "RSS chief Mohan Bhagwat’s defence of firecrackers: ‘Once purified atmosphere’ The Indian Express",
+      "published_at": "2026-11-12T09:26:04+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "4847b6d252d2262a",
+      "title": "India and Indonesia take further steps to strengthen defence cooperation - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZllfX1FSa3c3dGhPRzFud0FBS09ubmVqcUMzVFRqeUZZQkpBVHRBck1DVGFKWldFN3NGd1lXMTZBVjhMRjkzcnRzZy1tY1NsZHFEbURjdVIxWlJNNlhTcFFObUxBd2o4VWdhcEoyMDdVUVdBeWRfTWc3RGVzYnd0Ti1xamNCa1pXVUxEX0hxRy1paG15VHhfYXlwVUdueUE?oc=5",
+      "source": "Google News",
+      "summary": "India and Indonesia take further steps to strengthen defence cooperation News On AIR",
+      "published_at": "2026-11-12T09:01:50+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "51e082f1063b77ba",
+      "title": "Tenneco Clean Air India explores acquisitions in railways, aerospace and defence - Manufacturing Today India",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNczg2cXpWQkg0cXhFSHZNM2pPc1ZodmdKa0lwRFNzdUJ6dHY1bjFoZ0Y4TjdNb3dLOVRESU9rYUhwcjdzTmRMTklYUzBtYTRYaXF3bk1Tamo3V0pQSGlVcnBrcWc5UXBubVl6TlhuZ210V2luWGpHNnJFMHRVNnV0bw?oc=5",
+      "source": "Google News",
+      "summary": "Tenneco Clean Air India explores acquisitions in railways, aerospace and defence Manufacturing Today India",
+      "published_at": "2026-11-12T08:51:01+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "7f59c1a10995f7b2",
+      "title": "India’s Multialignment Is Calculated, Not Confused - StratNews Global",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNndlcU1NN1psNWJvQzU1NHZxOFpYOGE3VVlTaFpSam5jSTVWUTlXODM0azZCTHBXWnZqUjJ5bWZQZVVUSm54SVBMTFRqV1NfSm9HN0xBS2V5R1RMT3ExemRSWUVVdDd5WHVtSHRRMzJzMzYtbC1uMHpjVFdvNTdGNjY0ZWlhT1pqQlln?oc=5",
+      "source": "Google News",
+      "summary": "India’s Multialignment Is Calculated, Not Confused StratNews Global",
+      "published_at": "2026-11-12T08:36:33+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "39ee5c8ee51c95dc",
+      "title": "India’s Defence Reset: From Platform Acquisition to Warfare Doctrine - Raksha Anirveda",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRHBDVk5iakdUd3J0UktubXktd1Q0cUtOYXdIZGFaTlJwbFJnQVdvQ1ZhTWJBb0x2eWp3Wjh1ZVNhR1RDTzR2eVpRVkU5RVBUczNWbnpnM2Q3X0Mwd3FVR1B5bkZvdms3eG1FVGE3Rkk5aHBXWV8tT1poXzRCR05PVFVycTVrZVNKSnpkN1F6QURXR1M5TFRrN184NA?oc=5",
+      "source": "Google News",
+      "summary": "India’s Defence Reset: From Platform Acquisition to Warfare Doctrine Raksha Anirveda",
+      "published_at": "2026-11-12T08:27:53+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "d56d7f3372f9fa0c",
+      "title": "ValueQuest commits Rs 775 crore to India’s advanced manufacturing and defence rise - CXOToday.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmFLemY2RzRHVGxyYko2eG01TURnalhfM0w1ZHhTclZTLVlLeTcxTW9nMmRXRlBOTXZraVNhVFNyM05TWGlhNERORTRiYW8waThEdnV6dkxuY1V3djlNQk00cEFoN0RZNVJ3TW9uYS1LLUM4dm8tTWhSMEk2WlZ5SVpxYUoxeU9MSFdOVWF5LXp4aUtOalgwTjBsc085OGpwTFV5YnFWdjVnMDlMQlNGR29hZmxUdDg2R3c?oc=5",
+      "source": "Google News",
+      "summary": "ValueQuest commits Rs 775 crore to India’s advanced manufacturing and defence rise CXOToday.com",
+      "published_at": "2026-11-12T08:07:43+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "453e964d121413cd",
+      "title": "ValueQuest commits Rs 775 Cr to advance India’s defence, manufacturing push - YourStory.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMTNrQ3BvSkdkcGVXRWU3azBOMnFTVUo0ZVk3WFAxTWJMSVBTZG1CMFFManJvMl9IVDRESWplZ2I5S3RVbUM0Qjd5RDY2ZGpnTGpYbmJXSi12ZnkxQjR3R1dkNUtNS1UyQldLOFNpMVRaZEhoYVI2Wks0RmFTV3o1Zm5LS2xWbkNhczFsbExwTUFHT3diSFRtcE8zRmZWUEFEd1l6YUdn?oc=5",
+      "source": "Google News",
+      "summary": "ValueQuest commits Rs 775 Cr to advance India’s defence, manufacturing push YourStory.com",
+      "published_at": "2026-11-12T07:50:51+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "76e2fcdf0fdc7e3c",
+      "title": "Tejas Mk1A Radar Row: Why HAL Chose Israeli EL/M-2052 Over India’s Uttam AESA - Indian Masterminds",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRDg0SmY4UjhPTndmWmlFZ2kxZUV4ZDgwQzliZFVHSF8yajFlUnRlOWo4TGcwR2JnTUM2LUJTTnpqbkpzaDkxeGdZRWRpd1NUNGRMd3VyeTRKWjcyRGVKOWxIdUVyN3l2bW9DbUM1eldWTlpVTkVJcV9PMGFCWTZ6dy1xUVF0NGZaeVZF?oc=5",
+      "source": "Google News",
+      "summary": "Tejas Mk1A Radar Row: Why HAL Chose Israeli EL/M-2052 Over India’s Uttam AESA Indian Masterminds",
+      "published_at": "2026-11-12T07:45:37+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "d4f865c22bb0442d",
+      "title": "Philippines Considers India's Akash Air Defence System to Protect Its Expanding BrahMos Cruise Missile Arsenal - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQekxIbmpFemNmZVcyR3dyM1FoY2tBeHBqZXFXVWRLWDBxQjI0NU5ZdVNFYTdlbDl4VW9ETGwwcFBWRWU3MlhxM2xJTnV1ZHA1S3VxNTFvdi13NkEwTjdneUdld2VheC1qQXdkSUpDQnl0VkVQTTJhSVhLNllNem4xLTluTV9GUjd5ajlWOU90eGVzWUE3RkNQSmk5azEzUkRDN0lBNUptdEY1RFc2YThFbzJnQkRuaG9TRG45SjQxdGRVbElGaDFSMHJkeUk2RE93am5kQ0ZNcEZfYk0?oc=5",
+      "source": "Google News",
+      "summary": "Philippines Considers India's Akash Air Defence System to Protect Its Expanding BrahMos Cruise Missile Arsenal Defence.in",
+      "published_at": "2026-11-12T07:31:28+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "bc21f04b22e865ba",
+      "title": "Air Marshal Anil Chopra (R) on Op Sindoor, F 35 'Kill Switch', 28G Jet Ejection & Fighter Pilot Life - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOckE2cjJ1OXhyQlFBNllpWDdER0w2OWQ4ZFNSRG5fNm9xckptM2c1NmhhSFFFellQQ2F1QTFGaWtDWnlYVDJFZnlwS3Bjc1E4aWlhek1NZS1hU3JuMU44WGVHTC1MQ01sRXhma3dYSzdBXzkyS21JUVFYQXVmZkNZcnNfMHp1NzlrX2J2WS10cmc1OFRWV1R4cFdYYUh4aF9PVGVsdFN0Mk4wbXdnSzg3V0luYUVTeXYweTdMbWk0Q3BpSDJmX0NTUEFoRG5lTHIwamJjVTVxX24xMTRSYVZyOEE3dWp5aTJtWkJIQzZfWUIzTkc3LU5qdWFobjZKdGfSAYQCQVVfeXFMTjdJSlpicnZiZFJMU0J0S3ktTkw4WG01ajljRkdKTEtUNU1wcS03N2xlTXRfa3hXMWJCUmRIdEppZTBvaXN0d2FNT05QbGR1NGJYQnhXYzdSTmlDei1MU0p3ZFVXZHBaU2M2R0VSQnUzNi12TERmOGpkZXB0NVNXYUdsazE5WVQyTFVyQTBGS05abGFWOUtJYkxRQW45SklkSnhFd0VzalExZDBiNGl2UmtmcEV4aG16Z25LWFRiMllGUjdlZS1UcG9WbHd5SUVNWEVCU1V3TUhFdEw3TVRqamxObldyREVldVZWRUNMSHlrSTEybXpRWFhlUXV0WlNQZUdTTm0?oc=5",
+      "source": "Google News",
+      "summary": "Air Marshal Anil Chopra (R) on Op Sindoor, F 35 'Kill Switch', 28G Jet Ejection & Fighter Pilot Life The Times of India",
+      "published_at": "2026-11-12T07:17:51+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "eea4aa42bfdce7c0",
+      "title": "HAL Cheapest Pure-Play Defence Stock Despite Sector-Leading Position, Says CLSA; Hikes Target Price - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdGVzWk1TVDlCSGhMUkc1UXZodk9KYXJoTlI3ZlRubXpGN3VaWWxpNnhMdXM1T0t3eG1NYlVPYW42UmJwdW8zVDVUVzRDNEdYbXhKMDlJMlo4VnR2Z0l0dWUxU2tQNngzb0h5VjdGaVBhd2V6VzNodGJuNXdTaDllckNCeVZmWUlqajFqUU1sYjk4cVBFN05LTVR4clo4dS1VdHdRM3dBQk1HaFJaVllGTWdDeGFhc0djTHBaWGtNVHloVnBJNXFBNXZJRU9Va3pVdWJWMkVrd2bSAeABQVVfeXFMUHRNMmViYTUxMHFGU2FIdGFjZEU3V0NQS3lIcGlpMnJaT3ZoamVobDhqX201X1hNVDFnMHNwUzdrUmQ0ak5ZdG5zWGFVR2JXVFlUdGVnZndhbXRkbVpXZ1hFQU1kbGF6TXJfWW9mN0dVdlM3VXlJanBHaGFkWVJuUk1kWVhjY1otVm4tdERkbG5zR3ZOMXl1cmNiZjkyajQwYTZXSFFiUGphVU9KXzBINmVTdGxZMkFtelc2amFPazMtT1VyUTUweEhvUUNjcG5TcWNWT2dkb0dub3BZcllmWGE?oc=5",
+      "source": "Google News",
+      "summary": "HAL Cheapest Pure-Play Defence Stock Despite Sector-Leading Position, Says CLSA; Hikes Target Price NDTV Profit",
+      "published_at": "2026-11-12T07:17:08+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "31e0caad7a091fac",
+      "title": "Indian Army Delegation Visits Indonesia's TNI Centre As India & Indonesia Look To Strengthen Bilateral Defence Cooperation - Free Press Journal",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS2UxYzBBSkY1YnE0SGo5UmgwYjlvbTVEdHZ6b056SGhLYXNJM2pEa0hTUEtQREFRV1AySHVlN2NCOG5nVnhIV3hqYVVqeFFSNS1KYlM3YWd5UjMyUXNLcUY1WDVRT2dMRjM4XzdyNklvNE83Y1o1a0ZVZDJJUk10aEdHU18zQXB1cVRyRXBuRFBNSVRVcUhPc0F5VXRKRGplckhMNk81QUpIQ3ZERGtKSGJUTzNURXVvZFlmU0ROQjhxNTNOMnNmVEZQUlZYT09uMGVNWk02MkdXLU5FcHpXTE5nZlN4SHBGempDUUlR?oc=5",
+      "source": "Google News",
+      "summary": "Indian Army Delegation Visits Indonesia's TNI Centre As India & Indonesia Look To Strengthen Bilateral Defence Cooperation Free Press Journal",
+      "published_at": "2026-11-12T07:13:47+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "a4d803832422906d",
+      "title": "Indian Army delegation visits Indonesia to strengthen defence ties - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcGF1VmdmTDlBQ3I2cm8wTXh1Rk1lRFdyWHVQRUtiV1k5Y1lUaFhEWkwtckgxQk14dWZVb0gwN0dYVC1oQ3lNUDVIcHdaQXdQVEZZb2paZWFqLUxoM0lXQzJQd0F2QXd5YlI4bnhTRldVdWpYV1J0alZ6d0VFb3dtOXZheUpLQUtuZnNFemI4eHhaaXp1U1o4VXFhYnQ2T0Y5ZjIzVWlvQm5YQWfSAa8BQVVfeXFMTlpUMkdPdDFWQ0FJb0F3cVRHX2paZjJGUnBWVE1pYVZOQnNsNDRFTzhwLUZQc3NNdU5QZzYxVVk2TWJkWkNieS1jOEUxazlSb2EtcUZPLXFaSEVmZ1oyMmh2dFY4ZTBUUGdsczZRcVh5M3UzcU9xZzlhVk92RndMMWFRbEhUdmF1Q3ZXeGs4cHlGenhvR3l1ODJManlMMG9tTGc5UnNSX0UtOXY3Y2lrdw?oc=5",
+      "source": "Google News",
+      "summary": "Indian Army delegation visits Indonesia to strengthen defence ties The Tribune",
+      "published_at": "2026-11-12T07:12:41+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "dd27b40421ddfa6c",
+      "title": "India in the Mediterranean - CounterPunch.org",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CLVVOQ1RLcjI5V0VXeWtjZzFYbDhnUkR6am1lQmtpV3BTeXY2SXlTZ0dmc2U2LXFrTGxwclFKdEt2YnFRbHBnOWRJMzloZ0JWRVBJNGFhekhsc0tCNTNfN2hmYzRYZDRldkp4dzRJaTdDMXkyTEE?oc=5",
+      "source": "Google News",
+      "summary": "India in the Mediterranean CounterPunch.org",
+      "published_at": "2026-11-12T06:58:04+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "c170b45177ec3186",
+      "title": "India needs information policy on LAC incidents, says former 14 Corps chief - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORDdwX2RYZjBmRWNRSkN4Z3lPT1NvaWVtX19CRTdSaFNuLTU4RDFkdDIyMzRfME9UVXBqdFB2WVZWRXBIeGNpMWxjbzBlU2NkZXZqNEFGckVUdUljZ1ZsNUFKZ2pMdU9XN21GOUdQeW5hcnNoMTZ5bXJpZXVJU2lPb1BIdklfS1RHd1ZWVlNIM3dJeXEyWXNmeXVaUWM4WkxSMzkxV25Oc2JFUFZZWWFyekwxeXFkajdyb2ltbGtaMFF0ckpkYWF5OW1UX29GSTJhLWIwTDJ3X0RZcjZWaTlCUTZ6Z05ranN3R1NCX3UzQUczU25j0gH6AUFVX3lxTE1kd3VYV1c0YkVhZXBrclZfa1plbkVaaVJnX0NYZWlfVFlodFBNeTNycW1MZzNFZFJDbzZpSUg2Z0xkR2lzZFNRLUMyWXZoRlA1a254LU4zeDQ0MGwtRVJ5NDZBV0VneG8wS2cwSFZiT3ZyN2xmM0dVY3lhV3ZMZUpJaFY2UnJGdnFmTW9BU3ZZZHcteG85RFFBaXlWMXRSRmdDZndIaUJValYwNHNJQWhRS3lpSkpuQWo4MVFaR1UyRGVjVDdGelhxN2d4VWF1aGFsUU9FZnUzQVg2Y0JNZXRVUk5hMnBuVENrMTF1blJVREdJeFI0ZTAwOUE?oc=5",
+      "source": "Google News",
+      "summary": "India needs information policy on LAC incidents, says former 14 Corps chief Business Standard",
+      "published_at": "2026-11-12T06:57:52+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "29981f10f7bca204",
+      "title": "Jensen Huang was caught on camera getting cosy with Nvidia VP. Then came the NDA - India Today",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObmV3YThWTUwxc25WcmJTQ3V2UVd0cXlDdjJlM3FWT1AwdmRpS2pUV1ZkRnAtanpaOTgzNi12bVJ5Q2xlVzA3cjh0cThaZndVX0ZwRnVmUWZIQ3NZR3ptdVNsc29mSFFJSDZjZGtMUVJIbWZheUwxVjNrNFRmNExNMmtxb1MteVNuUXdkSnlGSmRXSW14eHV5U3JyeEdVa05mMFdPTmNfdE0yeGpkeWZ2Z1p1Z1d1WE1T0gG-AUFVX3lxTFA1a0FPb19lOUlyZ2otMzhfRmN5ZWc5LTZzZnV3SkJmUkhBYlFnbFhFNHhMUGc2bjFsNnJ3VF9TWXhhWm5YcDJ2NnUxX0JwSUpPeG9YOE1WX1VQMTlxRDF5dmNPWFpxcF9JS3VJRXk4b0pIcVpiWlN5ZEFBQ19kWHNDc1V2WWZtRVhlTm1WSWlma0hpSTZlOC1Sb2V6MGViUjVfQUt1X3FjZlpzLWdvWnpiNjFmQWVmMXF6SzRBM1E?oc=5",
+      "source": "Google News",
+      "summary": "Jensen Huang was caught on camera getting cosy with Nvidia VP. Then came the NDA India Today",
+      "published_at": "2026-11-12T06:20:06+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "940c245334a33994",
+      "title": "Indian Defence Exports Now Reach Over 80 Countries, Backed by Both DPSUs and Private Sector: Defence Secretary - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZU1DSlpXM3RmcG1wSm5mUk1vNW94clRNRWowM0YyVXp1cDNXUENNdGxieXh1WXo2OWRTX2ZEUk5iV3hiTFpyYmE1b2w3UkdrRTdQM3lxemlUbWRORkJZSjFYaTRpcElCREU0ckxCUExUUE5iYkMxOUIzeUV6dVFPTC1qRFZyVzZEZVRLYVRob3EzQ01nSUhtVFhYUms2aVhaRkNPSjFDQmdVaXU0U2xkRTVwQTNUdjRLNWFDcS1NaVcyVllvaEY0Z3diLTVTaHVIb2tPNTU5RXlOUQ?oc=5",
+      "source": "Google News",
+      "summary": "Indian Defence Exports Now Reach Over 80 Countries, Backed by Both DPSUs and Private Sector: Defence Secretary Defence.in",
+      "published_at": "2026-11-12T06:02:46+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "5db52362884416f3",
+      "title": "From Successful Trials to Orders: Strengthening India’s defence innovation - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcXlIWEQ4V1RCUmtEOWdhSXUtUVFjT3FSM2VsVmg3ZTczSzl6LWlhQUsxRGh5SlZOVmpENE4zeFhkU0VoQ3M0TlhXcGllazB2UXZMM0IwOHFIalBpUmUxQmxSVlFwbGc2NXFCcEd1RlZfTHBZcTZiUTBLeWU3d0ZGUlNsQTBseEF0X3VQNGVTd2g3MVl4Vy1SbGRrTVhBamRkSDFPenN2S3pfQWZVZWxzcXR4WExhYzVnYXI4VXRnMjh5TEhja1M4MHBOb2pXUdIBzgFBVV95cUxPcXlIWEQ4V1RCUmtEOWdhSXUtUVFjT3FSM2VsVmg3ZTczSzl6LWlhQUsxRGh5SlZOVmpENE4zeFhkU0VoQ3M0TlhXcGllazB2UXZMM0IwOHFIalBpUmUxQmxSVlFwbGc2NXFCcEd1RlZfTHBZcTZiUTBLeWU3d0ZGUlNsQTBseEF0X3VQNGVTd2g3MVl4Vy1SbGRrTVhBamRkSDFPenN2S3pfQWZVZWxzcXR4WExhYzVnYXI4VXRnMjh5TEhja1M4MHBOb2pXUQ?oc=5",
+      "source": "Google News",
+      "summary": "From Successful Trials to Orders: Strengthening India’s defence innovation Moneycontrol.com",
+      "published_at": "2026-11-12T04:58:09+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "8abc66846b5e8d0e",
+      "title": "India launches 5th Sea Vigil coastal defence exercise | Tap to know more | Inshorts - Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRk9pNG1WSmo3c2lDSGRHQlkwdnp5eFJYUFZhclVxY3U1azFoY2FiVjExcFdhejlHX09weWVIUkxsX2JWMUdYVWdGVEE2dndvUEJWTFlRelhFWFUzS2xoTDQwdzhURF9nSnhKTW5UWG9Gd2d3Z0Z4QW14V0hfUzVFS0d2QlBVSkZFcjNBRTRNcWZtZ1JEMElnR2RjWULSAaIBQVVfeXFMTzJicW9aRDNVZ19GUzBFeE9kSmFRdFFrWnVNcDFUR3YybUhZUHVvY2U1ZC1qNkRpZ2xoY2VJclFDelpNMGJnZDRLWVlBd1ZhMXVONXhxakptYjFCdXh2MUI1NHlOcDM1OWRjTmp5VGNaTXBpYUpna0ROU01TSWdKVEstaC13NGtjZUttTXhTQWZ1MndwYjk1ajM0OU4tNnpaQmln?oc=5",
+      "source": "Google News",
+      "summary": "India launches 5th Sea Vigil coastal defence exercise | Tap to know more | Inshorts Inshorts",
+      "published_at": "2026-11-12T04:36:15+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "2a79c540199fe696",
+      "title": "Navy kicks off ‘Sea Vigil-26’ to test India’s coastal security preparedness post-26/11 - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVVNaSDlDdzdscmxhMUZQc2tOdTBWZDc3UmVYY3lkUk5uYXo3bzRZdnhUUGlOb3FJcjlxWVNKNUtTYmdJWXpydWctaWNidUR3QXlzUHJCNzlMUExFOHBsMnRVWmVxMDBRZWpDT0lMY1NLYVRrZWowcmd4RlBZWmUzelVxVzlnR1NKVmJwblpEeVJaNlplTDM1bWhoZnRTTHdoU3h0N0ZGbDE3aXN1ek1samVQLWJ0Rmpndm5BRVZWWU9rWmVmR2piUVZNWHk1cXRKbHlkOTR0anctQUNRZVRwdV9yT25lLXFl0gHuAUFVX3lxTE9VeUV0R0dpZGJNTVgwSW9Fd01LLVBwNEF2NFQ3LUtSRmdGNFY0clVsU1RRWWhBUk1vZnhRMl9sQ2hvTFRTR2NPME4yTlRXM01OQnlhZjRNbzNtb1JJN2d6RUZqY2x2Tng2ZXNUSGR3NEVvWktUWkdCdmoyZ2owS3VpQmR3YUs3VnVQMDQ5OGxvd2YwVm9HQkl0NjdGZElLTjkzUDhLZEEzNlAzbXVIcFRjcTFKMjltV2szem9sXzJhMnF3eV9TbFNLQlBaLVlmWmlvU2RvVTZqdzhHVHd5ZWxWT0xkbF9sTE1YU3BXUGc?oc=5",
+      "source": "Google News",
+      "summary": "Navy kicks off ‘Sea Vigil-26’ to test India’s coastal security preparedness post-26/11 The Times of India",
+      "published_at": "2026-11-12T02:11:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "4a5f3f9d23f64404",
+      "title": "5 Defence Stocks Bought by FIIs in the September 2026 Quarter - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSkExTENnMVVDOG9fWGdVd1gtWE5HV2JYdm90REExdnpuVm1jZk5NeG5LRTlOV3JXMUhKTWx5aUYtQV9nbGVuRm15M3N5MHFWWFpCNjNTUUFGZEVJcTJHRXRVRXVTYXYzQ1pCZmtaclpuWDFiaFRWX3JzNEEtRGZPQ19EQzFEQ25Rb0ZGTERxT2N4Y0E0UWdDR3VSYVFRbENEM2xZYTE4a1NoblpvdFNDejlZVVZ2R1RlOUlNZ1FKOFd3N1NqMWFoMzRtQQ?oc=5",
+      "source": "Google News",
+      "summary": "5 Defence Stocks Bought by FIIs in the September 2026 Quarter Equitymaster",
+      "published_at": "2026-11-12T00:30:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "ea6bbc0ab6356739",
+      "title": "DRDO Ejection Seat Project: Can India Build Its Own Fighter Jet Escape System? - Indian Masterminds",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFhFZ3lNSkkwRkFwMGdETUUxV3NkRzI3VloxV3JGcHlYQkVKZ19kQUdDUVZ2ak9NS29DWGE3STZwMmJlbWhRaGlPejczTV9sWGFRSGpYU2ZJM1JINFNQbXdRQzBhZExWVnk1MWhJaTJBcTU2alUyY2ZIU214ekpjSnZDVGNZdE90aWx6NVFuSQ?oc=5",
+      "source": "Google News",
+      "summary": "DRDO Ejection Seat Project: Can India Build Its Own Fighter Jet Escape System? Indian Masterminds",
+      "published_at": "2026-11-11T23:28:02+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "456f0ae89cfd82c9",
+      "title": "India’s Defence Industry Faces Execution Challenges Despite Strong Domestic Demand: Morgan Stanley - BW Businessworld",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDZQZEZnVzNHTHRBSUoxUU9uU0JPQmJCRnM4bl9Yc2ZYaFdJUmJ1ZU9xN3FjVUpoX1VzejdQN1p2UDY2SHNiR0Fvd0I3R0NfeEVqWElUbFljRU0yaU9qUVJuNnV2a3FPUm9xT0djMnRWM3d1LVJOcFJreWM1NGI0QklTdWJYUnpDVjdpUHphTWp5bEV1Mm12MWI1bXRvU2o2RVhsbkJVV1JKa0VfbXpGZjRVLXNkSEkxcGRFa3duelVweWZRZkhEcUtuc1FZUC1iNFBldEJQaTc?oc=5",
+      "source": "Google News",
+      "summary": "India’s Defence Industry Faces Execution Challenges Despite Strong Domestic Demand: Morgan Stanley BW Businessworld",
+      "published_at": "2026-11-11T21:31:17+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "2943f2c033778e8a",
+      "title": "India Must Focus on Strategic Components, Advanced R&D and Scale Manufacturing To Achieve True Defence Self-Reliance, Says Defence Secretary - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOd0RDTVNyZnFGWlpPempWM19fOTJpRy1QelJsNXNINThSUUtVd09nSjBYLW9hRWg4ZVFtQThfVmFJWUJhT0NiR2V3Zjd4bEp4b1VjSV90enJac0ZsdXpTLWFUa2NCaFNaUnQ1ZTR6UHJiRlBxcUNQU1V1M0prZFQwQ2JtaFRFRzc4YjdCUEo5bEppcUl2VGlJUFZIVEd2bmtnd2VabWdndVhDUU9nNGhWX2V4TlJ5WFQ4Tm1TTHJ3UkEtZ3FsV2hKc3Axb3JqeVdReTFKbnY2QVlCM0hvc2lhYzFUSjBObUU4akJBTkFKekkwRTVNVXZVeXV0b0NTUVVEZ1E?oc=5",
+      "source": "Google News",
+      "summary": "India Must Focus on Strategic Components, Advanced R&D and Scale Manufacturing To Achieve True Defence Self-Reliance, Says Defence Secretary Defence.in",
+      "published_at": "2026-11-11T19:20:25+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "0a30aef49fde9cb2",
+      "title": "India Now Manufactures 65% of Its Defence Equipment Domestically, Reversing Decades of Upto 70% Import Reliance, Says Defence Secretary - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNLURjZnl4b0Zsck1uYzVha3JkWFdYTno4TExuSW9nZ2NlQlJhSVd3dV9YNjJxOG1za0JXT1RjTndwcHNOOXg4Nkx2VWx2al9LWlgwZnFRTUR6VDFIS01JM3hjc2VBVGJyUHl0SXg3RGVUUGVvYVdTLVU2enNkYUhnbFZTVi0yYThTZFQxYmtPS1FPdXJhWmdzNmhmWGlJMU9Zb0pGNGVQYmtPYmFTbVRiVFZaSUo2MExxUmV6RkhyNzRiVmdSaVoyLWFqZmxqUFVyeUE2d3VRMnVaWXBkUVhHSnNkOFZwQTFLQnJrRXJoTGhOa3ZRVEsyYg?oc=5",
+      "source": "Google News",
+      "summary": "India Now Manufactures 65% of Its Defence Equipment Domestically, Reversing Decades of Upto 70% Import Reliance, Says Defence Secretary Defence.in",
+      "published_at": "2026-11-11T19:07:18+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "01f7a0ba1bc08e8a",
+      "title": "How India is Actively Transforming From a Top Arms Importer Into a Global Hub for Defence Manufacturing: Explains Defence Secretary - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOU2pEVWx1UzlPbVBCdGdYT01jSUw3anVtWEE0dVYzSlI5TW5ocVVrVUY2MUcwNjFwVHBPUGJwNl9SRV85UWVMaTNwX2lYNURsel9IaGdaVUpHR0p2cy1XQ05HU0VCRGZtczBtU3l3QmpuN1dpcTNhcmFUZzlSYnFTRkh4eDN5RURheGJRNWs1Y1dVMV85Y3dUN1B6c2dwN1NncW1jZDF6bjl3dm9JWWRXejhLNjJUUDh0RmZRc1dOeFVHSHRlV2tNbHA2TlVPNVZHMDRJR3RSQWFtUEFrR2hUem1mdUhndXdPc2treEFWZllGSHdiLThj?oc=5",
+      "source": "Google News",
+      "summary": "How India is Actively Transforming From a Top Arms Importer Into a Global Hub for Defence Manufacturing: Explains Defence Secretary Defence.in",
+      "published_at": "2026-11-11T18:55:15+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "57411b21354b1969",
+      "title": "INDIAN NAVY AND ROYAL NAVY OF OMAN CONDUCT 15TH EDITION OF BILATERAL MARITIME EXERCISE NASEEM AL BAHR (SEA BREEZE) - India Education Diary",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdDhRV3ZyQnZIck9EeGhhcUszUWduLXpMRnQ3N1haR2hFTmtoaXdqU0lYWWM2Qnh1M2huUWYtWDFDTXJYalp1eXRHcVNYUVFTTEVTQWt2QktnVm5oaUo0Qm1GUnZXLUN5U1pzZGY0SmVpOF9nYkxwWVA4S1J2V3RTTjNhbV9paEE2N3dNbGF6cXRqZXM3UWZIbmJMWC1BOE1RR2RidGR0Uk1kbVYtU0xTRUFBY05sSGx2S21OSTJiWnZmQ3M0UGw2ckd4TlB3eDV5aTJYUU1aa2YzUjdE?oc=5",
+      "source": "Google News",
+      "summary": "INDIAN NAVY AND ROYAL NAVY OF OMAN CONDUCT 15TH EDITION OF BILATERAL MARITIME EXERCISE NASEEM AL BAHR (SEA BREEZE) India Education Diary",
+      "published_at": "2026-11-11T18:37:32+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "f1ff026d6ec2e684",
+      "title": "India Navy to conduct pan-India coastal defence exercise ‘Sea Vigil-26’ - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbWd6azc5aVJieWs2QWNUMUxTdlhNZ0l3MXZQV1RDcmdILXNFUnotWl9LTzNOdUdHTEUwTU5obDJsdml2QmxfS0xYQ05FMUM0OTNvaGxscUxvRU14RDN0b1BDeWNQdFB5a1d3NURVaWhiSi02UDV2NHBUY1QxMTBFWnBwUE9lYkd6QlBLcVgwc1pINXRzTTRDTzZ4dHNGek1hN1llM2VuTEFzd2xyeU1HN0t1aEtnSF9mUTUxRW42Q0tsLU4zSW9aRXRHei00Vmx3dUFfVFI5VdIB3gFBVV95cUxNQkNyOVp1YUpObzJ1c0FQeUtmWUVSSHFSZU82eUM0UHAxaW91SExtNXI5bi1xNjR0ay1rd2FwTnRncHZTS0FjdEFUWkxvV0cyc3VrZGdRQmxxa0ZZTWw1LS1Za0ZsOU0zRzhfTHBYeGtjSzlwN0hIY3FHMl9ibFRMRG0xaEY1MnV1dXRJdHpxcjlkME1QYWlvMFlVa09faURjRzNBcnBNMVlBREtjTGU4dlRzbDcxc0g2dEtXZDM0cTJwZXhPMGNkX21Sc25TekpPX3hmZUxzekdjMVpNbGc?oc=5",
+      "source": "Google News",
+      "summary": "India Navy to conduct pan-India coastal defence exercise ‘Sea Vigil-26’ The Hindu",
+      "published_at": "2026-11-11T18:01:59+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "3895d6a416fc210b",
+      "title": "TKMS Partners With India's CFF Fluid Control to Manufacture Underwater Defence & ASW Systems in India - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMVR3Yy1QN2dvLVo1MDV0TXJSTU85QmVZZWVUM1pncERWZ19FMGRuUi11cW5ueWdjUXZreWozcEJwa0VTRWZUa29WMFhYelJqOHVjV3BJMDdpTzhUMktnMmF4OEg5bmhxN1htUDItNm4zd3JLQXFJUG8yaUZzOTlMTVdkRXBRUnNPZWxXam1kdjZyYWl3NVZta0FOaElUVXdLVkpfSjB0LUFtaDFlTHEzT3FKZ0FQbFloRHJ1X05NM21xVjBZcklhUUREcDY?oc=5",
+      "source": "Google News",
+      "summary": "TKMS Partners With India's CFF Fluid Control to Manufacture Underwater Defence & ASW Systems in India Defence.in",
+      "published_at": "2026-11-11T17:42:43+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "dc5bc558821286af",
+      "title": "India's Swan Defence selects Everllence two-stroke dual-fuel solutions for new chemical-tanker builds - Marine Log",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2VqMHJ5Q1pkOW1iRkFFQUdUYkVDOHhRNHVYZjNjVVhxWjFodjZaRGRZc21zblBMUHQzb2EyckN0MDQzS0NTRUQ4U2RhcmQtRnpNN3MyRWlONmEweThmU3lZd1lqc3hVZ1Nwcmk4ZVFfZFRiRFlldVBqaEpyYm1vTmw5ZmlFWGxCZDljS1gyUnNEa0IzTFlNY19IRUs5Ylh4SXY4RHF6eVR4MGloWGZtVDFObkVXVXAwWUotX0NrdHVIUUVoVWg3QmhtUVM?oc=5",
+      "source": "Google News",
+      "summary": "India's Swan Defence selects Everllence two-stroke dual-fuel solutions for new chemical-tanker builds Marine Log",
+      "published_at": "2026-11-11T17:17:38+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "f4f378cf82eaf738",
+      "title": "Governor Congratulates Bhadravathi’s Shreya N. Gowda on All India Rank 1 in Women’s Category of UPSC NDA Exam - The Bengaluru Live",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTmtIU2F4eDNMTGpwcDBoLXA3cXIxYzl1bXAxRy1QY1Q4ckZqODlzS2RYWllvX3RnUTVaWml0RWlOOWUxUDZfV2ZEaGxnQmxGcENKUXpQY1pueXRRSXd1aWluTXNGM1RtTW5ySXZKX2d5T3owNzMzWjkxMGdGWTBxcVl1Ym8yVXFqQzcxQkl1WUt1bndJVUZ4VkloRU9sOWctRTN2aFYxTGg?oc=5",
+      "source": "Google News",
+      "summary": "Governor Congratulates Bhadravathi’s Shreya N. Gowda on All India Rank 1 in Women’s Category of UPSC NDA Exam The Bengaluru Live",
+      "published_at": "2026-11-11T17:09:52+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "81f6761547964bfc",
+      "title": "Indian Navy Launches Sea Vigil-26, Nationwide Coastal Defence Exercise from November 11 to 19 - SSBCrack",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcHRSUWxBS3VWQm1aY2drdDJEWndSd3lBZndDb0VUVjJMN29oVTU5VWlwRks3eXVYVTlQUFprSUlySm5qOXE2ZlJZVm15R3draWFncWlrZmZ2akVNdmFpbzlwWHhPVUJmTTNzZm1oX1Zoa2JZc3dSN0RRM0xSc2pkbF84OUV1RWs0eTh3bDJwbnBwTDhqbDZSZUlpa0F0U0Z4aWlOY2E5VmwwdzR3OGQ4QlBjR2VHTUxqYl9hR0YwdlplUFBPODFsTDJR?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy Launches Sea Vigil-26, Nationwide Coastal Defence Exercise from November 11 to 19 SSBCrack",
+      "published_at": "2026-11-11T16:36:04+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "5cc5f0cb79563a9f",
+      "title": "Air Marshal Tejinder Singh Visits IIT Kanpur, Reviews Defence Innovation and Indigenous Technology Projects - SSBCrack",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZ0FMaWc0N210QnozY1o5RndCNnlmeWxYekRJOWd1S2ZZNkQ5S2tKRm40a2p3WkZPTVM0NUVVNFpKWHZZQnpKcFBXaXNHVVE3Sm05Smc5bENoMi1XX1ZXUmpuVDVvekJGOWZ3d0dFZ3c5QWt2TzV5enJiSmFqM0Fwc1dDY2dSUGE4QmpmaDhTemFGbTkzd0ZEWUNrdVhWak5BRnJDMmdyN0p3NXREWTd5bDNRcEJHbUZ4S1lVSE5uRFluTXFsQ1MwT1hJWDcwQ3M5TnBtSnZkNEJuY2xY?oc=5",
+      "source": "Google News",
+      "summary": "Air Marshal Tejinder Singh Visits IIT Kanpur, Reviews Defence Innovation and Indigenous Technology Projects SSBCrack",
+      "published_at": "2026-11-11T16:29:30+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "d5170e0e4a6b374a",
+      "title": "From Jet Engines to Warships: How India Is Scaling Domestic MRO to Tap Potential $300B Global Market by 2034 - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVWxWMWt0ekVhWXRhVXp2T0N4Q3gzMFc3dVJEMHJ1ancxQWt5WUxjLTZtWEE5aURWdWw1QUluRzd3azRBNnRDcEJoRm9xcEkyMC11b080OG1VQjNXZjNNYnY5aTNPV1lzT3BJc0FhNmczdUFfTUkyaTZvdW1Sd0dTektpTG1wQVR1LXpkTGVIZ0JuRm9JMUNwamtkLVgycE5SN0pCb2dfaGxXRFliUTdaOXRjbFk2R0dtWVp0NUYyVWV2TlFRaWZnejBnak5mQTNiYTVKUzFBYw?oc=5",
+      "source": "Google News",
+      "summary": "From Jet Engines to Warships: How India Is Scaling Domestic MRO to Tap Potential $300B Global Market by 2034 Defence.in",
+      "published_at": "2026-11-11T16:13:09+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "3accd2716f52e342",
+      "title": "Defence Experts Attribute Recent Kulgam Terror Attack to Pakistan-Backed Overground Worker Networks in Kashmir - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONi1EZjhSUU1OWjRxT1h4VFhKN0hIaGV4aW5RZGdfbEM4dmZURHUyMnA2UkNuRVdpcE9KTkpzelhkUV9GUW02U1FNcU90LTE1UF9GQm5ORWxSaUlha0E3SE0tc2N3OWpsUGdmYkZpd0lXUnZTVXlQOTEzUllaNUppQlpFZDg0WjhwMzNKZHVnV3RDYW1VanRYc3VTblMyNDVZTVBOUG9jakMtbTJEV1FlTGRFYjc2QTdYOU9vRGljTFkxQ2swVzd4X2hPNWU4UGRhY05jNmdCMkdzTE53?oc=5",
+      "source": "Google News",
+      "summary": "Defence Experts Attribute Recent Kulgam Terror Attack to Pakistan-Backed Overground Worker Networks in Kashmir Defence.in",
+      "published_at": "2026-11-11T15:55:30+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "9b5e10aedc19f145",
+      "title": "MoD Signs Rs 498.58-Crore Contract for INS Betwa Refit and Re-powering - www.nationpathindia.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHlWR3FITmhqT0tVeWo0LWptMmpDcXZFS3RTZzUtTVMyYWlkbkdpb0o4Z3Zxb3ZMdElNeWhQRGZudWoyYVhnNC1LbU9kWmxXVi1vc0pqZEdBWUFBb2pWMDJ5NGVJcHBOc2dyc2tTVk5GdUxFcW5vM3hXVlVYdEJmWlNhNGNTTWJQVmxuYmhnR19VX0Njdm0wNlZsbGZsSjA?oc=5",
+      "source": "Google News",
+      "summary": "MoD Signs Rs 498.58-Crore Contract for INS Betwa Refit and Re-powering www.nationpathindia.com",
+      "published_at": "2026-11-11T15:47:13+00:00",
+      "category": "India Updates",
+      "tags": [
+        "India Updates"
+      ]
+    },
+    {
+      "id": "500f3116578aaeba",
+      "title": "Indian Navy and Royal Navy of Oman Successfully Conclude the 15th Naseem Al Bahr Maritime Exercise - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdTBDQ0N0VkN0WjAxTERfVnJRSlE0ZHVERTdiODhSSkNmUV9TN1VLWUlCMzZpSzVwRDF2dkFLN1FtZ2ZrV2hfU3FpLTRoVjBYczZOM3RLeW4tczN3RkQxbHF0aTZINlN2ZVJ6Q1h2b1JKdFlIQWNZMzBnY296SHBETml4ckctZ3ZHQ3luRTZzVk9kRThwNHI4SlU0T2ZuSXdWN2UteXhpOVNGUmtDMTcxQWg1WGcyMmRhWmFlejZVclQxeTFBbnFDWUFIaUdjcmpDcHNqLUNBa1MyZw?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy and Royal Navy of Oman Successfully Conclude the 15th Naseem Al Bahr Maritime Exercise Defence.in",
+      "published_at": "2026-11-11T15:31:55+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "82df8e6f5d4e948b",
+      "title": "INS Trishul Concludes Strategic Port Call at Safaga Naval Base to Bolster India-Egypt Defence Ties - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcW55bDhEMm9CZVc5YTlVTmg2YjI1b2FWcVFwUXBzeUR2aW1oNGp3bUxXWk5oS2NJQnQtOGQ2aXN4NGVmdTV6c3pqTjFTanJSMnR2MXZCU3RzOUpxcmg5N1N1OThDZU1zQVp3RW1sNTdHRFlBQ2Q2RDhqY3c4RHBsR1hEd3NmWmp6d0N0R0NsNUgzcXVOdTVOSmJzYXpfbXRKRlZCNndULXI3SURCZ1hYdVgxYjJwa2Y0dV96UWlEcFM4YUlmRUR5blVrbXU?oc=5",
+      "source": "Google News",
+      "summary": "INS Trishul Concludes Strategic Port Call at Safaga Naval Base to Bolster India-Egypt Defence Ties Defence.in",
+      "published_at": "2026-11-11T15:22:28+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "df0d648335300e87",
+      "title": "Russia’s Kalashnikov to Licence MP-155 Shotgun Production in India, Last-Line Anti-Drone Potential Highlighted as Key Details Awaited - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQeUxJMXptNmxCU05OeXdHelAyc2VfSk51dHowRFFjOGRaUGpUWXE4WFU1NUZZWGtHaTNCN0JKbFFYR2I1V0dWU3VnYlhjZjYwcUVBejdnTkZDVm9oVTVhd3F0V1VtZnlMSFJvM3BUVXZGbGRZUW1IVnpuQTVQM1lZV1B1WkVTLUxuRm03eXRJbTUtZEU3WmthZkVWMnk1aUFIRTI5clQxZWNLbXBQbG95djZsUUowVGsxakFkS2lzODZaZXJPaHd1cl8tcHNucDM2TzZkMnZzVXZydldZZEM4a05IaGpDNVR5bEZSbGNmWGR6ZzZ5cUZwVQ?oc=5",
+      "source": "Google News",
+      "summary": "Russia’s Kalashnikov to Licence MP-155 Shotgun Production in India, Last-Line Anti-Drone Potential Highlighted as Key Details Awaited Defence.in",
+      "published_at": "2026-11-11T15:16:00+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "103271e0c755755b",
+      "title": "Tejashwi Accuses NDA Govt of Administrative Failure, says Bihar Heading Towards Anarchy - Clarion India",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUUdqTm1KRW1hNG11N1IxSExtbmlRVHlaRjNhTVZva1U1WHh6SUNYS0dGZnRMWU42V21BX3hUWFpwSEhKWjF1cXp1UU5DZjlzM200TlZPYTIzazdpUHFhQWpTcVE5LVNCb19mMjFLc3BsbkV5b0pSOERSaXlxTHdOV3N6Y1JPTmIwdVVocEhtR3dVSm8yZGYtZ3ZpcWlXLVJZWl9CVjNfWkVYeDJlcnhOY3lB?oc=5",
+      "source": "Google News",
+      "summary": "Tejashwi Accuses NDA Govt of Administrative Failure, says Bihar Heading Towards Anarchy Clarion India",
+      "published_at": "2026-11-11T14:57:53+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "4e9b420b97304705",
+      "title": "First since Operation Sindoor, Navy tests coastal security grid built after 26/11 - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQnFzT29XeERLM21pVjJfQW5nS2djRlNIX0NJeGFlV196T1g1bTZjOVpaR2Q5NWdhRGYyMmtBYTlCelc5YWg0QWoxTEtuTDRBaFhueHJaMlh2ZE9yZXdVWU9od0xxdkh5NzNndE13VTAwb0Q5amkwSl95TFRKSVdVS3BkZ3BmMUZReUxSbG50V3pja2RTWEFsZ2N1Q2stNU9lOTBwVE5wQThJVVIyNUhKN1NvUU90U3RtS1pnbDhZVGNueVpKU3d0R1RR0gHXAUFVX3lxTFBPUEo4ampXTFpCQ2RDTUN5b1J6VXI4UEtXaGluWU9XOGtldFdjRTJ2ZHYyYjVwdkdNamhraGxoeFplRzAweTJXaXlGbGtrZ3ZjOEZYT0piQkladUloQzg5d3BsVHR2dGdDb2tBb3JBTFVQMFZlSllUUXVZSFppQTRhcjhMeXUwYm9WcDgwN1dmN05LQjlHN0syS3RvM1NJd1R6MVZlZjJBNW1DMUsyZVN5QVVCY3FaU3BnS182NVU1NWNSSERsTFpVWUVWRHQxTVRlUkZHQ3JB?oc=5",
+      "source": "Google News",
+      "summary": "First since Operation Sindoor, Navy tests coastal security grid built after 26/11 The New Indian Express",
+      "published_at": "2026-11-11T14:47:41+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "3c368b0a826ae384",
+      "title": "Indian Navy leads fifth Pan-India coastal defence exercise Sea Vigil-26 - The News Mill",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ3VRak5fUVduVl9FS0RfcXA3cmdDd2U4TTJ1a2lKLVRFbnFKaEYwX3Y1bndESnFGN3hQOUtGY0h6Y3hKbXVRTEhoeEI5aEZTaENNUHhVQ0pZQ1F0R285R0lOM1gzbERrc3Y0bnNFVGxSVnI3cjBCRDlrNDJzZHhVcHAybC1HNmswcFVJUEdRMmc2dHhDQm9uUmNLOWdsbF92RzVtR3pxSQ?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy leads fifth Pan-India coastal defence exercise Sea Vigil-26 The News Mill",
+      "published_at": "2026-11-11T14:47:09+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "abf41efc022eaf9e",
+      "title": "Sea Vigil-26 Coastal Defence Exercise Begins - GK Today",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZRW1XNEtxZGUyaEE4TmRiRWh1ZE1ZX0owY3J0Z2JxdnlSbjlialM4akRxTG9JVlBiRnJGMER0RV9PS0RtbDRtRDNIY0s5OG9zZXJqZlVKSk9Ia19XWkZfZ3hHNU92SDdwMER1VXZXNVVQVTQ5cENv?oc=5",
+      "source": "Google News",
+      "summary": "Sea Vigil-26 Coastal Defence Exercise Begins GK Today",
+      "published_at": "2026-11-11T14:44:56+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "17464d4f5e00b081",
+      "title": "Indian Navy to coordinate fifth edition of Pan-India Coastal Defence Exercise 'Sea Vigil-26' - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZmwzbGYyYkJoRVlMWU00dVprWVQtNkdXdVR4RnZmRlpuNkFPeFZFNXNYWnV0cS1vcl9nUkM3UUdKZ1Y0Z2s2cnlZdzhkMnkxNHhnRGpPR2h6WU5nemNVYnF1SVFkWkRrM2VERUd2cHF4dHVEc2hDTU1RMHFvRURRd0xrXzJwenFTT1hmSlVkTC0zUElIT0FsZmdTb0EzTzVYb1lHOUVVeGxRdVJsUWk2Y2lMakFJWGcyNm5oYUhHSUhrRzRvQkI4TmViMjhmZjlvQ1hEQ3R0em1HdmtTNjZNWjRUenRpX3NuM2c?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy to coordinate fifth edition of Pan-India Coastal Defence Exercise 'Sea Vigil-26' ANI News",
+      "published_at": "2026-11-11T14:42:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "21e7d52bd5b2fc4e",
+      "title": "Defence ministry seals Rs 499-crore deal to give INS Betwa diesel engines, new weapons - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdmxHb3NGa2hlcF9MeEl0enBxSURaNU1ETzdaYmNlMWVJd3V4VDAyNzZvRk56X055YVVRUVZ1LXFnVm52YzlkUG1rZXpUNm92MEc5YW1MWXpQbVBIN2JRU2NEeFQ0SkFWWVJJS3BGTXh1TVI3NjlvelFfNlFFbHVvSW9seHItWExIdGo4cEIwNGpueHlTUjZabEY4UE5CN3pfWEUzZTBTZXdWRFhjN1JQUkdvWTNiNkhySVQydmhhS1JLTHdMUzYwNk0xOU0zdEQ1Q1HSAd8BQVVfeXFMUE9fVzJMenlvRk9PUGJOYjZxdVdCVWNia3hRZkZMaWY1bG56S2xPSC1ScUNkcXJDdTJCVGN4Z0laYk5HZ2VkNkh6cGdzbXBpZFc3UkxXekJia3ZJM0M1bmJIRU9BNTAyeG5DQ0ljRnhTbUtIT3FSOGl5WmJmdVJLemE1S282bjkyUlQzT0xuU3YzMmtEeTRqQVZyZlZNZjlubGxuRTB1aXYtMzZZS1ZONl84Ni1SQ29aOHJMWG83MG9reUgwZWZnZnhPNV94NTZlLUZkV0tyMXBXU243WnZ3TQ?oc=5",
+      "source": "Google News",
+      "summary": "Defence ministry seals Rs 499-crore deal to give INS Betwa diesel engines, new weapons The New Indian Express",
+      "published_at": "2026-11-11T14:30:34+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "aa71357f7848da44",
+      "title": "SSS Defence M72 Assault Rifle Eyes Global Markets Amid Growing Adoption by Indian Law Enforcement Agencies - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNc0g2T1NNdlhzaU9ObVBHd19PZlFIWUtNTF8wZm1fYWlnd1BLelBXdjFkQmlpcVV6Z3pRajBFQTRaaVBKUE5pdUtDTGtSbVNyaldMa2hOS2Y0aXN5YzMteGp3SDJzT0NfWFNVeVJjZnpBeUQ2V3VqcGljM1NWSHgxRnluQzRWQzZ3MGtBanpydTNOS0lpbjd2THpSZmZCbmJobzRick1ueUlfTjlMM0RKY2dOT01KalZ5MmFYbTBfcTU4bkVTZ1Ezd18zcXZXUTZIN2ZuQkU1SQ?oc=5",
+      "source": "Google News",
+      "summary": "SSS Defence M72 Assault Rifle Eyes Global Markets Amid Growing Adoption by Indian Law Enforcement Agencies Defence.in",
+      "published_at": "2026-11-11T14:12:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "fde9087b10fdffb1",
+      "title": "Indian Navy to coordinate fifth edition of pan-India coastal defence exercise Sea Vigil-26 - DD India",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSGVCa3VGNVFzVlBmQlJEWEFKLWxHRHRPMkpMRkpMM3RMRGZIWXgwMExUX1Q4VDdwOXk4QU81M3NJNmlEYlZIRmVWUGhtR0dQQVBBM0ZSemJxb1JySkRqVmdsRHpGY0ZFZ19IRUhNY09mR1g2ZnBkN3U1WXZWV2ZvSWtPRmpDQW9QUUJXRjd0QTZyRm5uNld0cnNoZUg3bFN4MWpoY0FmREZEYlB1U3kyN205RnNhQkJ4R0JsM0JB?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy to coordinate fifth edition of pan-India coastal defence exercise Sea Vigil-26 DD India",
+      "published_at": "2026-11-11T13:37:00+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "c8093beeac7346c8",
+      "title": "DRDO releases security APIs, completing key component of India’s military radio framework - MyIndMakers",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQzVOX0JHSjhTSWtqWWFoYzFjS01td3hIMzVXVU1KV1hKa3BoYUJhZUZ5ZHFJWGFjRXRWMjktQ1FKYTZPR1NuLW5hZkc3b0hsTzViS2UtQ25wRUJ4X0syRlFxQW9aN0cxek5xY0NiOHlndjRjaTBaZW1iNmdvZmNCaF9lRmJaeWJzR2pncXNIOHZFNWl2b1hkcUV3WGc0UHhiazVFUjVWSzlkXzc5dUo1NFdGTTM5WWkwLUg3UkJ4MA?oc=5",
+      "source": "Google News",
+      "summary": "DRDO releases security APIs, completing key component of India’s military radio framework MyIndMakers",
+      "published_at": "2026-11-11T13:01:56+00:00",
+      "category": "Defence Technology",
+      "tags": [
+        "Defence Technology"
+      ]
+    },
+    {
+      "id": "6e3364002fafd16c",
+      "title": "India Emerges as Third-Largest Arms Exporter to Europe: Defence Secretary - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU1k4UzY5a3RHV01oMGw3YnN5eUktYVNFVWNjTUdGSERsT0hGLXBNX1dPdV9iNmV2M2R5WVZpRWFTYWdfNjdyUTl6UTNWWUdhOS04b1E3WldKbWp5QjlOVV9iN3BkMmMyWG5PNkwxZG8xVFRxTDJUM2RMdEtQMUxjUTZBcE14WUp3TmZlWkhfTkJiX1liWXV2VXdaZThCUGs?oc=5",
+      "source": "Google News",
+      "summary": "India Emerges as Third-Largest Arms Exporter to Europe: Defence Secretary News On AIR",
+      "published_at": "2026-11-11T12:54:14+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "2cdef28711bc5b6b",
+      "title": "Defence ministry signs contract worth Rs 498 crore for refit of INS Betwa - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX0tORndpOTNkTVFVemZnMmtDMGVuVUwtVEd5Y0Qwc0JGdkpqYkNPdl9GQVphWXIxYzVfRFBOajJCd0RpajZjVjFYaDk0aDJaTkNsRzVQdnI4TG1hTGJwRTVHMGNMbXQ2VE9meU5qZnJvSFlmNlRnRGZXX2xGLTZMall4clJVaHJxb0tsS0dLM0N2dEhPa2NCVmpGSFh4Ty1rSm1KamJBRGF1bFln0gGyAUFVX3lxTE45T2daMjBhc2JrOGh3TG0wV1k4R0hFcTAweG5PQXVVcmlJOVZhYWduQ1ctOVZmREx6NmZ0ZkREZS0zTUhpZ1ZwMFRRekNwaTFKWEh3bGpnUFRqYUZFSldLY05lemV5MkZya1hmNEFqSWY2WnFlWGYycFAzOEJGQWlhZzJPUklnbjJ0TmRHWFZrcGtMMjBCTm5fMHdsY090MXAycnJ6d2hXeUhoMEJaUHpoa1E?oc=5",
+      "source": "Google News",
+      "summary": "Defence ministry signs contract worth Rs 498 crore for refit of INS Betwa ThePrint",
+      "published_at": "2026-11-11T12:37:52+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "f1ee328783510821",
+      "title": "Who Is Niraj Kumar? Indian Navy Shooter's journey from NCC to winning World Championships Bronze - India.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQkxCSnVGX1VNTTZXeldjNE9FdGs2T1Q5RVllWlFvcmh0cWhkSGF2ek5MX1VlY0dONnFtQjVEaDZEdzd1dUhmdk9xNDdPaVd2TS1PY1dZdExnM3V6Q2otVkdvQjVaQlVhaFNNdWtXYWN2dXZELVd0TDQ4LVo2U2VBSXNnODJZWVVvYkVYMGFnOFVTS0lCOGFyVHRBeklURDR6SjlpV051UlE0eENFYU9QT0lmdGI4dk5xa1YxYWhzY2plZ2dSc2Rma1RoQkRZZ0dHQU5Fcm930gHbAUFVX3lxTE9qSl9uM3BjMWdiVG1BUVlaa2RxVTBtRzYwb2x0UHB4cFBwY3ppd3JRNWRZR0dHNlk2Vi1iU3ZFQzkyNUFTSzlyMDRiNFR6anJpYTJNbW1CV040eC1OTDBsR1FWTnNMRXlxWnhKTTBhM09VdXJxbjA5MXZHLWhoWmtqZzRkR182LVBMdUN5UWZ6MUwtdWtIMjVzbFlLZnhzbkdiR0FaUEVrTTBiMllVVXpiTzdmaHlPZkhqSlVtN3FESkxvaktadC04YUdKUzRreU5mMjc0d0FGYWlGaw?oc=5",
+      "source": "Google News",
+      "summary": "Who Is Niraj Kumar? Indian Navy Shooter's journey from NCC to winning World Championships Bronze India.com",
+      "published_at": "2026-11-11T12:02:33+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "21951c0f7e64f632",
+      "title": "Indian Navy to lead fifth edition of pan-India coastal defence exercise Sea Vigil-26 - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVF3SDZqLWpwdTlpX2dub1hGOGoxTFlGZEpjZ011d3Ewc2VrNjEwN3pPQ1hQQlZBUFVRNGsyaE5PdDNSWVYxZVFjQS1yclk5Ym9adjgybXdPWGNNaWUybk9kUDh5Rjd5UTRjazBVel9OVWlCQU5DWjluLTVHakZjZXhzMi1WUU5rdXJFVUZHbFVKdUZ3MS1nMUYxcXcxZG43LUh1b0RlcU5EaURXUVdpM2tqMEVuR1h3N2JEQUpaN0xLY3NDR3fSAcoBQVVfeXFMTkRuSERrQV9JMmdnVm5aaXk3ZUNHbno2eEhlWmFqWV9VeEdTNmt5UEhKQnJHemthNjA4M3RsSEJycFJsM3NnY1BYWFZsNTN2R1VFRUpIME9jUlBES283OUotcG4yWmdaMTRhQUxDRlJxbW9LbEdvZzVjSEpxS0J4R0ppOXl0UE1kT0VPVXNoS2M2N0s5TEF4V1VsdU9uMjhIc2V6Vk1saUpXbzFRcnBobk9kVkxVaDlIS0c0cE1Kd1g0SE5RbXZJc1lsdw?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy to lead fifth edition of pan-India coastal defence exercise Sea Vigil-26 The Tribune",
+      "published_at": "2026-11-11T11:58:26+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "748dc9f32f89f556",
+      "title": "Navy Launches Sea Vigil-26 to Test Coastal Security, Maritime Readiness - Bharat Shakti",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc3NKR0M2YjcxSHM4aGI4X2xyZHJPRXBQc2o5eFZrV0pQUnJxbXZuTktnUUNUVm13Yzc2QWFaWW9KQVZPY2dhSmpwWEwyMzVEWmQ3RldqbS02NG9IRjFwMktqUllFZ3JFX2dEVjUwMEsxSVE4aDZlQTlRU21CV24wNEpsdjdLN3BmTjRjWk1OQlhfTmtUT1FjRU1vcw?oc=5",
+      "source": "Google News",
+      "summary": "Navy Launches Sea Vigil-26 to Test Coastal Security, Maritime Readiness Bharat Shakti",
+      "published_at": "2026-11-11T11:51:45+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "56c4f84b46816599",
+      "title": "India, Japan Set Security Agenda Amid Global Turmoil - StratNews Global",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM0RSVEs0QmQyTUlrYUczMUhSdXlwUXZrYWZVMjJtcVE1b2FKcExneF9uU2k2c2ttWXo2ckprMlJEellMWWp0cmxidVllZVdWZjF3NDJVRlJUdHJFMmRySE4xRlczLW9YT2JlVmp1dXk0V2RUWXVOeUg0ejNHRVZneTJsT05IOTduem9iRnpnNVFXQ0gzSUE?oc=5",
+      "source": "Google News",
+      "summary": "India, Japan Set Security Agenda Amid Global Turmoil StratNews Global",
+      "published_at": "2026-11-11T11:45:55+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "b3cd8b89a3e4a6c7",
+      "title": "Defence Ministry Contracts Rs 498 Cr for INS Betwa Refit - Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMkxYLWpLQVdYenhlbGZOVmdLUnR2SFd1bnZPeXVLS1NIbThtcDdHWnJKVHFsaWdENXRvM21nSjBXdUtIdU9wUkM1UEtkaC1VZzE4NEpvNTNPRzhkOWxCSmphMGRtSUExOXlvUlJTZ3pmczdxaDBTQ2x4SHBYaGgtc0RjM0hJeUIxa25pck5FY2ktbG5pbnd1OVBKbElvaDZTekYxMFdKWkphT09n0gGyAUFVX3lxTE40NFZ5MEk4YXIxOUp2aVNvYVNsOFVMeWhQcGFMa1ItVW9pSnV3MmpGbC1CN3dSQzdad2diSlp1d2I4Q1k0U01TTFdKaWc1cWpHLU1Kd1BwUW9Ia3JBZmdhc1EwOTUyNHc1R0duVm1sdno5X19NQXVMNmstUEgxV250eDRSMkExeV94Y3NfZVBaY1pfUklhdmVCQVdEREpXM2xNbGRtQmYxREJXQlJNR2xsU2c?oc=5",
+      "source": "Google News",
+      "summary": "Defence Ministry Contracts Rs 498 Cr for INS Betwa Refit Rediff MoneyWiz",
+      "published_at": "2026-11-11T11:21:09+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "1e341a403639746d",
+      "title": "Apollo Micro Systems shares surge 10%: Defence multibagger stock rallies 3,640% in 5 years; can it rise further? - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQR25sWm5IVFNHd0IxTXBIemVNeWduRzc0OGNUa1JscjBGUnZVUFhHLV9TdEcxMUlsODVtZmVFN1JfTjZtN0xlSnowdC1nek5NWDU5RzJhdlh3aVdHWC1ISDBubEVNZzB3b0hyMEpYdW5aMnpnZmZYQVRTT2Z5LVdfbWpvUmNtRnJuZmlaN050d3JURWJZR0JtNzBBdmE3SndTQXBfM0w2MXp3amxSemZhaXdwaUZHeHRPRUZ4UV95R0RiWDFoSWV2VEhsOUIyb3ltTkc4Qk1IZTJoZkJ2Wk9XdFNvR2o5eWJvVjlvWl9DRFNLcE1xUjRYMDE5SEQzYlBqekRod2x3QTbSAY4CQVVfeXFMTVZMcE9DakVWdTc1V1l1OVJ2MTlsZm1EY2JVNGRUWS1NXzEzX25YZFVqOENLd2RySzRPNk1sWkJTRnR3UHpOT3BQdl8ydnptZVktNnhMb09FYUlLQTFMYUNnR1ROaFVZZ0kyejFnalc1S1o4bWptWVhkYmlGcGRHaE9WYkVnbmNSUmdGRGtjaFVRTzlWMEZNQUlmaGNmUEVvSW5CMExJTnRzQkkwTmU0cjhvNTUzT3NvSUtidWhjaGNDOTcwWFItYlNucnJxbDIxdnBrMGFOQk05b29BVlJBLWpHS2VXalFLc1gweWtWeVpBTEdCS2JrRjBQMGNfcVhXX1laUUJNbHk2WE92MFBB?oc=5",
+      "source": "Google News",
+      "summary": "Apollo Micro Systems shares surge 10%: Defence multibagger stock rallies 3,640% in 5 years; can it rise further? Livemint",
+      "published_at": "2026-11-11T10:39:46+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "9de9a7796f178128",
+      "title": "Indian Navy To Pass Out Largest-Ever Batch Of Over 3,300 Agniveers And Coast Guard Naviks - Marine Insight",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUkNockpVcDFpNU9lQ2huV2FlYjRIaFBlTU1nYWZoLW56LVVvVGEwSXVpdEFyS3dFV2pKQTBuWFRadzhWXzRETXBRQ1NZY2tqRFdCbWRMM0p5cndWakIwSzVkQ041bTRVVTl6dzduYmlOMEFUTUxoNG0yYTZqdk9CdDlB?oc=5",
+      "source": "Google News",
+      "summary": "Indian Navy To Pass Out Largest-Ever Batch Of Over 3,300 Agniveers And Coast Guard Naviks Marine Insight",
+      "published_at": "2026-11-11T10:37:01+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "5a28d4303248fab5",
+      "title": "\"Million-dollar question...will they remain with NDA?\": Prithviraj Chavan raises questions over NCP merger speculations - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNeFlfUThGdl9WZ0g0V2F5dDdTWXQtSklUQnRHVlIwbFhsRVJxQTBtbG5tQ2FKZGQxZ0JCa0FqMVhLeEd4NVNhdE5VbnVxUjU4Z1h6VmlTV1dGZjFIVXVIemZTQTdkcGVXRTNsT2tsT0h5OVVqZXhOUmozNVRLNnhWZjRtZDlkVEotWFdnN3E2a3ZZeE94QW1EX1ZObzdKTjN6YnI5WjJSSFhKQWhPZ3R5RF95WFlDVGJLWS1remE0MzROLUxBR2xIU2VmMEFhWXhTalhXUHBJNUZkVUNlN253RmpNWDIyeW1nM2NRSUlOR1M5OWxGU2E5NXJTaUJVTTR6dEE?oc=5",
+      "source": "Google News",
+      "summary": "\"Million-dollar question...will they remain with NDA?\": Prithviraj Chavan raises questions over NCP merger speculations ANI News",
+      "published_at": "2026-11-11T10:36:00+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "2e5abf244baa0fb3",
+      "title": "Have specific differences with NDA govt's foreign policy: Congress leader Salman Khurshid - Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWThxT3JxbEZVbzJCaTNka1J4UmNLMTlXUVp2c3NabkJpNUpaT0g0Z2pyUWEwTHlBem4wWWlub0NaQnR1bko1RWhyR3ZLMW1Ic1JuZ0RMTnRGZE9vdnVaZUt6bVJiVVZKZGpUT0VYNUtJNXhCWThPTXlDNUQyNkt6dnl6bkRwZnNxcmtRX1lBOUdaQ0d4R0YxYy1BeTM1V1oxSHFZOEFfVVVyN05ZYlN4c1pCZUdqczItZUUyNmx1eUFnNVB3UUkwVnpPQm83OTIwV3EzTlAzckVlUQ?oc=5",
+      "source": "Google News",
+      "summary": "Have specific differences with NDA govt's foreign policy: Congress leader Salman Khurshid Deccan Herald",
+      "published_at": "2026-11-11T10:28:32+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "ce54878916a76f4f",
+      "title": "Armenia Seeks Local Production of Indian Weapons to Solve Hardware Transport Hurdles Amid Rising Regional Threats - Defence.in",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaVNCR1BTY0dnb0JaY3JxanZVTzNreEUwMFVocEg2LUJMbE9mWThYdzV0WEJhaEhTVkI0NVI5NnFaQVFFTExtVzZsRld2T3cwN1paLXJubFJKdVB4NGtoQ3gySjNCUFlxNGFRUVY2SXNkUG0yTFZ1Z24tTnJVTkZhVnFCd0hjYWxYZjNjSVl4VC1WU1U4cDN0WjZqa0R0eVZBbDF2LUJsbnI5NGhMeFNFaWpTVjJhU3dQRm1saEdmelpoWGZsMk9GbDFUUmRzTGVRMlRiWklvZ2dOUG5heVIzUw?oc=5",
+      "source": "Google News",
+      "summary": "Armenia Seeks Local Production of Indian Weapons to Solve Hardware Transport Hurdles Amid Rising Regional Threats Defence.in",
+      "published_at": "2026-11-11T10:16:21+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "9fbe5e6c7b18c999",
+      "title": "Defence Ministry signs Rs 500-crore contract to upgrade warship INS Betwa - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZERVOEUwXzZia2R1aHZmZFFKeTc4UWJLM3BvTWZ4VW5rQjYxSVI0dk90SmlPbU1udmhuT0JFUUY5em5veVVmM1lSWV9pYTZ3OHgxcnFyUVduOGhlR0lfdEdobXNQQWpkQ1NISXlpOXluQmVWYzFEUnEyVkQyM3ZOTDkwQ1NHaFBYeWhsYklobkwxZnRVMWpYN3RZUllHdDRoU2ktX1oxakR6cm1lWm4ta0U1R3pNZXczenhfdmxWN29tY0tFOFotY0N6NWFZU0xJdmhMS2dZaVRIWmNh0gHiAUFVX3lxTE5iWHlfYmRTYVV3QnlITGx4WlZhLWpmbkdnakVKTER4b1pyaF9lLUI4a0xhMVRmZC13S1BzaGVnSzMtVTNacklqSlRUcldpREdVRnFhMFdIZ1J1cjZ3VmlxR1NXMTVMRFBrNTdxajN4TDlMbi1aX21IVHVGblRrSTc4WTJXWTI3QVdoQ0hTUG5CVzZ4ZHl2RHpEaHljanRPeDE0UFN2alFCVkpFWERjR2x4Zm9wU0VRSEY1UGM3UjRJbGswZ1ZFazBzQ3B3RXlsQkJnSUh3YVV3eUtGR1BGa2FMN2c?oc=5",
+      "source": "Google News",
+      "summary": "Defence Ministry signs Rs 500-crore contract to upgrade warship INS Betwa India Today",
+      "published_at": "2026-11-11T10:06:29+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
     {
       "id": "e1be0133532fae27",
       "title": "Cochin Shipyard bags Rs 500 crore deal to beef up Indian Navy warship 'INS Betwa' - www.thehawk.in",
@@ -20,6 +800,18 @@
       "source": "Google News",
       "summary": "India’s Defence Exports: The Reality Raksha Anirveda",
       "published_at": "2026-11-11T09:10:43+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
+      "id": "ac742fc4aab924cc",
+      "title": "Defence Ministry signs Rs 498.58-crore contract with Cochin Shipyard for INS Betwa refit and re-powering - DD India",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQm1mR1Rmd1NzNE1lM25VdG1wOTZqeG9VSnlFR2Z5SEoyNlJlN1g4bkh2M0ZJNE5FWUtiMW5GTThLSWctLWZMMmFKOWpaR0wybFNmSDl5cjZGTDZzUDNhM2htMFFYZDRsZTJoT0ExaEU4UnRVdzRQZXA3dGc3SU9odDloNXg3aVEyMlhKRzNwN0xOMGZwTjdidXVhbnRzLVRWRHpMbTdaTG1JLXNhbHNEYVF5UUtwTjY5M0ZqUHowa3pfSTJhcDRWblo0WXZuaG03?oc=5",
+      "source": "Google News",
+      "summary": "Defence Ministry signs Rs 498.58-crore contract with Cochin Shipyard for INS Betwa refit and re-powering DD India",
+      "published_at": "2026-11-11T09:07:00+00:00",
       "category": "Defence",
       "tags": [
         "Defence"
@@ -62,27 +854,27 @@
       ]
     },
     {
-      "id": "75266af91a7f2efa",
+      "id": "ea14b25f072b71f1",
+      "title": "Bihar’s NDA Fault Lines: Tejashwi Gets JDU Birthday Wishes As BJP Faces ‘Bharosa Tuta’ Question - News18",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQVBCLUZCUGdsS2F4MnBBeHRUUDlSYXNZNWpMSEU4eXUxUWxOR2ZVYUFMaFI0N0NSLVJOWDN5Nk1VdkQ1VFRBenpnOTRoSXU3ZGtxbjA4VWMtR3g1VFNoNkVjcHNJQUYyN3hsaC04Vlotb1hNRGRXaFBFcm1KN3JsbDA4eWlUVlpFeXNwZ1BPZUYxNDVSOTJHb19URkZNSU43ZWZUbjZ6RUJDNmxhdnNCZkxQNkFlVDRoREg4ZFMyV1dzWnEwWldtc1JPdlI2RGvSAdQBQVVfeXFMTXJjUUxYWlNHQlg1UjlvaktJLUhfam91MHhqMTJWRUtFdV8xN2RwV05QOGFrNmxfVksyWmh1bE8tRXBoWDNIUTl2WndiSlhTUkdhSjBLanctTDAtbzZ3Vk1OY3I5cTdFNS1LdjRSTXVIbWlxTHd5aWsxYlMxTjRUeTM1eGtMeGc1QTAtekJsTFVka3JMSktUUGItZVY4OHhjWlBXT3N2VzFXX2ZlLTczRm45ejBQOWZ0UnQ2bzBabDZzc3BaQ3RmWE1fSUdHRk9NbzloTFg?oc=5",
+      "source": "Google News",
+      "summary": "Bihar’s NDA Fault Lines: Tejashwi Gets JDU Birthday Wishes As BJP Faces ‘Bharosa Tuta’ Question News18",
+      "published_at": "2026-11-11T08:09:28+00:00",
+      "category": "Exams & Recruitment",
+      "tags": [
+        "Exams & Recruitment"
+      ]
+    },
+    {
+      "id": "77b4939b595feb21",
       "title": "HDFC Defence Fund October 2026 portfolio: Active mutual fund adds 3 stocks; raises stake in BEL, Tata Motors and others - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNYjZFU1ZZQ2ZiV09kV2xqNFBWWXlHUEpjOFFmNnl6dnFFNlRDR0JCNnpCczFwcjFtR294ZWJDN1hHY3BvNW52dG5GOVFYM0NILVFuUFVOLW1xVnp1WGZMVTRfNkxVTnRWVk1LTVd6Z1BJaXhSdm9JRkNlbldoSlZmeGpEdTd6ZlJ6VXlzWF90WEE5enZXRG1XUDFOblpkdzktVmFyNUZRVDZKNDJadTFiTXN5N0U2U1dkX0V4YVZlVHlrSFhuTlZ6WXlyUkY4dWIxR1hCRE92aTBYTE9rU0lhSk5udGhmODI3eVctc1dCWjI2aGVkSS0wZzhQVTZUQUFiak5NUFJqaDlIbGE1YWtVRXB3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNYjZFU1ZZQ2ZiV09kV2xqNFBWWXlHUEpjOFFmNnl6dnFFNlRDR0JCNnpCczFwcjFtR294ZWJDN1hHY3BvNW52dG5GOVFYM0NILVFuUFVOLW1xVnp1WGZMVTRfNkxVTnRWVk1LTVd6Z1BJaXhSdm9JRkNlbldoSlZmeGpEdTd6ZlJ6VXlzWF90WEE5enZXRG1XUDFOblpkdzktVmFyNUZRVDZKNDJadTFiTXN5N0U2U1dkX0V4YVZlVHlrSFhuTlZ6WXlyUkY4dWIxR1hCRE92aTBYTE9rU0lhSk5udGhmODI3eVctc1dCWjI2aGVkSS0wZzhQVTZUQUFiak5NUFJqaDlIbGE1YWtVRXB30gGXAkFVX3lxTFBWM3JDRjlnelVzNW5ZNG0xX19jSEpJS2lQZndpQVNITHIxSEwzNjk2T3VvQ005d2I5dVBubFRydlpXOU1ZYlhsUXVUOHBjUEplX3NXd1EyU0NEUzFBWnlTTUhrZm8zTWtQY3VyVHJJelNfX1lLckI2bl9oQWlMNnp4azR4Vy1IZ3BRZG1SME9aa2k2cXFlYmJBOFM2aFZxVkhsc1J6aVZjZEFqcHNrMkRYRFQxV0twV2tBWmdJWUdMNHlyUTRzNm5iVmRZa0I3SGZlanczUTF0Ym5TNWMzb1l5SERCNlpkdkVyVW83ZEdjcWVwY0ZRZUN5ZUJFNE1KdkFrVE9MMUpiRS1UUHRTVW5YU0NqbEhRcw?oc=5",
       "source": "Google News",
       "summary": "HDFC Defence Fund October 2026 portfolio: Active mutual fund adds 3 stocks; raises stake in BEL, Tata Motors and others Livemint",
       "published_at": "2026-11-11T07:42:50+00:00",
       "category": "Defence",
       "tags": [
         "Defence"
-      ]
-    },
-    {
-      "id": "ea6bbc0ab6356739",
-      "title": "DRDO Ejection Seat Project: Can India Build Its Own Fighter Jet Escape System? - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFhFZ3lNSkkwRkFwMGdETUUxV3NkRzI3VloxV3JGcHlYQkVKZ19kQUdDUVZ2ak9NS29DWGE3STZwMmJlbWhRaGlPejczTV9sWGFRSGpYU2ZJM1JINFNQbXdRQzBhZExWVnk1MWhJaTJBcTU2alUyY2ZIU214ekpjSnZDVGNZdE90aWx6NVFuSQ?oc=5",
-      "source": "Google News",
-      "summary": "DRDO Ejection Seat Project: Can India Build Its Own Fighter Jet Escape System? Indian Masterminds",
-      "published_at": "2026-11-11T07:37:00+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
       ]
     },
     {
@@ -107,18 +899,6 @@
       "category": "Exams & Recruitment",
       "tags": [
         "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "76e2fcdf0fdc7e3c",
-      "title": "Tejas Mk1A Radar Row: Why HAL Chose Israeli EL/M-2052 Over India’s Uttam AESA - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRDg0SmY4UjhPTndmWmlFZ2kxZUV4ZDgwQzliZFVHSF8yajFlUnRlOWo4TGcwR2JnTUM2LUJTTnpqbkpzaDkxeGdZRWRpd1NUNGRMd3VyeTRKWjcyRGVKOWxIdUVyN3l2bW9DbUM1eldWTlpVTkVJcV9PMGFCWTZ6dy1xUVF0NGZaeVZF?oc=5",
-      "source": "Google News",
-      "summary": "Tejas Mk1A Radar Row: Why HAL Chose Israeli EL/M-2052 Over India’s Uttam AESA Indian Masterminds",
-      "published_at": "2026-11-11T06:36:54+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
       ]
     },
     {
@@ -230,6 +1010,18 @@
       ]
     },
     {
+      "id": "9d9ab99476632a12",
+      "title": "India's Defence Strength Powering National Security through Self-Reliance - pib.gov.in",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pSFAtcXlILUJRaHdoSUwtVloydmVja21qQ3FlYVgzV3lrWHNYMjhYcjFtcEg0VTJRS3ZnTkt0c0g2cnRmTS1BR09RWWdOTTJ4dWs4ZHJfU0JtMnVJS0kyb0tuVVplRUNLc3Z6MUh1TXFCWTJ2dTNV?oc=5",
+      "source": "Google News",
+      "summary": "India's Defence Strength Powering National Security through Self-Reliance pib.gov.in",
+      "published_at": "2026-11-11T00:11:21+00:00",
+      "category": "Defence",
+      "tags": [
+        "Defence"
+      ]
+    },
+    {
       "id": "ee0287f726a0ac49",
       "title": "Department of Defence Production Successfully Completes Special Campaign 6.0 - India Education Diary",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZGJBSU95dC1Ra2lDS2x3X0hCVjd2eXo5TWQxeDV5dkgwV3dfNF9CbWdBbDdiU3pJWldHTnBFaDdJZlc2eVhxX3IyaFNFQ3JqbFlaYmxiNk9pYWNRZ0FTcDhSS3JYUDJxdW03NWpWa1VDNWxsZWZSUlVjbFhqTXQ2RVMyaGU2V2JJc1laZ05oY2J6Q3gyTzNkZ0xCdDJ6Y280ZElYaUlHVzZFUGVL?oc=5",
@@ -248,18 +1040,6 @@
       "source": "Google News",
       "summary": "Indian Army’s four-legged robots give a new edge to border surveillance in J&K The Times of India",
       "published_at": "2026-11-10T19:49:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "456f0ae89cfd82c9",
-      "title": "India’s Defence Industry Faces Execution Challenges Despite Strong Domestic Demand: Morgan Stanley - BW Businessworld",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDZQZEZnVzNHTHRBSUoxUU9uU0JPQmJCRnM4bl9Yc2ZYaFdJUmJ1ZU9xN3FjVUpoX1VzejdQN1p2UDY2SHNiR0Fvd0I3R0NfeEVqWElUbFljRU0yaU9qUVJuNnV2a3FPUm9xT0djMnRWM3d1LVJOcFJreWM1NGI0QklTdWJYUnpDVjdpUHphTWp5bEV1Mm12MWI1bXRvU2o2RVhsbkJVV1JKa0VfbXpGZjRVLXNkSEkxcGRFa3duelVweWZRZkhEcUtuc1FZUC1iNFBldEJQaTc?oc=5",
-      "source": "Google News",
-      "summary": "India’s Defence Industry Faces Execution Challenges Despite Strong Domestic Demand: Morgan Stanley BW Businessworld",
-      "published_at": "2026-11-10T19:30:05+00:00",
       "category": "Defence",
       "tags": [
         "Defence"
@@ -398,9 +1178,9 @@
       ]
     },
     {
-      "id": "2566907b34611609",
+      "id": "40fef445cadbcfdc",
       "title": "India’s defence diplomacy at ADMM-Plus | Hindustan Times - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVmlFVGU0ckNOODFPVVYxNU9BWUZmZjdOZWQ0TUZSTm15UGR4VUctbHR5ejExTllRbV9EYVpuWlRkT3Z6cGREUWFxVjkyR29rWGEtSW5NUHdTODZlams4d3BBUzdaREczZHY1WmQwTnpKeVdHNmt0MXgyQVFBWGlTQm5MRVBPUF9YVDdvN2dxTDk3OGZlZGJsYnYzNWlNRmQtMW9ZMDlfM2c1b0NDb2sxZURmNFjSAbQBQVVfeXFMUFZpRVRlNHJDTjgxT1VWMTVPQVlGZmY3TmVkNE1GUk5teVBkeFVHLWx0eXoxMU5ZUW1fRGFablpUZE92enBkRFFhcVY5Mkdva1hhLUluTVB3Uzg2ZWprOHdwQVM3WkRHM2R2NVpkME56SnlXRzZrdDF4MkFRQVhpU0JuTEVQT1BfWFQ3bzdncUw5NzhmZWRibGJ2MzVpTUZkLTFvWTA5XzNnNW9DQ29rMWVEZjRY?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZlBXUnA3eWlEN0hmUTBYTmNTUUstQU9mUTFFa1E4X3NQb29EUG12NVhFLXh0eno5MldaclR2WDluTVZ2a1NsSFliUTVOdHRXWDFKbkFDcnY2blZoUlFETXJqVmFtZFRvZDNkcGdEaTA5MEdINW1Ra2V1ZVBCc3NidDVLNU5NZElzWnlVNFVIWDlpNmhqQTRfc1Naek8zaVRQdUt1M1htbkRMU2hwZEtV0gG0AUFVX3lxTFBWaUVUZTRyQ044MU9VVjE1T0FZRmZmN05lZDRNRlJObXlQZHhVRy1sdHl6MTFOWVFtX0RhWm5aVGRPdnpwZERRYXFWOTJHb2tYYS1Jbk1Qd1M4NmVqazh3cEFTN1pERzNkdjVaZDBOekp5V0c2a3QxeDJBUUFYaVNCbkxFUE9QX1hUN283Z3FMOTc4ZmVkYmxidjM1aU1GZC0xb1kwOV8zZzVvQ0NvazFlRGY0WA?oc=5",
       "source": "Google News",
       "summary": "India’s defence diplomacy at ADMM-Plus | Hindustan Times Hindustan Times",
       "published_at": "2026-11-10T11:42:40+00:00",
@@ -419,786 +1199,6 @@
       "category": "Defence",
       "tags": [
         "Defence"
-      ]
-    },
-    {
-      "id": "95ccea109bbf07d6",
-      "title": "Keeping the edge sharp: India looks to build a global military MRO hub - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORzROV1JOMFZleUtsVnhvMXIxelhQMXV6UGt5dDlwVmRhTU9iWUtTdERsN0k4QlhvZHJ0RXc2V1ZiTHpITHd1djBpejBVZURHYVdkTGlyQmU2RmlFcWk5S0Q5TzQyN3hoN2ZMZld6amZxNFJXeUUzNkNPTjNhYW02YkhqcUo4NTZWU0QtT1BIbzNLQkZEdUpTRDFvbi1fcmpMZ0tFdTdSdUdFb1l5YkVUM1hyaHNicWZRTDRuMFZzOXJFV0N0dGxXWUprZE51ajk0WGVoTlF5MHUzc01Z0gHiAUFVX3lxTE00ak9VbTRWUXNhVlBMM21kcENJU2dfU0ktc1huYzRYRklKcmdNMi02N2xnZGdpSHVRX0hEVVE1SVdQZFVqR0lsTjhUaDNwQzdxUzR5Sk1UcFUySmtDMDUyQmpYZWI2ZlRaRGYzM3NONXVQQUx1c2NoM3NhXzRPQ2JkQ0ZUY3JhTzRRTEtlXzdGcVFxdXRkQUlkbklHaVE2SjdabjZrcm5oRkZHTkZPbnI4LXF3SGNtdkRtYWkxMjdQM3B2TEhxR3ZYYkNSX2F0OUxTeFlndmI2UnZ6eFJOZmlOLXc?oc=5",
-      "source": "Google News",
-      "summary": "Keeping the edge sharp: India looks to build a global military MRO hub The Times of India",
-      "published_at": "2026-11-10T10:53:00+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "5ba5d0f76ff486dc",
-      "title": "CDS General NS Raja Subramani arrives in Tanzania on three-day visit to boost defence ties - The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcVB0dGtrUVpiMTZrbEVvUGVpTTQ5U0F4SDRmcVo5UThYa1FydFFaaTJTVFpmaWp1enFQS19ycWw3STFJbmo2RFNiVWtWNFRDZDhoOTdjWEdFVFdTeGNkdEE5S0h0dnlWcUd5X1lXeUdWZ295ZHBqR2ZlWU90Ykc4dXlZb0d2Y3lVRXpJNFFCZDEtazBJQXc3QWh2MzdtaFRLNzEzVU42WVRETS05czhUdzFJNnZRdnAwZnB5QXdyc2JLaTJYOEdwRkhld9IBzwFBVV95cUxPZ2JzbFFEZVZXdjNPWVpTNzI2VXFBbEs3WXMxUk04bDl1MkRMTWpfQy00NnFTUE0xQTFlRHJWMVVNblItOFZBU21maUllVjFXNzVVMDNEclFqenMwM2V1OUZuR0dUUHlxTEpDc1hZRndKV0RyejdXSWRaVGZZbENJLTNPWGU4TXZCcEZOY3BsWW9JMjV2NEVHakZLQ2kxT2JkOHBLOEpWci1DUjV1NGlJc2FvLTR2VGNNSTFZbTVkSUY5bFl0RTN6Y01MTWh3Q2M?oc=5",
-      "source": "Google News",
-      "summary": "CDS General NS Raja Subramani arrives in Tanzania on three-day visit to boost defence ties The Tribune",
-      "published_at": "2026-11-10T08:52:14+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "220aa9b37ba03946",
-      "title": "CDS General NS Raja Subramani arrives in Tanzania on three-day visit to boost defence ties - ANI News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSkpZeGdhSlRyNjQ2Zy03MWlJVVFjRzItTDdrUjZZWFp2Ym9GNmFzcTVQYVhXcHVLdmNoMmcxek9WczQ3NFBLekFHVzlPRFBYS3dHcHlzcmVvY2REVmhaWlY3aFpLTm1ncUVrdy1xWFdaYVBScjA5Nk1hM2ZtTTRETWwxMnN6WnlTOTRFb09qN1R2aW5TZWNUQkpwdm4zRE52MzJtd3BxY0Y5bUlrNlVKNk1xNVU0R05Zb2RtSS15N1FLNmdmblF4ZHpBaHZBWTFjUHdrdmJGN3loVjVVN1E?oc=5",
-      "source": "Google News",
-      "summary": "CDS General NS Raja Subramani arrives in Tanzania on three-day visit to boost defence ties ANI News",
-      "published_at": "2026-11-10T08:51:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "7ad14dc82f2c8a62",
-      "title": "ideaForge UAV Parachute Recovery System: How the New Technology Works - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLTJLbkVRbEhrYVRMek40cXVEckVCdi1kYmZDekVLVWl6MmVScUFvZWFmdzJ0Y0E4QzRMWkhSam1ReTVrTTdwNWxDcVdlVlpFRjBvQnp6OFhIc2pCQmlZUW5KRzVzWTBLck51ekdOa2FGT2hvSVE5VHl3SUNqWThicmFIazltVHRQWHh0eUxwTURMUVNH?oc=5",
-      "source": "Google News",
-      "summary": "ideaForge UAV Parachute Recovery System: How the New Technology Works Indian Masterminds",
-      "published_at": "2026-11-10T08:35:47+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "67cea19fc519b69d",
-      "title": "Dhaka’s Pakistan-Türkiye defence ties and strained relations with India alarm western diplomats - Northeast News",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdU95c3JTbWFadUYtdGE0Y2hBcXktUUVHTDRvOHlyeUQtX2l6ckJSNGx1aThYMXRZdTQ5NHF0bkhtSG16TnJhQldDOVdBbFhzdjRLd3I1U2Vjb1BNNEh0bTlaajFQVWVhdFktYmVZWXNna3JjY2hUNU1MUVpVWnRROURUTDh3cXpHemIzR1JhNm8ycTFoOFdVVEpsZ3ZDeW03WVI2anVfaWJGaGlyakJPOVlkTy1pdVdfZjl5Wk1MSXdLZw?oc=5",
-      "source": "Google News",
-      "summary": "Dhaka’s Pakistan-Türkiye defence ties and strained relations with India alarm western diplomats Northeast News",
-      "published_at": "2026-11-10T08:34:16+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "a236008daeb3918b",
-      "title": "DRDO Tests 1,100°C Thermal Protection System For Future Hypersonic Vehicles - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlFaZTdyZWx4RWVwa3ptXzFwMkw5TE1HX2VBR3QyX3hfMUdJYmR6NEtlQ0Y4cDVxSUlTUXNoS2xlYjZhWHpOa1Zza21KQ3FCTmZsQXlaekRsRGtoOER0dWJwck9QeW5BRzVhN0pQSXpVY0tUNXJrVlRyRkRoZnVPcGdMbUdoWjQxZ2ZwV2JDdw?oc=5",
-      "source": "Google News",
-      "summary": "DRDO Tests 1,100°C Thermal Protection System For Future Hypersonic Vehicles Indian Masterminds",
-      "published_at": "2026-11-10T08:33:10+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "32947f1893d3f982",
-      "title": "Exercise Rahat Mitra 2026: India And Myanmar Complete First Joint Tri-Services HADR Drill - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSy1sMk1GVmZfS2pQcmRZcl9fT3pBX0RWVkF6X2Z0NWp3NWY2NW9MUXFudDJuQkRxN0lKVjVHUW1wVFM2WEJNd3BwNEZVR24tdXRsaEEzVTdsT0h6VHpDRElreGdaekVVZEQ1ajdPc1dUU3Nfc2tBUWptSjJiSm50T2M0Smc1NUd0RjJKbjlB?oc=5",
-      "source": "Google News",
-      "summary": "Exercise Rahat Mitra 2026: India And Myanmar Complete First Joint Tri-Services HADR Drill Indian Masterminds",
-      "published_at": "2026-11-10T08:30:05+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "d52deb11ad8fa95e",
-      "title": "Embraer Eyes ₹1 Lakh Crore IAF Contract To Build C-390 Aircraft In India - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZDBWLUdMbXVPckJ6SEVHaWVheTB0UU93RXNTM1ZRYUJUeVNONFBGaHBUNFZubEs3bmNheTE0bXgxMlFocC1BaEJIMWNsZFpYNGRpWXJ3NVpYWTJtTWpUXzJmWHQ2R1ZmNm5JOThFYzdSUUVFRW9FLU04TnNJWThlcFpxeW05MldEaDN3?oc=5",
-      "source": "Google News",
-      "summary": "Embraer Eyes ₹1 Lakh Crore IAF Contract To Build C-390 Aircraft In India Indian Masterminds",
-      "published_at": "2026-11-10T08:19:27+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "e592996c0e749f94",
-      "title": "Sagar Defence raises Rs 3 billion in pre-IPO funding - Construction World",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWklsbV9hZllnMXV1YUpSRXh6dTN6UDhPQ1FHUlVZdl9FVDEwY2lDcVZvdDBMYS1sVExYX09oeWZtYUlMZU9uLWpacjZtQXJPeHE1a0JqSWdsckdjcFloM3FfX0owTFEtZS0yZkQ0clRIWXF4bmhlYUVtV2hkbm13RVVwSENLamlScDZZN0ljQ2RWWGIyVlN4WmF1bFN4X2FtQkV2Ylh3OURMcUM1QkNkcEpWZDVWZw?oc=5",
-      "source": "Google News",
-      "summary": "Sagar Defence raises Rs 3 billion in pre-IPO funding Construction World",
-      "published_at": "2026-11-10T08:03:11+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "4db5ca00f270b6ee",
-      "title": "INS Surat Reaches Oman for Naseem Al Bahr 2026 Naval Exercise - www.nationpathindia.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb2RXWjQxS3FvR0VMZWpsVFlHbVFnQUpnNDBEUkJIN2VETVVWcnJrcWVBdVpZdzlQT2ptbm5pamMzRXhfeVpRQUkySVdMZ014dlZBdWpWSmxKd0dSSzJJMkxFVjVrMVJMNUpNT1REelBHNXUxSWN0UklSQXppX1RHVFlWRGgtU01uMjYzZ0pfQjlDWjItS2c?oc=5",
-      "source": "Google News",
-      "summary": "INS Surat Reaches Oman for Naseem Al Bahr 2026 Naval Exercise www.nationpathindia.com",
-      "published_at": "2026-11-10T07:03:43+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "8199c55446cfa8c8",
-      "title": "From Make in India to Owned by India: India’s Next Defence Manufacturing Challenge - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcU1CU0VnWFp1VmpFbHQ2dVJBbWt2bEFQeHRPRmY5WmExeHJfTjJ0MXR2OUZkS2MyZnlWcU9UOHNzRnU4OXlKNGlQS2ZGMkRiMTNPdkFBaE8wTllRd05vNjRMY0tZRlE2OW9qMDNpdVV1S0ozUVpHQ212RnNWSnFfWTAyMzI1aG1nLVdKSmJpNl9VbkR5?oc=5",
-      "source": "Google News",
-      "summary": "From Make in India to Owned by India: India’s Next Defence Manufacturing Challenge Indian Masterminds",
-      "published_at": "2026-11-10T06:54:45+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "286457fe31c7dca9",
-      "title": "Former CDS Explained Why Cognitive Warfare Is A Growing Threat To India’s Security - Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUU9RR1hEanJGMUN1OGFwQzR0QzhTQzBmdjhWWkNzYjk5M3NQVW9tQ1FFZ29pdnUwSnlvY3JxQ3hna3M5eDB4ZlNpZzA5UDRTUm5RZmpuaC1PY3pSS1BxQUJucE9oaWpRMDhOZm5JT1NBbjlnWWZ6RUt0UlVJUGRRTndQOWtHdHdCN0E1bF9FbjRsQQ?oc=5",
-      "source": "Google News",
-      "summary": "Former CDS Explained Why Cognitive Warfare Is A Growing Threat To India’s Security Indian Masterminds",
-      "published_at": "2026-11-10T06:08:30+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c511a82e3454871a",
-      "title": "India, Oman begin naval exercise as Arabian Sea security takes centre stage - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWTNyTjN2djJZVEdFejhIR2NLRWkwOFYzR05UUVl2U3p0OEh0Y0xoN1ItX2RmMjdxMVhkdVY5MXhiYlVLbVlWREVObVV4ZnNyUVY1a25OWjJrbkdkLXpHaVZ3Q3BSQTljcU80SXVvanJQSF9rR1JiOExoWk9SLW1SRzdGWXlISnNqOGo3LTI0eHZMY2xKN1BNcE1hUUxJR3hKbVZJdmp5dGpudkFrU09fSHpaWmVEYWZtUXRqZmRWanFFR1FxUF9waFlMMEM1eVRaZndTcUl5TEkxRUJQcy1vUnNDZ9IB6AFBVV95cUxQb1pCeFBvbjQyUm8xcldWNlJmYXB4WEs5SzR0UnNuNlMtRW9XZ2hXakZ4blVvTmdfN0ZFLXZPaU1tcW03aWRnckg4N3lwZlJFTzVyLUFmM2VWQ2FZaTdVVG1QYkVtLXZWM1FlN3lPbFFEYU5yclBEeGhEMG1mSWZmRFl2WGc0eTlhRmFIMXM5RDEwX1kxWUVVTFF0Y0p1Q0U3YWdOd3NGZnNPdC1JckE4SnFzX3BjYTdoWUZ5WU9rVzBsZ1pLQUtHTEM5REtVOTFRWkhoOEJVc0xURjBlLXAtdF9OU1BZMVY2?oc=5",
-      "source": "Google News",
-      "summary": "India, Oman begin naval exercise as Arabian Sea security takes centre stage The Times of India",
-      "published_at": "2026-11-10T06:08:00+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "f8ae361d3b3b1464",
-      "title": "HDFC Defence Fund raises stakes in BEL, BEML, Bharat Forge and 2 others in October - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTEFITEJzN01KT2t5eHFxMnp5M2t6YnY5aTlFT0l0U1RITHpUYzZ0S0I3OGZzZ3JRcklNOHBMbnBRQlFQeklnN2xQQjM3R2Q3dEMyMWhob2cyTjAxYm1Zd2tBbHFLYUJqWi0yWjVVakVlSHd0T3lQQUpZMUlUdk9xTFZicmhFS2tCTHYwcWdOWGRYQ3pvWElwOG9kNEVJOGZKdUpTak5zQ29qQ1BYVEd4Qk1oYUMzT3dmZnlWNGxnS19KNUtMYkhyODRtOTVPVkNrVTNPZE1janZKRVRRVWI00gHkAUFVX3lxTE94bGREUGdpdnhjS2JqaVh6enp6OWNpSHhlR01WVEpGdks5N1BzM202ZE1zT296YkR5eVZxb0l6bVJWd2oxNk4ycHpfaFRSYWtNOHJ6MGlzNnoyS0E2OWc5cTR2M09JNEt0b3Y4Y1k2clJzWVlvNy1QdGIwUzBWUDdSU0VpRXNIQkZHcHVFcFB0OTFsNmkxRWVoSFJaNHNCSE9Dcm5VeGFKdzlycFRKRDlHUVN5WTZxdnloWFFWdy1BWTA4b2JjckNRSi1fQmFheXB2NkFXeXFrZU1BTDMtbW5SeGxvLQ?oc=5",
-      "source": "Google News",
-      "summary": "HDFC Defence Fund raises stakes in BEL, BEML, Bharat Forge and 2 others in October The Economic Times",
-      "published_at": "2026-11-10T05:17:26+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "19f17e8cbd3f9ed5",
-      "title": "Op Sindoor Proved It Works — Now India’s Defence Reform Must Outrun the Next War - Raksha Anirveda",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdUsxYm5kVlEyODk2Ny1XelZKNTdUbEdOaW5PQnNNRENHRmJRc080cHViN0dDcHJfMHEyOW54YmN4QTlFWWIzVFRIckp6VmMxR0ZnQ2dZMU9Va3JiWXRiR2lrQmRRUUVpVUJ4QWY1d3dhazlURkdwN09Ld1U4M2hwMUhqRlFJWHgtODMzek1UZVplMjUydFBzR2NsU0stTV82X1FCYm1NdDJWUQ?oc=5",
-      "source": "Google News",
-      "summary": "Op Sindoor Proved It Works — Now India’s Defence Reform Must Outrun the Next War Raksha Anirveda",
-      "published_at": "2026-11-10T05:15:21+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "45f642068bf15cad",
-      "title": "DRDO's Narayan Panigrahi calls for indigenous geospatial systems to power future warfare - ET Manufacturing",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQUFF2dlZpQzJ5T1hCSDYzeTZzbWNEMkpBaDFFYkRFRnFkU0x2QWJwR0RwckdveW05MUtLYTl2NjdmUlI2LUVlNllaVW9LTkxRU2RXYTlMM1UwZkxFTE5qVDVtdVNpQkFWdEFzYVE5OGdDb3diblVSMDR1aTdDVG9WZmY1Y05QOEFsVUNYbVBORGZMOHNucGNabmxrMUdCZmpVbGZXY3dYQ1lGemdya1pCQmJQbUpXanpsamlGdllXcUYyYlpqZUM3TWxpMGdiUEF6X2ZFOW1yR3o5U00wd016UjVRY1R4SzVaaFVEYkpzTzJKUFhGZEowNmIySnMtcHdJc0ZLUTRmcFZEd9IBhAJBVV95cUxOam5MVjR4NzlnWHdMaVRsVzZFY1RjSFBQTW8xZ3VxYmQwaHg5akNmWk1VWXdEaWt3SGFGak5VclRpeTlwMkJyanBuUkUtc2JsdWVvRXlGeGM4U0Q2ZUJOQklaSjZPdEtPRlhkby1oYnRIWDFUZmhUTTNYS2JRUlZxN1ZpWUZ6clA4dlI2VGx5bldJYVoxNmo2cXJURllVWHRBSFhQbWlkemg2ajVhNU0tMmtxWVJkWENTT0RQZ1pGOF9zOXhzOVV2ZVFlZWNzSXgxSy1OdDVtZ091dHhiTkxXT0VINmlLYzhNMEJlejFhb0dWQlREUlRHU1pSUW9NUkNZTUhvVA?oc=5",
-      "source": "Google News",
-      "summary": "DRDO's Narayan Panigrahi calls for indigenous geospatial systems to power future warfare ET Manufacturing",
-      "published_at": "2026-11-10T05:01:11+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "74fb29ad77d7c972",
-      "title": "India opts to bowl first against New Zealand amid rain delays - SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNlRSLXZEV2ZjUGk0dlpPVlJPUXhCRm1BWVl2RmplQlEtODdFdGpqRVQ2X3pmTzNXRkxGWEZ1Q1IwTFFpaTRGQkV4bDhDNTNKc2NOTDlrb2lWMFRLMWRrSElKRW85UzF5Mktmd2Y2Y3VKQU9FQkl1dXFKaWRFckZVTjRCWmNDYnVacXdUYzZMNGt5Zw?oc=5",
-      "source": "Google News",
-      "summary": "India opts to bowl first against New Zealand amid rain delays SSBCrack",
-      "published_at": "2026-11-10T04:58:13+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "659d805bbaddfddc",
-      "title": "Charlie Kirk murder trial set for June 2028 as judge rejects defence's push for 2029 - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWFFNajFzMjFtQ0N1SW8xNjVXT2o4SjdzV2NmSFp4a05wa3A0QU9MdU1LMzFMdzA1ekV4dURSRHAyUlVHX1ZSTTFDaDVmbUlOMEE5NWs3WUFRQjZjaVNUV2RoeHJfN180VUt3S3lVYUtxMHRTdFJ5SEZLWktFa0NWVEZvZDA5UmdOeVhsUzFBUnNzcnJabHNCOWhuWHoyeHVIQms5SzctZEFWRmxmdW1nWjFLemxqcUxzTG1kd3VyejMzRWdtUmdwYWhabFg0cWJLM3F2WXZHZUJBaXNFT0NORUxxTkxETG1FYmfSAe8BQVVfeXFMTUhzWjRFLUgwNzh3bllxUVRHVXhyRFA4ZDhuR2phZU1OYlpsN2dTM2pjXzljOXVEZWN4TTZWSWQyT2NleEl2dnpIQ2VMd0hpV1lTV3JtQUV3M3c3Sk5rQUxDNmRwSDVrZExHb1Y1UzdvakpiSElnOTVNV0JZd1FyTC03RFdpWHZGTEx4MXdnMXZBeTUwdXcxM1R6ZzdiTkJsVE1CVEprNWFrXy15UF9CdzFxSkJ1Z0ZFdGRINW9oNzVINnNxTGdwMXlJVFQ5TGZRbGI1bDZtNFctSFJfdVlrdjhUN2xQc3B3Zm15TUZtS28?oc=5",
-      "source": "Google News",
-      "summary": "Charlie Kirk murder trial set for June 2028 as judge rejects defence's push for 2029 The Times of India",
-      "published_at": "2026-11-10T04:29:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "1a7405e073320e1a",
-      "title": "Upcoming IPOs: SEBI clears 8 issues, including Mahanadi Coalfields, Veritas Finance and Sagar Defence; details here - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQd29PTmFORkNrcjc5WXFna2EzVlZiSzBsREpLdThuR0hSSUF5bnlqN2V1VW8xN3h0QlZNak1TVzJpOFJWSXZSSGFsN2RhZkY1cThQTVhsQjdIU0xuY0NzTXo0VDZWZlJrcWtzTUFDd2UxS2lqSE1vd3M5cTJKMDMyN0ZaUEI2a2NPMVlHSHFCLUpDNnBocmdFci1PcnVEazJWREJCdmFmMEpJSHBTR2JwTjBaQzBlRjVMLUxyR0Q3X1ltd05SSmpqMExTRU1Bc0QxME9fSDVjWklkdUtyM29KOFktRTBsOGJpNXAtT3NhRHdrT0pJY0YtRVJ2RHFheDdUai1kWkFXQWhKRkhoOVHSAZMCQVVfeXFMUG1leVRTVHhQVVY0Vy1CU3U0QVdzakk3WEh3NnZMRURpdV80YUQ4RnpmUU1adm1XR2NBc0lWRllRM3k3SkJmZUdJLVFsZGlidU5ZYkx0NXNOWF96RV9PVV9lMTM1QVpHeU1mV3RZaTVNbkIyZ2RQRXZHdU8wbmdrd2JoTFdoeEhmZHlyLWJnc3hvR0hvTGp3TWU2S0piTkVPVzBZNEVLREJlQ3BCZVg5RERpSTBTSFMtS2ZtRGxWdU94QkU3RU9xU045LWFoTXZ2Q3d2UlpOVjZQa295Nnl2RGpiQ1RVS0ZkT3BRVlo1RU50dkl2YnN5VDQ3TURHZWZIMEM0TWJKWXhZWFdacG1obDljbXM?oc=5",
-      "source": "Google News",
-      "summary": "Upcoming IPOs: SEBI clears 8 issues, including Mahanadi Coalfields, Veritas Finance and Sagar Defence; details here Livemint",
-      "published_at": "2026-11-10T04:26:46+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "326a3527cf012885",
-      "title": "Challenging Conditions Mark ODI Series Between New Zealand and India - SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU25zOGg4b3FDTFZRWlZuSkZ3Wi1PaHp5clFqRnZEd2lNcTdjbnQ1YmtldXpvV1BOb3JwdTl6cFJ1OUZ5YkdQbTc0VWhFMnN3YmxXUzFEQnlhdFhCMzlPeDNDZFFZTE53V2JhUUZMV3Zzc2g1QlVPaXdQeTE2QmNlaUxlODRWNkFGUE1EaEc5T0xqbDc4S1B6a2hUSQ?oc=5",
-      "source": "Google News",
-      "summary": "Challenging Conditions Mark ODI Series Between New Zealand and India SSBCrack",
-      "published_at": "2026-11-10T02:25:30+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "e9617c059a54dd43",
-      "title": "India's Defence Strength Powering National Security through Self-Reliance - www.pib.gov.in",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV2JCUjlfRml1Rk5rT0dwdnRNT2IyUzdES1VYYm8ycTdaRjMtd29XZ3JGUFZkcllKZlpBZGVWVFZ6M0d4aDBlNVFDNVZZRk9zc1hEUFFoSVZmMnJlR1ZON1hBRG5pd1BvcFVWajVXSWRnaHJmbDdBc2NXUWtxbmNGVEltd3RGSlozN0tyeXR1VVhKQ19MMHRmT3JGMA?oc=5",
-      "source": "Google News",
-      "summary": "India's Defence Strength Powering National Security through Self-Reliance www.pib.gov.in",
-      "published_at": "2026-11-10T01:51:57+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "5ba8328f8d6eb92a",
-      "title": "Four years without Nepali Gorkhas: Can India's new Agnipath rules break the deadlock? - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLW1QeGYwX3B0dVBzTV9XYmEySi1jcDhHWGtjRG1vb1V3NlFrakZmTFZraXFTdU9iNTEwTzNqS3BROEw1cXZackQ4M2F2REE1QzZ2NXZxV1B0a1FtUVU1bG5WWFpWRENVaXd5dDB1S0RLazlyM3ZOOTFtWkc4UTN1cUk4djVCMGNHR2FuYjJCeHBvdE5KaUpSdEdSLVBCeVhmQVlQblBabGxaT1hxYmhsTTdxa3g1a3lXak83Wk4tSjVveXgzZ29oaVlyQU1WX0wydkhkSThKVETSAd4BQVVfeXFMUDI4SXpMbHBBUWxmc3NsZ2tJU241Tm1HZG9xQkRMaUdXNTFMbkRTWUFxcXRnWXhROEJtNTZ1dkJFUWpncmRiOHVQMldEWkR0M2g4ekM4RWNzcXhyak84SlZkYWxQUk9hR3laeHJsbmF2bG5KMmo0Zkh4SW1FR0NrU3pBal9RWFRiaWdZMDFuOGhENmUzanFGeE1xMDNQYURaeDZibk9yUGE5cDdJZ25BYTJmZXhZcHVaN0x2SHFjWVBoaWM3TzlrZGVLbHBNNlkwV0tUX0J6SHpsRXRXdWRR?oc=5",
-      "source": "Google News",
-      "summary": "Four years without Nepali Gorkhas: Can India's new Agnipath rules break the deadlock? Business Today",
-      "published_at": "2026-11-10T01:00:06+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "62e96cfec9928aed",
-      "title": "US Defence Secretary Pete Hegseth faces impeachment vote, prepares for rare press briefing - United News of India",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQWpraGxuZHVvV0RyeUJuQTFyQTNFVXZyc0hPR3VUeDNvQWxFbDdfUVJZckZ5elRWM3RybFJsNDcwaDNBdG5tYmJ2ZWFEdWpDbmQyRzU2d2tSTUFPRGluYWd1S2VNUU8yRjVjZW9MckpCM3FMZlR3VHRFZ0hoZW5YN2Y5Q3lEQUE?oc=5",
-      "source": "Google News",
-      "summary": "US Defence Secretary Pete Hegseth faces impeachment vote, prepares for rare press briefing United News of India",
-      "published_at": "2026-11-10T00:17:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "59d0e4e2f1833191",
-      "title": "Build first, sell later: The defence dilemma - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcWktZU5ZMmFJXy10RGV1dGpmbTdOVWx1X3FsVlFjRG1aTEplb0ZTTTlsQkJSTVVCOW9qWG5wanFCUmc2WTdfcUxFZHNtMUlWYmQtZlliejJudmxZYVpJWlNBckpiR1Y5bDR0M2NjYk9sWUNMVEdySlpEdXpsbFJEc1JkenRDRnhZZnFsZVVucEZvSXd1UTdyOVd2NllOZG0zYXE4ajRDcUxzaGZjQjU1bURGellwYWgtX29NR20zMGE3ZWxkc1FJQUV3Y9IB0AFBVV95cUxNZVo4Z3lvS3kxRVlSMGswczh3M09KaFppeGwweklQRmw2OFFybE9FTk9VSFphREdGOFhNMEJ1V29ZaUR5SS1oVnR3UF9NQ1Bpejhfc2RmTnlCN3ZyOGYwSzJyV3FVMjREWFlJTDlfQ3h6dnpsYWxLQ0oxZklwWUR1Z2h0TTBHQ0hlY012eUlTZ3A5RWpkNFVJOGg5WGZ4UEgxM0VSNTR4M0xidzRsZXZqRHhPQW50T2hBWHJBUjIyS0lKeGt1cHFTdUxwc1JTT0Zn?oc=5",
-      "source": "Google News",
-      "summary": "Build first, sell later: The defence dilemma Business Standard",
-      "published_at": "2026-11-09T23:40:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "ca51f95f9cfd7293",
-      "title": "NDA Sweeps Andhra Pradesh Local Body Polls With 58.9% Vote Share, CM Naidu Hails Historic Mandate - Republic World",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYi1kQzZhcmVMUEJTRTVTY2lPcmNWcGFmQTBwNW1uVVVZeTV1Mk5IMkFZeThtY3E0bDVKbDdnRVl3bERPSlFZOFRrUlczNzAxUVM4d0VFYWt6NFQwUGdoMmdwZGpGM25KR2FzZ1UxYkVtcUpSWWYwUXZ4a1poeXN4RVR0SDJQLUEtZzQ5ZE93SlRkOUpaQ3V6SlE5WV9DRkxFWTd3V1FpUmdydmNiYy1yWFRMOFRZUEQ3VzNkYU9Pd1FFZTNhejI3SzhuV2JtYzhSR2tPaXVkN0o4QktBNHJHOXp30gHnAUFVX3lxTE5VLWx4V3F3MHduR2RsSTl2OHNOU0N0c2t1aTZQUENuUHY2UkNUWHB3YTM3UXQ2cFRoaVhfcjBGS1hVQkZ3cVI0N29LMUE3cnJ2d2d5V093Z2h2cVpuNE02V0ZyMGJEcDlIdThKeWhsOUItNkZ3VElrU1RLbU9vazRwRkE0Z3dWNE5sY0xrcTFiQkFzdEhTYTVXdHBRbFFReFhOV3A3dTl4N2V0dmFrRjVobk9qUW9TcjNPSTR5Y1dXOEtKdm04bW9GbzBSYk9RcHUwMkhkWmtBbWhVaUcxWkowM1I4UEZjSQ?oc=5",
-      "source": "Google News",
-      "summary": "NDA Sweeps Andhra Pradesh Local Body Polls With 58.9% Vote Share, CM Naidu Hails Historic Mandate Republic World",
-      "published_at": "2026-11-09T23:33:17+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "3db4bf4325764507",
-      "title": "A decade of 'make in India' in defence - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcnpQVVA1YU50ZWhTdTJpZ0hFZzB6R1phakowNnVZVmQxbGNMQ2VNMl9vWGhlTWJJLXVpSTNQX2t6a0ozYnBiajZFaXMyQVRDSzR5ay00TFRrdEg0TzBuMmo3WlFzM0Y1ZUl6TzhXWjJHeC1pdWtSUDZINWN0VTRXSkRIeVpCUExsZzNFMHh6bk1MUUxEUFlMa2JCMDc5WUhTcFRsUDEyUEl2Zno5bXpKdVhZRUtraXpleWNuVDlvd1VvNldq0gHKAUFVX3lxTE9SYmQzYmE0czI3QUdWWEFCYUtCNkE1YWpKczBHcll2aVk2M3RMT1Z4eUdFdl9mdDNpRHpVMWFLT1haVzhmNjlIdjI0b2g3RWcwRHBIejJ2RG5YaXVlV3VNaTA1Q0ZMWFRLX05VWnZVNndlX2Y3YXdsUTZDcGFET182Nk92QkE3OVEtX1Fxang2NnVCdS1QTVRMVlpkQUFGeHhfNHhJY2JaU1pBSDhhaGxTVmV4MWd0TTNqeHNxMzQ3SUdmRjIxaklSWWc?oc=5",
-      "source": "Google News",
-      "summary": "A decade of 'make in India' in defence Business Standard",
-      "published_at": "2026-11-09T23:20:03+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "1539c3d0457c0659",
-      "title": "Buying arms faster - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORnktdEJFZjh0Y2NZQ2d6MGgwUkNlUGdJbWlpMFFzRUhUeW5qYTFGVW5KX1h4bTQyajlMNXMzdUs0MThxOU5xYzdUUUNIbncyQlFwU2p6QmJqdldSWDZIMmV4ZjgtVzJFNEN1b3BTQURzUHRHdGFjZHU3QUNlQkhmdXdxZ3piM0NKMWs2VFhsZE82NmMtcm5sQmxCRFhtem5uUUJmbGdtLUl5aUHSAbABQVVfeXFMTmpTTVVsX3ptXzYtMXAzclppMnBMekdoMHJjQ0pmVmw5aTIyNUhuTlJvRFllUEZDcVV5LVJ1aUxsTEExR3VmbHBEWGE4anRMQVlsN284b3Z6cG5yN2xNazktZHFvMTJqQS1Jak9FdkZnUF9oNHA5RzZJeDBfSGxJVHQ4MmVTVlN6UXc5cl9JeHNvb0dtUG1MY0gwMldxMUJtektFaDVyYlR2c2RVVk5QMXk?oc=5",
-      "source": "Google News",
-      "summary": "Buying arms faster Business Standard",
-      "published_at": "2026-11-09T22:40:52+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "1592f7f1cf4e6e5f",
-      "title": "Trump's two wars defence fails to shield Hegseth from impeachment push - India Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmlyU2ZTdzRRRDZndGw1dkJNX1dUWmVDRS1YOE50VVFwd2RYWlNMWV81a1VOaWlfWHdVUTRJQkV4NXo0WDJzcE14aVRycEtUdF85QUl4aW1xN01tQXh6U25UM3VHQmYzTGtDOVdXOWVpTFZnYkRpdExDNG5panhrdzJJT3NuTG9qYmk1RjJMSHpEZUJsN19UeVZDVTBHMXJIeFRoYWVXSdIBrAFBVV95cUxQZUhyaVB2VGRkZEh5ZFNucFFNWjRfZUdpdDJDVDRLTXk5TC1ncXlCTmFoV0Jzenc1REZtWkxoN08tbjg5MG15RUZUMmRLVUc2cEpWTElmcDdFUEFlcUNaamM3dHBSYV9wNGFpV2VUbk0zeUhGSHJqeUc2RjFGcjJCWVZualctNFMtMnBIb0h0ZFduSWs5RkVXVzl0ZDVyMVVFMUhmQ3ZJOUgtYXhB?oc=5",
-      "source": "Google News",
-      "summary": "Trump's two wars defence fails to shield Hegseth from impeachment push India Today",
-      "published_at": "2026-11-09T21:59:45+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "da01b06a7262d724",
-      "title": "Indian Navy to Pass Out Largest-Ever INS Chilka Batch; Over 3,300 Agniveers to Complete Training - www.nationpathindia.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQi1BSlBwYlBkbHZwZVJ0QmlmelJvQmRFR28wY05jVHlsSXFCQlNIY2MyNDlNX0lXbVNvbDNiVEhPRDZvTVNHZXZicUhkekliRzFrWFVubUtXU09wYTIydExSOGJjN2NnbXVzM2QwaDNoQWtSYWNLN3FWc25NMlFYWC1UZWxoUm5CM1FzMXNCTU9ZREpDbHptcE9aLTZpYm1JdldjV0RZX0lJMTA5NHc?oc=5",
-      "source": "Google News",
-      "summary": "Indian Navy to Pass Out Largest-Ever INS Chilka Batch; Over 3,300 Agniveers to Complete Training www.nationpathindia.com",
-      "published_at": "2026-11-09T20:16:44+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "53d864575e18eed5",
-      "title": "Embraer Eyes IAF's 60-Plane MTA Deal to Turn India into C-390 Export Hub for 500-Jet Asian Market - Defence.in",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU1VnZGR2WnZicmJXNnVBUzQyWEgzNnAxNUlNQXR0THpSd2VKVjU0QzllTmMzRDJsY3NsTDFPT2R2c2NDSmNpZ2pZZ01od2p5TDhwV3B2Q3dLQUN4Vlh3UlREZzFWQzVqRlMwclZOMm53ZjBZbDRBYTEyeV8xSVMxNzNZcWJwUVVzQ0tFRFZRSUdZNnEzTnZYMW16WENRelV1RjJVMTBuTmZfQ28tTjhvQXlHSVVwMzExY3h3bHhMWndNYV94b1JrY2Zn?oc=5",
-      "source": "Google News",
-      "summary": "Embraer Eyes IAF's 60-Plane MTA Deal to Turn India into C-390 Export Hub for 500-Jet Asian Market Defence.in",
-      "published_at": "2026-11-09T19:35:44+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "57d35f77f83e7cb7",
-      "title": "AAIB flags gaps in DGCA-Defence coordination, seeks formal info-sharing after runway incursion - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQX19hOVRWTlVtVUNKV2dHdzRWd2hnRXJMeFcyaEpVMDZqTHlPSE1hMzNQTmNHRHJ2aDZtRDNIT29hTzdQTFJBNXctWFVEQ0UwMmJDMUF3bjFsdGhwVFI2YzAwUk13ZHoyV3pjNVRzekp6VVZBaVV1YXIxRDhjVFJ4TVIyU29fOUExMlZFakVGQURTTE5aRFQtLVVJSFltYm0yTmIyeVc0R3hWa1NuY1FYSmhPcDA5aUhqV1RjYWh5dHR6YWI4clRoMFRINjY0d3UyR1VWYUNtb3dtcy1j0gHqAUFVX3lxTE5EUGJCR0dIZGFlQms5bUNkX1VwYjNjVkZrZE1VeDhTMjR5S0FBSGxTTzA3YzRwS24yUDZoLXE4cGttUkRfdndHeTloa0hBUDdFVXN1Vk5FTHg4Qk10Z0lnVlpicnhGNVNnVWJrRThzOHdubmNwRktHUDJmOFBNMUYwdUNuUTNJZ3JfSVRHS3d0RTFQenIwYk1fSDdnejRLMmpSSGZoMlg3UlVKNFlYSVFGZ2xGTjB6cUJPUkpZV0RqX1FDTVJyeW1GaVNIZE1FWnNQaXM4VTJiVVJhZy03eEdsdXJQOFppTHRldw?oc=5",
-      "source": "Google News",
-      "summary": "AAIB flags gaps in DGCA-Defence coordination, seeks formal info-sharing after runway incursion The New Indian Express",
-      "published_at": "2026-11-09T18:39:06+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "a1c6e169a001803b",
-      "title": "India's Defence Strength Powering National Security through Self-Reliance - pib.gov.in",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRDFWRGVrOEFuczVfbERfdVI4d1dyZ2dVTlpqSUVmWkNyZjA1Q0ZfREcyN3hWazlXb2FSQkRSV3huRXZyaUNHWVhmWWhoeFg0cWJDR21UWlA1R2FFaVNCNXJOOHY0eHZmZzdXSmoyMmZHZE9wMFpXTUg4alFxY2xKWlpQamtVVk0?oc=5",
-      "source": "Google News",
-      "summary": "India's Defence Strength Powering National Security through Self-Reliance pib.gov.in",
-      "published_at": "2026-11-09T18:19:58+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "fec168e94928b685",
-      "title": "Agnipath Scheme Gets Major Revamp | Longer Service, Higher Pay and Seva Nidhi | Agniveer - India Sentinels",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQjB3dVh0eHR5MktxZTdQMXpzTHN6elQzbnh5bVZvSndYcy1waFFTUFplbUlXMi16bFRjZW9XcTBOQ3ZtUEUyNFI1NkNvNlVXLTBtM21sOXVmZnNKRzRELUVrNHpVYndVdjZ3d2RaYkFKajFHLUJVR2ZBeHBvOTBEdkduRlAtTHlsOVNidlVsT2R1RmhtcXlVaERhUXhja0J1VURHUlFkcEpNQW5MOFVtSkN1VHBvZ0NMY1c5eDIyRlUwbTVa?oc=5",
-      "source": "Google News",
-      "summary": "Agnipath Scheme Gets Major Revamp | Longer Service, Higher Pay and Seva Nidhi | Agniveer India Sentinels",
-      "published_at": "2026-11-09T17:48:40+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c1cc884de9aae5f9",
-      "title": "Can China's Private Rocket Industry Turn Failure Into Success? - India Sentinels",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX0RYRDVGVHktTk1xN19vMjhzeExtTWdDZDBpdUVQTndTVFdrX3ZDVWx5N256aEVLOUlja3J4dXpzWnhkVzVGVGI2R3RhaFREUzdxM1d0U1BGTjVVOHZSUWJlNk1yT25qbzBLY05RYzFiUEo3dHExWUF0bVBPRDY4RmRia2Y2Q2djczN1WExRa3RXdlNpc1RkOGFPUDcwYlVyWkwtakZYd0pLZw?oc=5",
-      "source": "Google News",
-      "summary": "Can China's Private Rocket Industry Turn Failure Into Success? India Sentinels",
-      "published_at": "2026-11-09T17:48:40+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "d74c2b4039fbe3de",
-      "title": "Summary Report: Canada-Singapore Defence and Dual-Use Roundtable - Asia Pacific Foundation of Canada",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdkZRN2d6SXV4N3ZhazNpRm1DRjJ1OV9IY2NudTkxN0pyX0RFRnhRcFNIWkRxNnVqLW5RLVZUOUM0RzRRamEzYkxfVm9VbFZRZ2Yzd25lM29uWXM3YlZYNjQxRTQ5ZzlfSU5VclRPZzVEVzA3d3VWbE55b1EzLTNwdHE5aVMwWVpZOUdaY3BYTUZfeFNCUjFiTzNNSlNLcGRfQ3ZkeExR?oc=5",
-      "source": "Google News",
-      "summary": "Summary Report: Canada-Singapore Defence and Dual-Use Roundtable Asia Pacific Foundation of Canada",
-      "published_at": "2026-11-09T17:29:46+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c45c1426a6ef9796",
-      "title": "India and Myanmar Successfully Conclude Inaugural Tri-Services Humanitarian Assistance and Disaster Relief Exercise Rahat Mitra - Defence.in",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUjRvRjB5aDJraDhvV0M4ODhPZVlmTnBJWlVCeG9USTdNQ0lFNkFqZFpsNldnU0xFNkZQSGw1WldwUWQwSlNBR0JReHlfS0taQ3dubk1sT3ZHMThCZVRxRnBoX1RmeUFVUGF5S1NQcGdlWjFLeDVuRy1ESmMxRmIwcnFRX08xR0FUV24tLXNMSnFzdEFoS0ppTGx1bTE1MDNMSHB6UlgwV2VDdGZGYkJwWnFmRzdZaDBUU2dUc1NRczBCa05nU0JpcVdqZEN6ZUFMMXdtSHhrWnlucDZ1WGxJVUJMVGRyV044OVhWRU4zZVpVTjA?oc=5",
-      "source": "Google News",
-      "summary": "India and Myanmar Successfully Conclude Inaugural Tri-Services Humanitarian Assistance and Disaster Relief Exercise Rahat Mitra Defence.in",
-      "published_at": "2026-11-09T17:22:42+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "a27ae067276a4caa",
-      "title": "'No power can threaten informed citizens': Ex-CDS Chauhan warns of cognitive warfare threat to India - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTlRJS3ZSNnd2X01WUHJ6M0dpTzN3dXlWRWRIM1RQNXBFc2Vucjg5bnRWM0NwSFhyY2JQdjhRWUVpRG5vUHpROVdvTGxFNUE0aGxLbjc5Z3VnWXpBd3JCVkhXeE9Gb1k1b1RaV2VEbm5IdnVURnYyRTdRY2pISVdteTlxWFVSaDR4ZmZWZ1Q5WmZ1RGdoQ1B1bWZIaDk2MEtuamlzMHFYUGRHOG5ic0VxUEsxR3JWci16ZzFjRnVIaG9nemtvR1dRU2JNOVVVTTRWT25UWGRDZnh5cUtXQzNJMXd6N01GTjEwZFpodnF3VlJhVTFVUnFaMktlODJMN0pzZEHSAYcCQVVfeXFMTmNoMTZMR3JpQW5UV3hrRnZSYnZlVDljbHNNVzYyNW40b0FpSXlDRTJjNnc3UGtMaVY1Q1ZPdjlKaTFma1h6aHgtRDF1cmtGQW9wOHBzajNINlp2ZlNPUGozTUVLalhlNmwxV21DUUZKa3E1d3hkMUF3dnhpZFhtbUZpUGdZSGtiVUE0NHBTN2hUUjc0aEtfZHpTMXRUQWdNalkwVDh6Ql9WbHJhWXdxaGM2Q0daNExEZ1JhVGtqWDAtU3Vzc1FXWkhHUHdrR1VRT04wUnExdHJ1a0VoVWF0NGo1WTY4RzRFcVhoaGdaN2s2QlNnX2h3MkI4b1lzUEV6YmJCeUJKQXM?oc=5",
-      "source": "Google News",
-      "summary": "'No power can threaten informed citizens': Ex-CDS Chauhan warns of cognitive warfare threat to India The Times of India",
-      "published_at": "2026-11-09T17:18:00+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "4a803d68c70fe0bf",
-      "title": "India offers to mediate on food corridors as Russia-Ukraine talks near - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYi0zYWpnemlldFhNUTVBSDh2TUQ4M0ZCLTQzZG9FZW1STWFXYmkyRFNMOUZ5cjdoQmF6bVE4RjBKVXo3OUZUb1g2MEJWR1pCZ2RiQm5NTWdLRUxkclROdk9zUVFXNUl1ZUY5LU9WejRna1BhOXZuNXlQOXNBdnhvT0JlOUhsMERxZ28zWlI2NEYxLWh3OWV6VGVGVm13LXRsaktraHVWRlBGajQ1QUc3T1hYbjByUm43ZU83N0xoRU9tTWItYm9zRUg0bWRBYkFVSENsZG80T1F0R0JqbExYMmE5bXhvX3hHb0FwUUp2U0tGaFp5TkHSAfsBQVVfeXFMUHQxeWxvaS0wVDFlRjdQbkJITkItQ1ZWcW1PcHVrd1dYc0ZSTDU4RnBReDMyUF9rYmZvaXA1dm9lcGFsWDVoQ18tSGpwMi0tS0ZEdWg4THhxSGR2Y1hwaDc1TTZXeWVUMl9NY29FOUliUnpJb3l2NDFvM2E1SUM4ODRCWGYyLXlObmRBVElOdERNamlqODBVTjlOUG1wZXFtaHlsVmk3OUl0V2VGYVhmVk5IVjB6T2FIcWlMOEwxdXlCMzdHaGR3bDRrS0E0R0NBZ1ZxYWpHaXdkTFFNSDQwN3lKZnJZM0R3YjVxRWs5ZnhTWUVYLWtCbzV6b3c?oc=5",
-      "source": "Google News",
-      "summary": "India offers to mediate on food corridors as Russia-Ukraine talks near Business Standard",
-      "published_at": "2026-11-09T17:03:54+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "1f43536b73097bf7",
-      "title": "India Signs $5.7 Billion Deal for Eight Next-Generation Corvettes - Envanter Medya",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMVVKaUktaVJsRkk2NUljUDVFaHNjWXEyT1ZselJveHVfR1FTd21MVGtqRXhQOHBKRF9sZzFHQWlQblFaUzhWWVVQNk9PYkpHaGtVVm4yZWljczRJZG9oSGhuRlNlM1A5Y1F4WXRiRC1VNDlMeTUxTmpQQXFuUUd3Z0VHYTdhaURmRXJN?oc=5",
-      "source": "Google News",
-      "summary": "India Signs $5.7 Billion Deal for Eight Next-Generation Corvettes Envanter Medya",
-      "published_at": "2026-11-09T16:40:00+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "ee6eecc93ae38683",
-      "title": "India seeks an Indo-Pacific where all countries make their own choices, protect their interests & pursue development in peace: Raksha Mantri at 1st ASEAN-India Defence Think Tank Forum - www.pib.gov.in",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ic2dxZF9idHBsS2psTzQ2eUFtdXhWbjJsbTAwUXZrdllJTUtLRjZwdXpYRDJzZXh4VG1rYkIzNjJFdmtSUTRwcXJTN3NwTE9OaW5KMlcwRWs0RW0xWjZPVzl5c1B2VjhPd3VEeHdvaUVEZ2lEOENRV1dzczY?oc=5",
-      "source": "Google News",
-      "summary": "India seeks an Indo-Pacific where all countries make their own choices, protect their interests & pursue development in peace: Raksha Mantri at 1st ASEAN-India Defence Think Tank Forum www.pib.gov.in",
-      "published_at": "2026-11-09T16:33:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "c8b1209da1b9e17c",
-      "title": "Narendra Modi speaks to Zelenskyy, says India ready to help efforts for peaceful end to Ukraine war - India Sentinels",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNN2pBQ3lYd3VhdFk3eVdrTG1wcVRYcUpJWUQ1SGNmc0ZmZ01UX1pLVDAwYndCd1hpVWhXWHlBdWktQmppeHMwXzhvNEMzZTdOeWVBd2c3QWFCYm9mUldKOTVZWHNHVWVCUktHMlRncHVxU1BhU1VtRnBQMnpqeG9FZUVmTjVRX04tNGVxZ2JpaEROaEdzc3h5cU5IbzZGN0llQTBoel8yR3NqQ3RPcURjUFVnaVdERVdOOTVMX1VLVDM1bDdlbk05ZkxrYk1EZFZ0aFFrc1EyUDRTdk5h?oc=5",
-      "source": "Google News",
-      "summary": "Narendra Modi speaks to Zelenskyy, says India ready to help efforts for peaceful end to Ukraine war India Sentinels",
-      "published_at": "2026-11-09T16:28:39+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "686d8b414e64dd1d",
-      "title": "INS Chilka to Hold Passing Out Parade of Largest-Ever Batch of Over 3,300 Trainees - www.nationpathindia.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZHhxc05xQVNWUUw1VXhfWkFVXzhfZ1lEdnVuWEl6OXJCa2RFZXdfd1NKc3FjZEc1dTdxU09OMEMzdkdHa1kzZDJEZlYwOV91alBZWjZnVGl2NXVXSGZlY2FVVk1ONS1HejUxMHRPTXExQlJaMldyWGNCU0lLQXZVRi1RZTRYNXAxV1RWem1nWDdUYW52SDF5YkwyblBpUQ?oc=5",
-      "source": "Google News",
-      "summary": "INS Chilka to Hold Passing Out Parade of Largest-Ever Batch of Over 3,300 Trainees www.nationpathindia.com",
-      "published_at": "2026-11-09T15:46:20+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
-      ]
-    },
-    {
-      "id": "08e3c82d1d14ae7f",
-      "title": "Assam plans 6,000-bigha Defence Park in Morigaon to boost defence manufacturing - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNR2NIalN1a0ZOZHBMQldDbDg3RUxqSWVJVUlBNEl0dHVaZUFqekFIcVFNYnJ0ZHdLUlFIcEVsTzhNUlY2TUVqMUNsZXVmV0xSSHNKNXBMY3l5RVBoVEdsMTBkbzZ2OVdFaElRdlZoYnZNYjQ1ZlFCUUZrQUZNQWFZN1JiazBRdGVFRUZxQ09ZNWpsNWlmTWJ1MlBvQXBVQzJrdjJ2dW5VQTV3dDVtZXJIUzYxYTc0NEtLWk1sajR1aEpSX3FMRTR1dmtyLWlBNWxYOXliYl9mcXkxMUxkdnfSAeMBQVVfeXFMT01WZEZKV1hiT2dxNVRtY2NCbFc5dllOdGhmUVlOeEpVckxrRnRHSnRZdUpDdFFrUXk4TnlVd1lMbldDZGFmTlprUVliRkR5VjdKbERfNThMbXJMNXVxYTI1NHJSZ2o3RHc0Tm55N0ZoN051R29KcVItVGlxLU5MSEFOOHp4RVJ4dFlUYWdsOWNsV2ZIdnAyLUl0YUEycFFXZFVlTnVqNkxTSGU2aHlVWWFnVmpENVhrSWREOEduUGFpellDeTBCZlJSRkpPRjhBcW9IdDBHUWtrUlY0R21uNFZnY3c?oc=5",
-      "source": "Google News",
-      "summary": "Assam plans 6,000-bigha Defence Park in Morigaon to boost defence manufacturing The Economic Times",
-      "published_at": "2026-11-09T15:37:28+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "668f9cad82fe005e",
-      "title": "Assam Plans First Defence Park on 1,984 Acres in Morigaon - https://defence.newsd.in/",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPclI0QzN4LVBBSFduNkxzMVpHYUFuQzRZcXBMYmxyQTZSWHlRQkZmUmxzanduZ3RGVEY1YWJjaDJPcUlYODRJeDBKSGI5TklHUkpITjk3ZzlSa2p6MWhqQU40Tl9GMW5wek81TDlGVzlBRUNMTW41a0NWZm11ZDduWXplaDlwOGZVejl4bVdPRGY?oc=5",
-      "source": "Google News",
-      "summary": "Assam Plans First Defence Park on 1,984 Acres in Morigaon https://defence.newsd.in/",
-      "published_at": "2026-11-09T15:22:18+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "b6146477d90f5390",
-      "title": "INS Surat Reaches Oman for 15th Naseem Al Bahr Naval Exercise - https://defence.newsd.in/",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWpFNnRxVVNlYm9jSm1CUFNkOUtHQlRUQUQ1QnZKT0ZfVjc5VnpXcmx5NG5OWDN4VjBOUXVpRWRfNldWWWRpd1pmY2tiQUtBbWQ5cWtkSUQ0S3FSejdyLThwVkNXcml2RW82Nmx6Sl96ejBvWHBkSEFnTHN4LVpBM2I0UmtENHNGRFdrc3hmLTYxWE1TSWxUaHRFa3I2dGlvdkE?oc=5",
-      "source": "Google News",
-      "summary": "INS Surat Reaches Oman for 15th Naseem Al Bahr Naval Exercise https://defence.newsd.in/",
-      "published_at": "2026-11-09T15:22:14+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "f8f56c4081fe96b3",
-      "title": "CM Yogi Adityanath targets 80% vote share for NDA, predicts big win in UP polls - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ000cWN6UUZ6MDQ0YVJUOURablhCMzU0OHFSTVNVcWNnVGt5bU5DNE5pWHdwdk5hbGp4ZGVFQzN3ajQySGRpd1J3MDloR2c0dnF2LWtOdU5kSFJ6X2h4SGFoeXFTY0ZHalhDcklWZFRIRzdjMklRRHV5UkMxM0xzbTE1emdHZ0YtTjVTX3A2YktwdnpNeTZSTDdvRXNJTXZ4T3pvcUItRlJWaG1IZkNyN2dySW5wM29idUNPMDdHaHFMcVRVODh5WW1pYVdveHdxWmfSAdcBQVVfeXFMT3JMSTZMTGVJWGdrNldBcjNka1pPaUthc0hQWkduejdfNnlPNHBDTjM0ZTlXaC0tZkwtN3pJcThWRjMxX09GNjBvVzQyS3Y0Qm9FeC1zbW9hNVhfd1lxUnNYMnRfSHlXQXhGSHRzWFA0WE1pRUUzMFJSOVpGX215b0FxdUcwaGMxSTBjZVVvbHhYZTMxckdWRjZjSnZIel94WkRLSXpUdWZ6VG5mU2wwVXlURno0SEdpS3p3a1lUX2U1WmJPWFhaaTJpVkt1dGE4UklEVGlZbDg?oc=5",
-      "source": "Google News",
-      "summary": "CM Yogi Adityanath targets 80% vote share for NDA, predicts big win in UP polls Business Today",
-      "published_at": "2026-11-09T15:07:30+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c13bf53e2c076ea8",
-      "title": "PM Modi speaks to Zelenskyy, reaffirms India's role in peace efforts - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPanFvTHBGcmdvYmlUc0dVakhxdnlMX2M4cE1LTndSWV9sZlhkU2N2Q01VMEdDQV8xcnRST1JKa0E5X1AweVFnUHdkSFNfVTV2a2VQcE5xeFgtRzlVeTNuWWdmX0lmUnFkeUVibE9zS2RmcU5QeldMcnVnRjJ5UXpZYUdTS29KdWZMekQ5QlpRa0h0ZVhocVUxNHR3azFPMzJ5dEszQ2NxaTJ0UmN5WWRVUHVZWVVfSDFPVDJLd01BYkpUa3c5QjVkd19ocEx6OElPQUlyZDRXeWhlNmlfMmdUY2RoSzNITENCYTh2WE40ekk2QdIB9wFBVV95cUxObWotQVpuaG1RbGdVdTZqQjJSbzFzMS1GWG9BUXJ4eFA0V2taNUNjTDhCZlF3WFEzcnBWdWdpaFRZdURUU0pFdFFYTzdnV0FOZktTbTNfQl9Jbm9HdjZvNk0yNjIyakVpOGFyUklvSmdVUUEtMXdrVzJ2UTVERHV4WThOSkF5U3V1alJIby1QVWhZS05manJGR1NIOXVtTkRkM1J6RGFFbDV3YXhrV0x0dTNabEFXOFVYcXVxdUwzNDdlRXAtbjg0ZFY2c3VzdlNvX0YxcFVqMVlhRkhIOWpLUjdGN2VITzVNUGJXV0dzZS1DTlJha01F?oc=5",
-      "source": "Google News",
-      "summary": "PM Modi speaks to Zelenskyy, reaffirms India's role in peace efforts Business Standard",
-      "published_at": "2026-11-09T14:44:42+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "0fec56c91fd4941f",
-      "title": "Assam to establish mega defence park on 6,000 bighas at Nelli - The News Mill",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRnUydW1xcUU5Ry1VYTVtZXEzTVh4MW1SZ2Z6Q1hzRk9ReEs0OGhSQ2pfRXp1X1lNTEhYMHhxeGZyQ2FhM2hYU1ZmU0ZfV1lxcFY5anJjX2YzMXBlYWZrVnFaY0gwcnQ1QmJqVHA1emxkemswd2ppUzdXRmV2Wmk1NHpJN2RST09ncWhyM0c5bkF4T094aHI3dg?oc=5",
-      "source": "Google News",
-      "summary": "Assam to establish mega defence park on 6,000 bighas at Nelli The News Mill",
-      "published_at": "2026-11-09T14:42:10+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "1bbd52f10dc0dcef",
-      "title": "India moves to acquire hundreds more South Korean K9 howitzers - Defence24.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdjNkaW5QSFNnZ1k2YXV4M0lBQnIzZFNSZF9uQ2NhWXdlVTNlYzNTNkNFc1ZoOTRhUHdfZmo0SzZGaVE1anJsbzE4eFVETXA2RzVUNGNlbm5YLVhib2hPQWhLN1NVX3JWbHdzN09SOGZEUjNjaWFha1k1emZyQk1hTFoxX1dpSTFZbG5QczloUzJvUDlKOENXVUpLMWNDdw?oc=5",
-      "source": "Google News",
-      "summary": "India moves to acquire hundreds more South Korean K9 howitzers Defence24.com",
-      "published_at": "2026-11-09T14:30:00+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "5ac83cc9fc7d30ca",
-      "title": "‘Bad Decision’ — Ex-IAF Chief Slams Tejas Mk1A Radar Reversal - Defence Security Asia",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYWFPNXNJcE5DLUkzelJqQXdqYmk0Q2Qwd25USkNXbDBFbnFLM0dFUFdyX0U1WWdlNV9CMGNndms5QmlaSHRqNVdHSjgxb0VEMGptNXJqUnREanRnWEhhMzBXdDJnamlwZ0F5OTNBUkVGLThzbHl6TlpOWVNmZXFMMWxR?oc=5",
-      "source": "Google News",
-      "summary": "‘Bad Decision’ — Ex-IAF Chief Slams Tejas Mk1A Radar Reversal Defence Security Asia",
-      "published_at": "2026-11-09T14:29:56+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "bd01d8234f8110d1",
-      "title": "Indian Navy: INS Chilka to hold passing out parade of ninth Agniveer batch on November 13 - India Sentinels",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMmpDeHN4U0tOSGVvWE5PajdkMXl5ZlljZTBzOWRYd0RISEc0RlhnZURSUUJKVFBIZTFwVDNHMUItZVh2RnhpTU1KSGZZQWpsY3BlTkxxangtLUpPNlNLVHBSS1hKcVpkaUlmaVZIUHN6dW1EMkJsWFBDZXBCRHFvRHVBcUQ1dDRaTS11VTBsZ3B5UnFJNlZ2ZmJPc2tacWxRczN4WkxtQjVUbjZlQVc2OGRKVDhsM011VWZvS3YzVVl4MlNhX0hmdw?oc=5",
-      "source": "Google News",
-      "summary": "Indian Navy: INS Chilka to hold passing out parade of ninth Agniveer batch on November 13 India Sentinels",
-      "published_at": "2026-11-09T14:18:35+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c1d8baabce359695",
-      "title": "Agnipath 2.0: Navy’s Largest Agniveer Batch Passes Out as First Batch Nears Exit Deadline - Bharat Shakti",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR250ek1iV1V1dlY0dVVSNEFzZ0F3MzJfWWlLcWVnQzQ2YUVPMDV6NUhmLXc3c3pGUjN4amY4dGhtM0M4eDJSc2l6bkhQV3hfalo3eE4yRG9zc1ZnbXhTaEdQdmhSRVRvVnVpc1pVWWlSa3NsTEdDSF9NOW11cDZlYWgzSGhlR2VwcHdkazFaNXFNcTVjMEt4VDdDdnctNDVpZ0liYUFMb3Q3SVJQV3Iwc2V3?oc=5",
-      "source": "Google News",
-      "summary": "Agnipath 2.0: Navy’s Largest Agniveer Batch Passes Out as First Batch Nears Exit Deadline Bharat Shakti",
-      "published_at": "2026-11-09T14:15:11+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "2744da1308218bf0",
-      "title": "Sebi approves 6 IPOs including Mahanadi Coalfields, Veritas Finance and Sagar Defence. Check details - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUGJ3ampIeFV2Q3RPcmhabjh3cWlLMGtlZ01FY3Zha2FKV05iQkNFd3pyZ0h1amdHbERpQUlUaDdHTVNlcV80WHhRZVpUTTctTlRmcUd3amNFVE5jV3R3cnZsOXc4dmVaeGJQb2lmU0FXdUtSUjFjMXA2Z2l5YUtZMkxQT0hZVUluc09rdEl6bXZaWU1taEtFVkpJZ3pDc1d2LW5PQlptSW8tLTU4bjZnZmRGNVlja2ZWWjVEZkhXLWlzN0tIYmtTZmpIWV8zRlNXc29YMU1RMnlmeG1LRGFGMWRuQUd1TTdHaGJraTRRd3JvcTlEQktFczFkVE93Z1XSAYQCQVVfeXFMTkozbWJuN01Ha0ZNa3dKRmUzZFEwNFVWOGU3RDhIZjJHRGF2Z0Q2aDBjVDcxTGRoYzBIczFTMThUWkVmc2Z5M3dXRVBNRk55UTNneGhNRTdsU1RVM0REWG1CaHk0d1BBZHlfMFNoQWc3TmtPY1lMS0NBNzVSNXN5eHZWSTlOVjNoVlhjdy12WDVTOC1GYzdmblVkY1RscW13RWZNYWpZREY1UmdMUDRoQzdFMEtBR3UwSUtrVFVDVDNYTEE3M0dBNGsyMUpCR2dYTEd1TGwwOHdheGdNWnotNEhEekx2MWxwV29aSXBrdGFjWGVMWEZEUTcyZDRpNWc3SUFpWW4?oc=5",
-      "source": "Google News",
-      "summary": "Sebi approves 6 IPOs including Mahanadi Coalfields, Veritas Finance and Sagar Defence. Check details The Economic Times",
-      "published_at": "2026-11-09T14:11:56+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "dde1e0512785c841",
-      "title": "Bihar: NDA prepares grand welcome for PM Modi’s Nov 21 visit - The Hawk",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ0FfNjNXZ2hFallkVHdTaXVWZTdMYlA2ZkRGUzlpVlhCcVZ3bU5LcnV6c2I0VDBXXy1SWnZqWWVmMmN1anplUVBkalZGSElmQ0ZFeG5rZ01adnFCdV9sc09LUnNBUXZkTzJLdjRyOUxHbHVqZlVsbVl3T005STAtbDBJa2hJeV9qeFpkN1Z5MFJRcENBSkxN?oc=5",
-      "source": "Google News",
-      "summary": "Bihar: NDA prepares grand welcome for PM Modi’s Nov 21 visit The Hawk",
-      "published_at": "2026-11-09T13:57:51+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "2598cca35fa38177",
-      "title": "12 Sainik School Kunjpura cadets make it to NDA, TES merit lists - The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQnEwbHFjMEtoNXBNNDFoMWkyMlRXalVFVHFCTWt4QUFONVZFT0Y3WUNaUDVUNVhySVdYclpKN29ROFV0T3VYOHF3M2NkVjg0WDFiclF3TGhnUkNxdkduS1k0SFg2b20xVDk4UXZ0UlBEWTROSVp5eWJhY2RjLWpYWkxHdnJyMUFBYmkzNGNPWVdDSFpJbTRGREd4Z2h4cjNSMFlLZXloNWNjQdIBrgFBVV95cUxOMlNmVWhZSHl2TlNQczBOcUx3OVE3Q2NBSkhOSW9oOWF4NXJWU1BEd3ZRcEhqYmw2LTZEc1QtWXFjN0IyampfdXFLZHZEekFmWGI0dWVpQUx0RFk5NGFvUEgzZVVDUENqN3R4Vlk0RHRNZ1J0S2xhVV9YMXVlNzlHWDhMS3NyakFIRHB0aG9iYm92bnRDY1luTHptYjE5V0I3VktKcVZDTllBSEhpZUE?oc=5",
-      "source": "Google News",
-      "summary": "12 Sainik School Kunjpura cadets make it to NDA, TES merit lists The Tribune",
-      "published_at": "2026-11-09T13:46:06+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "c99609b78a0ed0b4",
-      "title": "India, Japan sign maritime security pact, deepen defence cooperation - DD News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMnJEVFE5NHZua0V5WlgxQzJOUzlxMk51YTQ1SnJqeDFhZlRnbjgtZlJwUnY0OG9RZUY5NXBzSS1YS1A0X3paV0dETzc5YVdIdUxRZXJxZVZqTUlXWF90UkR6ck9zMkNIaVFpbTNlMlljWW01cGR6eFVnd1AyalF1X0cxaEozcjlSX1p4SndiTkltZ3BIWTdB?oc=5",
-      "source": "Google News",
-      "summary": "India, Japan sign maritime security pact, deepen defence cooperation DD News",
-      "published_at": "2026-11-09T13:45:16+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "5dc1049008a28276",
-      "title": "INS Surat arrives in Oman for 15th Naseem Al Bahr Naval Exercise, followed by coordinated patrol - Defence Watch",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV29faHVrdTAzX1VzbE53Y3M5b0dMUElHeEw0aGllWjhiVGlWV0VnQVh3WjQweW5INE9xeDVHRFF0cTl4Sml1RTU4TkJHUVZvY3JqczZ4TkItWnQ2cTNhODczZHlSMWtLRUVUWHpHc2VoQWoteWVNYXd6RGNCMENuQWNDSHhoeHBDaFk5Z3JQamVwaGd2RVhISjgxNlVkd3MyWFdkdHMxVHJPM19SUkhBOHQwSnVBbnNYeXRQVFVLMnptSGwzeEpjUdIB1gFBVV95cUxQakg1bk1XTWxRSkF0VFRWQXVUdGpYZk5fZHZEMl9hSGxXN3pxWUV3eWpqY0NHcU1OSUwzYThzVGtrX2pjZ2xwYUh0anFVdW9UbkZsUkVSTTYyRVFZZ0ZsVFZRY1M0OFcwS2R2ZElGRW15MmI5VWJGZzJOeU9oR1MwNGpRSVFrdXF5WnhVanRpT25qUV93Y1pZVkJpTF9MaDNzdUQxai1rSzRteHQ3NzBsQ0k5RjByWkJjU0laU1R2WmkxTTl3ck1yY3dDRnRGRzk0UTVyQ1lB?oc=5",
-      "source": "Google News",
-      "summary": "INS Surat arrives in Oman for 15th Naseem Al Bahr Naval Exercise, followed by coordinated patrol Defence Watch",
-      "published_at": "2026-11-09T13:32:04+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "8587315166a8b259",
-      "title": "Outgoing Air Chief Marshal AP Singh Flags Defence Production Shortcomings; HAL Under Spotlight - Indian PSU",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRSk52Z3psS3NrVFlJUUdHeDVoSEZGblJSWEhpLXVJMWYwYzRsZVlPSWJKdkZQdl9xNmhQVTBxbUNrS0ZqVjBnRmRQSFZPSnc4VXZDb2FGWFQ4b2FCZ1gyZjlaSFN0YkdOWldKQUJJM2dWTGhtRkljVWxfb1U?oc=5",
-      "source": "Google News",
-      "summary": "Outgoing Air Chief Marshal AP Singh Flags Defence Production Shortcomings; HAL Under Spotlight Indian PSU",
-      "published_at": "2026-11-09T13:11:41+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "f8e2407f75e0e52c",
-      "title": "A laser that shoots down drones for a fraction of the cost: How close is India to deploying it? - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNVzNwRVpJaEduRjYwTHBtcmlfZmFkM3dTUmoxc3RGcllxTkpPSlFVRDhoQVdFSVpTZ1gyY3huNjFfUlZkcW1BRjdscTBGOTNKdFN4N1FsQkQwNDhIWklRWFBXS3hLWThQVXU2bEpPWWEyNnBQbzNrOXZOOUlmaXdQQmVYc3E0N3g0Smh2ZjJERkpreEpocUxySEpTQ0h4R3Fib0p4Nm81TERmaklJcXRoTmZYTEVncVdQNm0zNXhsWHM1VFVDTTJXSURoc2E1OTlkX0lLNTluTkV2WG5DWHowaWE3THFuX25nQTI5RHJfWV8zY0JpRk1qOTRvSjg?oc=5",
-      "source": "Google News",
-      "summary": "A laser that shoots down drones for a fraction of the cost: How close is India to deploying it? The Times of India",
-      "published_at": "2026-11-09T12:59:00+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "ed3628bb06aac7fb",
-      "title": "India's 'challenge lies in execution' in defence sector: Morgan Stanley - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQTZreWdnRVNjYTBuSjdUYWF6V3YyRENfRXBpaEVObDl5cWpmcWdZOUR3U3JWc2F1b3lITVFHRW14WFpIdWNuMVlLLU1HN2lvMkhveGpBbHFzOFA5dzJYSXpZV2c4YlFXTUhuQmgtT21BNFlxRDNHYzBGSFRoajY1VnR4Zkp4VUFLLURDNEducnBRQ1FoMXBudzZOb3ZSRFl6SzV0WUNxSXVZVFFjVjZBcjdnV2Z1cVhhdGh2VURIS2lPMlR1NlNxMXNLcXVkRVRIT08xXzZNbWxHZ0d2aGVSNjQ3NDRnbHhOUzhNS0JrZlB1S1HSAfgBQVVfeXFMTzJKc2daT3dzWkFpbkozd0FyeFVFS1ZfT2JrRXd3MElISWF4VDJIQlplNGdHdWNPVHVncFN6NUgxTFZ3c0NsMjh1VHhJRGhfVjVtbThfLW5aUm1hZkdVQnAyV2ROTUtwSnd1c0YzWUJQTUF1Zkt4dm11VjQ2U3dkSTMyWmpiSUVIU3NyY2k3RGlJYTVUYlZSTUg4bmJrVGFFSVpIVGctT0RkMkRRbWdPNlZMOFlJOWFRa09xSFBxS2lFdEFSQjU5bE5sVFJuX3JQdVR2eVgwNkQ4UXNmWHNVY1ZJTXVXZzBqRnVlUHBZNU9JVmJXOTVKbW8?oc=5",
-      "source": "Google News",
-      "summary": "India's 'challenge lies in execution' in defence sector: Morgan Stanley Business Standard",
-      "published_at": "2026-11-09T12:58:45+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "fc94f1c40126be7f",
-      "title": "CDS Hails IAF’s Operational Excellence, Decisive Air Power on 94th Air Force Day - DD News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUzFsemZXSUF0eFQzOW56QTc5MnozeWF5bGZTTFZmUEhmMGtjUDV5dGxOLTZYRFFVTEw4b2RVUDBfVXNzcnBmeXFyVjVER3JFUGI5TUZNcks5WWhNRncwVWprMXU2QldnYXZsRU55c1pFcGxwVmstMFRNNUtrYUxxNmoyN2JTS1d2VFF0QTE3N25hMTE1RnlrNG0yVm53R3dCcXZmQ2d0OA?oc=5",
-      "source": "Google News",
-      "summary": "CDS Hails IAF’s Operational Excellence, Decisive Air Power on 94th Air Force Day DD News",
-      "published_at": "2026-11-09T12:51:42+00:00",
-      "category": "Exams & Recruitment",
-      "tags": [
-        "Exams & Recruitment"
-      ]
-    },
-    {
-      "id": "f1440d57b2b514d0",
-      "title": "CBI cites bags delivered to PSU official’s home, multiple deals to oppose defence CEO Kansal’s bail - ThePrint",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaEpqZjZIMXdOQzNJR0tMeGgtV3MtOEtZbThyTVpZcUQwNHA1a1ZCb0hVTmNrc0NQMDFUWVROMnNDMDg0ZFJsQzNBVUdBUEFxelZhYTBIMURVWmUxM1FpOU0xRlhZd192NXdLYW1OUXppMnc3Q044S0paYTNYR1pvVF9RZkpQaUpBVGFaQWkyWEhMc0FmOTg5Qk1lSkVQVHJoRDlRQkhqejdvODV5NFl6aXdqbnFNdzUyU0lKTDB0VUwyY3BjVXVkU0toTU9ILU5Y0gHWAUFVX3lxTFAxV3pmdTBiUVZjazdRdFBUTFlMVkRIYTgyWG1CemJ6REh1SWhMOEo2NXktLURwQjRlMWJRNzBRVVVDN3BkSno2UnR5U3Y2NjVRNEQ1WGJQdkFTLWx3ZURqWHdMTzBqWU1oS3U0QjNLaGIzZk1RRzUzSno1LWdiMS1UOU05ckRCc1g5X29wUlBzWWZKUDlUWVVtZkIzandHb0NwaFN2bnpUaDdrMUdUc29LUkx4cUJJTXBxQjZvRTg1ZXo4RVRBMG1pSl9JTGJ4QW84a0NicXc?oc=5",
-      "source": "Google News",
-      "summary": "CBI cites bags delivered to PSU official’s home, multiple deals to oppose defence CEO Kansal’s bail ThePrint",
-      "published_at": "2026-11-09T12:18:15+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "8f0a41ed8cfe02f9",
-      "title": "Government Plans to Build First Defence Park on 1,984 Acres in Morigaon - The Sentinel - of this Land, for its People",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ1c3TGVmWE1Id05JSnRwSlJZV1E3SExQNnVaT3h0QTFZeUhYdzhlNjFDUllhUHVUTjhISTZrYWNLdDZLVHhRWEZLV01FZVpZeWVPVGFwaTdMWE4xbzc3cFViM05oV0JPNlpsZWZZMzVoNFF3NHdsNEV2MnF3Z1MyX2RmYm9oMmVDTlltakZXZFM2VTZSaGNUVFQzYzI0dEVKMXhGODZrdE91cV9UekYxV2JtWdIBwAFBVV95cUxPMGZjclYtRXN1UDZTOGZNUUJ4TVh4bEgwczdPQUJIT2lOWmliVmVwLWFqR2lSSjVrOFoyUDlGWFYxLWJXTF9HUjlzVVEzTXdoV3B6aXYzY05ESmZCUVltVXVQNU1SZDVyOEJnMzRBckJkVC16TGQybTVXMWtKa1BfcERmQVZ3dlBpbDViSHBPdTNyUDVTaFFHeDVVUWJZdDVLVU1WMW9obWFudWUycG9Hb3BOYzZ2OHZTeWMxcnRFc1k?oc=5",
-      "source": "Google News",
-      "summary": "Government Plans to Build First Defence Park on 1,984 Acres in Morigaon The Sentinel - of this Land, for its People",
-      "published_at": "2026-11-09T12:13:26+00:00",
-      "category": "Defence",
-      "tags": [
-        "Defence"
-      ]
-    },
-    {
-      "id": "1e1d5c00482f0f84",
-      "title": "Pakistan’s Arrow and Lightning Drones Signal a New Air Defence Challenge for India - Defence Security Asia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZkZOd3MzTEJCNHkySjEyVmY2azdiUW14VWdxVEgxZE8tcDM1V2dwbEZrYVQ4Qm03dnk4N0ZrMy0zalNiLXJwR2JIUXM4WTJyWEkxYnh0ZEwtWE1pZm1GQUIwTm1JdTZXNmRWU3ZaSnhXZnNnTGtBRk5NekltV0RDYTJGUWtMa2RJbUVFM1dR?oc=5",
-      "source": "Google News",
-      "summary": "Pakistan’s Arrow and Lightning Drones Signal a New Air Defence Challenge for India Defence Security Asia",
-      "published_at": "2026-11-09T11:54:39+00:00",
-      "category": "Defence Technology",
-      "tags": [
-        "Defence Technology"
-      ]
-    },
-    {
-      "id": "cb4dc255dc2dd798",
-      "title": "Iran wants Putin's S-400 shield, but Russia has a war of its own to fight - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcHducHVYMWxOTTJTa1kteXlpeUtUcFlSdnI2WE03ZE5adEFNU1hqVnJMLURFYloxcW4zLUJWeWprT2hXamFndzkzMzlFT0N1SHJ2dnVud29yeHk4WXA3SE5FZHlvZ2J2LUdjZzhKU1NXVVRyd2I1QzJQSk13WXRwdEdjc1lsWVpQTnRiRU9nNTJrMnhwNTJUQnUzUVR0aDFoby1wZzZ2WVZlSURnSjJ5THh6bHlucWx0TXptM2NYNGZEa0hyaE4tSnJOaG9LQjlLNVQtT2piWm5kTVdBX1JUM2tCMlM0ZGpKNldZ0gHwAUFVX3lxTE1RM2FTcG9HX1NlQTF2LTREamNSNnlzU0JTRHEyMFhOTTZLQmxIdlJWQ2NtQ1JLMW8xT1FCcnhqQ2V2VGJCUXRhMXNsTTl0ZUtKQWk0aVEyZk9jSXRVM055OHozOHJiamlaYWVSLVhXUXg4VHp6SVZ3VVl2MF9MSTBNZG1HYmdWbkJ2eXk3dlRIa2lGZkFGakJGZHJuNmpDOThLbXJwOHJSbzRJdzM0WFZNLWowNDM1a3pEZFI3ZVp2a080em1HamVOSXUyZkJ0SXJWOUh2d21XbFljYkdmYTkxaDZaX1VNbjQ4Vk1IeU9Rbg?oc=5",
-      "source": "Google News",
-      "summary": "Iran wants Putin's S-400 shield, but Russia has a war of its own to fight The Times of India",
-      "published_at": "2026-11-09T11:07:00+00:00",
-      "category": "India Updates",
-      "tags": [
-        "India Updates"
       ]
     }
   ]
